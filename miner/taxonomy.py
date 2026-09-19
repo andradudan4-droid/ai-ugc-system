@@ -16,6 +16,8 @@ terms and is *verified* against the corpus at build time. If a probe hits, the a
 from __future__ import annotations
 
 import collections
+import datetime as dt
+import hashlib
 import json
 import pathlib
 import re
@@ -153,6 +155,9 @@ def build(all_hooks: list[dict]) -> dict:
             # consumed by Writer's evidence_grade(); absent -> it degrades to the cautious branch
             "hook_sources": dict(collections.Counter(r.get("hook_source", "unknown") for r in rows)),
             "max_days_running": max(r["days_running"] for r in rows),
+            # DESIGN.md §2 wants every asset traceable to the angle AND the hook behind it.
+            # Carrying the ad ids through is what lets a consumer complete that chain.
+            "hook_ids": sorted(r["ad_id"] for r in rows),
             "examples": [r["hook_text"][:110] for r in rows[:3]],
         })
     angles.sort(key=lambda x: (-x["brand_count"], -x["ad_count"]))
@@ -173,7 +178,16 @@ def build(all_hooks: list[dict]) -> dict:
         else:
             unclaimed.append(entry)
 
+    fingerprint = hashlib.sha256(
+        "|".join(sorted(h["ad_id"] for h in hooks)).encode()
+    ).hexdigest()[:16]
+
     return {
+        "schema_version": 2,
+        "generated_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
+        # Changes iff the underlying hook set changes. A consumer that stamped one value and sees
+        # another has been rebuilt out from under it and should fail rather than reconcile.
+        "corpus_fingerprint": fingerprint,
         "corpus": {
             "product_class": CORPUS_CLASS,
             "hook_sources": dict(collections.Counter(h.get("hook_source", "unknown") for h in hooks)),

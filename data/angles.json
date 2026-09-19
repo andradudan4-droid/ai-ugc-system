@@ -1,4 +1,7 @@
 {
+  "schema_version": 2,
+  "generated_at": "2026-09-19T19:45:06+00:00",
+  "corpus_fingerprint": "ead00f7c359ea8c8",
   "corpus": {
     "product_class": "topical_skincare",
     "hook_sources": {
@@ -54,6 +57,25 @@
         "ad_copy_opening": 17
       },
       "max_days_running": 323,
+      "hook_ids": [
+        "1348332030753430",
+        "1359848972964718",
+        "1406803894630585",
+        "1496223335635295",
+        "1519506919543647",
+        "1551298156598087",
+        "1639701997250998",
+        "1694385204990800",
+        "1704443150808182",
+        "1980265485932373",
+        "2532499157188719",
+        "2574538776313458",
+        "4286293324849461",
+        "799564552949558",
+        "817248184811441",
+        "836947915710478",
+        "880723891037608"
+      ],
       "examples": [
         "Struggling with dark spots?",
         "Struggling with dry & dull skin?",
@@ -78,6 +100,46 @@
         "ad_copy_opening": 38
       },
       "max_days_running": 278,
+      "hook_ids": [
+        "1006702111901537",
+        "1018241030998458",
+        "1021517723658213",
+        "1030514026555048",
+        "1079967394452594",
+        "1089875693549004",
+        "1097467622480997",
+        "1128834092622802",
+        "1197300338697323",
+        "1227655806053238",
+        "1357506962503052",
+        "1359909682994559",
+        "1512636233608141",
+        "1563691232036549",
+        "1590943578655945",
+        "1642783073800532",
+        "1658449725513081",
+        "1669037990778222",
+        "1690113785457674",
+        "1731140188245111",
+        "1763677405065671",
+        "1866762890681848",
+        "1901635553879843",
+        "1901907970400834",
+        "1902225940480239",
+        "1919390142798191",
+        "2165973297546023",
+        "25274654112194513",
+        "26180862864865507",
+        "2819607908415595",
+        "2880599882301971",
+        "2984558515080943",
+        "4257384234581099",
+        "4578593999128510",
+        "763507303210192",
+        "891028317086442",
+        "901516669296845",
+        "915477381601246"
+      ],
       "examples": [
         "💉 Looking for an anti-wrinkle treatment without needles?",
         "A needle-free lift in a bottle ✅ Boosts firmness, fullness and bounce.",
@@ -101,6 +163,17 @@
         "ad_copy_opening": 9
       },
       "max_days_running": 283,
+      "hook_ids": [
+        "1289155756476488",
+        "1325927236159332",
+        "1355688166449212",
+        "1508763803569050",
+        "1638126570744339",
+        "1712070056912209",
+        "2032403464184564",
+        "27386552007632083",
+        "932922359745898"
+      ],
       "examples": [
         "Simplify your routine and enhance your natural glow with this perfect pair",
         "ONE BALM. LIMITLESS REJUVENATION",
@@ -123,6 +196,22 @@
         "ad_copy_opening": 14
       },
       "max_days_running": 281,
+      "hook_ids": [
+        "1007807204911491",
+        "1321995686655254",
+        "1472191151128724",
+        "1530242058083884",
+        "1577607273532922",
+        "1873437310029638",
+        "1954661691760136",
+        "2075105943247886",
+        "2461673417678023",
+        "25907197515627905",
+        "4526904094296991",
+        "755889836768976",
+        "775508762043954",
+        "980053538163233"
+      ],
       "examples": [
         "Most bathroom counters look like a chemistry lab.",
         "Most bathroom counters look like a chemistry lab.",
@@ -145,6 +234,18 @@
         "ad_copy_opening": 10
       },
       "max_days_running": 522,
+      "hook_ids": [
+        "1057236476988663",
+        "1510440750013799",
+        "1522692562856995",
+        "1829212251390794",
+        "2285934538811907",
+        "2306078876862659",
+        "2431648457333121",
+        "529461639983924",
+        "802000699410547",
+        "856553797373730"
+      ],
       "examples": [
         "Bouncy skin isn't luck.",
         "Bouncy skin isn't luck.",
@@ -167,6 +268,16 @@
         "ad_copy_opening": 8
       },
       "max_days_running": 399,
+      "hook_ids": [
+        "1216305507160485",
+        "1571576517581637",
+        "1685439649158320",
+        "1751000039373484",
+        "1837525744350040",
+        "1930167291711415",
+        "2144860019705397",
+        "3334670000045407"
+      ],
       "examples": [
         "Your at-home facial is here!",
         "Your at-home facial is here!",
@@ -189,6 +300,13 @@
         "ad_copy_opening": 5
       },
       "max_days_running": 249,
+      "hook_ids": [
+        "1281454934044641",
+        "1623312322441714",
+        "2185146725655439",
+        "34833292796318767",
+        "4479159772361966"
+      ],
       "examples": [
         "Not gonna lie, these eye patches are becoming more and more legit…",
         "Earth Tones Red Clay Mask \"Too good to be true isn't so far off actually\" – r/SkincareAddiction",
@@ -211,6 +329,13 @@
         "ad_copy_opening": 5
       },
       "max_days_running": 292,
+      "hook_ids": [
+        "1205158040980545",
+        "1708110837209496",
+        "2389183508248956",
+        "3477776632390645",
+        "768307496231952"
+      ],
       "examples": [
         "Retinol, Made Gentle.",
         "💜 Arnica, sea buckthorn, and calendula are powerful arctic plants that transform your complexion.",
@@ -233,6 +358,12 @@
         "ad_copy_opening": 4
       },
       "max_days_running": 267,
+      "hook_ids": [
+        "1593201355567261",
+        "1801401204166504",
+        "870261115949136",
+        "947368765046675"
+      ],
       "examples": [
         "Ditch the concealer with the SpoiledChild™ Miracle Eye Corrector!",
         "❌❌ THREE REASONS WHY I GAVE UP EYE CONCEALERS:",
@@ -254,6 +385,12 @@
         "ad_copy_opening": 4
       },
       "max_days_running": 380,
+      "hook_ids": [
+        "1314498993541295",
+        "1573353981185859",
+        "2176122839632394",
+        "752419270915808"
+      ],
       "examples": [
         "Her name is Regina Clarke.",
         "If Viking women had a skincare secret… this was it",
@@ -277,6 +414,17 @@
         "ad_copy_opening": 9
       },
       "max_days_running": 81,
+      "hook_ids": [
+        "1013246354629177",
+        "1020358063702363",
+        "1035355622454836",
+        "1347511670843301",
+        "1354308290171791",
+        "1472585438231831",
+        "1488999062491729",
+        "2214076306104480",
+        "2214713462708615"
+      ],
       "examples": [
         "Good Molecules Yerba Mate Wake Up Eye Gel",
         "Good Molecules Yerba Mate Wake Up Eye Gel",
@@ -297,6 +445,17 @@
         "ad_copy_opening": 9
       },
       "max_days_running": 373,
+      "hook_ids": [
+        "1048540074330060",
+        "1202549438346043",
+        "1336186871324534",
+        "1353730826159193",
+        "1370401584614351",
+        "2227423411076090",
+        "26994645366882007",
+        "895519976373743",
+        "968965552835672"
+      ],
       "examples": [
         "Kim K's makeup artist tried ASARAI Earth Tones red clay mask and the results are in: \"It's REALLY really good!",
         "\"A beauty editor tried 30 masks in 30 days, but what did she really think about ASARAI?",
@@ -317,6 +476,13 @@
         "ad_copy_opening": 5
       },
       "max_days_running": 408,
+      "hook_ids": [
+        "1293384729008089",
+        "1682942059719767",
+        "2028032508122792",
+        "3475912505892584",
+        "772006008705472"
+      ],
       "examples": [
         "The $8 billion peptide lie that's aging your skin faster 💉",
         "Retinol is Ruining Your Skin.",
@@ -337,6 +503,9 @@
         "ad_copy_opening": 1
       },
       "max_days_running": 60,
+      "hook_ids": [
+        "2528899717626429"
+      ],
       "examples": [
         "I'm always looking for the best over 50 skincare and this is a duo we should not pass up!"
       ],
@@ -355,6 +524,9 @@
         "ad_copy_opening": 1
       },
       "max_days_running": 614,
+      "hook_ids": [
+        "2123759134760755"
+      ],
       "examples": [
         "\"Literally transformed my skin!"
       ],
