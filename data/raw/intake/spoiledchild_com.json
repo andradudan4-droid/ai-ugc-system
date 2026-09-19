@@ -1,0 +1,141 @@
+{
+  "products": {
+    "n": 0,
+    "vendor": "SpoiledChild",
+    "source": "homepage product rail \u2014 /products.json returns 404 (headless storefront)",
+    "items": [
+      {
+        "title": "E27 Extra Strength Liquid Collagen",
+        "type": "Wellness",
+        "tags": [
+          "collagen"
+        ],
+        "price": "",
+        "available": true,
+        "created": "",
+        "body": "Extra strength liquid collagen, sold as a refillable wellness product. Headline SKU across the homepage."
+      },
+      {
+        "title": "A22 Biotin Boost Hair + Scalp Serum",
+        "type": "Hair Serum",
+        "tags": [
+          "hair-growth",
+          "biotin"
+        ],
+        "price": "",
+        "available": true,
+        "created": "",
+        "body": "Biotin hair and scalp serum targeting thinning and hair growth."
+      },
+      {
+        "title": "S33+ Anti-Aging Collagen Burst Serum",
+        "type": "Face Serum",
+        "tags": [
+          "anti-aging",
+          "collagen"
+        ],
+        "price": "",
+        "available": true,
+        "created": "",
+        "body": "Anti-aging collagen burst face serum."
+      },
+      {
+        "title": "T31 Vitamin C Brightening Eye Cream",
+        "type": "Eye Cream",
+        "tags": [
+          "brightening",
+          "vitamin-c"
+        ],
+        "price": "",
+        "available": true,
+        "created": "",
+        "body": "Vitamin C brightening eye cream."
+      },
+      {
+        "title": "O36+ Anti-Aging Triple-Peptide Moisturizer",
+        "type": "Face Moisturizer",
+        "tags": [
+          "anti-aging",
+          "peptide"
+        ],
+        "price": "",
+        "available": true,
+        "created": "",
+        "body": "Triple-peptide anti-aging moisturizer."
+      },
+      {
+        "title": "M27 Anti-Aging Glycolic Renewing Serum",
+        "type": "Face Serum",
+        "tags": [
+          "anti-aging",
+          "glycolic"
+        ],
+        "price": "",
+        "available": true,
+        "created": "",
+        "body": "Glycolic acid renewing serum."
+      },
+      {
+        "title": "K27 Anti-Aging Vitamin C Boosting Serum",
+        "type": "Face Serum",
+        "tags": [
+          "anti-aging",
+          "vitamin-c"
+        ],
+        "price": "",
+        "available": true,
+        "created": "",
+        "body": "Vitamin C boosting serum."
+      },
+      {
+        "title": "G25+ Anti-Aging Retin + Night Rewind Serum",
+        "type": "Face Serum",
+        "tags": [
+          "anti-aging",
+          "retinol"
+        ],
+        "price": "",
+        "available": true,
+        "created": "",
+        "body": "Retinol night serum."
+      },
+      {
+        "title": "L28 Anti-Aging Restoring Moisturizer",
+        "type": "Face Moisturizer",
+        "tags": [
+          "anti-aging"
+        ],
+        "price": "",
+        "available": true,
+        "created": "",
+        "body": "Anti-aging restoring moisturizer."
+      },
+      {
+        "title": "N29 Magnesium Liquid",
+        "type": "Wellness",
+        "tags": [
+          "magnesium"
+        ],
+        "price": "",
+        "available": true,
+        "created": "",
+        "body": "Liquid magnesium wellness supplement."
+      }
+    ]
+  },
+  "home": {
+    "title": "SpoiledChild\u2122 | Intelligent skin & hair products that refuse to take aging seriously",
+    "description": "GETTING OLD IS GETTING OLD. Intelligent skin and hair products that refuse to take aging seriously. SpoiledBrain, our proprietary machine learning algorithm, will determine the exact products you need by combining millions of data points with your personal profile.",
+    "site_name": "SpoiledChild",
+    "headings": [
+      "Find exactly what you need",
+      "THE FUTURE OF WELLNESS",
+      "A complete spectrum of best in class products for personalized age-control",
+      "Shop by Hair Concern",
+      "Shop by Skin Concern"
+    ],
+    "reviews": "",
+    "rating": "",
+    "body_sample": "Hair Skin Wellness. Ask SpoiledBrain. Not sure what you need? Let SpoiledBrain find your perfect hair and skin products. Popular Searches: Anti-Aging, Hair Loss, Collagen, Wrinkles, Hair Growth, Damaged Hair, Brittle Nails. Find exactly what you need - SpoiledBrain will identify the exact products for you based on your needs. THE FUTURE OF WELLNESS. Intelligent skin and hair products that refuse to take aging seriously. A complete spectrum of best in class products for personalized age-control. Note: spoiledchild.com redirected to spoiledchild.co.uk during collection; SKU naming is alphanumeric (E27, A22, S33+) across skin, hair and wellness."
+  }
+}

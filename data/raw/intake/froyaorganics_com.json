@@ -1,0 +1,291 @@
+{
+  "products": {
+    "n": 30,
+    "vendor": "Fr\u00f8ya Organics - From nature since 2019",
+    "items": [
+      {
+        "title": "Complete Natural Hair & Skin Bundle",
+        "type": "system",
+        "tags": [
+          "White"
+        ],
+        "price": "188.84",
+        "available": false,
+        "created": "2026-08-06",
+        "body": ""
+      },
+      {
+        "title": "The Fr\u00f8ya Favorites Bundle",
+        "type": "system",
+        "tags": [
+          "White"
+        ],
+        "price": "106.61",
+        "available": false,
+        "created": "2026-08-06",
+        "body": ""
+      },
+      {
+        "title": "The Complete System for Mature Women's Skin",
+        "type": "system",
+        "tags": [
+          "concern:dryness",
+          "concern:fine-lines",
+          "concern:wrinkles",
+          "format:system",
+          "skin:mature"
+        ],
+        "price": "121.07",
+        "available": true,
+        "created": "2025-03-31",
+        "body": "The 4-step system use wild-harvested and scientifically proven ingredients to reduce and prevent wrinkles and fine lines. Packed with essentials to kick-start the collagen and elastin production that slows down after the age of 25."
+      },
+      {
+        "title": "Complete System For Mature Hair & Scalp",
+        "type": "system",
+        "tags": [
+          "concern:hair-loss",
+          "concern:thinning",
+          "ingredient:rosemary"
+        ],
+        "price": "67.77",
+        "available": true,
+        "created": "2026-04-21",
+        "body": "System Includes (60-day supply): Magic Revive Hair & Scalp Shampoo, Thickening & Growth Rosemary Spray, Hyper Potent Hair Growth Serum. Targets hair loss, thinning, dandruff, dryness, and shedding by restoring scalp balance with Arctic botanicals."
+      },
+      {
+        "title": "Magic Sensual Pleasure Balm",
+        "type": "Intimate Balm",
+        "tags": [
+          "concern:intimacy",
+          "format:balm",
+          "skin:sensitive"
+        ],
+        "price": "37.00",
+        "available": true,
+        "created": "2025-10-14",
+        "body": "100% organic pleasure balm, clinically tested to support natural lubrication, skin elasticity, and intimate comfort. Ylang Ylang, Cinnamon & Rose Balm. Enhances sensitivity & arousal. Nourishes & protects intimate skin."
+      },
+      {
+        "title": "Mega Gift Bundle: All Products at 50% off + 3 Gifts",
+        "type": "system",
+        "tags": [
+          "EU/UK"
+        ],
+        "price": "219.00",
+        "available": true,
+        "created": "2025-11-11",
+        "body": "OFFER INCLUDES: Complete System for Mature Women's Skin, Complete Natural Pharmacy, Complete Acne System for Women, Ultimate Hair Health System."
+      },
+      {
+        "title": "Joint & Muscle Healing Balm - 2 JARS",
+        "type": "",
+        "tags": [
+          "Red"
+        ],
+        "price": "56.35",
+        "available": true,
+        "created": "2025-08-26",
+        "body": "Helps you live better with less pain. It relieves and prevents joint pains, whether it is from aches, soreness, or stiff joints. Made of 100% hyper-potent arctic plants and beeswax. Reduces swelling, relieves pain, increases blood flow"
+      },
+      {
+        "title": "Magic Revive Hair & Scalp Shampoo",
+        "type": "Shampoo",
+        "tags": [
+          "concern:scalp",
+          "concern:thinning",
+          "format:shampoo"
+        ],
+        "price": "29.00",
+        "available": true,
+        "created": "2025-03-04",
+        "body": "Natural Rosemary Shampoo. Helps rebuild scalp barrier in 2-7 days. Notice a shift in hair health in 4-9 days. 93% experience better hair"
+      },
+      {
+        "title": "Hair Thickening Rosemary Water",
+        "type": "Hair Treatment",
+        "tags": [
+          "concern:growth",
+          "concern:thinning",
+          "format:spray",
+          "ingredient:rosemary"
+        ],
+        "price": "25.00",
+        "available": true,
+        "created": "2025-03-04",
+        "body": "Organic Rosemary Hydrosol. Natural everyday refresh. Leaves hair looking fuller in 2-9 days. Notice a difference in 4-12 days"
+      },
+      {
+        "title": "Hair Thickening Serum",
+        "type": "Hair Serum",
+        "tags": [
+          "concern:growth",
+          "concern:thinning",
+          "format:serum"
+        ],
+        "price": "29.00",
+        "available": true,
+        "created": "2025-03-04",
+        "body": "Rosemary & Turmeric Hair Serum. Made for scalp and roots. Hair looks fuller in 6-14 days. Notice a difference in 2-7 days"
+      },
+      {
+        "title": "Magic Revive & Glow Day Balm",
+        "type": "Face Moisturizer",
+        "tags": [
+          "concern:dryness",
+          "concern:dullness",
+          "format:balm",
+          "use:day"
+        ],
+        "price": "29.00",
+        "available": true,
+        "created": "2024-11-16",
+        "body": "Sea Buckthorn & Rosemary Beeswax Balm. Firms & heals acne scars in 2-7 days. Restores skin barrier in 2-14 days. 80% experienced a shift in their skin health"
+      },
+      {
+        "title": "Wrinkle Smoothing Night Balm",
+        "type": "Face Moisturizer",
+        "tags": [
+          "concern:fine-lines",
+          "concern:wrinkles",
+          "skin:mature",
+          "use:night"
+        ],
+        "price": "37.00",
+        "available": true,
+        "created": "2024-11-16",
+        "body": "Rosehip & Marigold Beeswax Balm. Works overnight while you sleep. Supports the skin barrier in 7 days. Softens the look of fine lines"
+      },
+      {
+        "title": "Ultra Cleanse & Revive Face Scrub",
+        "type": "Face Scrub",
+        "tags": [
+          "concern:exfoliation",
+          "concern:texture",
+          "skin:all"
+        ],
+        "price": "37.00",
+        "available": true,
+        "created": "2024-07-10",
+        "body": "Arctic Rose Petal Scrub. Skin cells revive in 2-9 days. Instant deep & natural cleanse. Notice a shift in skin health in 2-6 days"
+      },
+      {
+        "title": "Anti-Age & Insane Glow Day Balm",
+        "type": "Face Moisturizer",
+        "tags": [
+          "concern:dullness",
+          "concern:fine-lines",
+          "skin:mature",
+          "use:day"
+        ],
+        "price": "29.70",
+        "available": true,
+        "created": "2024-07-10",
+        "body": "Sea Buckthorn & Pomegranate Balm. Studies show 22% younger skin. Heals skin barrier in 7 days. 95% reported youthful glow"
+      },
+      {
+        "title": "Magic Revive Eye Balm",
+        "type": "Eye Cream",
+        "tags": [
+          "area:eye",
+          "concern:dark-circles",
+          "concern:eye-bags",
+          "concern:puffiness"
+        ],
+        "price": "52.00",
+        "available": true,
+        "created": "2024-07-10",
+        "body": "Arctic Arnica Beeswax Balm. 6 of the 10 top anti-age ingredients. Looks less puffy in 4-9 days. Made for the delicate eye area"
+      },
+      {
+        "title": "Balm for Acne-Prone Skin",
+        "type": "Face Balm",
+        "tags": [
+          "concern:acne",
+          "concern:redness",
+          "concern:rosacea",
+          "skin:sensitive"
+        ],
+        "price": "29.00",
+        "available": true,
+        "created": "2024-06-04",
+        "body": "Marigold & Calendula Beeswax Balm. Made for red, breakout-prone skin. Calms & protects skin with Arctic plants. Visible change in DAYS"
+      },
+      {
+        "title": "Massage Balm",
+        "type": "Body Balm",
+        "tags": [
+          "concern:joint-pain",
+          "concern:muscle-pain",
+          "ingredient:arnica"
+        ],
+        "price": "29.00",
+        "available": true,
+        "created": "2024-06-02",
+        "body": "Warming Arctic Herbs & Beeswax Balm. 82% felt better day-to-day. Notice a difference in 3-9 days. Made for tired muscles & joints"
+      },
+      {
+        "title": "Dry and Itchy Balm for Face and Body",
+        "type": "Body Moisturizer",
+        "tags": [
+          "concern:eczema",
+          "concern:itchy-skin",
+          "concern:psoriasis",
+          "skin:dry",
+          "skin:sensitive"
+        ],
+        "price": "44.00",
+        "available": true,
+        "created": "2024-06-02",
+        "body": "Chamomile & Thistle Beeswax Balm. Soothes dry, itchy skin. Supports the skin barrier in 7 days. Gentle enough for face and body"
+      },
+      {
+        "title": "The Complete System for Acne-Prone Skin",
+        "type": "system",
+        "tags": [
+          "concern:acne",
+          "concern:breakouts",
+          "skin:acne-prone"
+        ],
+        "price": "79.00",
+        "available": true,
+        "created": "2024-04-17",
+        "body": "A 3-step routine made for acne-prone skin, built on organic Arctic plants chosen to cleanse pores, calm redness and make your skin glow."
+      },
+      {
+        "title": "The Complete Apothecary for Face & Body",
+        "type": "system",
+        "tags": [
+          "concern:multi-use",
+          "skin:all"
+        ],
+        "price": "83.00",
+        "available": true,
+        "created": "2024-04-17",
+        "body": "3 step system developed to treat and cure eczema, psoriasis and joint pains fast using the latest science and 20+ years of experience. Each product is packed with organic plants hand-picked to kill bad bacteria, heal and protect your body and skin."
+      }
+    ]
+  },
+  "home": {
+    "title": "Natural Skincare & Haircare from Wild Arctic Plants",
+    "description": "Shop natural skincare & haircare for mature skin and thinning hair. Wild Arctic plant balms with visible results in 60 days, loved by 805,709+ women.",
+    "site_name": "Fr\u00f8ya Organics",
+    "headings": [
+      "Skincare That Finally Understands Mature Skin",
+      "\"THE BEST THING I EVER PUT ON MY SKIN & HAIR\"",
+      "823,167+ Successful Skin & Hair Journeys",
+      "Meet Fr\u00f8ya's Ambassadors",
+      "What's your skin dealing with?",
+      "What you should expect from using Fr\u00f8ya Daily",
+      "Arctic plants that revive your skin & hair in days",
+      "Top 3 bestsellers",
+      "Real results, reported by you",
+      "Trusted by 823,167+ customers",
+      "Effortless, effective skincare & haircare. Because it shouldn't be complicated.",
+      "Why women are moving in droves to Fr\u00f8ya"
+    ],
+    "reviews": "34,634",
+    "rating": "",
+    "body_sample": "34,634+ 5-STAR REVIEWS Skincare That Finally Understands Mature Skin Organic formulas from the Norwegian Arctic. Pure, concentrated, and trusted by 823,167+ women like you. FIND YOUR ROUTINE RESULTS IN 60 DAYS OR YOUR MONEY BACK 823k+ Happy Customers Backed By Science Dermatologist-Tested Clean Formulas without fillers. Joan, 64 REDUCE LINES & WRINKLES EVEN SKINTONE \"The picture is proof you product works on my 64 year old face after 2 months use!\" Karen K. \"I have some weird sun spots on my face and they have faded in 2 weeks!\" Cheryl S. REPAIR & PROTECT DAMAGED HAIR STIMULATE HAIR GROWTH. Nicole, 39 IMPROVE SKIN TEXTURE SMOOTHER SKIN. Julie S. \"For seven years I've had this. Tried 3 prescription creams, and 19 lasers treatments. This worked in weeks.\" I used the psoriasis balm as well as a few others."
+  }
+}

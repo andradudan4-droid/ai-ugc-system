@@ -1,0 +1,168 @@
+{
+  "products": {
+    "n": 24,
+    "vendor": "SAESKYN",
+    "source": "/collections/all page \u2014 /products.json not served",
+    "items": [
+      {
+        "title": "Ialuset HA Time Reverse Cream",
+        "type": "Face Moisturizer",
+        "tags": [
+          "hyaluronic acid"
+        ],
+        "price": "27.00",
+        "available": true,
+        "created": "",
+        "body": "Hyaluronic acid 'time reverse' cream. Listed at GBP 27.00, struck through from GBP 53.00."
+      },
+      {
+        "title": "Instant Face Lift Pro + Primer",
+        "type": "Face Treatment",
+        "tags": [
+          "lifting"
+        ],
+        "price": "27.00",
+        "available": true,
+        "created": "",
+        "body": "Instant face lift product sold with a primer."
+      },
+      {
+        "title": "Korean Advanced Arbutin Brightening Cream",
+        "type": "Face Moisturizer",
+        "tags": [
+          "brightening",
+          "arbutin"
+        ],
+        "price": "27.00",
+        "available": true,
+        "created": "",
+        "body": "Arbutin brightening cream, Korean-positioned."
+      },
+      {
+        "title": "Korean Advanced PDRN Copper Peptide Serum",
+        "type": "Face Serum",
+        "tags": [
+          "pdrn",
+          "peptide"
+        ],
+        "price": "31.00",
+        "available": true,
+        "created": "",
+        "body": "PDRN and copper peptide serum."
+      },
+      {
+        "title": "Korean Advanced PDRN Cream",
+        "type": "Face Moisturizer",
+        "tags": [
+          "pdrn"
+        ],
+        "price": "27.00",
+        "available": true,
+        "created": "",
+        "body": "PDRN cream."
+      },
+      {
+        "title": "Korean Advanced Rejuvinating PDRN Cream",
+        "type": "Face Moisturizer",
+        "tags": [
+          "pdrn"
+        ],
+        "price": "23.00",
+        "available": true,
+        "created": "",
+        "body": "Rejuvenating PDRN cream."
+      },
+      {
+        "title": "Korean Blue Copper Peptide Bakuchiol Serum",
+        "type": "Face Serum",
+        "tags": [
+          "peptide",
+          "bakuchiol"
+        ],
+        "price": "31.00",
+        "available": true,
+        "created": "",
+        "body": "Blue copper peptide and bakuchiol serum."
+      },
+      {
+        "title": "Korean Collagen Bounce Multi Balm Stick",
+        "type": "Face Balm",
+        "tags": [
+          "collagen"
+        ],
+        "price": "23.00",
+        "available": true,
+        "created": "",
+        "body": "Collagen multi balm stick."
+      },
+      {
+        "title": "Korean Glow Sunstick SPF50+",
+        "type": "Sunscreen",
+        "tags": [
+          "spf"
+        ],
+        "price": "27.00",
+        "available": true,
+        "created": "",
+        "body": "SPF 50+ sun stick."
+      },
+      {
+        "title": "Korean Glutathione 7 Dark Spot Erasing Serum Patches",
+        "type": "Treatment",
+        "tags": [
+          "dark-spots"
+        ],
+        "price": "27.00",
+        "available": true,
+        "created": "",
+        "body": "Glutathione dark spot serum patches."
+      },
+      {
+        "title": "Korean HA PDRN Pearl Serum",
+        "type": "Face Serum",
+        "tags": [
+          "hyaluronic acid",
+          "pdrn"
+        ],
+        "price": "23.00",
+        "available": true,
+        "created": "",
+        "body": "Hyaluronic acid PDRN pearl serum."
+      },
+      {
+        "title": "Korean NAD+ Advanced Growth Factor Serum",
+        "type": "Face Serum",
+        "tags": [
+          "nad"
+        ],
+        "price": "31.00",
+        "available": true,
+        "created": "",
+        "body": "NAD+ growth factor serum."
+      },
+      {
+        "title": "Korean NAD+ EGF Firming Serum",
+        "type": "Face Serum",
+        "tags": [
+          "nad",
+          "egf"
+        ],
+        "price": "31.00",
+        "available": true,
+        "created": "",
+        "body": "NAD+ EGF firming serum."
+      }
+    ]
+  },
+  "home": {
+    "title": "SAESKYN - Beyond Ordinary | Official Site",
+    "description": "SAESKYN",
+    "site_name": "SAESKYN",
+    "headings": [
+      "Transform Your Skin Instantly"
+    ],
+    "reviews": "",
+    "rating": "",
+    "body_sample": "Home Catalog Contact Track Your Order. Transform Your Skin Instantly. SHOP NOW. Collection: Products - 24 products. Every SKU displays '50% OFF ENDS TODAY' with a struck-through regular price. No about page, no founder story, no review widget, no ingredient library. Prices in GBP."
+  }
+}

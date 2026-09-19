@@ -9,7 +9,19 @@ from other categories that have to be dropped.
 
 from __future__ import annotations
 
+import json
+import pathlib
 import re
+
+DISQUALIFIED = pathlib.Path(__file__).resolve().parent.parent / "data" / "disqualified.json"
+
+
+def _disqualified() -> dict[str, str]:
+    """Domains Agent 0 visited and rejected -- the intake feedback loop into prospecting."""
+    if not DISQUALIFIED.exists():
+        return {}
+    return {k: v for k, v in json.loads(DISQUALIFIED.read_text()).items()
+            if not k.startswith("_")}
 
 # Destination domains that identify a retailer, not the advertiser. For these the brand identity
 # comes from the page name instead of the link.
@@ -87,13 +99,14 @@ def candidates(discovery: dict[str, dict]) -> list[dict]:
             if d:
                 p["captions"][d] = p["captions"].get(d, 0) + ads
 
+    dq = _disqualified()
     groups: dict[str, dict] = {}
     for p in pages.values():
         if _norm(p["name"]) in {_norm(n) for n in EXCLUDE_NAMES}:
             continue
         doms = sorted(p["captions"], key=lambda d: -p["captions"][d])
         brand_dom = next((d for d in doms if d not in RETAIL_DOMAINS), "")
-        if brand_dom in EXCLUDE_DOMAINS:
+        if brand_dom in EXCLUDE_DOMAINS or brand_dom in dq:
             continue
 
         if brand_dom:

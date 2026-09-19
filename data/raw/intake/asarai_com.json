@@ -1,0 +1,75 @@
+{
+  "products": {
+    "n": 0,
+    "vendor": "Asarai",
+    "source": "homepage product rail \u2014 /products.json not served",
+    "items": [
+      {
+        "title": "Breakup With Makeup Routine",
+        "type": "Bundle",
+        "tags": [
+          "routine",
+          "new"
+        ],
+        "price": "162.00",
+        "available": true,
+        "created": "",
+        "body": "Full routine bundle, the brand's highest-value SKU on the homepage."
+      },
+      {
+        "title": "Sunset Soak - Hydrating Sheet Mask (4 Pack)",
+        "type": "Sheet Mask",
+        "tags": [
+          "hydrating",
+          "new"
+        ],
+        "price": "44.00",
+        "available": true,
+        "created": "",
+        "body": "Hydrating sheet mask, four pack."
+      },
+      {
+        "title": "Earth Tones - Face Mask",
+        "type": "Face Mask",
+        "tags": [
+          "brightening",
+          "award-winning"
+        ],
+        "price": "56.00",
+        "available": true,
+        "created": "",
+        "body": "Award-winning brightening face mask. Homepage claim: brightens skin in 10 minutes."
+      },
+      {
+        "title": "Earth Tones - Brightening Body Soap",
+        "type": "Body Soap",
+        "tags": [
+          "brightening",
+          "hand made"
+        ],
+        "price": "16.00",
+        "available": true,
+        "created": "",
+        "body": "Hand made brightening body soap."
+      }
+    ]
+  },
+  "home": {
+    "title": "Naturopath Developed Skincare",
+    "description": "We have created the best natural skincare for a generation dedicated to long life and adventure. Nature has the answer to better skin, we deliver it to you in a bright yellow package.",
+    "site_name": "Asarai",
+    "headings": [
+      "NATUROPATH DEVELOPED ESSENTIALS",
+      "Wildly Australian, exquisitely effective",
+      "BREAK UP WITH MAKEUP",
+      "Bestsellers",
+      "NATUROPATH RECOMMENDED",
+      "Natural",
+      "Clean",
+      "Non-toxic"
+    ],
+    "reviews": "10,000",
+    "rating": "4.7",
+    "body_sample": "Free US shipping over $75. 30-day money-back guarantee. 4.7 from 10,000+ reviews. Rated 4.7 by 100,000+. AWARD-WINNING BRIGHTENING - Our Earth Tones Mask brightens skin in 10 minutes. NATUROPATH DEVELOPED ESSENTIALS. Wildly Australian, exquisitely effective. BREAK UP WITH MAKEUP. Natural. Clean. Non-toxic."
+  }
+}

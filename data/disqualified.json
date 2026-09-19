@@ -1,0 +1,5 @@
+{
+  "_comment": "Brands Agent 0 (Intake) checked and rejected. Agent -1 reads this so a rejected brand does not climb the list again on the next weekly run. Ad data alone cannot see these -- only visiting the site can.",
+  "shopellox.com": "Redirects to shoppaya.com, a general dropship store (hair clips, foot files, curtain rod brackets). Not a skincare brand; ran skincare-keyword ads only.",
+  "lovi.care": "AI skincare app that scans faces and recommends other brands' products. No own product line -- different ICP from a DTC product brand."
+}

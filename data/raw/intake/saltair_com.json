@@ -1,0 +1,294 @@
+{
+  "products": {
+    "n": 181,
+    "vendor": "Saltair",
+    "items": [
+      {
+        "title": "HA Body Hydrator Mini",
+        "type": "Body Treatment",
+        "tags": [
+          "TSA Approved",
+          "Body Treatment",
+          "Fragrance Free"
+        ],
+        "price": "10.00",
+        "available": true,
+        "created": "2026-09-15",
+        "body": "Our lightweight and fast-absorbing hyaluronic acid body serum hydrates for softer, smoother, and plumper-looking skin. The phyto-collagen complex is known to help visibly firm and boost skin elasticity while a replenishing blend of sodium hyaluronate, red algae, and magnesium chloride improve the skin's moisture barrier."
+      },
+      {
+        "title": "The Renewal Duo",
+        "type": "Body Treatment",
+        "tags": [
+          "new arrival",
+          "Body Treatment",
+          "Fragrance Free"
+        ],
+        "price": "39.00",
+        "available": true,
+        "created": "2026-09-03",
+        "body": "Reveal smooth, even-toned, healthy-looking skin with this targeted bodycare duo. The Glycolic Renewal 10% Glycolic Acid Exfoliating Body Spray helps visibly smooth rough texture, and improve the look of uneven skin tone. Alternate usage with Retinol Revive Overnight Body Lotion."
+      },
+      {
+        "title": "Glycolic Acid Exfoliating Spray",
+        "type": "Body Treatment",
+        "tags": [
+          "new arrival",
+          "Body Treatment",
+          "Fragrance Free"
+        ],
+        "price": "20.00",
+        "available": true,
+        "created": "2026-07-22",
+        "body": "This exfoliating body spray is your shortcut to full-body renewal. Formulated with a powerful blend of 10% glycolic acid and a biomimetic tripeptide to exfoliate dead surface skin, rainbow algae to help refine uneven tone and texture, and licorice root and kakadu plum extracts to help brighten."
+      },
+      {
+        "title": "Coral Coast - Body Butter 2pck",
+        "type": "Bundle",
+        "tags": [
+          "Coral Coast"
+        ],
+        "price": "40.00",
+        "available": true,
+        "created": "2026-07-28",
+        "body": "Our nourishing body butter is formulated with a multi-lipid blend of ceramides, essential fatty acids, phospholipids and phytosterols that replenish dry skin. Coconut and sea buckthorn oils lock in moisture for a healthier looking skin barrier."
+      },
+      {
+        "title": "Fragrance Free - Travel Size Body Wash",
+        "type": "Travel Size Body Wash",
+        "tags": [
+          "Final Sale",
+          "Fragrance Free"
+        ],
+        "price": "2.50",
+        "available": true,
+        "created": "2022-05-26",
+        "body": "Our gentle yet effective fragrance free travel size body wash is suitable for all skin types, including sensitive skin. Made with a nourishing blend of coconut water and our fermented oil complex that moisturize and soften while hyaluronic acid, niacinamide and sodium PCA balance, replenish and soothe."
+      },
+      {
+        "title": "Seascape - Summer Reset Bundle",
+        "type": "Bundle",
+        "tags": [
+          "Body Treatment",
+          "Body Wash",
+          "Bundle",
+          "Serum Deodorant"
+        ],
+        "price": "37.00",
+        "available": true,
+        "created": "2026-06-12",
+        "body": "Two full-size Seascape fan-favorites plus a fragrance-free acne body treatment. Includes Serum Body Wash, AHA Serum Deodorant, and Salicylic Acid Body Treatment - a routine that cleanses, nourishes, and refreshes from head to toe."
+      },
+      {
+        "title": "Santal Bloom - Body Scrub",
+        "type": "Body Scrub",
+        "tags": [
+          "new arrival",
+          "Body Scrub",
+          "Santal Bloom"
+        ],
+        "price": "20.00",
+        "available": true,
+        "created": "2026-06-09",
+        "body": "This oil-infused body scrub gently exfoliates and revives dull skin with ultra-refined salt and sugar crystals. Vitamin C oil helps to visibly brighten the look of skin and boost glow, while moringa, rosehip, jojoba, and kukui oils help replenish moisture."
+      },
+      {
+        "title": "Hydrate & Glow Duo",
+        "type": "Bundle",
+        "tags": [
+          "new arrival",
+          "Body Treatment",
+          "Bundle"
+        ],
+        "price": "41.00",
+        "available": true,
+        "created": "2026-06-08",
+        "body": "Our bestselling HA Body Hydrator Hyaluronic Acid Body Serum (sold out 7x for a reason) delivers instant hydration, formulated with sodium hyaluronate, a phyto-collagen complex, and red algae for added skin barrier support. The Vitamin C Body Brightener Glow Complex Serum helps improve radiance."
+      },
+      {
+        "title": "Shea Soleil - Body Mist",
+        "type": "Body Mist",
+        "tags": [
+          "new arrival",
+          "Body Mist",
+          "Shea Soleil"
+        ],
+        "price": "18.00",
+        "available": true,
+        "created": "2026-05-28",
+        "body": "A lightweight fragrance mist that layers effortlessly, Shea Soleil is like warm sunlight lingering close to the skin. Wear alone or layer with body wash and/or lotion to increase the longevity of your fragrance."
+      },
+      {
+        "title": "Coral Coast - Shimmering Body Oil",
+        "type": "Shimmering Body Oil",
+        "tags": [
+          "new arrival",
+          "Body Oil",
+          "Coral Coast"
+        ],
+        "price": "25.00",
+        "available": true,
+        "created": "2026-05-17",
+        "body": "Formulated with a skin-loving blend of oils including fermented saururus, kukui, cacay and squalane, along with a biomimetic blend of plant actives that absorb easily to soften skin. Added pink pearl pigments provide a sunkissed glow."
+      },
+      {
+        "title": "Shea Soleil - Body Oil",
+        "type": "Body Oil",
+        "tags": [
+          "new arrival",
+          "Body Oil",
+          "Shea Soleil"
+        ],
+        "price": "23.00",
+        "available": true,
+        "created": "2026-05-08",
+        "body": "Our nourishing Shea Soleil body oil is formulated with a replenishing blend of oils including fermented saururus, kukui, cacay, moringa and squalane along with a biomimetic blend of plant actives and astaxanthin that absorb easily and leave skin dewy and glowing."
+      },
+      {
+        "title": "Shea Soleil - Body Butter",
+        "type": "Body Butter",
+        "tags": [
+          "sold out",
+          "Body Butter",
+          "Shea Soleil"
+        ],
+        "price": "22.00",
+        "available": false,
+        "created": "2026-05-08",
+        "body": "Our nourishing body butter is formulated with a multi-lipid blend of ceramides, essential fatty acids, phospholipids and phytosterols that restore dry skin. Coconut and sea buckthorn oils lock in moisture for a healthier looking skin barrier."
+      },
+      {
+        "title": "Shea Soleil - Body Wash",
+        "type": "Body Wash",
+        "tags": [
+          "sold out",
+          "Body Wash",
+          "Shea Soleil"
+        ],
+        "price": "16.00",
+        "available": false,
+        "created": "2026-05-08",
+        "body": "This silky cream body cleanser is formulated with shea butter, glycerin, and coconut-derived surfactants to thoroughly cleanse the body as it transforms into a satisfying lather. Skin is left soft, nourished and moisturized."
+      },
+      {
+        "title": "Vitamin C Body Serum",
+        "type": "Body Treatment",
+        "tags": [
+          "new arrival",
+          "Body Treatment",
+          "Fragrance Free"
+        ],
+        "price": "23.00",
+        "available": true,
+        "created": "2026-04-12",
+        "body": "This lightweight and fast-absorbing Vitamin C body serum treatment boosts glow, brightens tone and revitalizes dull, lackluster skin. Formulated with our Glow Complex featuring multiple forms of Vitamin C, plus antioxidant-rich kakadu plum and moisture-boosting glycerin."
+      },
+      {
+        "title": "Salt Water Vanilla - Sunscreen Body Oil",
+        "type": "Sunscreen Body Oil",
+        "tags": [
+          "new arrival",
+          "Body Oil",
+          "Sunscreen Body Oil"
+        ],
+        "price": "27.00",
+        "available": true,
+        "created": "2026-03-17",
+        "body": "Sunscreen Body Oil SPF 50 PA++++ contains a nourishing blend of kukui and mongongo oils and vitamin C to leave the skin with a radiant-looking glow without the damaging effects of the sun. Formulated with an innovative gel-like texture."
+      },
+      {
+        "title": "Coral Coast - Serum Deodorant",
+        "type": "Serum Deodorant",
+        "tags": [
+          "new arrival",
+          "Coral Coast",
+          "Deodorant"
+        ],
+        "price": "13.00",
+        "available": true,
+        "created": "2026-01-25",
+        "body": "Our serum deodorant is formulated with a multi-acid blend of mandelic, lactic and polyhydroxy that acidifies the skin to combat odor, brighten the look of discoloration, and smooth and reduce the look of ingrowns. Clinically proven to combat odor for 48 hours."
+      },
+      {
+        "title": "Coral Coast - Body Wash",
+        "type": "Body Wash",
+        "tags": [
+          "new arrival",
+          "Body Wash",
+          "Coral Coast"
+        ],
+        "price": "14.00",
+        "available": true,
+        "created": "2026-01-25",
+        "body": "Our replenishing body wash refreshes the skin with a burst of hydration. Coconut water, sunflower lipids, niacinamide, and a mineral complex leave skin feeling soft, smooth and lightly fragranced."
+      },
+      {
+        "title": "Salt Water Vanilla - Body Rituals Set",
+        "type": "Bundle",
+        "tags": [
+          "new arrival",
+          "Body Butter",
+          "Body Oil",
+          "Body Wash",
+          "Bundle"
+        ],
+        "price": "50.00",
+        "available": true,
+        "created": "2026-04-09",
+        "body": "Discover our Salt Water Vanilla collection with three full-size essentials. Warm and enveloping, yet comforting and sweet. Salt Water Vanilla melds delectable sweetness with an edge of salt breeze. Bundle and save 15% off."
+      },
+      {
+        "title": "Coral Coast - Body Mist",
+        "type": "Body Mist",
+        "tags": [
+          "new arrival",
+          "Body Mist",
+          "Coral Coast"
+        ],
+        "price": "18.00",
+        "available": true,
+        "created": "2026-01-25",
+        "body": "Juicy, lush and quietly nostalgic, Coral Coast captures the feeling of endless summer. Dermatologist Tested. Cruelty-Free. Paraben-Free. Gluten-Free. Vegan."
+      },
+      {
+        "title": "Salt Water Vanilla - Radiance Duo",
+        "type": "Bundle",
+        "tags": [
+          "new arrival",
+          "Body Butter",
+          "Body Oil",
+          "Bundle",
+          "Salt Water Vanilla"
+        ],
+        "price": "39.00",
+        "available": true,
+        "created": "2026-08-24",
+        "body": "Exfoliate, nourish, and glow with the Salt Water Vanilla Radiance Duo. This two-step ritual pairs our Vitamin C Oil-Infused Body Scrub with our Nourishing Body Oil to leave skin feeling softer, smoother, and hydrated."
+      }
+    ]
+  },
+  "home": {
+    "title": "Body Care & Hair Care Made With Advanced Ingredients | Saltair",
+    "description": "Saltair body care and hair care products are made with advanced ingredients and exotic botanicals to treat the skin and hair while awakening the senses.",
+    "site_name": "Saltair",
+    "headings": [
+      "Shop All",
+      "Shea Soleil",
+      "Coral Coast",
+      "Driftwood",
+      "Salt Water Vanilla",
+      "Santal Bloom",
+      "Pink Beach",
+      "Seascape",
+      "Island Orchid",
+      "Exotic Pulp",
+      "Golden Hour",
+      "Green Grapefruit",
+      "Pacific Pear",
+      "Bodycare"
+    ],
+    "reviews": "791",
+    "rating": "4.7",
+    "body_sample": "NEW: GLYCOLIC RENEWAL BODY SMOOTHER. Your Shortcut to Renewal. Glycolic Renewal Body Smoother 10% Glycolic Acid Exfoliating Spray. Elevate your everyday body care routine. HYDRATE + REVIVE HA BODY HYDRATOR & RETINOL REVIVE OVERNIGHT BODY LOTION 4.4 Read 49 Reviews $41 $46. TRENDING NOW HA BODY HYDRATOR HYALURONIC ACID BODY SERUM 4.7 Read 308 Reviews $23. SANTAL BLOOM NOURISHING BODY OIL 4.5 Read 791 Reviews $23. SALT WATER VANILLA 5% AHA SERUM DEODORANT 3.7 Read 63 Reviews $13. KP BODY SMOOTHER EXFOLIATING MILK 4.9 Read 231 Reviews $22. VEGAN CRUELTY FREE GLUTEN FREE PARABEN FREE DERMATOLOGIST TESTED. Nourishing Body Oil for Dewy, Glowing Skin. 100% showed immediate improvement in hydration. 96% showed healthier looking skin after 4 weeks. 92% showed improvement in skin's visible elasticity after 4 weeks. *In a clinical study with 28 women age 46-70. Shop By Skin Concern: DRY SKIN, DULL SKIN, SUNCARE, UNEVEN TONE & TEXTURE, AGING SKIN."
+  }
+}
