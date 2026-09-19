@@ -45,7 +45,10 @@ PRODUCT_RULES = [
                    r"|hairline|thinning|celebs can't get enough|gummies|capsule"),
     ("body_care",  r"body (serum|oil|wash|butter|lotion|mist)|shower|deodorant|bodycare|body care"
                    r"|scent|coral coast|driftwood|salt water vanilla|seascape|shea soleil"
-                   r"|hydrated this summer|summer captured|vacay|target run|kp smoother"),
+                   r"|hydrated this summer|summer captured|vacay|target run|kp smoother"
+                   r"|foot cream|cracked.{0,15}heels|neck down"),
+    ("lip_care",   r"lip balm|smoker's lips|dark lips|plumps lips"),
+    ("community",  r"welcome to the .{0,20}family|vip group|join .{0,20}facebook"),
     ("device",     r"led mask|micro-?infusion|showerhead|shower filter|helmet|wand"),
 ]
 

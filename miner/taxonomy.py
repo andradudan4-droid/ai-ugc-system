@@ -23,34 +23,57 @@ import re
 # ---- hook taxonomy -------------------------------------------------------------------
 # (angle, hook_type, pattern). First match wins, so order is specificity order.
 RULES: list[tuple[str, str, str]] = [
+    # Displacing a clinic procedure. The category's single biggest argument -- it shows up as
+    # attack (Botox is a lie), as substitution (needle-free, skip the needles) and as price math.
     ("injectable_displacement", "enemy_reframe",
-     r"\bbotox\b|filler migration|never touched botox|\$500 every 3 months|gastando \$500|microneedl"),
+     r"\bbotox\b|filler migration|never touched botox|\$500 every 3 months|gastando \$500|microneedl"
+     r"|needle-?free|without needles|skip the needles|no needles|peptide threads|silk peptide"
+     r"|expensive laser|expensive facial|botox alternative|lift in a bottle"),
     ("ingredient_villain", "enemy_reframe",
      r"retinol is ruining|peptide lie|hyaluronic acid\?|drugstore anti-aging routines"),
+    # Leaving an adjacent product category behind -- makeup, concealer, foundation.
+    ("category_switch", "enemy_reframe",
+     r"gave up eye concealer|ditch the concealer|stopped wearing makeup|give foundation the flick"
+     r"|stage makeup gets all the credit|not makeup"),
     ("failed_solutions", "empathy_callout",
-     r"you've tried the|another firming cream|i thought i was taking care|it started with a few fine lines"),
+     r"you've tried the|i thought i was taking care|it started with a few fine lines"
+     r"|bathroom counters look like a chemistry lab|dozens of products|zero results"
+     r"|exhausted from trying everything|works when nothing else has"),
+    ("skeptic_convert", "objection_open",
+     r"another firming cream|yeah, sure|not gonna lie|too good to be true|i said that too"),
+    ("symptom_callout", "problem_open",
+     r"having skin issues|struggling with|tired of (sagging|expensive|dull)|got tired morning eyes"
+     r"|dark circles|puffiness|if you're 40\+|date night\?|sagging under eyes"),
+    ("age_callout", "audience_open",
+     r"over 50 skincare|i'm 38|if you're 40|women over|in your 40s|fifty ?four"),
     ("mechanism_explainer", "curiosity_gap",
-     r"nad\+|autophagy|nobel prize|harvard dermatology|isn't just gravity|won't believe why"),
+     r"nad\+|autophagy|nobel prize|harvard dermatology|isn't just gravity|won't believe why"
+     r"|isn't luck|two actives, one mission|stops producing"),
     ("third_party_verdict", "authority_borrow",
      r"beauty editor|makeup artist|influencer saw|skincareaddiction|facts are facts|these celebs"),
+    ("story_open", "narrative",
+     r"^her name is|viking|born where winters|every teacher called|thousands of women are getting"),
     ("customer_testimonial", "social_proof",
-     r"^[\"“]|-becca|-april|julissa|literally transformed|i love this liquid collagen"
-     r"|realmente me gusta|ya no como snacks"),  # es-language testimonials run the same angle
-    ("symptom_callout", "problem_open",
-     r"ditch the concealer|got tired morning eyes|dark circles|puffiness|if you're 40\+"),
-    ("sensory_escapism", "aspiration",
-     r"summer (captured|in a bottle)|post vacation glow|vacay|new year ritual|tropical|beach paradise"),
-    ("heritage_origin", "story_open",
-     r"viking|born where winters|arctic plants are powerful|arnica, sea buckthorn"),
+     r"^[\"\u201c]|-becca|-april|julissa|literally transformed|i love this liquid collagen"
+     r"|realmente me gusta|ya no como snacks"),
     ("ingredient_discovery", "curiosity_gap",
-     r"anti-aging (ingredient|product) you|meet earth tones|korean advanced"),
+     r"anti-aging (ingredient|product) you|meet earth tones|korean advanced|arnica, sea buckthorn"
+     r"|arctic plants|retinol, made gentle|pdrn \+ caviar|beef tallow|melanin-rich"),
     ("routine_simplification", "pov_format",
-     r"^pov:|fits in your pocket|one balm|1 system replaces|2 steps for|dream team|bundle"),
+     r"^pov:|fits in your pocket|one balm|1 system replaces|2 steps for|dream team|bundle"
+     r"|simplify your routine|shop authentic korean|glow up bundle|complete care|perfect pair"),
     ("result_first", "outcome_claim",
      r"this is how i got glowing skin|brighten your skin for a healthy glow|so hydrated this summer"
-     r"|you need this|skin to glow|warm-weather skin staple|upgrade your basic shower"),
+     r"|you need this|skin to glow|warm-weather skin staple|upgrade your basic shower"
+     r"|visibly smooth fine lines|at-home facial|glass skin overnight|glow on the go"
+     r"|your new go-to|experience a brighter|experience firmer"),
+    # Opening with the SKU name. Not a hook at all -- named so the corpus can show how much of the
+    # category never writes one, which is itself the opportunity.
+    ("product_spec_open", "no_hook",
+     r"^(the )?(good molecules|navaro|biodance|jiyu|saltair|drmtlgy)\b|are a targeted treatment"
+     r"|^[a-z ]*(eye gel|ampoule|serum|patches|cream)\b.{0,40}$|powered by melting"),
     ("launch_scent", "newness",
-     r"just launched|just dropped|meet your new|sells out fast|is here|new saltair|coral coast|modern coastal"),
+     r"just launched|just dropped|meet your new|sells out fast|is here|new saltair|coral coast"),
     ("retail_availability", "convenience", r"target run|available at target|stocking up"),
 ]
 
@@ -173,9 +196,13 @@ def build(all_hooks: list[dict]) -> dict:
                 "before putting an unclaimed angle in front of a client."
             ),
             "absence_is_measured_on": (
-                "hook position only (the ad's opening line). An angle listed as unclaimed may "
-                "still appear deeper in body copy — it is unclaimed as a HOOK, which is the unit "
-                "being sold."
+                "Hook position only — the ad's opening line, which is what was captured in full. "
+                "Body copy was stored truncated, so NO claim is made about whether an angle "
+                "appears deeper in an ad, and the probes must not be read as evidence about it. "
+                "Observed directly while collecting: DRMTLGY runs '🩺 Dermatologist Recommended' "
+                "as a trust bullet. So dermatologist_as_ally exists in the category as "
+                "reassurance and is still unclaimed as an opening argument — which is the unit "
+                "being sold, and a sharper finding than simple absence."
             ),
         },
         "saturated_angles": [a for a in angles if a["saturation"] == "saturated"],
