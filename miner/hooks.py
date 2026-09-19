@@ -7,6 +7,19 @@ the 30+ day filter and the integrity rule.
 
 INTEGRITY RULE -- hook_text is never inferred, paraphrased or generated.
 
+Two things can legitimately fill it, and they are NOT interchangeable, so every row carries a
+hook_source saying which it is:
+
+  transcribed       the video's spoken/on-screen first 1-3s. What the spec means. Needs a source
+                    that supplies transcripts -- still undecided, docs/DESIGN.md §10.
+  ad_copy_opening   the opening of the ad's primary text, off the public Ad Library card.
+                    Available today at zero cost, but it is the caption above the video, not the
+                    scroll-stopper in it. Observed example (eskiin, 128d live): "eskiin will give
+                    you your best skin & hair - guaranteed." That is a product claim, not a hook.
+
+Copy-derived openings are opt-in (allow_copy_derived=True) so the choice is explicit and Agent 2
+can filter on hook_source rather than inheriting a silent mix.
+
 hooks.jsonl is the category asset (docs/DESIGN.md §4) and its 'unclaimed angles' derivative is
 sold to clients. A hook that no brand actually ran is worse than a missing one: it is a confident
 lie that propagates through Agent 2 into client deliverables. So an ad whose real opening was
@@ -19,6 +32,7 @@ import dataclasses
 import datetime as dt
 import json
 import pathlib
+import re
 
 MIN_DAYS_RUNNING = 30  # docs/DESIGN.md §3: profitability proxy -- still live after a month
 
@@ -51,12 +65,23 @@ def _fmt(rec: AdRecord) -> str:
     return "image"
 
 
-def build(records: list[AdRecord], now: int | None = None) -> tuple[list[dict], list[dict]]:
+def _copy_opening(text: str | None) -> str | None:
+    """First sentence of the ad's primary text -- its opening, not a summary."""
+    if not text or not text.strip():
+        return None
+    first = text.strip().split("\n", 1)[0].strip()
+    m = re.match(r"(.{10,180}?[.!?])(?:\s|$)", first)
+    return (m.group(1) if m else first)[:180].strip() or None
+
+
+def build(records: list[AdRecord], now: int | None = None,
+          allow_copy_derived: bool = False) -> tuple[list[dict], list[dict]]:
     """Return (hooks, pending).
 
-    hooks   -- ads 30+ days live WITH a real transcribed hook_text. Ready for hooks.jsonl.
-    pending -- ads 30+ days live whose opening was never captured. These are the work backlog,
-               not a defect: they are what the approved data source still has to supply.
+    hooks   -- ads 30+ days live with a hook_text, each tagged with its hook_source.
+    pending -- ads 30+ days live with no usable opening at all. The work backlog, not a defect.
+
+    allow_copy_derived=False (default) admits only transcribed openings.
     """
     now = now or int(dt.datetime.now(dt.timezone.utc).timestamp())
     hooks, pending = [], []
@@ -71,10 +96,14 @@ def build(records: list[AdRecord], now: int | None = None) -> tuple[list[dict], 
             "ad_id": r.ad_id,
             "format": _fmt(r),
         }
-        if r.hook_text and r.hook_text.strip():
+        text, source = (r.hook_text or "").strip(), "transcribed"
+        if not text and allow_copy_derived:
+            text, source = _copy_opening(r.primary_text) or "", "ad_copy_opening"
+        if text:
             hooks.append({
                 "brand": r.brand,
-                "hook_text": r.hook_text.strip(),
+                "hook_text": text,
+                "hook_source": source,
                 "hook_type": None,   # assigned by Agent 2
                 "format": base["format"],
                 "angle": None,       # assigned by Agent 2
@@ -82,7 +111,7 @@ def build(records: list[AdRecord], now: int | None = None) -> tuple[list[dict], 
                 "ad_id": r.ad_id,
             })
         else:
-            pending.append({**base, "reason": "hook_text not captured by approved source",
+            pending.append({**base, "reason": "no transcribed opening captured",
                             "primary_text": r.primary_text})
     return hooks, pending
 
