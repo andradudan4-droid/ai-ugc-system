@@ -10,14 +10,14 @@ import pathlib
 import re
 
 from .brands import candidates, _norm, _titleize
-from .score import fatigue_score
+from .score import fatigue_score, segment
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 RAW = ROOT / "data" / "raw"
 OUT = ROOT / "data" / "targets.csv"
 
 COLUMNS = [
-    "brand", "website", "ad_count", "ugc_ad_count",
+    "brand", "website", "segment", "ad_count", "ugc_ad_count_est",
     "oldest_ad_days", "newest_ad_days", "fatigue_score", "notes",
 ]
 
@@ -77,6 +77,7 @@ def build(today: dt.date | None = None) -> list[dict]:
             notes.append(f"ad count {prev_n}->{ad_count} MoM")
 
         score = fatigue_score(ad_count, ugc, oldest, newest, prev_n)
+        seg = segment(ad_count, ugc, newest)
 
         # Prefer the page name when it looks like the brand; otherwise name the brand after its site.
         dom_stem = _norm(c["website"].split(".")[0]) if c["website"] else ""
@@ -92,14 +93,17 @@ def build(today: dt.date | None = None) -> list[dict]:
             notes.append(f"{c['affiliate_pages']} affiliate page(s) run its creative")
         if ugc >= 15:
             notes.append("15+ UGC video ads")
-        if newest is not None and newest >= 60:
+        if seg == "dormant":
+            notes.append(f"dormant -- nothing new in {newest}d, exclude from outreach")
+        elif newest is not None and newest >= 60:
             notes.append(f"nothing new in {newest}d")
 
         rows.append({
             "brand": brand,
             "website": f"https://{c['website']}" if c["website"] else "",
+            "segment": seg,
             "ad_count": ad_count,
-            "ugc_ad_count": ugc,
+            "ugc_ad_count_est": ugc,
             "oldest_ad_days": oldest if oldest is not None else "",
             "newest_ad_days": newest if newest is not None else "",
             "fatigue_score": score,

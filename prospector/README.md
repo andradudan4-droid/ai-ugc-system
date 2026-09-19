@@ -42,13 +42,31 @@ categories that matched a skincare keyword are dropped.
 
 ## Scoring
 
-`score.py` holds the formula in one commented block. Four components — `stale`, `budget`,
-`longevity`, `decline` — each a ratio against a threshold, passed through a saturating curve so the
-top of the list keeps ranking instead of flat-topping into ties. Retune via `WEIGHTS` and the
-threshold constants; nothing else depends on their values.
+`score.py` holds the formula in one commented block. Five components — `budget`, `stale`, `volume`,
+`longevity`, `decline`. Retune via `WEIGHTS` and the threshold constants; nothing else depends on
+their values.
 
-`decline` is 0 on a first run — it needs two snapshots at least 21 days apart, so it starts
-contributing on the second monthly run.
+**`stale` is a band, not a monotonic reward.** It is a trapezoid over `newest_ad_days`: zero below
+15d, full across 45–120d, decaying to zero by 180d. The spec's signal is "creatives live 60+ days
+with nothing new shipped", which assumes the advertiser is *still buying*. A brand silent for 200+
+days has stopped advertising rather than fatigued and cannot buy creative, so it scores zero there
+and lands in the `dormant` segment.
+
+Volume outweighs staleness (`budget` + `volume` = 0.55 vs `stale` 0.25): volume proves budget,
+staleness only times the approach.
+
+`decline` is 0 on a first run — it needs two snapshots at least 21 days apart.
+
+## Segments
+
+| segment | meaning |
+|---|---|
+| `fatigued` | qualified, 45–120d since newest ad — urgent, lead with these |
+| `high_volume` | 50+ UGC ads and shipping within 30d — no urgency, best long-term clients |
+| `cooling` | past the fatigue window (120–180d), not yet written off |
+| `active` | qualified and shipping, but neither fatigued nor at high_volume's bar |
+| `dormant` | 180d+ silent — kept in the file, excluded from outreach |
+| `unqualified` | under 15 UGC video ads |
 
 ## Known limits
 
@@ -56,8 +74,9 @@ contributing on the second monthly run.
   always the exact figure Meta reports, but for advertisers over ~30 ads `ugc_ad_count` is scaled
   from the 30-ad sample and the ad-age bounds come from that sample, so the true oldest ad may be
   older. Both cases are flagged per row in `notes`. 25 of 108 rows are exact.
-- **`ugc_ad_count` means "video ads", not verified UGC-style.** It uses Meta's own `media_type=video`
-  signal. Separating UGC-style from polished brand video needs a vision pass — that is Agent 1's job.
+- **`ugc_ad_count_est` means "video ads", not verified UGC-style.** It uses Meta's own
+  `media_type=video` signal. Separating UGC-style from polished brand video needs a vision pass —
+  that is Agent 1's job. The `_est` suffix is because most rows are scaled from a 30-ad sample.
 - **`brand` is named after the destination domain unless the page name matches it.** The domain is
   the identity that can be verified and pitched; affiliates advertise under names of their own
   ("jaxandbrynco" runs saltair.com's creative). The cost is that a brand whose page name is good but

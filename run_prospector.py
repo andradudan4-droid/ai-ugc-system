@@ -28,11 +28,13 @@ def main() -> int:
         return 0
 
     rows = build()
-    scored = [r for r in rows if r["fatigue_score"] > 0]
-    print(f"wrote data/targets.csv -- {len(rows)} brands ({len(scored)} scoring above zero)")
+    import collections
+    segs = collections.Counter(r["segment"] for r in rows)
+    print(f"wrote data/targets.csv -- {len(rows)} brands")
+    print("  segments: " + ", ".join(f"{k}={v}" for k, v in segs.most_common()))
     for r in rows[:10]:
-        print(f"  {r['fatigue_score']:5.1f}  {r['brand'][:26]:28} "
-              f"ads={r['ad_count']:<5} ugc={r['ugc_ad_count']:<5} newest={r['newest_ad_days']}d")
+        print(f"  {r['fatigue_score']:5.1f}  {r['segment']:<12} {r['brand'][:22]:24}"
+              f"ads={r['ad_count']:<5} ugc={r['ugc_ad_count_est']:<5} newest={r['newest_ad_days']}d")
     return 0
 
 

@@ -112,6 +112,21 @@ def candidates(discovery: dict[str, dict]) -> list[dict]:
         if website and not g["website"]:
             g["website"] = website
 
+    # A page whose only link is a retailer is keyed by name, while its sibling page linking to the
+    # real site is keyed by domain -- same brand, two groups. Coalesce once websites are resolved.
+    coalesced: dict[str, dict] = {}
+    for g in groups.values():
+        k = g["website"] or g["key"]
+        if k in coalesced:
+            tgt = coalesced[k]
+            tgt["pages"].extend(g["pages"])
+            tgt["ads"] += g["ads"]
+            tgt["vids"] += g["vids"]
+            tgt["website"] = tgt["website"] or g["website"]
+        else:
+            coalesced[k] = dict(g, key=k)
+    groups = coalesced
+
     out = []
     for g in groups.values():
         # The brand's own page is the one whose name looks like the domain; otherwise the page
