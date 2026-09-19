@@ -1,75 +1,31 @@
 {
   "corpus": {
-    "hooks": 113,
-    "classified": 113,
+    "product_class": "topical_skincare",
+    "hook_sources": {
+      "ad_copy_opening": 64
+    },
+    "excluded_off_category": {
+      "hooks": 49,
+      "by_class": {
+        "ingestible": 27,
+        "body_care": 22
+      },
+      "note": "Mined but kept out of the skincare corpus. SpoiledChild advertises ingestible collagen, appetite suppression and hair thinning; Saltair advertises body wash, body oil, deodorant and fragrance. Both are tagged skincare at brand level in targets.csv -- the ad copy says otherwise."
+    },
+    "hooks": 64,
+    "classified": 64,
     "unclassified": 0,
     "brands": [
       "Asarai",
       "Froya Organics",
       "Saeskyn",
-      "Saltair",
       "SpoiledChild"
     ],
-    "min_days_running": 45,
+    "min_days_running": 47,
     "scope_warning": "PILOT CORPUS — 5 fatigued brands of 81 in scope. 'unclaimed' means absent from THIS sample, not proven absent from the category. Verify against the full 81 before putting an unclaimed angle in front of a client.",
     "absence_is_measured_on": "hook position only (the ad's opening line). An angle listed as unclaimed may still appear deeper in body copy — it is unclaimed as a HOOK, which is the unit being sold."
   },
   "saturated_angles": [
-    {
-      "angle": "routine_simplification",
-      "hook_type": "pov_format",
-      "brands": [
-        "Froya Organics",
-        "Saeskyn",
-        "Saltair"
-      ],
-      "brand_count": 3,
-      "ad_count": 11,
-      "median_days_running": 152,
-      "max_days_running": 283,
-      "examples": [
-        "2 steps for juicy, hydrated, glowy skin🧴",
-        "THE bundle for smooth and hydrated skin!!",
-        "Skincare for our bodies just got a whole lot easier with Saltair's newest HA Body Serum + Retinol bundle"
-      ],
-      "saturation": "saturated"
-    },
-    {
-      "angle": "customer_testimonial",
-      "hook_type": "social_proof",
-      "brands": [
-        "Froya Organics",
-        "SpoiledChild"
-      ],
-      "brand_count": 2,
-      "ad_count": 25,
-      "median_days_running": 256,
-      "max_days_running": 614,
-      "examples": [
-        "I love this liquid collagen from SpoiledChild...",
-        "¡Realmente me gusta este sabor!",
-        "¡Realmente me gusta este sabor!"
-      ],
-      "saturation": "saturated"
-    },
-    {
-      "angle": "third_party_verdict",
-      "hook_type": "authority_borrow",
-      "brands": [
-        "Asarai",
-        "SpoiledChild"
-      ],
-      "brand_count": 2,
-      "ad_count": 13,
-      "median_days_running": 276,
-      "max_days_running": 373,
-      "examples": [
-        "See why these celebs can't get enough of the amazing Extra Strength Liquid Collagen",
-        "See why these celebs can't get enough of the amazing E27 Extra Strength Liquid Collagen",
-        "See why these celebs can't get enough of the amazing E27 Extra Strength Liquid Collagen"
-      ],
-      "saturation": "saturated"
-    },
     {
       "angle": "injectable_displacement",
       "hook_type": "enemy_reframe",
@@ -80,6 +36,9 @@
       "brand_count": 2,
       "ad_count": 12,
       "median_days_running": 201,
+      "hook_sources": {
+        "ad_copy_opening": 12
+      },
       "max_days_running": 207,
       "examples": [
         "What if everything you believed about Botox was wrong?",
@@ -98,29 +57,14 @@
       "brand_count": 2,
       "ad_count": 10,
       "median_days_running": 207,
+      "hook_sources": {
+        "ad_copy_opening": 10
+      },
       "max_days_running": 274,
       "examples": [
         "It started with a few fine lines.",
         "I thought I was taking care of my skin.",
         "You've tried the vitamin C serums."
-      ],
-      "saturation": "saturated"
-    },
-    {
-      "angle": "result_first",
-      "hook_type": "outcome_claim",
-      "brands": [
-        "Asarai",
-        "Saltair"
-      ],
-      "brand_count": 2,
-      "ad_count": 9,
-      "median_days_running": 170,
-      "max_days_running": 399,
-      "examples": [
-        "Beneficial body care 🍊 >>> adding this into my bodycare routine cause I want this skin to GLOW.",
-        "Our viral Hyaluronic Acid Body Serum is your warm-weather skin staple.",
-        "Upgrade your basic shower routine with Saltair's Salt Water Vanilla Essentials Set."
       ],
       "saturation": "saturated"
     },
@@ -134,11 +78,35 @@
       "brand_count": 2,
       "ad_count": 6,
       "median_days_running": 135,
+      "hook_sources": {
+        "ad_copy_opening": 6
+      },
       "max_days_running": 522,
       "examples": [
         "The reason your face looks different in the mirror isn't just gravity.",
         "Nobel Prize-Winning Science for Ageless Skin✨",
         "A Harvard dermatology study just shattered everything we thought about skincare."
+      ],
+      "saturation": "saturated"
+    },
+    {
+      "angle": "routine_simplification",
+      "hook_type": "pov_format",
+      "brands": [
+        "Froya Organics",
+        "Saeskyn"
+      ],
+      "brand_count": 2,
+      "ad_count": 6,
+      "median_days_running": 127,
+      "hook_sources": {
+        "ad_copy_opening": 6
+      },
+      "max_days_running": 283,
+      "examples": [
+        "ONE BALM. LIMITLESS REJUVENATION",
+        "POV: Your entire skincare routine fits in your pocket",
+        "POV: Your entire skincare routine fits in your pocket"
       ],
       "saturation": "saturated"
     },
@@ -152,6 +120,9 @@
       "brand_count": 2,
       "ad_count": 3,
       "median_days_running": 267,
+      "hook_sources": {
+        "ad_copy_opening": 3
+      },
       "max_days_running": 323,
       "examples": [
         "Ditch the concealer with the SpoiledChild™ Miracle Eye Corrector!",
@@ -170,6 +141,9 @@
       "brand_count": 2,
       "ad_count": 3,
       "median_days_running": 158,
+      "hook_sources": {
+        "ad_copy_opening": 3
+      },
       "max_days_running": 292,
       "examples": [
         "💛 The Anti-Aging Ingredient You've Never Heard Of …",
@@ -182,19 +156,22 @@
   "contested_angles": [],
   "single_brand_angles": [
     {
-      "angle": "launch_scent",
-      "hook_type": "newness",
+      "angle": "third_party_verdict",
+      "hook_type": "authority_borrow",
       "brands": [
-        "Saltair"
+        "Asarai"
       ],
       "brand_count": 1,
-      "ad_count": 7,
-      "median_days_running": 199,
-      "max_days_running": 220,
+      "ad_count": 10,
+      "median_days_running": 294,
+      "hook_sources": {
+        "ad_copy_opening": 10
+      },
+      "max_days_running": 373,
       "examples": [
-        "Saltair just launched it's latest exciting scent, Coral Coast.",
-        "Meet your NEW favorite Saltair collection ✨",
-        "Driftwood sells out fast, so you may want to RUN!"
+        "Kim K's makeup artist tried ASARAI Earth Tones red clay mask and the results are in: \"It's REALLY really good!",
+        "\"A beauty editor tried 30 masks in 30 days, but what did she really think about ASARAI?",
+        "\"A beauty editor tried 30 masks in 30 days, but what did she really think about ASARAI?"
       ],
       "saturation": "single_brand"
     },
@@ -207,28 +184,14 @@
       "brand_count": 1,
       "ad_count": 5,
       "median_days_running": 173,
+      "hook_sources": {
+        "ad_copy_opening": 5
+      },
       "max_days_running": 408,
       "examples": [
         "The $8 billion peptide lie that's aging your skin faster 💉",
         "Retinol is Ruining Your Skin.",
         "Did you know that your drugstore anti-aging routines actually make mature skin worse?"
-      ],
-      "saturation": "single_brand"
-    },
-    {
-      "angle": "sensory_escapism",
-      "hook_type": "aspiration",
-      "brands": [
-        "Saltair"
-      ],
-      "brand_count": 1,
-      "ad_count": 4,
-      "median_days_running": 188,
-      "max_days_running": 216,
-      "examples": [
-        "New year ritual = Saltair in the shower.",
-        "A body oil that gives you that post vacation glow and nourishes your skin at the same time.",
-        "This is truly summer captured inside a bottle!!"
       ],
       "saturation": "single_brand"
     },
@@ -241,6 +204,9 @@
       "brand_count": 1,
       "ad_count": 4,
       "median_days_running": 365,
+      "hook_sources": {
+        "ad_copy_opening": 4
+      },
       "max_days_running": 380,
       "examples": [
         "💜 Arnica, sea buckthorn, and calendula are powerful arctic plants that transform your complexion.",
@@ -250,17 +216,40 @@
       "saturation": "single_brand"
     },
     {
-      "angle": "retail_availability",
-      "hook_type": "convenience",
+      "angle": "result_first",
+      "hook_type": "outcome_claim",
       "brands": [
-        "Saltair"
+        "Asarai"
+      ],
+      "brand_count": 1,
+      "ad_count": 4,
+      "median_days_running": 204,
+      "hook_sources": {
+        "ad_copy_opening": 4
+      },
+      "max_days_running": 399,
+      "examples": [
+        "This is how I got glowing skin.",
+        "This is how I got glowing skin.",
+        "This is how I got glowing skin."
+      ],
+      "saturation": "single_brand"
+    },
+    {
+      "angle": "customer_testimonial",
+      "hook_type": "social_proof",
+      "brands": [
+        "Froya Organics"
       ],
       "brand_count": 1,
       "ad_count": 1,
-      "median_days_running": 216,
-      "max_days_running": 216,
+      "median_days_running": 614,
+      "hook_sources": {
+        "ad_copy_opening": 1
+      },
+      "max_days_running": 614,
       "examples": [
-        "Target runs always include stocking up on our Saltair faves."
+        "\"Literally transformed my skin!"
       ],
       "saturation": "single_brand"
     }

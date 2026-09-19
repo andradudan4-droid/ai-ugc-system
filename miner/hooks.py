@@ -34,7 +34,39 @@ import json
 import pathlib
 import re
 
-MIN_DAYS_RUNNING = 30  # docs/DESIGN.md §3: profitability proxy -- still live after a month
+MIN_DAYS_RUNNING = 30
+
+# docs/DESIGN.md §4: the corpus is keyed by CATEGORY and that is what makes it compound. A brand
+# tagged "skincare" at the website level can still advertise something else entirely -- SpoiledChild
+# sells ingestible collagen and appetite suppression, Saltair sells body wash and fragrance -- so
+# product class is judged per ad, from the copy, not inherited from the brand row.
+PRODUCT_RULES = [
+    ("ingestible", r"liquid collagen|taste of this|sabor|snacking|satiated|saciada|snacks como antes"
+                   r"|hairline|thinning|celebs can't get enough|gummies|capsule"),
+    ("body_care",  r"body (serum|oil|wash|butter|lotion|mist)|shower|deodorant|bodycare|body care"
+                   r"|scent|coral coast|driftwood|salt water vanilla|seascape|shea soleil"
+                   r"|hydrated this summer|summer captured|vacay|target run|kp smoother"),
+    ("device",     r"led mask|micro-?infusion|showerhead|shower filter|helmet|wand"),
+]
+
+
+# Brand-level truth, established by reading the brand's whole mined corpus rather than guessing
+# from one line. Saltair's 22 ads are body wash, body oil, body serum, deodorant and scent -- there
+# is no facial SKU in any of them, so its generic "glowy skin" lines are body-care lines. A per-ad
+# regex cannot see that; the brand's own ad set can.
+BRAND_PRODUCT_CLASS = {
+    "Saltair": "body_care",
+}
+
+
+def product_class(text: str | None, brand: str | None = None) -> str:
+    if brand in BRAND_PRODUCT_CLASS:
+        return BRAND_PRODUCT_CLASS[brand]
+    t = (text or "").lower()
+    for name, pat in PRODUCT_RULES:
+        if re.search(pat, t, re.I):
+            return name
+    return "topical_skincare"  # docs/DESIGN.md §3: profitability proxy -- still live after a month
 
 
 @dataclasses.dataclass
@@ -95,6 +127,7 @@ def build(records: list[AdRecord], now: int | None = None,
             "days_running": days,
             "ad_id": r.ad_id,
             "format": _fmt(r),
+            "product_class": product_class(r.primary_text, r.brand),
         }
         text, source = (r.hook_text or "").strip(), "transcribed"
         if not text and allow_copy_derived:
@@ -103,7 +136,11 @@ def build(records: list[AdRecord], now: int | None = None,
             hooks.append({
                 "brand": r.brand,
                 "hook_text": text,
+                # Strategy 2026-09-19: body copy is evidence of the ANGLE, never the hook itself.
+                # Carried in its own field so nothing downstream has to infer which it is holding.
+                "angle_evidence_text": (r.primary_text or "").strip()[:400] or None,
                 "hook_source": source,
+                "product_class": base["product_class"],
                 "hook_type": None,   # assigned by Agent 2
                 "format": base["format"],
                 "angle": None,       # assigned by Agent 2
