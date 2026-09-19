@@ -4,17 +4,149 @@
   "_replaces_with": "~/Desktop/ai-ugc-system/shared/data/angles.json",
   "generated": "2026-09-19",
   "angles": [
-    {"angle_id": "A01", "label": "Dermatologist-adjacent authority", "description": "A credentialed-sounding voice explains the mechanism before showing the product.", "hook_ids": ["FIXTURE-h001", "FIXTURE-h014"], "cluster_size": 0, "unclaimed": false},
-    {"angle_id": "A02", "label": "Ingredient-as-villain switch", "description": "Names a common ingredient as the cause of the viewer's problem, then positions the product as the removal.", "hook_ids": ["FIXTURE-h022"], "cluster_size": 0, "unclaimed": true},
-    {"angle_id": "A03", "label": "Texture close-up ASMR", "description": "Opens on extreme macro of product texture with no speech for the first beat.", "hook_ids": ["FIXTURE-h031", "FIXTURE-h033"], "cluster_size": 0, "unclaimed": false},
-    {"angle_id": "A04", "label": "Routine compression", "description": "Replaces a multi-step routine with one product; counts down the steps being dropped.", "hook_ids": ["FIXTURE-h040"], "cluster_size": 0, "unclaimed": false},
-    {"angle_id": "A05", "label": "Age-reveal reversal", "description": "Presenter states their age after the viewer has formed an impression.", "hook_ids": ["FIXTURE-h051", "FIXTURE-h052"], "cluster_size": 0, "unclaimed": false},
-    {"angle_id": "A06", "label": "Price-anchor demolition", "description": "Compares against a named premium tier on cost-per-use.", "hook_ids": ["FIXTURE-h060"], "cluster_size": 0, "unclaimed": true},
-    {"angle_id": "A07", "label": "Sceptic conversion", "description": "Presenter opens hostile to the category and narrates being wrong.", "hook_ids": ["FIXTURE-h071"], "cluster_size": 0, "unclaimed": false},
-    {"angle_id": "A08", "label": "Problem-agitation close-up", "description": "Opens on the unretouched problem in harsh light before any product appears.", "hook_ids": ["FIXTURE-h080", "FIXTURE-h081"], "cluster_size": 0, "unclaimed": false},
-    {"angle_id": "A09", "label": "Sold-out social proof", "description": "Leads with scarcity and restock history as the proof point.", "hook_ids": ["FIXTURE-h090"], "cluster_size": 0, "unclaimed": false},
-    {"angle_id": "A10", "label": "Mechanism diagram", "description": "Uses a simple drawn or animated cross-section to explain why it works.", "hook_ids": ["FIXTURE-h100"], "cluster_size": 0, "unclaimed": true},
-    {"angle_id": "A11", "label": "Gift-framing", "description": "Reframes a self-purchase as a gift to shift the objection from cost to thoughtfulness.", "hook_ids": ["FIXTURE-h110"], "cluster_size": 0, "unclaimed": false},
-    {"angle_id": "A12", "label": "Founder direct-address", "description": "Founder speaks to camera about a formulation decision and what it cost them.", "hook_ids": ["FIXTURE-h120"], "cluster_size": 0, "unclaimed": false}
+    {
+      "angle_id": "A01",
+      "label": "Dermatologist-adjacent authority",
+      "description": "A credentialed-sounding voice explains the mechanism before showing the product.",
+      "hook_ids": [
+        "FIXTURE-h001",
+        "FIXTURE-h014"
+      ],
+      "cluster_size": 0,
+      "unclaimed": false,
+      "hook_sources": {
+        "transcribed": 4
+      }
+    },
+    {
+      "angle_id": "A02",
+      "label": "Ingredient-as-villain switch",
+      "description": "Names a common ingredient as the cause of the viewer's problem, then positions the product as the removal.",
+      "hook_ids": [
+        "FIXTURE-h022"
+      ],
+      "cluster_size": 0,
+      "unclaimed": true,
+      "hook_sources": {
+        "ad_copy_opening": 3
+      }
+    },
+    {
+      "angle_id": "A03",
+      "label": "Texture close-up ASMR",
+      "description": "Opens on extreme macro of product texture with no speech for the first beat.",
+      "hook_ids": [
+        "FIXTURE-h031",
+        "FIXTURE-h033"
+      ],
+      "cluster_size": 0,
+      "unclaimed": false,
+      "hook_sources": {
+        "transcribed": 2,
+        "ad_copy_opening": 2
+      }
+    },
+    {
+      "angle_id": "A04",
+      "label": "Routine compression",
+      "description": "Replaces a multi-step routine with one product; counts down the steps being dropped.",
+      "hook_ids": [
+        "FIXTURE-h040"
+      ],
+      "cluster_size": 0,
+      "unclaimed": false
+    },
+    {
+      "angle_id": "A05",
+      "label": "Age-reveal reversal",
+      "description": "Presenter states their age after the viewer has formed an impression.",
+      "hook_ids": [
+        "FIXTURE-h051",
+        "FIXTURE-h052"
+      ],
+      "cluster_size": 0,
+      "unclaimed": false,
+      "hook_sources": {
+        "transcribed": 3
+      }
+    },
+    {
+      "angle_id": "A06",
+      "label": "Price-anchor demolition",
+      "description": "Compares against a named premium tier on cost-per-use.",
+      "hook_ids": [
+        "FIXTURE-h060"
+      ],
+      "cluster_size": 0,
+      "unclaimed": true,
+      "hook_sources": {
+        "ad_copy_opening": 1
+      }
+    },
+    {
+      "angle_id": "A07",
+      "label": "Sceptic conversion",
+      "description": "Presenter opens hostile to the category and narrates being wrong.",
+      "hook_ids": [
+        "FIXTURE-h071"
+      ],
+      "cluster_size": 0,
+      "unclaimed": false
+    },
+    {
+      "angle_id": "A08",
+      "label": "Problem-agitation close-up",
+      "description": "Opens on the unretouched problem in harsh light before any product appears.",
+      "hook_ids": [
+        "FIXTURE-h080",
+        "FIXTURE-h081"
+      ],
+      "cluster_size": 0,
+      "unclaimed": false,
+      "hook_sources": {
+        "transcribed": 5,
+        "ad_copy_opening": 1
+      }
+    },
+    {
+      "angle_id": "A09",
+      "label": "Sold-out social proof",
+      "description": "Leads with scarcity and restock history as the proof point.",
+      "hook_ids": [
+        "FIXTURE-h090"
+      ],
+      "cluster_size": 0,
+      "unclaimed": false
+    },
+    {
+      "angle_id": "A10",
+      "label": "Mechanism diagram",
+      "description": "Uses a simple drawn or animated cross-section to explain why it works.",
+      "hook_ids": [
+        "FIXTURE-h100"
+      ],
+      "cluster_size": 0,
+      "unclaimed": true
+    },
+    {
+      "angle_id": "A11",
+      "label": "Gift-framing",
+      "description": "Reframes a self-purchase as a gift to shift the objection from cost to thoughtfulness.",
+      "hook_ids": [
+        "FIXTURE-h110"
+      ],
+      "cluster_size": 0,
+      "unclaimed": false
+    },
+    {
+      "angle_id": "A12",
+      "label": "Founder direct-address",
+      "description": "Founder speaks to camera about a formulation decision and what it cost them.",
+      "hook_ids": [
+        "FIXTURE-h120"
+      ],
+      "cluster_size": 0,
+      "unclaimed": false
+    }
   ]
 }

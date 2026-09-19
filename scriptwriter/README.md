@@ -32,6 +32,31 @@ The fixture exists to get the wiring and the prompt right. Its angle labels are 
 evidence — real angles come from clustering real mined hooks, and inventing them would put
 fabricated "unclaimed angles" into a client deliverable.
 
+## Angle evidence grade
+
+Miner's `hooks.jsonl` records `hook_source` per row: a verbatim **transcribed** opening, or the
+opening of the ad's **primary text**. Those are not the same artifact. The eskiin ad is the clean
+illustration — its body opens *"the only high-performance filtered showerhead with 2.5x pressure and
+a 15-stage filtration system"*. That is a claim block. A hook is *"I stopped washing my hair in tap
+water."* An angle clustered from copy openings therefore describes a **claim space**, not a hook
+space, and must not be echoed as though its wording were a proven opening line.
+
+`angles.evidence_grade()` reduces an angle's `hook_sources` to `transcribed` / `copy_derived` /
+`mixed` / `unknown` and that grade **changes the generation prompt**:
+
+| grade | instruction to the writer |
+|---|---|
+| `transcribed` | the angle's shape is evidence — follow it closely |
+| `copy_derived` | use it for *what* it argues, never *how* it is phrased; write the hook fresh, no claim-block cadence |
+| `mixed` | transcribed share guides phrasing, the rest is argument only |
+| `unknown` | degrade to the cautious branch |
+
+`hook_sources` is accepted as either a count map or a plain list, so it survives whichever shape
+Agent 2 emits. `angle_evidence` is required on every script and is stamped from the angles file at
+assembly — never read from the model's own output, because a generator does not get to assert its
+own provenance. If transcription later backfills a copy-derived corpus, the regrade is automatic and
+scripts already produced keep the grade they were written under.
+
 ## Two guards
 
 1. **Contract validation** (`schema.py`) — rejects a script missing attribution (`angle_id`,

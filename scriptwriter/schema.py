@@ -28,11 +28,13 @@ REQUIRED = [
     "cta",
     "duration_s",
     "claims_used",      # list[str] -- every efficacy claim spoken
+    "angle_evidence",   # transcribed | copy_derived | mixed | unknown -- see angles.py
     "provenance",       # where the angle came from; FIXTURE output is marked here
     "status",           # draft | approved | rendered
 ]
 
 ALLOWED_STATUS = {"draft", "approved", "rendered"}
+ALLOWED_EVIDENCE = {"transcribed", "copy_derived", "mixed", "unknown"}
 
 
 def validate(script: dict) -> list[str]:
@@ -44,6 +46,8 @@ def validate(script: dict) -> list[str]:
 
     if script.get("status") not in ALLOWED_STATUS:
         errs.append(f"status must be one of {sorted(ALLOWED_STATUS)}")
+    if script.get("angle_evidence") not in ALLOWED_EVIDENCE:
+        errs.append(f"angle_evidence must be one of {sorted(ALLOWED_EVIDENCE)}")
 
     if not script.get("angle_id"):
         errs.append("angle_id is empty -- breaks attribution (DESIGN.md §2)")

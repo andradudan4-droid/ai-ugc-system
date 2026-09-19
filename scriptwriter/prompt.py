@@ -11,6 +11,8 @@ import json
 import pathlib
 import re
 
+from .angles import EVIDENCE_NOTE, evidence_grade
+
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 BRANDS = ROOT / "data" / "brands"
 
@@ -51,6 +53,9 @@ USER = """## Brand brief
 - **label:** {label}
 - **description:** {description}
 - **unclaimed in category:** {unclaimed}
+- **evidence grade:** {evidence}
+
+**How much to lean on this angle's wording:** {evidence_note}
 
 Set `angle_id` to "{angle_id}" and `source_hook_ids` to {hook_ids} on every script you return.
 Set `brand_slug` to "{brand_slug}", `provenance` to "{provenance}", and `status` to "draft".
@@ -90,10 +95,12 @@ def do_not_say(md: str) -> list[str]:
 
 def build(slug: str, angle: dict, n: int, provenance: str) -> dict:
     md = brand_md(slug)
+    grade = evidence_grade(angle)
     return {
         "brand_slug": slug,
         "angle_id": angle["angle_id"],
         "provenance": provenance,
+        "angle_evidence": grade,
         "do_not_say": do_not_say(md),
         "system": SYSTEM.format(n=n, schema=json.dumps(SCHEMA_SKETCH, indent=2)),
         "user": USER.format(
@@ -102,6 +109,8 @@ def build(slug: str, angle: dict, n: int, provenance: str) -> dict:
             label=angle["label"],
             description=angle["description"],
             unclaimed=angle.get("unclaimed", False),
+            evidence=grade,
+            evidence_note=EVIDENCE_NOTE[grade],
             hook_ids=json.dumps(angle["hook_ids"]),
             brand_slug=slug,
             provenance=provenance,

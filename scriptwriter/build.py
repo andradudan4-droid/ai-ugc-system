@@ -6,7 +6,7 @@ import json
 import pathlib
 import re
 
-from .angles import FixtureData, guard_publish, load
+from .angles import FixtureData, evidence_grade, guard_publish, load
 from .prompt import build as build_prompt
 from .schema import validate
 
@@ -44,7 +44,8 @@ def _banned_used(script: dict, banned: list[str]) -> list[str]:
 
 def assemble() -> dict:
     """Read model returns from data/scripts/returns/, validate, write scripts.json."""
-    _, is_fixture, src = load()
+    angles, is_fixture, src = load()
+    by_id = {a["angle_id"]: a for a in angles}
     RETURNS.mkdir(parents=True, exist_ok=True)
 
     scripts, problems = [], []
@@ -54,6 +55,9 @@ def assemble() -> dict:
         banned = json.loads(prompt_f.read_text())["do_not_say"] if prompt_f.exists() else []
 
         for s in json.loads(f.read_text()):
+            # Provenance is stamped from the angles file, not taken from the model's output.
+            a = by_id.get(s.get("angle_id") or angle_id)
+            s["angle_evidence"] = evidence_grade(a) if a else "unknown"
             errs = validate(s)
             hits = _banned_used(s, banned)
             if hits:

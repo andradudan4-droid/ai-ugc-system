@@ -19,6 +19,61 @@ FIXTURE = ROOT / "data" / "fixtures" / "angles.fixture.json"
 
 REQUIRED_ANGLE = ["angle_id", "label", "description", "hook_ids"]
 
+# Miner's hooks.jsonl carries hook_source per row: a verbatim transcribed opening, or the opening
+# of the ad's primary text. They are not the same artifact. An angle clustered from copy openings
+# describes a CLAIM space ("the only filtered showerhead with 2.5x pressure"); an angle clustered
+# from transcribed openings describes a HOOK space ("I stopped washing my hair in tap water").
+# Agent 3 has to know which it is, because a copy-derived angle must not be echoed as if its
+# language were a proven opening line.
+TRANSCRIBED = "transcribed"
+COPY_DERIVED = "ad_copy_opening"
+
+
+def evidence_grade(angle: dict) -> str:
+    """Return transcribed | copy_derived | mixed | unknown for one angle.
+
+    Accepts either a `hook_sources` count map ({transcribed: 4, ad_copy_opening: 1}) or a plain
+    list of source labels, so it survives whichever shape Agent 2 emits.
+    """
+    src = angle.get("hook_sources")
+    if not src:
+        return "unknown"
+    if isinstance(src, dict):
+        present = {k for k, v in src.items() if v}
+    else:
+        present = set(src)
+    has_t, has_c = TRANSCRIBED in present, COPY_DERIVED in present
+    if has_t and has_c:
+        return "mixed"
+    if has_t:
+        return "transcribed"
+    if has_c:
+        return "copy_derived"
+    return "unknown"
+
+
+# How much an angle's own wording can be leaned on, by grade.
+EVIDENCE_NOTE = {
+    "transcribed": (
+        "Clustered from VERBATIM TRANSCRIBED ad openings. The angle reflects how real hooks are "
+        "actually spoken, so its shape is evidence — follow it closely."
+    ),
+    "copy_derived": (
+        "Clustered from AD PRIMARY TEXT openings, not spoken hooks. This describes a CLAIM pattern, "
+        "not a proven opening line. Use it for WHAT the angle argues, never for HOW it is phrased — "
+        "write the spoken hook fresh, and do not echo claim-block cadence "
+        "(\"the only...\", \"clinically proven...\", spec lists)."
+    ),
+    "mixed": (
+        "Clustered from a mix of transcribed openings and ad copy openings. Treat the transcribed "
+        "share as the guide for phrasing; treat the rest as argument only."
+    ),
+    "unknown": (
+        "Provenance of the underlying hooks is not recorded. Treat as claim-level evidence only and "
+        "write the spoken hook fresh."
+    ),
+}
+
 
 class FixtureData(Exception):
     """Raised when fixture-derived output would reach a client-facing location."""
