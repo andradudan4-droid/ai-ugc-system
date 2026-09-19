@@ -1,0 +1,95 @@
+{
+  "products": {
+    "n": 0,
+    "vendor": "Beauty From Bees",
+    "source": "homepage/catalogue rail \u2014 /products.json not served",
+    "items": [
+      {
+        "title": "Face Serum (Night, Lactic Acid 10%)",
+        "type": "Face Serum",
+        "tags": [],
+        "price": "",
+        "available": true,
+        "created": "",
+        "body": "10% lactic acid night serum."
+      },
+      {
+        "title": "Face Serum (Day, Hyaluronic 2%)",
+        "type": "Face Serum",
+        "tags": [],
+        "price": "",
+        "available": true,
+        "created": "",
+        "body": "2% hyaluronic day serum."
+      },
+      {
+        "title": "Face Oil (Moisture Absolute)",
+        "type": "Face Oil",
+        "tags": [],
+        "price": "",
+        "available": true,
+        "created": "",
+        "body": "Facial oil."
+      },
+      {
+        "title": "Face Spritz - Probiotic Infused",
+        "type": "Toner",
+        "tags": [],
+        "price": "",
+        "available": true,
+        "created": "",
+        "body": "Probiotic-infused facial spritz."
+      },
+      {
+        "title": "Body Serum",
+        "type": "Body Treatment",
+        "tags": [],
+        "price": "",
+        "available": true,
+        "created": "",
+        "body": "Bestseller body serum."
+      },
+      {
+        "title": "Mini Collection (all 7 facial essentials)",
+        "type": "Bundle",
+        "tags": [],
+        "price": "",
+        "available": true,
+        "created": "",
+        "body": "Try-all bundle at 45% off \u2014 the brand's main acquisition offer."
+      },
+      {
+        "title": "Magnesium Oil",
+        "type": "Body Treatment",
+        "tags": [],
+        "price": "",
+        "available": true,
+        "created": "",
+        "body": "Magnesium oil."
+      },
+      {
+        "title": "Lip Serum",
+        "type": "Lip Care",
+        "tags": [],
+        "price": "",
+        "available": true,
+        "created": "",
+        "body": "Lip serum."
+      }
+    ]
+  },
+  "home": {
+    "title": "Natural Skin, Body, Bath Products for Adults & Kids - Beauty From Bees",
+    "description": "Naturally handcrafted bath products that are safe for the whole family! Probiotic and antioxidant infused for health and skin benefits. No synthetic fragrances are used, only pure essential oils.",
+    "site_name": "Beauty From Bees",
+    "fit": "**Core skincare, good fit.** Canadian, formulates in-house, and leads on full-ingredient transparency rather than hero ingredients \u2014 a defensible and differentiated angle. Breadth is the risk: skincare, makeup, haircare, baby care and 'Good Fumes' in one catalogue means creative has to pick a lane per audience rather than sell the brand.",
+    "headings": [
+      "Meet Your New Healthy Skin Routine.",
+      "The Beauty From Bees Difference",
+      "Find Us In Stores"
+    ],
+    "reviews": "",
+    "rating": "",
+    "body_sample": "TRY ALL 7. SAVE 45%. Meet Your New Healthy Skin Routine. Try all 7 facial essentials in our Mini Collection for 45% off. $125+ Free Shipping, Satisfaction Guarantee. Collections: BODY CARE, SKINCARE, MAKE-UP, HAIR CARE, GOOD FUMES, BABY CARE. We formulate every product in-house and never let anyone else pick our ingredients. No cheap fillers or synthetics. Unlike other brands, we don't just highlight a few hero ingredients and hide the rest \u2014 we highlight all of our ingredients because they are all heroes."
+  }
+}

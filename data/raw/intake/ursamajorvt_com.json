@@ -1,0 +1,60 @@
+{
+  "products": {
+    "n": 0,
+    "vendor": "Ursa Major Skincare",
+    "source": "homepage/catalogue rail \u2014 /products.json not served",
+    "items": [
+      {
+        "title": "Golden Hour Recovery Cream",
+        "type": "Face Moisturizer",
+        "tags": [],
+        "price": "54.00",
+        "available": true,
+        "created": "",
+        "body": "Nourishing, fast-absorbing face cream. Rated 4.5. Bestseller."
+      },
+      {
+        "title": "Mountain Glow Serum",
+        "type": "Face Serum",
+        "tags": [],
+        "price": "84.00",
+        "available": true,
+        "created": "",
+        "body": "Deeply rejuvenating serum supporting firm, glowy skin. Rated 4.7."
+      },
+      {
+        "title": "Fantastic Face Wash",
+        "type": "Cleanser",
+        "tags": [],
+        "price": "",
+        "available": true,
+        "created": "",
+        "body": "Foaming cleansing gel for clear, balanced skin. Bestseller."
+      },
+      {
+        "title": "Sunny Start Eye Serum",
+        "type": "Eye Serum",
+        "tags": [],
+        "price": "",
+        "available": true,
+        "created": "",
+        "body": "New launch, given the homepage hero slot."
+      }
+    ]
+  },
+  "home": {
+    "title": "Ursa Major | Clean, Forest-Powered Skincare Made in Vermont",
+    "description": "Clean, forest-powered skincare for the best skin of your life. Vegan, cruelty-free, B Corp certified face, body & hair essentials made in Vermont. Free shipping on $40+ orders.",
+    "site_name": "Ursa Major Skincare",
+    "fit": "**Core skincare, strong fit.** Vermont-made, B Corp certified, vegan and cruelty-free, at a premium price point ($54\u2013$84). Place and provenance are the differentiator, which gives creative something concrete to shoot rather than another actives argument. Cleanest claim profile in this batch \u2014 no time-bound efficacy promises on the homepage at all.",
+    "headings": [
+      "Refreshingly different skincare",
+      "Bestsellers",
+      "Build your routine & save",
+      "Our supernatural formulas"
+    ],
+    "reviews": "",
+    "rating": "4.5",
+    "body_sample": "NEW! Sunny Start Eye Serum. FREE GIFT: 20 Count Face Wipes in orders $125+. Refreshingly different skincare. Forest-infused skincare essentials, made for skin and spirit. Bestsellers: Golden Hour Recovery Cream $54.00 (4.5), Mountain Glow Serum $84.00 (4.7), Fantastic Face Wash. Vegan, cruelty-free, B Corp certified. Made in Vermont."
+  }
+}

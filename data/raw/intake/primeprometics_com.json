@@ -1,0 +1,42 @@
+{
+  "products": {
+    "n": 0,
+    "vendor": "PrimePrometics",
+    "source": "homepage/catalogue rail \u2014 /products.json not served",
+    "items": [
+      {
+        "title": "Primelash Mascara",
+        "type": "Mascara",
+        "tags": [],
+        "price": "",
+        "available": true,
+        "created": "",
+        "body": "#1 tubing mascara for mature women. 3x length and definition, water-resistant, clump-free, 7 shades. 4.9 from 40,000+ customers."
+      },
+      {
+        "title": "Pro-Age make-up range",
+        "type": "Makeup",
+        "tags": [],
+        "price": "",
+        "available": true,
+        "created": "",
+        "body": "Full pro-age colour line, positioned for sensitive skin and eyes."
+      }
+    ]
+  },
+  "home": {
+    "title": "PrimePrometics - Pro-Age Make-up That Heals",
+    "description": "Pro-Age Make-up That Heals",
+    "site_name": "PrimePrometics",
+    "fit": "**Makeup, not skincare \u2014 but a clean adjacent fit.** Colour cosmetics for mature women, with the 'pro-age' framing doing the differentiating. Highly demo-able (application on mature skin, before/after on lashes) and the audience overlaps the mature-skin skincare brands in this list, so an avatar pool is shared. Treat as its own angle set. **Claim flag:** the brand's own tagline is 'Make-up That Heals' \u2014 'heals' is drug-claim language and must not carry into creative, even though it is their line.",
+    "headings": [
+      "#1 TUBING MASCARA FOR MATURE WOMEN",
+      "PRO-AGE MAKE-UP: TURNING WRINKLES INTO SMILE LINES",
+      "EVERY PRODUCT MADE FOR SENSITIVE SKIN & EYES",
+      "TRUSTED BY OVER 2 MILLION WOMEN"
+    ],
+    "reviews": "40,000",
+    "rating": "4.9",
+    "body_sample": "Pro-Age Make-up That Heals. Primelash Mascara \u2014 #1 TUBING MASCARA FOR MATURE WOMEN. 3x length & definition. Water-resistant. Clump-free. In 7 iconic shades. 4.9 Top-Rated by 40,000+ Customers. PRO-AGE MAKE-UP: TURNING WRINKLES INTO SMILE LINES. Use our deeply-researched pro-age make-up to look & feel like your best version yet. EVERY PRODUCT MADE FOR SENSITIVE SKIN & EYES. TRUSTED BY OVER 2 MILLION WOMEN. Free Shipping over \u00a365."
+  }
+}

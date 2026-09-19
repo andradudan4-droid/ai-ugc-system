@@ -1,0 +1,79 @@
+{
+  "products": {
+    "n": 0,
+    "vendor": "Blume",
+    "source": "homepage/catalogue rail \u2014 /products.json not served",
+    "items": [
+      {
+        "title": "Meltdown Acne Oil Treatment",
+        "type": "Acne Treatment",
+        "tags": [],
+        "price": "40.00",
+        "available": true,
+        "created": "",
+        "body": "Spot and all-over acne care. 4,900 ratings \u2014 the hero SKU."
+      },
+      {
+        "title": "Clear Skin Kit: Acne Essentials",
+        "type": "Bundle",
+        "tags": [],
+        "price": "57.00",
+        "available": true,
+        "created": "",
+        "body": "3-step hormonal acne routine, from 101.00. Claim: 'Works in Just 3 Days'."
+      },
+      {
+        "title": "Meltdown Gel Cream",
+        "type": "Face Moisturizer",
+        "tags": [],
+        "price": "",
+        "available": true,
+        "created": "",
+        "body": "Part of the Meltdown acne collection."
+      },
+      {
+        "title": "Meltdown Gel Cleanser",
+        "type": "Cleanser",
+        "tags": [],
+        "price": "",
+        "available": true,
+        "created": "",
+        "body": "Part of the Meltdown acne collection."
+      },
+      {
+        "title": "Milky Fade Serum",
+        "type": "Face Serum",
+        "tags": [],
+        "price": "",
+        "available": true,
+        "created": "",
+        "body": "Dark spot fading serum."
+      },
+      {
+        "title": "The Ultimate Clear Skin Routine",
+        "type": "Bundle",
+        "tags": [],
+        "price": "72.00",
+        "available": true,
+        "created": "",
+        "body": "Full bundle from 146.00 at 50% off."
+      }
+    ]
+  },
+  "home": {
+    "title": "Blume | Make Every Day a Healthy Skin Day",
+    "description": "Hi, we're Blume and we're all up in your bathroom with products that are good for you, and the environment. Award winning skin care. Clean, effective and affordable.",
+    "site_name": "Blume",
+    "fit": "**Core skincare, strong fit.** Hormonal-acne focus with a clear hero SKU and a young audience that is native to UGC. Two claim cautions: 'Works in Just 3 Days' is a specific time-bound efficacy claim, and 'Dermatologist Recommended' appears as a homepage heading \u2014 both need substantiation on file before creative repeats them. Heavy bundle discounting (43\u201350%) alongside 310 active ads suggests margin pressure.",
+    "headings": [
+      "Clear, Healthy, Hydrated Skin in 3 Easy Steps",
+      "BEST BUNDLES",
+      "SHOP BY SKIN TYPE",
+      "BEST SELLERS",
+      "Dermatologist Recommended"
+    ],
+    "reviews": "5000",
+    "rating": "",
+    "body_sample": "5000+ 5 star reviews. Clear, Healthy, Hydrated Skin in 3 Easy Steps. The Clear Skin Kit is your new 3-step routine to get clear skin and end your acne journey, once and for all. SHOP NOW FOR 43% OFF. Clear Skin Kit: Acne Essentials \u2014 Your 3-Step Hormonal Acne Solution That Works in Just 3 Days. SHOP BY SKIN TYPE: Dark Spots, Sensitive Skin, Dry Skin, Pores, Acne-Prone. Meltdown Acne Oil Treatment, 4,900 ratings, \u00a340.00. Dermatologist Recommended."
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "products": {
+    "n": 0,
+    "vendor": "Strawberry",
+    "source": "homepage/catalogue rail \u2014 /products.json not served",
+    "items": [
+      {
+        "title": "KP / Strawberry Skin treatment",
+        "type": "Body Treatment",
+        "tags": [],
+        "price": "",
+        "available": true,
+        "created": "",
+        "body": "Targets keratosis pilaris \u2014 rough, bumpy 'strawberry skin' on arms and legs. The brand's defining concern."
+      },
+      {
+        "title": "Hyperpigmentation range",
+        "type": "Body Treatment",
+        "tags": [],
+        "price": "",
+        "available": true,
+        "created": "",
+        "body": "Dark spots and uneven tone."
+      },
+      {
+        "title": "Eczema & Dryness range",
+        "type": "Body Treatment",
+        "tags": [],
+        "price": "",
+        "available": true,
+        "created": "",
+        "body": "Dry, itchy, irritated patches."
+      }
+    ]
+  },
+  "home": {
+    "title": "Science-Backed Care for Keratosis Pilaris & Strawberry Skin",
+    "description": "Improve keratosis pilaris, strawberry skin and dark spots with targeted formulas designed to smooth KP bumps and support even-looking skin.",
+    "site_name": "Strawberry",
+    "fit": "**Core skincare, strong fit, unusually sharp niche.** Keratosis pilaris is a specific, visible, under-served concern with a built-in visual demo and a named search term people already use. A concern-first site architecture ('Pick one and we'll do the rest') maps almost one-to-one onto hook segmentation. Best niche fit of this batch. Claim caution: eczema is a medical condition \u2014 the copy hedges with 'support' and 'designed to', and creative must keep that hedge.",
+    "headings": [
+      "What's Your Skin Concern?",
+      "SOLUTIONS FOR YOUR MOST COMMON SKIN CONCERNS",
+      "WHAT OUR CUSTOMERS SAY"
+    ],
+    "reviews": "6,000",
+    "rating": "4.9",
+    "body_sample": "4.9 \u00b7 6,000+ verified reviews. Pick one and we'll do the rest. Keratosis Pilaris \u2014 strawberry skin on arms & legs. Hyperpigmentation \u2014 dark spots & uneven tone. Eczema & Dryness \u2014 dry, itchy, irritated patches. FALL SALE 50% OFF. Skin texture concerns such as keratosis pilaris, uneven pigmentation, and sensitivity often require targeted care. TryStrawberry formulations are developed to address these concerns with carefully selected ingredients designed to support smoother, balanced-looking skin."
+  }
+}
