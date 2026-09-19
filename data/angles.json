@@ -1,0 +1,325 @@
+{
+  "corpus": {
+    "hooks": 113,
+    "classified": 113,
+    "unclassified": 0,
+    "brands": [
+      "Asarai",
+      "Froya Organics",
+      "Saeskyn",
+      "Saltair",
+      "SpoiledChild"
+    ],
+    "min_days_running": 45,
+    "scope_warning": "PILOT CORPUS — 5 fatigued brands of 81 in scope. 'unclaimed' means absent from THIS sample, not proven absent from the category. Verify against the full 81 before putting an unclaimed angle in front of a client.",
+    "absence_is_measured_on": "hook position only (the ad's opening line). An angle listed as unclaimed may still appear deeper in body copy — it is unclaimed as a HOOK, which is the unit being sold."
+  },
+  "saturated_angles": [
+    {
+      "angle": "routine_simplification",
+      "hook_type": "pov_format",
+      "brands": [
+        "Froya Organics",
+        "Saeskyn",
+        "Saltair"
+      ],
+      "brand_count": 3,
+      "ad_count": 11,
+      "median_days_running": 152,
+      "max_days_running": 283,
+      "examples": [
+        "2 steps for juicy, hydrated, glowy skin🧴",
+        "THE bundle for smooth and hydrated skin!!",
+        "Skincare for our bodies just got a whole lot easier with Saltair's newest HA Body Serum + Retinol bundle"
+      ],
+      "saturation": "saturated"
+    },
+    {
+      "angle": "customer_testimonial",
+      "hook_type": "social_proof",
+      "brands": [
+        "Froya Organics",
+        "SpoiledChild"
+      ],
+      "brand_count": 2,
+      "ad_count": 25,
+      "median_days_running": 256,
+      "max_days_running": 614,
+      "examples": [
+        "I love this liquid collagen from SpoiledChild...",
+        "¡Realmente me gusta este sabor!",
+        "¡Realmente me gusta este sabor!"
+      ],
+      "saturation": "saturated"
+    },
+    {
+      "angle": "third_party_verdict",
+      "hook_type": "authority_borrow",
+      "brands": [
+        "Asarai",
+        "SpoiledChild"
+      ],
+      "brand_count": 2,
+      "ad_count": 13,
+      "median_days_running": 276,
+      "max_days_running": 373,
+      "examples": [
+        "See why these celebs can't get enough of the amazing Extra Strength Liquid Collagen",
+        "See why these celebs can't get enough of the amazing E27 Extra Strength Liquid Collagen",
+        "See why these celebs can't get enough of the amazing E27 Extra Strength Liquid Collagen"
+      ],
+      "saturation": "saturated"
+    },
+    {
+      "angle": "injectable_displacement",
+      "hook_type": "enemy_reframe",
+      "brands": [
+        "Froya Organics",
+        "Saeskyn"
+      ],
+      "brand_count": 2,
+      "ad_count": 12,
+      "median_days_running": 201,
+      "max_days_running": 207,
+      "examples": [
+        "What if everything you believed about Botox was wrong?",
+        "What if everything you believed about Botox was wrong?",
+        "What if everything you believed about Botox was wrong?"
+      ],
+      "saturation": "saturated"
+    },
+    {
+      "angle": "failed_solutions",
+      "hook_type": "empathy_callout",
+      "brands": [
+        "Froya Organics",
+        "Saeskyn"
+      ],
+      "brand_count": 2,
+      "ad_count": 10,
+      "median_days_running": 207,
+      "max_days_running": 274,
+      "examples": [
+        "It started with a few fine lines.",
+        "I thought I was taking care of my skin.",
+        "You've tried the vitamin C serums."
+      ],
+      "saturation": "saturated"
+    },
+    {
+      "angle": "result_first",
+      "hook_type": "outcome_claim",
+      "brands": [
+        "Asarai",
+        "Saltair"
+      ],
+      "brand_count": 2,
+      "ad_count": 9,
+      "median_days_running": 170,
+      "max_days_running": 399,
+      "examples": [
+        "Beneficial body care 🍊 >>> adding this into my bodycare routine cause I want this skin to GLOW.",
+        "Our viral Hyaluronic Acid Body Serum is your warm-weather skin staple.",
+        "Upgrade your basic shower routine with Saltair's Salt Water Vanilla Essentials Set."
+      ],
+      "saturation": "saturated"
+    },
+    {
+      "angle": "mechanism_explainer",
+      "hook_type": "curiosity_gap",
+      "brands": [
+        "Froya Organics",
+        "Saeskyn"
+      ],
+      "brand_count": 2,
+      "ad_count": 6,
+      "median_days_running": 135,
+      "max_days_running": 522,
+      "examples": [
+        "The reason your face looks different in the mirror isn't just gravity.",
+        "Nobel Prize-Winning Science for Ageless Skin✨",
+        "A Harvard dermatology study just shattered everything we thought about skincare."
+      ],
+      "saturation": "saturated"
+    },
+    {
+      "angle": "symptom_callout",
+      "hook_type": "problem_open",
+      "brands": [
+        "Froya Organics",
+        "SpoiledChild"
+      ],
+      "brand_count": 2,
+      "ad_count": 3,
+      "median_days_running": 267,
+      "max_days_running": 323,
+      "examples": [
+        "Ditch the concealer with the SpoiledChild™ Miracle Eye Corrector!",
+        "Got tired morning eyes?",
+        "⚠️ IF YOU'RE 40+, YOU SHOULD KNOW THIS:"
+      ],
+      "saturation": "saturated"
+    },
+    {
+      "angle": "ingredient_discovery",
+      "hook_type": "curiosity_gap",
+      "brands": [
+        "Asarai",
+        "Froya Organics"
+      ],
+      "brand_count": 2,
+      "ad_count": 3,
+      "median_days_running": 158,
+      "max_days_running": 292,
+      "examples": [
+        "💛 The Anti-Aging Ingredient You've Never Heard Of …",
+        "💛 The Anti-Aging Product You've Never Heard Of …",
+        "Meet Earth Tones, the Aussie red clay mask, where naturopathy meets skincare— clears acne, calms & soothes ski"
+      ],
+      "saturation": "saturated"
+    }
+  ],
+  "contested_angles": [],
+  "single_brand_angles": [
+    {
+      "angle": "launch_scent",
+      "hook_type": "newness",
+      "brands": [
+        "Saltair"
+      ],
+      "brand_count": 1,
+      "ad_count": 7,
+      "median_days_running": 199,
+      "max_days_running": 220,
+      "examples": [
+        "Saltair just launched it's latest exciting scent, Coral Coast.",
+        "Meet your NEW favorite Saltair collection ✨",
+        "Driftwood sells out fast, so you may want to RUN!"
+      ],
+      "saturation": "single_brand"
+    },
+    {
+      "angle": "ingredient_villain",
+      "hook_type": "enemy_reframe",
+      "brands": [
+        "Froya Organics"
+      ],
+      "brand_count": 1,
+      "ad_count": 5,
+      "median_days_running": 173,
+      "max_days_running": 408,
+      "examples": [
+        "The $8 billion peptide lie that's aging your skin faster 💉",
+        "Retinol is Ruining Your Skin.",
+        "Did you know that your drugstore anti-aging routines actually make mature skin worse?"
+      ],
+      "saturation": "single_brand"
+    },
+    {
+      "angle": "sensory_escapism",
+      "hook_type": "aspiration",
+      "brands": [
+        "Saltair"
+      ],
+      "brand_count": 1,
+      "ad_count": 4,
+      "median_days_running": 188,
+      "max_days_running": 216,
+      "examples": [
+        "New year ritual = Saltair in the shower.",
+        "A body oil that gives you that post vacation glow and nourishes your skin at the same time.",
+        "This is truly summer captured inside a bottle!!"
+      ],
+      "saturation": "single_brand"
+    },
+    {
+      "angle": "heritage_origin",
+      "hook_type": "story_open",
+      "brands": [
+        "Froya Organics"
+      ],
+      "brand_count": 1,
+      "ad_count": 4,
+      "median_days_running": 365,
+      "max_days_running": 380,
+      "examples": [
+        "💜 Arnica, sea buckthorn, and calendula are powerful arctic plants that transform your complexion.",
+        "If Viking women had a skincare secret… this was it",
+        "If Viking women had a skincare secret… this was it"
+      ],
+      "saturation": "single_brand"
+    },
+    {
+      "angle": "retail_availability",
+      "hook_type": "convenience",
+      "brands": [
+        "Saltair"
+      ],
+      "brand_count": 1,
+      "ad_count": 1,
+      "median_days_running": 216,
+      "max_days_running": 216,
+      "examples": [
+        "Target runs always include stocking up on our Saltair faves."
+      ],
+      "saturation": "single_brand"
+    }
+  ],
+  "unclaimed_angles": [
+    {
+      "angle": "glp1_facial_volume_loss",
+      "description": "GLP-1 / weight-loss facial volume loss ('Ozempic face') — rapid loss deflates the midface and is the single loudest skin conversation of the moment.",
+      "probe": "ozempic|glp-?1|weight ?loss|semaglutide|gaunt|volume loss|hollow",
+      "corpus_hits": 0
+    },
+    {
+      "angle": "menopause_skin",
+      "description": "Perimenopause / menopause skin — estrogen decline changes barrier, collagen and oil within months. The corpus sells to 40+ women without ever naming the transition they are in.",
+      "probe": "menopaus|perimenopaus|estrogen|hormonal shift|hot flash|hrt",
+      "corpus_hits": 0
+    },
+    {
+      "angle": "pregnancy_safe",
+      "description": "Pregnancy- and nursing-safe actives — a hard constraint that forces a routine rebuild and makes switching brand-agnostic.",
+      "probe": "pregnan|nursing|breastfeed|trying to conceive|postpartum|baby-safe",
+      "corpus_hits": 0
+    },
+    {
+      "angle": "reactive_sensitive_identity",
+      "description": "Reactive / sensitive skin as identity, not spec — 'if your face reacts to everything'. Barrier appears in the corpus only as mechanism inside body copy, never as who the viewer is.",
+      "probe": "reacts to everything|sensitive skin lead|rosacea|eczema|allergic|stings|flare",
+      "corpus_hits": 0
+    },
+    {
+      "angle": "dermatologist_as_ally",
+      "description": "Dermatologist as ally. Every derm reference in the corpus is adversarial — dismissive, hiding something, overprescribing. Nobody runs calm, genuine clinical endorsement, which is wide open precisely because everyone vacated it.",
+      "probe": "dermatologist recommend|my dermatologist said|derm-approved|board-certified",
+      "corpus_hits": 0
+    },
+    {
+      "angle": "male_facing",
+      "description": "Men's skin. Zero male-addressed hooks in the corpus; the entire sample speaks to women.",
+      "probe": "\\bmen\\b|\\bhis\\b|boyfriend|husband|guys|dad\\b|beard",
+      "corpus_hits": 0
+    },
+    {
+      "angle": "prevention_early",
+      "description": "Prevention for under-30s — selling before damage, to an audience the corpus only addresses after the fact.",
+      "probe": "in your 20s|before it starts|prevent(ion|ative) routine|early twenties|gen z",
+      "corpus_hits": 0
+    },
+    {
+      "angle": "skin_as_signal",
+      "description": "Skin as diagnostic signal of sleep, stress, gut or hydration — reframes skincare as reading the body rather than coating it.",
+      "probe": "your gut|sleep is|stress is showing|cortisol|what your skin is telling",
+      "corpus_hits": 0
+    },
+    {
+      "angle": "water_quality",
+      "description": "Water quality — hard water and chlorine as the upstream cause. Adjacent categories run this hard; no skincare brand in the corpus touches it.",
+      "probe": "hard water|tap water|chlorine|shower filter|limescale",
+      "corpus_hits": 0
+    }
+  ],
+  "demoted_candidates": []
+}

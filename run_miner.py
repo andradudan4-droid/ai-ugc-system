@@ -23,6 +23,9 @@ ROOT = pathlib.Path(__file__).resolve().parent
 SHARED = pathlib.Path.home() / "Desktop" / "ai-ugc-system" / "shared" / "data"
 ADS = ROOT / "data" / "raw" / "ads"
 
+# Approved 2026-09-19: ship copy-derived openings, labelled, pending a transcript source (§10).
+ALLOW_COPY_DERIVED = True
+
 
 def plan() -> pathlib.Path:
     rows = resolve()
@@ -59,10 +62,10 @@ def build() -> None:
                 has_video=a.get("has_video", False), primary_text=a.get("primary_text"),
                 hook_text=a.get("hook_text"),
             ))
-    h, p = hooks_mod.build(records)
+    h, p = hooks_mod.build(records, allow_copy_derived=ALLOW_COPY_DERIVED)
     hooks_mod.write_jsonl(h, SHARED / "hooks.jsonl")
     hooks_mod.write_jsonl(p, ROOT / "data" / "hooks_pending.jsonl")
-    print(f"build: {len(records)} ads -> {len(h)} hooks (30d+, transcribed), {len(p)} pending")
+    print(f"build: {len(records)} ads -> {len(h)} hooks (30d+), {len(p)} pending")
 
 
 if __name__ == "__main__":
