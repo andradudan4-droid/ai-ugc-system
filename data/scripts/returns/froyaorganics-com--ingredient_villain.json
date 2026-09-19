@@ -1,0 +1,71 @@
+[
+  {
+    "script_id": "froyaorganics-com-ingredient_villain-01",
+    "brand_slug": "froyaorganics-com",
+    "angle_id": "ingredient_villain",
+    "source_hook_ids": [],
+    "product": "Anti-Age & Insane Glow Day Balm ($29.70)",
+    "avatar_brief": "Woman 52-60, sitting on a closed toilet lid in a small bathroom with the cabinet open behind her, products visibly crowded on the shelves. No makeup, hair up. Delivery is deadpan and slightly self-mocking — she is indicting her own past spending, not lecturing the viewer.",
+    "hook": "I counted. Eleven products, and nine of them are mostly water.",
+    "first_frame": "Open bathroom cabinet crammed with bottles, shot straight on. Her hand is already reaching in to start pulling them out.",
+    "beats": [
+      {"t": 0, "vo": "I counted. Eleven products, and nine of them are mostly water.", "visual": "Cabinet open, she lifts out bottles one at a time and lines them on the sink."},
+      {"t": 6, "vo": "That's what a light lotion is. Water, a thickener, and enough active to put on the front of the box.", "visual": "She tips one bottle sideways — the lotion runs thin and fast off her fingers."},
+      {"t": 14, "vo": "On skin that's already drier than it used to be, water evaporates and takes your own moisture with it.", "visual": "Close on the thin lotion absorbing instantly on the back of her hand, leaving nothing."},
+      {"t": 21, "vo": "This is a balm. Sea buckthorn and pomegranate, beeswax base. It doesn't vanish because there's nothing in it to evaporate.", "visual": "She scoops the Frøya day balm — it holds its shape, stretches between her fingers."},
+      {"t": 29, "vo": "95% reported youthful glow, and studies show 22% younger skin. Thirty dollars.", "visual": "Pressing it into her cheek, the finish sits visibly on the surface then settles."},
+      {"t": 36, "vo": "Anti-Age and Insane Glow Day Balm, from Frøya. Go and tip your moisturiser sideways.", "visual": "The row of thin bottles on the sink, one jar standing apart. Brand on screen."}
+    ],
+    "cta": "Anti-Age and Insane Glow Day Balm, from Frøya. Go and tip your moisturiser sideways.",
+    "duration_s": 42,
+    "claims_used": ["95% reported youthful glow", "studies show 22% younger skin"],
+    "provenance": "angles.json (angles.json)",
+    "status": "draft"
+  },
+  {
+    "script_id": "froyaorganics-com-ingredient_villain-02",
+    "brand_slug": "froyaorganics-com",
+    "angle_id": "ingredient_villain",
+    "source_hook_ids": [],
+    "product": "Balm for Acne-Prone Skin ($29.00)",
+    "avatar_brief": "Woman 44-52, kitchen table, reading glasses pushed up on her head, a product box in her hands. Daylight. Delivery is patient and a little amused — the register of someone who has learned to read labels and now cannot stop.",
+    "hook": "The word 'fragrance' on a label can legally hide about three thousand ingredients.",
+    "first_frame": "Her hands holding a generic cream tube, glasses coming down onto her nose as she turns it to the ingredients panel.",
+    "beats": [
+      {"t": 0, "vo": "The word 'fragrance' on a label can legally hide about three thousand ingredients.", "visual": "Glasses down, finger tracing the ingredients list on a generic tube."},
+      {"t": 7, "vo": "I found that out after two years of blaming my own face for reacting to things.", "visual": "She sets the tube down, looks at camera over the glasses."},
+      {"t": 14, "vo": "Now I buy things where the list is short enough to read out loud. Marigold. Calendula. Beeswax.", "visual": "She picks up the Frøya balm, turns it, reads it — genuinely short list, held steady and legible."},
+      {"t": 22, "vo": "It's made for red, breakout-prone skin, and it calms and protects with arctic plants.", "visual": "Opens the jar, takes a small amount, dabs it on a reddened patch along the jaw."},
+      {"t": 29, "vo": "Twenty-nine dollars. If you can't pronounce your current one, that's the experiment.", "visual": "Both products side by side on the table — one long label, one short."},
+      {"t": 36, "vo": "Balm for Acne-Prone Skin, from Frøya. Read yours out loud tonight.", "visual": "Glasses back up on her head, jar in hand, brand on screen."}
+    ],
+    "cta": "Balm for Acne-Prone Skin, from Frøya. Read yours out loud tonight.",
+    "duration_s": 41,
+    "claims_used": ["made for red, breakout-prone skin", "calms & protects skin with Arctic plants"],
+    "provenance": "angles.json (angles.json)",
+    "status": "draft"
+  },
+  {
+    "script_id": "froyaorganics-com-ingredient_villain-03",
+    "brand_slug": "froyaorganics-com",
+    "angle_id": "ingredient_villain",
+    "source_hook_ids": [],
+    "product": "Magic Revive Eye Balm ($52.00)",
+    "avatar_brief": "Woman 56-64, seated at a dressing table with a lit mirror, mid-morning, cardigan. Delivery is crisp and a bit exasperated — the tone of someone correcting a thing she has heard repeated too often.",
+    "hook": "Eye creams are mostly face cream in a smaller jar at four times the price.",
+    "first_frame": "Her at a lit dressing-table mirror, holding two jars up side by side — one obviously tiny, one normal-sized.",
+    "beats": [
+      {"t": 0, "vo": "Eye creams are mostly face cream in a smaller jar at four times the price.", "visual": "Two jars held up to the mirror light, the size difference exaggerated by the framing."},
+      {"t": 7, "vo": "I compared the lists once. Same first six ingredients. Different box.", "visual": "She sets both down, taps each in turn."},
+      {"t": 13, "vo": "The thing that actually changed it for me was a balm built round arnica, specifically for the thinner skin there.", "visual": "Opens the Frøya eye balm, shows the texture — denser than a cream."},
+      {"t": 21, "vo": "Six of the ten top anti-age ingredients, and it looks less puffy in 4 to 9 days.", "visual": "Ring-finger tapping along the orbital bone in the mirror light."},
+      {"t": 28, "vo": "Fifty-two dollars, which is not cheap, and I'd rather pay it once than pay less four times.", "visual": "She caps the jar, sets it in front of the mirror."},
+      {"t": 35, "vo": "Magic Revive Eye Balm, from Frøya. Compare the lists before you buy the box.", "visual": "Both jars in frame, the small one pushed aside. Brand on screen."}
+    ],
+    "cta": "Magic Revive Eye Balm, from Frøya. Compare the lists before you buy the box.",
+    "duration_s": 40,
+    "claims_used": ["6 of the 10 top anti-age ingredients", "looks less puffy in 4-9 days"],
+    "provenance": "angles.json (angles.json)",
+    "status": "draft"
+  }
+]

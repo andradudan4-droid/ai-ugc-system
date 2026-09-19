@@ -1,0 +1,71 @@
+[
+  {
+    "script_id": "froyaorganics-com-customer_testimonial-01",
+    "brand_slug": "froyaorganics-com",
+    "angle_id": "customer_testimonial",
+    "source_hook_ids": [],
+    "product": "The Complete System for Mature Women's Skin ($121.07)",
+    "avatar_brief": "Woman 62-70, in a conservatory or by a window with plants, cup of tea, cardigan. Unhurried. Delivery is specific and undramatic — she gives dates and details rather than adjectives, which is what makes it land as testimony rather than advertising.",
+    "hook": "Four months. That's how long before I stopped checking whether it was working.",
+    "first_frame": "Her by a bright window, tea in hand, mid-sentence as if the camera started late. Face fully visible in daylight, no makeup.",
+    "beats": [
+      {"t": 0, "vo": "Four months. That's how long before I stopped checking whether it was working.", "visual": "Window light, tea, she is settled and still. No product in frame yet."},
+      {"t": 6, "vo": "I'm not going to show you a before photo. I didn't take one, because I didn't expect anything.", "visual": "Small shrug, she sets the tea down."},
+      {"t": 13, "vo": "What I noticed was small. I stopped putting powder on at eleven in the morning to fix how my face had gone.", "visual": "She touches her cheek briefly, matter-of-fact."},
+      {"t": 21, "vo": "It's four steps. Scrub, day balm, eye balm, night balm. Arctic plants. Supports the skin barrier in 7 days, though for me it was longer than that.", "visual": "The four jars set out on the windowsill in order, sunlight behind them."},
+      {"t": 31, "vo": "A hundred and twenty-one dollars, sixty days or your money back. I'm on my third order.", "visual": "Back to her face, daylight, no retouching."},
+      {"t": 38, "vo": "The Complete System for Mature Women's Skin. Frøya. Give it longer than you think.", "visual": "She picks the tea back up. Brand name on screen."}
+    ],
+    "cta": "The Complete System for Mature Women's Skin. Frøya. Give it longer than you think.",
+    "duration_s": 44,
+    "claims_used": ["supports the skin barrier in 7 days", "results in 60 days or your money back"],
+    "provenance": "angles.json (angles.json)",
+    "status": "draft"
+  },
+  {
+    "script_id": "froyaorganics-com-customer_testimonial-02",
+    "brand_slug": "froyaorganics-com",
+    "angle_id": "customer_testimonial",
+    "source_hook_ids": [],
+    "product": "Magic Revive Hair & Scalp Shampoo ($29.00)",
+    "avatar_brief": "Woman 50-58, filmed in a car park or outside a hairdresser's, coat on, hair freshly done. Handheld, wind, slightly breathless — she has just walked out and is recording immediately. Delivery is fast and genuinely pleased.",
+    "hook": "My hairdresser asked what I'd changed. She's done my hair for nine years.",
+    "first_frame": "Outdoors, handheld selfie, hair visibly just blow-dried, salon window behind her slightly out of focus.",
+    "beats": [
+      {"t": 0, "vo": "My hairdresser asked what I'd changed. She's done my hair for nine years.", "visual": "Handheld, outdoors, wind moving the fresh blow-dry. Salon behind."},
+      {"t": 6, "vo": "I said nothing. Then I remembered — I swapped my shampoo about three months ago.", "visual": "She laughs, pushes hair back off her face."},
+      {"t": 13, "vo": "It's a rosemary one. Natural, meant to help rebuild the scalp barrier in 2 to 7 days.", "visual": "She holds the bottle up out of her bag, label readable in daylight."},
+      {"t": 20, "vo": "93% experience better hair, apparently. I just know someone who touches my head for a living noticed.", "visual": "Close on the ends of her hair between her fingers."},
+      {"t": 28, "vo": "Twenty-nine dollars. That's the whole story, I'm standing in a car park.", "visual": "Wider shot, car park visible, bottle still in hand."},
+      {"t": 34, "vo": "Magic Revive Hair and Scalp Shampoo, from Frøya. Ask someone who'd notice.", "visual": "She gets into the car. Brand name on screen."}
+    ],
+    "cta": "Magic Revive Hair and Scalp Shampoo, from Frøya. Ask someone who'd notice.",
+    "duration_s": 39,
+    "claims_used": ["helps rebuild scalp barrier in 2-7 days", "93% experience better hair"],
+    "provenance": "angles.json (angles.json)",
+    "status": "draft"
+  },
+  {
+    "script_id": "froyaorganics-com-customer_testimonial-03",
+    "brand_slug": "froyaorganics-com",
+    "angle_id": "customer_testimonial",
+    "source_hook_ids": [],
+    "product": "Dry and Itchy Balm for Face and Body ($44.00)",
+    "avatar_brief": "Woman 46-54, sitting on the end of a bed with a laundry basket beside her, dressing gown, late evening. Delivery is quiet and slightly flat — this is the least performed of the three, someone recounting something that mattered without wanting to make a thing of it.",
+    "hook": "I bought it for me. My daughter's the one who kept stealing it.",
+    "first_frame": "Her on the end of a bed, laundry basket half-folded beside her, lamp light. A small jar sitting on top of the folded clothes.",
+    "beats": [
+      {"t": 0, "vo": "I bought it for me. My daughter's the one who kept stealing it.", "visual": "She picks the jar off the laundry pile, turns it over in her hands."},
+      {"t": 6, "vo": "She's nineteen and her hands crack every winter. Mine's the elbows and shins, same as my mum.", "visual": "She shows her own forearm briefly, then lets the sleeve fall."},
+      {"t": 14, "vo": "It's chamomile and thistle in beeswax. Soothes dry, itchy skin, supports the skin barrier in 7 days.", "visual": "Opens the jar, the balm is solid and has to be warmed — she works it between her fingers."},
+      {"t": 22, "vo": "Gentle enough for face and body, which is the only reason two people can share one jar.", "visual": "Working it into a knuckle, then along the jaw."},
+      {"t": 29, "vo": "Forty-four dollars and I've bought it three times because it keeps leaving this house.", "visual": "She sets the jar back on the folded laundry, deadpan look to camera."},
+      {"t": 36, "vo": "Dry and Itchy Balm, from Frøya. Buy two if anyone else lives with you.", "visual": "Lamp light, jar on the laundry. Brand name on screen."}
+    ],
+    "cta": "Dry and Itchy Balm, from Frøya. Buy two if anyone else lives with you.",
+    "duration_s": 41,
+    "claims_used": ["soothes dry, itchy skin", "supports the skin barrier in 7 days", "gentle enough for face and body"],
+    "provenance": "angles.json (angles.json)",
+    "status": "draft"
+  }
+]

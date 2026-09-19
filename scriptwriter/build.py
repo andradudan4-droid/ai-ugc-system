@@ -103,9 +103,22 @@ def assemble() -> dict:
         for s in json.loads(f.read_text()):
             # Provenance is stamped from the angles file, not taken from the model's output.
             a = by_id.get(s.get("angle_id") or angle_id)
-            s["angle_evidence"] = evidence_grade(a) if a else "unknown"
-            s["angle_saturation"] = (a or {}).get("saturation", "unclaimed")
-            s["source_hook_ids"] = (a or {}).get("hook_ids", [])
+            if not a:
+                # Agent 2 re-derives on new corpora and angles appear and vanish between versions.
+                # A script whose angle no longer exists has lost its evidentiary basis and cannot be
+                # re-validated -- reject it. Never default a missing angle to "unclaimed": that is a
+                # positive claim of verified absence, and it would turn a stale reference into the
+                # most sellable label in the set.
+                problems.append({
+                    "file": f.name, "script_id": s.get("script_id"),
+                    "errors": [f"angle_id '{s.get('angle_id')}' is not in {src.name} — the angle it "
+                               f"was written against no longer exists in the corpus. Rewrite "
+                               f"against a current angle."],
+                })
+                continue
+            s["angle_evidence"] = evidence_grade(a)
+            s["angle_saturation"] = a.get("saturation", "unclaimed")
+            s["source_hook_ids"] = a.get("hook_ids", [])
             s["attribution_basis"] = _attribution(a, s["angle_evidence"])
             s["client_ready"] = ready
             if not ready:

@@ -48,6 +48,21 @@ ads — 24 of them ingestible or body-care. In facial skincare it runs on **one*
 away from one of the emptiest positions available to the brand it was writing for, on evidence that
 looked solid. A gate that only fires when someone remembers to think about it would not have fired.
 
+## A stale angle is rejected, never defaulted
+
+Agent 2 re-derives on new corpora and angles appear and vanish between versions — `heritage_origin`
+existed in v2 (Frøya, 4 ads) and is absent from v3. Three scripts had been written against it.
+
+The first version of this code defaulted a missing angle to `angle_saturation: "unclaimed"`. That is
+not a neutral fallback: `unclaimed` is a positive claim of *verified absence* and the most sellable
+label in the taxonomy, so a lookup miss silently became a stronger claim than the truth. Three stale
+scripts briefly sat in the published artifact labelled as the category's best open position.
+
+A script whose `angle_id` is not in the current `angles.json` is now **rejected**, with the angle
+named in the error. Its evidentiary basis is gone and it cannot be re-validated, so it does not
+belong in `scripts`. Defaults in this pipeline must fail toward the weaker claim, never the stronger
+one.
+
 ## Attribution is incomplete, and says so
 
 `docs/DESIGN.md` §2 requires every asset to trace back to the angle **and the hook** that produced
