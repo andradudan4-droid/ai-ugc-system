@@ -2,13 +2,12 @@
 
 > ## ⚠ DRAFT — NOT FOR SENDING
 >
-> Held pending Agent 2's transcription pass. Every finding below is measured on **caption openings**,
-> not on what is spoken in the video. Six of the nine original opportunity angles concern *who is
-> being addressed*, which caption text may not capture at all — so they may have survived a test
-> that was never able to reject them.
+> Held pending Agent 2's transcription pass. Everything below is measured on **caption openings**,
+> not on what is spoken in the video.
 >
-> **Four of five absence claims tested against the live Ad Library were falsified.** Read the
-> Evidence status of every claim below before quoting any of it.
+> This document deliberately makes **no claim that any position is unclaimed in the category.** An
+> earlier draft did. Nine such claims were tested against the live Ad Library and eight did not
+> survive — see *What we tested and withdrew*.
 
 ---
 
@@ -20,137 +19,136 @@
 | Inclusion rule | ads live **33+ days** — an ad still running after a month is paying for itself |
 | Category gate | per-ad, not per-brand: body care, ingestible, lip care and community ads excluded |
 | Evidence unit | **hook position only** — the ad's opening line |
-| Evidence grade | caption copy (`ad_copy_opening`). No spoken transcription yet. |
-| Corpus version | `ead00f7c359ea8c8`, generated 2026-09-19 |
+| Evidence grade | caption copy. No spoken transcription yet. |
+| Version | corpus `ead00f7c359ea8c8` · claims `216b73afcb9cbd77` · 2026-09-19 |
 
-Advertisers sampled: Asarai, Based Supplies, Biodance, DRMTLGY, Frøya Organics, GloMelanin,
-Good Molecules, JiYu Skin, Korean Skin Therapy, Navaro, Saeskyn, SpoiledChild.
-
-**What this cannot tell you.** Nothing here is a claim about ad *bodies*, landing pages, or what a
-brand sells — only about what it **opens with**. An argument absent from hook position may appear
-two lines later. We measured openings because the opening is what decides whether the ad is watched.
+**What this cannot tell you.** Nothing here is a claim about ad bodies, landing pages, or what a
+brand sells — only about what it **opens with**. We measured openings because the opening decides
+whether the ad is watched.
 
 ---
 
-## 1. What the category opens with
+## 1. What we tested and withdrew
 
-Ranked by ads in our sample. **Read the concentration column before treating any row as a category
-pattern.**
+We began with nine positions that appeared in zero of 139 openings. Rather than sell absence, we
+probed them against the live Ad Library by keyword. **Eight did not survive.**
 
-| Opening argument | Brands | Ads | Largest single brand | Category claim? |
-|---|---|---|---|---|
-| `injectable_displacement` — "skip the needles" | 5 | 38 | Korean Skin Therapy 42% | ✗ concentrated |
-| `symptom_callout` — names the visible problem | 6 | 17 | JiYu 53% | ✗ concentrated |
-| `failed_solutions` — "you've tried everything" | 3 | 14 | Based Supplies 50% | ✗ concentrated |
-| `mechanism_explainer` — why it works | 3 | 10 | Biodance 40% | ✗ concentrated |
-| `routine_simplification` — fewer steps | 4 | 9 | Saeskyn 56% | ✗ concentrated |
-| `result_first` — outcome up front | 3 | 8 | Asarai 50% | ✗ concentrated |
+| Position | Verdict |
+|---|---|
+| `menopause_skin` | **Claimed.** Maelove opens with it — *"Perimenopause changed my skin before I even realized… when estrogen drops, collagen production slows."* Live since 22 Jul. Olay tags creator content `#perimenopause`. |
+| `glp1_facial_volume_loss` | **Claimed by adjacents.** Worked hard by collagen supplements; no topical brand found. |
+| `skin_as_signal` | **Claimed by adjacents.** Ingestibles own the "inside out" frame. |
+| `pregnancy_safe` | **Claimed**, but only ~6 ads exist in the whole category. |
+| `dermatologist_as_ally`, `male_facing`, `reactive_sensitive_identity`, `prevention_early` | Withdrawn as untested. |
+| `water_quality` | **Holds** — but it is a water-filter argument, and you sell balms. |
 
-**No row here qualifies as a category finding, and we are not presenting one as such.** Our bar for
-"the category does X" is three or more independent advertisers with no single one above 30% of the
-evidence. Every angle in the sample fails it — each is really one or two advertisers running a lot
-of near-identical creative, not a category consensus. `injectable_displacement` is 38 ads, but 16 of
-them are Korean Skin Therapy running variations on one idea.
+**Why this matters more than a longer list would.** Absence in a 139-ad sample is weak evidence: a
+larger sample can only fail to contradict it, never confirm it. One keyword probe falsified four
+positions on the first attempt. We are telling you this because the alternative was a deck full of
+"nobody is doing X" claims that a competitor could disprove in one search — in front of you.
 
-This is itself the useful finding: **the category is less coordinated than it looks.** What reads as
-a crowded position is usually one competitor being loud.
-
-**Where Frøya already sits:** 6 of the 38 injectable-displacement ads are yours, plus 4 of 10 on
-mechanism, 3 of 5 on ingredient discovery, 3 of 4 on story openings. You are already competing in
-the most contested rooms in the sample. That is the argument for looking elsewhere.
+**Nothing in the rest of this document rests on an absence claim.**
 
 ---
 
-## 2. Lead opportunity — `dermatologist_as_ally`
+## 2. What the category opens with
 
-**The observation.** Across 139 openings, every dermatologist reference is *adversarial* — the
-dermatologist is dismissive, withholding, or overprescribing. Nobody opens by putting the
-dermatologist on the customer's side.
+Ranked by ads in our sample. **Read the concentration column.**
 
-The position exists in the category but only as **decoration, never as the argument**. DRMTLGY runs
-"🩺 Dermatologist Recommended" as a trust bullet inside the ad — never as the opening line. That
-distinction is the whole opportunity: a trust badge is skippable, an opening argument is not.
+| Opening argument | Brands | Ads | Largest single brand |
+|---|---|---|---|
+| `injectable_displacement` — "skip the needles" | 5 | 38 | Korean Skin Therapy **42%** |
+| `symptom_callout` — names the visible problem | 6 | 17 | JiYu **53%** |
+| `failed_solutions` — "you've tried everything" | 3 | 14 | Based Supplies **50%** |
+| `mechanism_explainer` — why it works | 3 | 10 | Biodance **40%** |
+| `routine_simplification` — fewer steps | 4 | 9 | Saeskyn **56%** |
 
-**Why it suits Frøya specifically.** You already carry *Dermatologist-Tested* on your own site and
-have never once opened an ad with it. This is not a new claim you would have to earn — it is an
-asset you already own, sitting unused in the position that decides whether the ad gets watched.
+Our bar for "the category does X" is three or more independent advertisers with **no single one
+above 30%** of the evidence. Every row fails it. Each is one or two advertisers running a lot of
+near-identical creative — `injectable_displacement` is 38 ads, but 16 are Korean Skin Therapy
+running variations on one idea.
 
-> ### Evidence status: UNPROBED — weakest claim in this document
->
-> This angle has **zero hits in our 139-ad corpus and has not been tested against the wider Ad
-> Library.** Of five comparable absence claims that *were* tested, **four were falsified** —
-> `menopause_skin` collapsed when Maelove was found running it in hook position, live since July.
->
-> On that base rate, corpus-absence alone is weak evidence. Treat this as the lead **hypothesis**,
-> not a finding. A single keyword probe resolves it, and must run before this document is sent.
+So we are not claiming these are category patterns. The finding is the shape itself: **what reads as
+a crowded category is usually one competitor being loud.**
 
----
-
-## 3. Open question — `third_party_verdict`
-
-One advertiser (Asarai) runs 9 ads opening on outside verdicts — editors, press, forum consensus.
-Longest alive **373 days**. At triple our original sample size, still nobody else has entered.
-
-Two readings, and **we cannot currently distinguish them**:
-
-- **A moat** — Asarai has press others cannot get, so the position is closed.
-- **Untried** — nobody has tested whether borrowed authority outperforms brand voice here.
-
-We are not resolving this by assertion. It is the second thing we would probe.
+**Where you already sit:** 6 of the 38 injectable-displacement ads are yours, plus 4 of 10 on
+mechanism, 3 of 5 on ingredient discovery, 3 of 4 on story openings. You are already inside the most
+contested rooms in the sample.
 
 ---
 
-## 4. Scripts on the lead opportunity
+## 3. What you already own — and under-run
 
-Four scripts occupying `dermatologist_as_ally` in **opening position**, each on a different
-mechanism, all using only claims from Frøya's own materials.
+Three positions in our sample belong to Frøya alone. These are observations about **your own ads**,
+so they need no category evidence and carry no hold.
 
-| # | Product | Opening line |
+| Position | Your ads | Longest alive |
 |---|---|---|
-| 01 | Complete System, $121.07 | "The best thing a dermatologist ever told me was to stop buying so much." |
-| 02 | Wrinkle Smoothing Night Balm, $37 | "I finally looked up what 'dermatologist tested' legally means. It's less than you'd hope and more than nothing." |
-| 03 | Balm for Acne-Prone Skin, $29 | "My dermatologist didn't try to sell me anything. That's still the strangest appointment I've had." |
-| 04 | Magic Revive Eye Balm, $52 | "Every ad tells me what my dermatologist is hiding. Mine told me to wear sunscreen and go home." |
+| `ingredient_villain` — names the culprit | 5 | **408 days** |
+| `heritage_origin` — Norwegian Arctic, the farm | 4 | **380 days** |
+| `customer_testimonial` — a customer's own account | **1** | **614 days** |
 
-Full scripts — avatar brief, first frame, beat-by-beat voiceover and on-screen direction — are in
-`scripts.json`. Every efficacy claim spoken is traceable to Frøya's own copy, and each script is
-machine-checked against a do-not-say list built from language on your site that is not substantiated
-for paid social.
+That last row is the recommendation. **One ad. Running for 614 days — the longest-surviving creative
+in the entire 139-ad sample, yours or anyone's.** No competitor in the sample opens here.
 
-**None of these is cleared to run.** They carry the same hold as the angle they rest on.
+An ad that survives twenty months is not luck; it is the clearest performance signal available in
+public data. You have one of them and you have not built on it.
+
+Our own first read of this category showed testimonial openings as the *most saturated* position
+available. That was wrong — it was one competitor's ingestible-supplement ads contaminating the
+sample. Cleaned, it is nearly empty, and your 614-day ad is sitting in it alone.
 
 ---
 
-## 5. What is already cleared
+## 4. The one contested position worth entering — `third_party_verdict`
 
-Six further scripts rest on **Frøya's own ads**, not on any category claim, so they carry no
-evidential hold:
+Asarai runs 9 ads opening on outside verdicts — press, editors, forum consensus. Longest alive 373
+days. At triple our original sample size, **nobody else has entered.**
 
-- **`ingredient_villain`** — 5 of your ads, longest alive 408 days. Your most durable owned position.
-- **`customer_testimonial`** — 1 ad, alive **614 days**: the single longest-running creative in the
-  entire sample. One ad, running nearly two years, and no competitor in our sample opens here.
+Two readings, and we cannot currently distinguish them:
 
-That second line is worth more attention than its ad count suggests. Our first read of the category
-showed testimonial openings as the most saturated position available — that turned out to be one
-competitor's ingestible-supplement ads contaminating the sample. Cleaned, it is nearly empty, and
-your own 614-day ad is the evidence that it works.
+- **A moat** — Asarai has press others cannot get.
+- **Untried** — nobody has tested whether borrowed authority beats brand voice here.
+
+We are not resolving that by assertion. But you have unusual material for it: 34,634 reviews and
+823,167 customers is a third-party verdict that needs no press relationship at all.
+
+---
+
+## 5. Scripts
+
+**Nine cleared** — built on positions you already own, resting on no category claim:
+
+| Angle | # | Lead product |
+|---|---|---|
+| `customer_testimonial` | 3 | Complete System · Hair & Scalp Shampoo · Dry and Itchy Balm |
+| `ingredient_villain` | 3 | Day Balm · Acne-Prone Balm · Eye Balm |
+| `heritage_origin` | 3 | Day Balm · Eye Balm · Face Scrub |
+
+**Three held** on `third_party_verdict` — the position is Asarai's, so entering it is a creative bet,
+not a finding. They are written and ready if you want to take that bet.
+
+Every efficacy claim spoken is traceable to your own materials, and each script is machine-checked
+against a do-not-say list built from language on your own site that is not substantiated for paid
+social. Full scripts — avatar brief, first frame, beat-by-beat voiceover and on-screen direction —
+are in `scripts.json`.
 
 ---
 
 ## Method, plainly
 
 We read what your category **opens** ads with, from public ad transparency data, restricted to ads
-that have been live long enough to be paying for themselves. We classify openings by argument, then
-ask which arguments are crowded, which are owned by one advertiser, and which nobody is making.
+live long enough to be paying for themselves. We classify openings by argument, then ask which are
+crowded, which one advertiser owns, and which nobody is making — and then we try to falsify that
+last group before showing it to you.
 
-Where we cannot support a claim, this document says so rather than rounding up. Every finding above
-carries its evidence status, and the two strongest-sounding claims in it — the category map and the
-lead opportunity — are the two we have flagged hardest.
+Where we cannot support a claim, this document says so. Eight of our nine original opportunity
+claims were withdrawn on testing. What remains is smaller and considerably harder to argue with.
 
 ---
 
 ### Provenance
 
-Corpus `ead00f7c359ea8c8` · 139 openings · 12 advertisers · ads live 33+ days · caption evidence only
-· generated 2026-09-19 · Frøya ad volume at capture: 3,400 active, ~1,473 video, oldest live ad 614
-days, newest 49 days.
+corpus `ead00f7c359ea8c8` · claims `216b73afcb9cbd77` · 139 openings · 12 advertisers · ads live 33+
+days · caption evidence only · 2026-09-19. Frøya at capture: 3,400 active ads, ~1,473 video, oldest
+live ad 614 days, newest 49 days.

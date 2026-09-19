@@ -1,0 +1,71 @@
+[
+  {
+    "script_id": "froyaorganics-com-heritage_origin-01",
+    "brand_slug": "froyaorganics-com",
+    "angle_id": "heritage_origin",
+    "source_hook_ids": [],
+    "product": "Anti-Age & Insane Glow Day Balm ($29.70)",
+    "avatar_brief": "Woman 35-45, at a laptop at a desk, cardigan, half a coffee. Screen glow on her face. Delivery is dry and investigative — the register of someone who enjoys catching brands out and is mildly annoyed to have failed.",
+    "hook": "I tried to find out where this brand actually makes things. I expected a warehouse in Shenzhen.",
+    "first_frame": "Over-shoulder on a laptop showing a map zoomed to northern Norway, her hand on the trackpad.",
+    "beats": [
+      {"t": 0, "vo": "I tried to find out where this brand actually makes things. I expected a warehouse in Shenzhen.", "visual": "Over-shoulder, laptop, map of northern Norway on screen."},
+      {"t": 6, "vo": "Instead there's a woman called Line, she's their head of brand, and she writes from a farm inside the Arctic circle.", "visual": "She turns the laptop toward camera, scrolling the brand's own page."},
+      {"t": 14, "vo": "Which matters less as a story and more as a reason the formulas are what they are — sea buckthorn, arnica, rosehip. Plants that have to survive up there.", "visual": "Cut to the day balm jar on the desk beside the coffee, opened."},
+      {"t": 23, "vo": "It's a balm, not a cream. Studies show 22% younger skin, and 95% reported youthful glow.", "visual": "She takes a small amount, presses it into the back of her hand, shows the finish."},
+      {"t": 31, "vo": "Thirty dollars. I went looking for a reason not to buy it and came back with the opposite.", "visual": "Laptop closed, jar in frame, she shrugs at camera."},
+      {"t": 37, "vo": "Anti-Age and Insane Glow Day Balm, from Frøya. Go and check them yourself.", "visual": "Jar held to camera, brand name on screen."}
+    ],
+    "cta": "Anti-Age and Insane Glow Day Balm, from Frøya. Go and check them yourself.",
+    "duration_s": 42,
+    "claims_used": ["studies show 22% younger skin", "95% reported youthful glow"],
+    "provenance": "angles.json (angles.json)",
+    "status": "draft"
+  },
+  {
+    "script_id": "froyaorganics-com-heritage_origin-02",
+    "brand_slug": "froyaorganics-com",
+    "angle_id": "heritage_origin",
+    "source_hook_ids": [],
+    "product": "Magic Revive Eye Balm ($52.00)",
+    "avatar_brief": "Woman 58-68, outdoors on a cold bright day, coat zipped, wind moving her hair. Handheld, slightly unsteady. Delivery is warm and unhurried with the cadence of someone used to being listened to.",
+    "hook": "Cold does two things to skin and only one of them is bad.",
+    "first_frame": "Outdoors, overcast bright light, her face fills the left of frame with bare landscape behind. Breath faintly visible.",
+    "beats": [
+      {"t": 0, "vo": "Cold does two things to skin and only one of them is bad.", "visual": "Outdoors, wind, handheld. She squints slightly against the light."},
+      {"t": 5, "vo": "It strips you. But the plants that grow in it get dense — they concentrate, because they have to.", "visual": "She gestures at the landscape behind her, camera follows loosely."},
+      {"t": 13, "vo": "That's the whole idea behind this one. Arctic arnica, in a beeswax balm, made for the eye area.", "visual": "Small jar produced from a coat pocket, held in a gloved hand."},
+      {"t": 21, "vo": "Six of the ten top anti-age ingredients, and it looks less puffy in 4 to 9 days.", "visual": "Ring finger tapping along the orbital bone, outdoors, no mirror."},
+      {"t": 28, "vo": "Fifty-two dollars, and it's the one I take when I know I'll be out in weather.", "visual": "She pockets the jar, pulls her collar up."},
+      {"t": 34, "vo": "Magic Revive Eye Balm. Frøya. Made where the weather is worse than here.", "visual": "Wide shot of her walking away, brand name on screen."}
+    ],
+    "cta": "Magic Revive Eye Balm. Frøya. Made where the weather is worse than here.",
+    "duration_s": 39,
+    "claims_used": ["6 of the 10 top anti-age ingredients", "looks less puffy in 4-9 days"],
+    "provenance": "angles.json (angles.json)",
+    "status": "draft"
+  },
+  {
+    "script_id": "froyaorganics-com-heritage_origin-03",
+    "brand_slug": "froyaorganics-com",
+    "angle_id": "heritage_origin",
+    "source_hook_ids": [],
+    "product": "Ultra Cleanse & Revive Face Scrub ($37.00)",
+    "avatar_brief": "Woman 30-40, bathroom, hair clipped up, mid-routine with a wet face. Fast, chatty delivery, slightly amused. She is the youngest avatar in this set on purpose — heritage as craft appeal rather than age appeal.",
+    "hook": "Read the ingredients on your scrub. Mine used to be plastic and apricot dust.",
+    "first_frame": "Close on her holding a generic scrub tube, squinting at the back-of-pack ingredients, face already wet.",
+    "beats": [
+      {"t": 0, "vo": "Read the ingredients on your scrub. Mine used to be plastic and apricot dust.", "visual": "She turns a generic tube to read the back, pulls a face."},
+      {"t": 6, "vo": "This one is arctic rose petal. That's it, that's the abrasive. Rose petal.", "visual": "Opens the Frøya scrub, tips some into her palm so the texture is visible."},
+      {"t": 13, "vo": "It's rougher than you expect and gentler than it looks, which is a weird combination to describe and easy to feel.", "visual": "Macro on the scrub between her fingertips."},
+      {"t": 21, "vo": "Skin cells revive in 2 to 9 days. Instant deep and natural cleanse. That's their language, not mine.", "visual": "She works it over her cheeks in small circles, water running."},
+      {"t": 29, "vo": "Thirty-seven dollars, and I've stopped keeping the plastic one under the sink as a backup.", "visual": "Rinsing, patting dry with a towel, no reveal shot."},
+      {"t": 35, "vo": "Ultra Cleanse and Revive Face Scrub, from Frøya. Go and read your current one.", "visual": "Jar on the edge of the sink, brand name on screen."}
+    ],
+    "cta": "Ultra Cleanse and Revive Face Scrub, from Frøya. Go and read your current one.",
+    "duration_s": 40,
+    "claims_used": ["skin cells revive in 2-9 days", "instant deep & natural cleanse"],
+    "provenance": "angles.json (angles.json)",
+    "status": "draft"
+  }
+]

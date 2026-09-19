@@ -143,6 +143,23 @@ def claim_gate(angle: dict, brand_slug: str, corpus: dict, is_fixture: bool) -> 
     )
 
 
+def _drift(corpus: dict) -> dict | None:
+    """Did the evidence move since the last published build? Reports which fingerprint changed."""
+    prev_f = OUT / "scripts.json"
+    if not prev_f.exists():
+        return None
+    try:
+        prev = json.loads(prev_f.read_text())
+    except json.JSONDecodeError:
+        return None
+    moved = {}
+    for k in ("corpus_fingerprint", "claims_fingerprint"):
+        was, now = prev.get(k), corpus.get(k)
+        if was and now and was != now:
+            moved[k] = {"was": was, "now": now}
+    return moved or None
+
+
 def _attribution(angle: dict | None, grade: str) -> str:
     """State plainly what a script traces back to -- and what it does not."""
     if not angle:
@@ -208,6 +225,7 @@ def assemble() -> dict:
             s["claim_type"] = claim_type
             s["claim_evidence"] = why
             s["corpus_fingerprint"] = corpus.get("corpus_fingerprint")
+            s["claims_fingerprint"] = corpus.get("claims_fingerprint")
             s["client_ready"] = ok
             if not ok:
                 s["hold_reason"] = why
@@ -235,7 +253,9 @@ def assemble() -> dict:
         "generated_from": src.name,
         "corpus": corpus,
         "corpus_fingerprint": corpus.get("corpus_fingerprint"),
+        "claims_fingerprint": corpus.get("claims_fingerprint"),
         "schema_version": corpus.get("schema_version"),
+        "evidence_moved_since_last_build": _drift(corpus),
         "client_ready": all(x["client_ready"] for x in scripts) if scripts else False,
         "client_ready_reason": "Gated per claim — see claim_type and claim_evidence on each script.",
         "is_fixture": is_fixture,

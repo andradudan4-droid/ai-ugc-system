@@ -1,0 +1,71 @@
+[
+  {
+    "script_id": "froyaorganics-com-third_party_verdict-01",
+    "brand_slug": "froyaorganics-com",
+    "angle_id": "third_party_verdict",
+    "source_hook_ids": [],
+    "product": "The Complete System for Mature Women's Skin ($121.07)",
+    "avatar_brief": "Woman 50-58, at a kitchen table with a phone propped against a fruit bowl, scrolling on a second phone. Morning light. Delivery is sceptical-turning-curious — she is reading other people's words aloud, not making claims of her own.",
+    "hook": "Thirty-four thousand people reviewed this before I did. I read the one-stars first.",
+    "first_frame": "Her holding a phone showing a wall of review text, screen angled to camera so the volume of it reads even if the words don't.",
+    "beats": [
+      {"t": 0, "vo": "Thirty-four thousand people reviewed this before I did. I read the one-stars first.", "visual": "Phone held up, review list scrolling, kitchen behind."},
+      {"t": 7, "vo": "That's my rule. If the complaints are all about shipping and none about the product, that tells you something.", "visual": "She scrolls with her thumb, genuinely reading, not performing."},
+      {"t": 15, "vo": "Eight hundred and twenty-three thousand customers. At that size you can't hide a bad product behind good marketing.", "visual": "Puts the phone down, picks up the Frøya system box."},
+      {"t": 23, "vo": "Four steps, arctic plants, dermatologist-tested. It supports the skin barrier in 7 days.", "visual": "The four jars come out of the box onto the table, one at a time."},
+      {"t": 31, "vo": "A hundred and twenty-one dollars with sixty days to change your mind. I let other people take that risk first.", "visual": "Back to her face, morning light, no makeup."},
+      {"t": 38, "vo": "The Complete System for Mature Women's Skin. Frøya. Go read the one-stars yourself.", "visual": "Four jars on the table, phone beside them. Brand name on screen."}
+    ],
+    "cta": "The Complete System for Mature Women's Skin. Frøya. Go read the one-stars yourself.",
+    "duration_s": 44,
+    "claims_used": ["34,634 reviews", "823,167+ customers", "Dermatologist-Tested", "supports the skin barrier in 7 days", "results in 60 days or your money back"],
+    "provenance": "angles.json (angles.json)",
+    "status": "draft"
+  },
+  {
+    "script_id": "froyaorganics-com-third_party_verdict-02",
+    "brand_slug": "froyaorganics-com",
+    "angle_id": "third_party_verdict",
+    "source_hook_ids": [],
+    "product": "Anti-Age & Insane Glow Day Balm ($29.70)",
+    "avatar_brief": "Woman 42-50, sitting on a stairwell or hallway floor with a laptop, casual, slightly hunched over the screen. Delivery is quick and analytical — the register of someone who researches purchases to an unreasonable degree and knows it.",
+    "hook": "I don't trust brands. I trust the number of strangers who bothered to come back and write something.",
+    "first_frame": "Laptop on her knees on a stairwell, review page on screen, her face lit by it from below.",
+    "beats": [
+      {"t": 0, "vo": "I don't trust brands. I trust the number of strangers who bothered to come back and write something.", "visual": "Laptop on knees, review page, screen light on her face."},
+      {"t": 8, "vo": "Writing a review is annoying. People only do it when something genuinely worked or genuinely didn't.", "visual": "She scrolls, pauses on a longer review, keeps scrolling."},
+      {"t": 15, "vo": "This one has thirty-four thousand of them, and it's the day balm that keeps coming up.", "visual": "Cut to the day balm jar sitting on the step beside her."},
+      {"t": 22, "vo": "Sea buckthorn and pomegranate. Studies show 22% younger skin, 95% reported youthful glow.", "visual": "She opens it one-handed, presses some into the back of her hand."},
+      {"t": 30, "vo": "Under thirty dollars, which is the price where I'll take a stranger's word for it.", "visual": "Laptop closed, jar in hand."},
+      {"t": 36, "vo": "Anti-Age and Insane Glow Day Balm, from Frøya. Let the reviews do the work.", "visual": "Jar held to camera on the stairwell. Brand name on screen."}
+    ],
+    "cta": "Anti-Age and Insane Glow Day Balm, from Frøya. Let the reviews do the work.",
+    "duration_s": 42,
+    "claims_used": ["34,634 reviews", "studies show 22% younger skin", "95% reported youthful glow"],
+    "provenance": "angles.json (angles.json)",
+    "status": "draft"
+  },
+  {
+    "script_id": "froyaorganics-com-third_party_verdict-03",
+    "brand_slug": "froyaorganics-com",
+    "angle_id": "third_party_verdict",
+    "source_hook_ids": [],
+    "product": "Magic Revive Hair & Scalp Shampoo ($29.00)",
+    "avatar_brief": "Woman 48-56, in a hairdresser's chair mid-appointment, cape on, filmed by the stylist or propped. Salon noise. Delivery is conversational and slightly sheepish — she is reporting someone else's verdict about her, not her own about a product.",
+    "hook": "I didn't tell her I'd changed anything. She noticed first and then asked.",
+    "first_frame": "Her in a salon chair, cape on, damp hair, mirror and salon behind her. She is mid-laugh.",
+    "beats": [
+      {"t": 0, "vo": "I didn't tell her I'd changed anything. She noticed first and then asked.", "visual": "Salon chair, cape, damp hair, mirror behind."},
+      {"t": 6, "vo": "Nine years she's done my hair. She's the only review I actually care about.", "visual": "Stylist's hands briefly in frame lifting a section of hair."},
+      {"t": 13, "vo": "It's a rosemary shampoo. Meant to help rebuild the scalp barrier in 2 to 7 days.", "visual": "She pulls the bottle out of her bag under the cape, awkwardly, label visible."},
+      {"t": 21, "vo": "93% experience better hair, according to them. One hairdresser, according to me.", "visual": "Close on the bottle, then back to the mirror."},
+      {"t": 28, "vo": "Twenty-nine dollars. Lowest-stakes thing I've changed all year.", "visual": "Bottle back in the bag, stylist working behind her."},
+      {"t": 34, "vo": "Magic Revive Hair and Scalp Shampoo, from Frøya. Wait for someone to ask.", "visual": "Salon mirror shot, brand name on screen."}
+    ],
+    "cta": "Magic Revive Hair and Scalp Shampoo, from Frøya. Wait for someone to ask.",
+    "duration_s": 39,
+    "claims_used": ["helps rebuild scalp barrier in 2-7 days", "93% experience better hair"],
+    "provenance": "angles.json (angles.json)",
+    "status": "draft"
+  }
+]

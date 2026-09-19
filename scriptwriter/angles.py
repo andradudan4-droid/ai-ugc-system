@@ -88,9 +88,13 @@ def _describe(a: dict, saturation: str) -> str:
 def load() -> tuple[list[dict], bool, pathlib.Path, dict]:
     """Return (angles, is_fixture, path, corpus).
 
-    `corpus` carries Agent 2's version stamps (schema_version, generated_at, corpus_fingerprint) so
-    a script can record exactly which corpus it was built against. The fingerprint is a hash over
-    the sorted hook ids, so it changes iff the underlying hook set changes.
+    `corpus` carries Agent 2's version stamps so a script records exactly what it was built against.
+    Two fingerprints, and both matter:
+
+    - `corpus_fingerprint` hashes the hook set. It does NOT move when angles are reclassified.
+    - `claims_fingerprint` hashes the verdicts. A verdict flip -- an angle going from unclaimed to
+      claimed -- is precisely what invalidates a script, and it moves only this one. Four angles
+      demoted in one revision with the corpus fingerprint unchanged.
     """
     p = source_path()
     if not p.exists():
@@ -103,7 +107,7 @@ def load() -> tuple[list[dict], bool, pathlib.Path, dict]:
             f"Top-level keys: {sorted(doc)}. Refusing to run rather than silently produce nothing."
         )
     corpus = dict(doc.get("corpus", {}))
-    for k in ("schema_version", "generated_at", "corpus_fingerprint"):
+    for k in ("schema_version", "generated_at", "corpus_fingerprint", "claims_fingerprint"):
         if k in doc:
             corpus[k] = doc[k]
     return angles, bool(doc.get("_fixture")), p, corpus
