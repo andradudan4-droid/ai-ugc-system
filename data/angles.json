@@ -1,6 +1,7 @@
 {
-  "schema_version": 2,
-  "generated_at": "2026-09-19T19:45:06+00:00",
+  "schema_version": 3,
+  "claims_fingerprint": "dcfdf13d75a1d7d5",
+  "generated_at": "2026-09-19T19:53:09+00:00",
   "corpus_fingerprint": "ead00f7c359ea8c8",
   "corpus": {
     "product_class": "topical_skincare",
@@ -535,59 +536,123 @@
   ],
   "unclaimed_angles": [
     {
-      "angle": "glp1_facial_volume_loss",
-      "description": "GLP-1 / weight-loss facial volume loss ('Ozempic face') — rapid loss deflates the midface and is the single loudest skin conversation of the moment.",
-      "probe": "ozempic|glp-?1|weight ?loss|semaglutide|gaunt|volume loss|hollow",
-      "corpus_hits": 0
-    },
-    {
-      "angle": "menopause_skin",
-      "description": "Perimenopause / menopause skin — estrogen decline changes barrier, collagen and oil within months. The corpus sells to 40+ women without ever naming the transition they are in.",
-      "probe": "menopaus|perimenopaus|estrogen|hormonal shift|hot flash|hrt",
-      "corpus_hits": 0
-    },
-    {
-      "angle": "pregnancy_safe",
-      "description": "Pregnancy- and nursing-safe actives — a hard constraint that forces a routine rebuild and makes switching brand-agnostic.",
-      "probe": "pregnan|nursing|breastfeed|trying to conceive|postpartum|baby-safe",
-      "corpus_hits": 0
-    },
-    {
       "angle": "reactive_sensitive_identity",
       "description": "Reactive / sensitive skin as identity, not spec — 'if your face reacts to everything'. Barrier appears in the corpus only as mechanism inside body copy, never as who the viewer is.",
       "probe": "reacts to everything|sensitive skin lead|rosacea|eczema|allergic|stings|flare",
-      "corpus_hits": 0
+      "corpus_hits": 0,
+      "external_probe": {
+        "verdict": "UNPROBED",
+        "note": "Not yet probed externally. Corpus-absence only, which the probed angles just showed is weak evidence -- 4 of 5 tested turned out to be claimed. Treat as an untested hypothesis, not a finding."
+      }
     },
     {
       "angle": "dermatologist_as_ally",
       "description": "Dermatologist as ally. Every derm reference in the corpus is adversarial — dismissive, hiding something, overprescribing. Nobody runs calm, genuine clinical endorsement, which is wide open precisely because everyone vacated it.",
       "probe": "dermatologist recommend|my dermatologist said|derm-approved|board-certified",
-      "corpus_hits": 0
+      "corpus_hits": 0,
+      "external_probe": {
+        "verdict": "UNPROBED",
+        "note": "Not yet probed externally. Corpus-absence only, which the probed angles just showed is weak evidence -- 4 of 5 tested turned out to be claimed. Treat as an untested hypothesis, not a finding."
+      }
     },
     {
       "angle": "male_facing",
       "description": "Men's skin. Zero male-addressed hooks in the corpus; the entire sample speaks to women.",
       "probe": "\\bmen\\b|\\bhis\\b|boyfriend|husband|guys|dad\\b|beard",
-      "corpus_hits": 0
+      "corpus_hits": 0,
+      "external_probe": {
+        "verdict": "UNPROBED",
+        "note": "Not yet probed externally. Corpus-absence only, which the probed angles just showed is weak evidence -- 4 of 5 tested turned out to be claimed. Treat as an untested hypothesis, not a finding."
+      }
     },
     {
       "angle": "prevention_early",
       "description": "Prevention for under-30s — selling before damage, to an audience the corpus only addresses after the fact.",
       "probe": "in your 20s|before it starts|prevent(ion|ative) routine|early twenties|gen z",
-      "corpus_hits": 0
-    },
-    {
-      "angle": "skin_as_signal",
-      "description": "Skin as diagnostic signal of sleep, stress, gut or hydration — reframes skincare as reading the body rather than coating it.",
-      "probe": "your gut|sleep is|stress is showing|cortisol|what your skin is telling",
-      "corpus_hits": 0
+      "corpus_hits": 0,
+      "external_probe": {
+        "verdict": "UNPROBED",
+        "note": "Not yet probed externally. Corpus-absence only, which the probed angles just showed is weak evidence -- 4 of 5 tested turned out to be claimed. Treat as an untested hypothesis, not a finding."
+      }
     },
     {
       "angle": "water_quality",
       "description": "Water quality — hard water and chlorine as the upstream cause. Adjacent categories run this hard; no skincare brand in the corpus touches it.",
       "probe": "hard water|tap water|chlorine|shower filter|limescale",
-      "corpus_hits": 0
+      "corpus_hits": 0,
+      "external_probe": {
+        "verdict": "HOLDS",
+        "query": "hard water",
+        "results": "~3,600",
+        "evidence": [
+          "All results are cleaning and appliance products -- dishwasher powder, washing machine tablets, hard-water spot remover. No skincare advertiser found.",
+          "Note eskiin works this angle hard, but it is a filtered showerhead and was excluded from this corpus as beauty_device."
+        ]
+      }
     }
   ],
-  "demoted_candidates": []
+  "demoted_candidates": [
+    {
+      "angle": "glp1_facial_volume_loss",
+      "description": "GLP-1 / weight-loss facial volume loss ('Ozempic face') — rapid loss deflates the midface and is the single loudest skin conversation of the moment.",
+      "probe": "ozempic|glp-?1|weight ?loss|semaglutide|gaunt|volume loss|hollow",
+      "corpus_hits": 0,
+      "external_probe": {
+        "verdict": "CLAIMED_ADJACENT",
+        "query": "ozempic face",
+        "results": "~120",
+        "evidence": [
+          "Worked hard, but by INGESTIBLES, not topical skincare: Ownist Global (collagen shot), Lemon & Co. (collagen elixir, live since 30 Oct 2025), Heart & Soil (GLP-1 stack).",
+          "No topical facial skincare advertiser found running it. Still open for a topical brand -- but the audience has already been taught the frame by supplement ads, so it is not virgin territory."
+        ]
+      }
+    },
+    {
+      "angle": "menopause_skin",
+      "description": "Perimenopause / menopause skin — estrogen decline changes barrier, collagen and oil within months. The corpus sells to 40+ women without ever naming the transition they are in.",
+      "probe": "menopaus|perimenopaus|estrogen|hormonal shift|hot flash|hrt",
+      "corpus_hits": 0,
+      "external_probe": {
+        "verdict": "CLAIMED",
+        "query": "menopause skin",
+        "results": "~100",
+        "evidence": [
+          "Maelove — topical facial skincare, runs it in hook position: 'Perimenopause changed my skin before I even realized what was happening... When estrogen drops, collagen production slows'. Live since 22 Jul 2026. Maelove is in our own candidates.json; our 12-brand sample simply did not include it.",
+          "Olay — #perimenopause #midlifewomen creator ad. Olay is in targets.csv.",
+          "Michael Todd Beauty — 7 ads on 'After 40, estrogen shifts change your skin'."
+        ]
+      }
+    },
+    {
+      "angle": "pregnancy_safe",
+      "description": "Pregnancy- and nursing-safe actives — a hard constraint that forces a routine rebuild and makes switching brand-agnostic.",
+      "probe": "pregnan|nursing|breastfeed|trying to conceive|postpartum|baby-safe",
+      "corpus_hits": 0,
+      "external_probe": {
+        "verdict": "CLAIMED",
+        "query": "pregnancy safe skincare",
+        "results": "~6",
+        "evidence": [
+          "Primally Pure Skincare — topical, creator ad, pregnancy-safe switch as the hook.",
+          "Secret Saviours — topical pregnancy skincare system.",
+          "Tiny field (6 ads total vs ~33,000 mentioning menopause), so claimed but barely contested -- arguably the most attractive of the demoted angles."
+        ]
+      }
+    },
+    {
+      "angle": "skin_as_signal",
+      "description": "Skin as diagnostic signal of sleep, stress, gut or hydration — reframes skincare as reading the body rather than coating it.",
+      "probe": "your gut|sleep is|stress is showing|cortisol|what your skin is telling",
+      "corpus_hits": 0,
+      "external_probe": {
+        "verdict": "CLAIMED_ADJACENT",
+        "query": "gut health skin",
+        "results": "~75",
+        "evidence": [
+          "Clarity Complex — 'Stubborn Jawline Breakouts? These need an inside out approach', live since 11 May 2026. Ingestible, not topical.",
+          "Most results are pet supplements. No topical skincare advertiser found."
+        ]
+      }
+    }
+  ]
 }

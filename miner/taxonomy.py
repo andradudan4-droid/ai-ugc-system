@@ -114,6 +114,65 @@ CANDIDATES = [
 ]
 
 
+# Ad Library keyword-search probes, run 2026-09-19 against ALL advertisers rather than our own
+# sample. This is the only evidence here that can FALSIFY an unclaimed claim: a corpus of 12 brands
+# can fail to contradict an angle forever without ever testing it. Four of the five probed angles
+# turned out to be claimed, so corpus-absence should be treated as a hypothesis, not a finding.
+EXTERNAL_PROBES = {
+    "menopause_skin": {
+        "verdict": "CLAIMED", "query": "menopause skin", "results": "~100",
+        "evidence": [
+            "Maelove — topical facial skincare, runs it in hook position: 'Perimenopause changed "
+            "my skin before I even realized what was happening... When estrogen drops, collagen "
+            "production slows'. Live since 22 Jul 2026. Maelove is in our own candidates.json; "
+            "our 12-brand sample simply did not include it.",
+            "Olay — #perimenopause #midlifewomen creator ad. Olay is in targets.csv.",
+            "Michael Todd Beauty — 7 ads on 'After 40, estrogen shifts change your skin'.",
+        ],
+    },
+    "glp1_facial_volume_loss": {
+        "verdict": "CLAIMED_ADJACENT", "query": "ozempic face", "results": "~120",
+        "evidence": [
+            "Worked hard, but by INGESTIBLES, not topical skincare: Ownist Global (collagen shot), "
+            "Lemon & Co. (collagen elixir, live since 30 Oct 2025), Heart & Soil (GLP-1 stack).",
+            "No topical facial skincare advertiser found running it. Still open for a topical "
+            "brand -- but the audience has already been taught the frame by supplement ads, so it "
+            "is not virgin territory.",
+        ],
+    },
+    "pregnancy_safe": {
+        "verdict": "CLAIMED", "query": "pregnancy safe skincare", "results": "~6",
+        "evidence": [
+            "Primally Pure Skincare — topical, creator ad, pregnancy-safe switch as the hook.",
+            "Secret Saviours — topical pregnancy skincare system.",
+            "Tiny field (6 ads total vs ~33,000 mentioning menopause), so claimed but barely "
+            "contested -- arguably the most attractive of the demoted angles.",
+        ],
+    },
+    "skin_as_signal": {
+        "verdict": "CLAIMED_ADJACENT", "query": "gut health skin", "results": "~75",
+        "evidence": [
+            "Clarity Complex — 'Stubborn Jawline Breakouts? These need an inside out approach', "
+            "live since 11 May 2026. Ingestible, not topical.",
+            "Most results are pet supplements. No topical skincare advertiser found.",
+        ],
+    },
+    "water_quality": {
+        "verdict": "HOLDS", "query": "hard water", "results": "~3,600",
+        "evidence": [
+            "All results are cleaning and appliance products -- dishwasher powder, washing machine "
+            "tablets, hard-water spot remover. No skincare advertiser found.",
+            "Note eskiin works this angle hard, but it is a filtered showerhead and was excluded "
+            "from this corpus as beauty_device.",
+        ],
+    },
+}
+
+UNPROBED_NOTE = ("Not yet probed externally. Corpus-absence only, which the probed angles just "
+                 "showed is weak evidence -- 4 of 5 tested turned out to be claimed. Treat as an "
+                 "untested hypothesis, not a finding.")
+
+
 def classify(text: str) -> tuple[str, str]:
     t = text.lower().strip()
     for angle, htype, pat in RULES:
@@ -172,8 +231,11 @@ def build(all_hooks: list[dict]) -> dict:
     for key, desc, probe in CANDIDATES:
         hits = [h["hook_text"][:90] for h in hooks if re.search(probe, h["hook_text"], re.I)]
         entry = {"angle": key, "description": desc, "probe": probe, "corpus_hits": len(hits)}
-        if hits:
-            entry["example_hits"] = hits[:3]
+        ext = EXTERNAL_PROBES.get(key)
+        entry["external_probe"] = ext or {"verdict": "UNPROBED", "note": UNPROBED_NOTE}
+        if hits or (ext and ext["verdict"] != "HOLDS"):
+            if hits:
+                entry["example_hits"] = hits[:3]
             demoted.append(entry)
         else:
             unclaimed.append(entry)
@@ -182,8 +244,18 @@ def build(all_hooks: list[dict]) -> dict:
         "|".join(sorted(h["ad_id"] for h in hooks)).encode()
     ).hexdigest()[:16]
 
+
+    # The corpus fingerprint tracks the HOOKS. It deliberately does not move when only a verdict
+    # changes -- but a verdict change is precisely what invalidates a script written against an
+    # unclaimed angle, so the claims get their own fingerprint to fail on.
+    claims_fingerprint = hashlib.sha256(
+        "|".join(f"{c['angle']}={c.get('external_probe', {}).get('verdict', '?')}"
+                 for c in sorted(unclaimed + demoted, key=lambda x: x["angle"])).encode()
+    ).hexdigest()[:16]
+
     return {
-        "schema_version": 2,
+        "schema_version": 3,
+        "claims_fingerprint": claims_fingerprint,
         "generated_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
         # Changes iff the underlying hook set changes. A consumer that stamped one value and sees
         # another has been rebuilt out from under it and should fail rather than reconcile.
