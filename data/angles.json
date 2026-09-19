@@ -1,7 +1,8 @@
 {
   "schema_version": 3,
-  "claims_fingerprint": "dcfdf13d75a1d7d5",
-  "generated_at": "2026-09-19T19:53:09+00:00",
+  "corpus_version": 4,
+  "claims_fingerprint": "216b73afcb9cbd77",
+  "generated_at": "2026-09-19T19:56:26+00:00",
   "corpus_fingerprint": "ead00f7c359ea8c8",
   "corpus": {
     "product_class": "topical_skincare",
@@ -77,6 +78,15 @@
         "836947915710478",
         "880723891037608"
       ],
+      "brand_distribution": {
+        "GloMelanin": 1,
+        "Biodance_global": 2,
+        "SpoiledChild": 1,
+        "Good Molecules": 3,
+        "Froya Organics": 1,
+        "JiYu Skin": 9
+      },
+      "max_brand_share": 0.53,
       "examples": [
         "Struggling with dark spots?",
         "Struggling with dry & dull skin?",
@@ -141,6 +151,14 @@
         "901516669296845",
         "915477381601246"
       ],
+      "brand_distribution": {
+        "DRMTLGY": 1,
+        "Koreanskintherapy": 16,
+        "Froya Organics": 6,
+        "Saeskyn": 6,
+        "Navaro": 9
+      },
+      "max_brand_share": 0.42,
       "examples": [
         "💉 Looking for an anti-wrinkle treatment without needles?",
         "A needle-free lift in a bottle ✅ Boosts firmness, fullness and bounce.",
@@ -175,6 +193,13 @@
         "27386552007632083",
         "932922359745898"
       ],
+      "brand_distribution": {
+        "DRMTLGY": 1,
+        "Froya Organics": 1,
+        "Saeskyn": 5,
+        "JiYu Skin": 2
+      },
+      "max_brand_share": 0.56,
       "examples": [
         "Simplify your routine and enhance your natural glow with this perfect pair",
         "ONE BALM. LIMITLESS REJUVENATION",
@@ -213,6 +238,12 @@
         "775508762043954",
         "980053538163233"
       ],
+      "brand_distribution": {
+        "Based Supplies": 7,
+        "Froya Organics": 2,
+        "Saeskyn": 5
+      },
+      "max_brand_share": 0.5,
       "examples": [
         "Most bathroom counters look like a chemistry lab.",
         "Most bathroom counters look like a chemistry lab.",
@@ -247,6 +278,12 @@
         "802000699410547",
         "856553797373730"
       ],
+      "brand_distribution": {
+        "Biodance_global": 4,
+        "Froya Organics": 4,
+        "Saeskyn": 2
+      },
+      "max_brand_share": 0.4,
       "examples": [
         "Bouncy skin isn't luck.",
         "Bouncy skin isn't luck.",
@@ -279,6 +316,12 @@
         "2144860019705397",
         "3334670000045407"
       ],
+      "brand_distribution": {
+        "Biodance_global": 3,
+        "DRMTLGY": 1,
+        "Asarai": 4
+      },
+      "max_brand_share": 0.5,
       "examples": [
         "Your at-home facial is here!",
         "Your at-home facial is here!",
@@ -308,6 +351,12 @@
         "34833292796318767",
         "4479159772361966"
       ],
+      "brand_distribution": {
+        "Biodance_global": 1,
+        "Asarai": 1,
+        "Saeskyn": 3
+      },
+      "max_brand_share": 0.6,
       "examples": [
         "Not gonna lie, these eye patches are becoming more and more legit…",
         "Earth Tones Red Clay Mask \"Too good to be true isn't so far off actually\" – r/SkincareAddiction",
@@ -337,6 +386,12 @@
         "3477776632390645",
         "768307496231952"
       ],
+      "brand_distribution": {
+        "Good Molecules": 1,
+        "Froya Organics": 3,
+        "Asarai": 1
+      },
+      "max_brand_share": 0.6,
       "examples": [
         "Retinol, Made Gentle.",
         "💜 Arnica, sea buckthorn, and calendula are powerful arctic plants that transform your complexion.",
@@ -365,37 +420,16 @@
         "870261115949136",
         "947368765046675"
       ],
+      "brand_distribution": {
+        "SpoiledChild": 1,
+        "DRMTLGY": 2,
+        "Good Molecules": 1
+      },
+      "max_brand_share": 0.5,
       "examples": [
         "Ditch the concealer with the SpoiledChild™ Miracle Eye Corrector!",
         "❌❌ THREE REASONS WHY I GAVE UP EYE CONCEALERS:",
         "❌❌ THREE REASONS WHY I GAVE UP EYE CONCEALERS:"
-      ],
-      "saturation": "saturated"
-    },
-    {
-      "angle": "story_open",
-      "hook_type": "narrative",
-      "brands": [
-        "Froya Organics",
-        "Koreanskintherapy"
-      ],
-      "brand_count": 2,
-      "ad_count": 4,
-      "median_days_running": 365,
-      "hook_sources": {
-        "ad_copy_opening": 4
-      },
-      "max_days_running": 380,
-      "hook_ids": [
-        "1314498993541295",
-        "1573353981185859",
-        "2176122839632394",
-        "752419270915808"
-      ],
-      "examples": [
-        "Her name is Regina Clarke.",
-        "If Viking women had a skincare secret… this was it",
-        "If Viking women had a skincare secret… this was it"
       ],
       "saturation": "saturated"
     }
@@ -426,6 +460,10 @@
         "2214076306104480",
         "2214713462708615"
       ],
+      "brand_distribution": {
+        "Good Molecules": 9
+      },
+      "max_brand_share": 1.0,
       "examples": [
         "Good Molecules Yerba Mate Wake Up Eye Gel",
         "Good Molecules Yerba Mate Wake Up Eye Gel",
@@ -457,6 +495,10 @@
         "895519976373743",
         "968965552835672"
       ],
+      "brand_distribution": {
+        "Asarai": 9
+      },
+      "max_brand_share": 1.0,
       "examples": [
         "Kim K's makeup artist tried ASARAI Earth Tones red clay mask and the results are in: \"It's REALLY really good!",
         "\"A beauty editor tried 30 masks in 30 days, but what did she really think about ASARAI?",
@@ -484,10 +526,68 @@
         "3475912505892584",
         "772006008705472"
       ],
+      "brand_distribution": {
+        "Froya Organics": 5
+      },
+      "max_brand_share": 1.0,
       "examples": [
         "The $8 billion peptide lie that's aging your skin faster 💉",
         "Retinol is Ruining Your Skin.",
         "Did you know that your drugstore anti-aging routines actually make mature skin worse?"
+      ],
+      "saturation": "single_brand"
+    },
+    {
+      "angle": "heritage_origin",
+      "hook_type": "provenance",
+      "brands": [
+        "Froya Organics"
+      ],
+      "brand_count": 1,
+      "ad_count": 3,
+      "median_days_running": 365,
+      "hook_sources": {
+        "ad_copy_opening": 3
+      },
+      "max_days_running": 380,
+      "hook_ids": [
+        "1314498993541295",
+        "1573353981185859",
+        "752419270915808"
+      ],
+      "brand_distribution": {
+        "Froya Organics": 3
+      },
+      "max_brand_share": 1.0,
+      "examples": [
+        "If Viking women had a skincare secret… this was it",
+        "If Viking women had a skincare secret… this was it",
+        "🌿 Born where winters last six months and only the strongest botanicals survive."
+      ],
+      "saturation": "single_brand"
+    },
+    {
+      "angle": "story_open",
+      "hook_type": "narrative",
+      "brands": [
+        "Koreanskintherapy"
+      ],
+      "brand_count": 1,
+      "ad_count": 1,
+      "median_days_running": 36,
+      "hook_sources": {
+        "ad_copy_opening": 1
+      },
+      "max_days_running": 36,
+      "hook_ids": [
+        "2176122839632394"
+      ],
+      "brand_distribution": {
+        "Koreanskintherapy": 1
+      },
+      "max_brand_share": 1.0,
+      "examples": [
+        "Her name is Regina Clarke."
       ],
       "saturation": "single_brand"
     },
@@ -507,6 +607,10 @@
       "hook_ids": [
         "2528899717626429"
       ],
+      "brand_distribution": {
+        "Good Molecules": 1
+      },
+      "max_brand_share": 1.0,
       "examples": [
         "I'm always looking for the best over 50 skincare and this is a duo we should not pass up!"
       ],
@@ -528,6 +632,10 @@
       "hook_ids": [
         "2123759134760755"
       ],
+      "brand_distribution": {
+        "Froya Organics": 1
+      },
+      "max_brand_share": 1.0,
       "examples": [
         "\"Literally transformed my skin!"
       ],
@@ -535,46 +643,6 @@
     }
   ],
   "unclaimed_angles": [
-    {
-      "angle": "reactive_sensitive_identity",
-      "description": "Reactive / sensitive skin as identity, not spec — 'if your face reacts to everything'. Barrier appears in the corpus only as mechanism inside body copy, never as who the viewer is.",
-      "probe": "reacts to everything|sensitive skin lead|rosacea|eczema|allergic|stings|flare",
-      "corpus_hits": 0,
-      "external_probe": {
-        "verdict": "UNPROBED",
-        "note": "Not yet probed externally. Corpus-absence only, which the probed angles just showed is weak evidence -- 4 of 5 tested turned out to be claimed. Treat as an untested hypothesis, not a finding."
-      }
-    },
-    {
-      "angle": "dermatologist_as_ally",
-      "description": "Dermatologist as ally. Every derm reference in the corpus is adversarial — dismissive, hiding something, overprescribing. Nobody runs calm, genuine clinical endorsement, which is wide open precisely because everyone vacated it.",
-      "probe": "dermatologist recommend|my dermatologist said|derm-approved|board-certified",
-      "corpus_hits": 0,
-      "external_probe": {
-        "verdict": "UNPROBED",
-        "note": "Not yet probed externally. Corpus-absence only, which the probed angles just showed is weak evidence -- 4 of 5 tested turned out to be claimed. Treat as an untested hypothesis, not a finding."
-      }
-    },
-    {
-      "angle": "male_facing",
-      "description": "Men's skin. Zero male-addressed hooks in the corpus; the entire sample speaks to women.",
-      "probe": "\\bmen\\b|\\bhis\\b|boyfriend|husband|guys|dad\\b|beard",
-      "corpus_hits": 0,
-      "external_probe": {
-        "verdict": "UNPROBED",
-        "note": "Not yet probed externally. Corpus-absence only, which the probed angles just showed is weak evidence -- 4 of 5 tested turned out to be claimed. Treat as an untested hypothesis, not a finding."
-      }
-    },
-    {
-      "angle": "prevention_early",
-      "description": "Prevention for under-30s — selling before damage, to an audience the corpus only addresses after the fact.",
-      "probe": "in your 20s|before it starts|prevent(ion|ative) routine|early twenties|gen z",
-      "corpus_hits": 0,
-      "external_probe": {
-        "verdict": "UNPROBED",
-        "note": "Not yet probed externally. Corpus-absence only, which the probed angles just showed is weak evidence -- 4 of 5 tested turned out to be claimed. Treat as an untested hypothesis, not a finding."
-      }
-    },
     {
       "angle": "water_quality",
       "description": "Water quality — hard water and chlorine as the upstream cause. Adjacent categories run this hard; no skincare brand in the corpus touches it.",
@@ -591,7 +659,58 @@
       }
     }
   ],
-  "demoted_candidates": [
+  "unclaimed_position_angles": [
+    {
+      "angle": "reactive_sensitive_identity",
+      "description": "Reactive / sensitive skin as identity, not spec — 'if your face reacts to everything'. Barrier appears in the corpus only as mechanism inside body copy, never as who the viewer is.",
+      "probe": "reacts to everything|sensitive skin lead|rosacea|eczema|allergic|stings|flare",
+      "corpus_hits": 0,
+      "external_probe": {
+        "verdict": "UNCLAIMED_POSITION",
+        "query": "reactive skin",
+        "results": "~510",
+        "position": "body",
+        "evidence": [
+          "Present in the category (Michael Todd Beauty, Circadia) but not as the identity the ad opens on.",
+          "CONFIDENCE LOW: first page of ~510 only."
+        ]
+      }
+    },
+    {
+      "angle": "dermatologist_as_ally",
+      "description": "Dermatologist as ally. Every derm reference in the corpus is adversarial — dismissive, hiding something, overprescribing. Nobody runs calm, genuine clinical endorsement, which is wide open precisely because everyone vacated it.",
+      "probe": "dermatologist recommend|my dermatologist said|derm-approved|board-certified",
+      "corpus_hits": 0,
+      "external_probe": {
+        "verdict": "UNCLAIMED_POSITION",
+        "query": "my dermatologist",
+        "results": "~2,300",
+        "position": "body",
+        "evidence": [
+          "Term is common in the category, but no hook-position use was found -- the pattern already seen with DRMTLGY's 'Dermatologist Recommended' trust bullet.",
+          "CONFIDENCE LOW: ~2,300 results and only the first page was read. The claim is 'no opener found in what was sampled', not 'no opener exists'."
+        ]
+      }
+    },
+    {
+      "angle": "prevention_early",
+      "description": "Prevention for under-30s — selling before damage, to an audience the corpus only addresses after the fact.",
+      "probe": "in your 20s|before it starts|prevent(ion|ative) routine|early twenties|gen z",
+      "corpus_hits": 0,
+      "external_probe": {
+        "verdict": "UNCLAIMED_POSITION",
+        "query": "preventative skincare",
+        "results": "~16",
+        "position": "body",
+        "evidence": [
+          "GoPure Skin Care uses the phrase mid-copy, opening instead on 'I used to think skincare stopped at my chin'. Term used as a qualifier, never as the opening.",
+          "Tiny field -- 16 ads in the whole category.",
+          "NOTE: a first probe, 'prevent wrinkles in your 20s', returned zero. That was an invented phrase and its zero was discarded rather than recorded -- it would have tested our vocabulary, not the category."
+        ]
+      }
+    }
+  ],
+  "claimed_angles": [
     {
       "angle": "glp1_facial_volume_loss",
       "description": "GLP-1 / weight-loss facial volume loss ('Ozempic face') — rapid loss deflates the midface and is the single loudest skin conversation of the moment.",
@@ -636,6 +755,22 @@
           "Primally Pure Skincare — topical, creator ad, pregnancy-safe switch as the hook.",
           "Secret Saviours — topical pregnancy skincare system.",
           "Tiny field (6 ads total vs ~33,000 mentioning menopause), so claimed but barely contested -- arguably the most attractive of the demoted angles."
+        ]
+      }
+    },
+    {
+      "angle": "male_facing",
+      "description": "Men's skin. Zero male-addressed hooks in the corpus; the entire sample speaks to women.",
+      "probe": "\\bmen\\b|\\bhis\\b|boyfriend|husband|guys|dad\\b|beard",
+      "corpus_hits": 0,
+      "external_probe": {
+        "verdict": "CLAIMED",
+        "query": "skincare for men",
+        "results": "~44",
+        "position": "hook",
+        "evidence": [
+          "Brickell Men's Products opens on it: 'Most men don't want a skincare routine.' Live since 9 Jul 2026, 3 ads on the creative.",
+          "LAB SERIES (Jordan Clarkson partnership), Hommeface: Skincare for Men."
         ]
       }
     },

@@ -53,8 +53,14 @@ RULES: list[tuple[str, str, str]] = [
      r"|isn't luck|two actives, one mission|stops producing"),
     ("third_party_verdict", "authority_borrow",
      r"beauty editor|makeup artist|influencer saw|skincareaddiction|facts are facts|these celebs"),
+    # Restored after being folded into story_open during the v3 rule rebuild. That was an
+    # unintended loss: origin/provenance is a distinct argument from narrative-open, and it is one
+    # of only two angles Froya own.
+    ("heritage_origin", "provenance",
+     r"viking|born where winters|nordic|arctic women|scandinavian wisdom|ancient .{0,12}recipe"
+     r"|norwegian|aussie outback|from the .{0,15}(outback|fjords|meadows)"),
     ("story_open", "narrative",
-     r"^her name is|viking|born where winters|every teacher called|thousands of women are getting"),
+     r"^her name is|every teacher called|thousands of women are getting"),
     ("customer_testimonial", "social_proof",
      r"^[\"\u201c]|-becca|-april|julissa|literally transformed|i love this liquid collagen"
      r"|realmente me gusta|ya no como snacks"),
@@ -157,6 +163,46 @@ EXTERNAL_PROBES = {
             "Most results are pet supplements. No topical skincare advertiser found.",
         ],
     },
+    "male_facing": {
+        "verdict": "CLAIMED", "query": "skincare for men", "results": "~44",
+        "position": "hook",
+        "evidence": [
+            "Brickell Men's Products opens on it: 'Most men don't want a skincare routine.' Live "
+            "since 9 Jul 2026, 3 ads on the creative.",
+            "LAB SERIES (Jordan Clarkson partnership), Hommeface: Skincare for Men.",
+        ],
+    },
+    "dermatologist_as_ally": {
+        "verdict": "UNCLAIMED_POSITION", "query": "my dermatologist", "results": "~2,300",
+        "position": "body",
+        "evidence": [
+            "Term is common in the category, but no hook-position use was found -- the pattern "
+            "already seen with DRMTLGY's 'Dermatologist Recommended' trust bullet.",
+            "CONFIDENCE LOW: ~2,300 results and only the first page was read. The claim is "
+            "'no opener found in what was sampled', not 'no opener exists'.",
+        ],
+    },
+    "reactive_sensitive_identity": {
+        "verdict": "UNCLAIMED_POSITION", "query": "reactive skin", "results": "~510",
+        "position": "body",
+        "evidence": [
+            "Present in the category (Michael Todd Beauty, Circadia) but not as the identity the "
+            "ad opens on.",
+            "CONFIDENCE LOW: first page of ~510 only.",
+        ],
+    },
+    "prevention_early": {
+        "verdict": "UNCLAIMED_POSITION", "query": "preventative skincare", "results": "~16",
+        "position": "body",
+        "evidence": [
+            "GoPure Skin Care uses the phrase mid-copy, opening instead on 'I used to think "
+            "skincare stopped at my chin'. Term used as a qualifier, never as the opening.",
+            "Tiny field -- 16 ads in the whole category.",
+            "NOTE: a first probe, 'prevent wrinkles in your 20s', returned zero. That was an "
+            "invented phrase and its zero was discarded rather than recorded -- it would have "
+            "tested our vocabulary, not the category.",
+        ],
+    },
     "water_quality": {
         "verdict": "HOLDS", "query": "hard water", "results": "~3,600",
         "evidence": [
@@ -182,6 +228,10 @@ def classify(text: str) -> tuple[str, str]:
 
 
 CORPUS_CLASS = "topical_skincare"
+
+# Monotonic. Bump on any change to the corpus or the rules. Consumers pin what they built against
+# and refuse to assemble when it moves -- Writer had an angle vanish under them between 2 and 3.
+CORPUS_VERSION = 4
 
 
 def build(all_hooks: list[dict]) -> dict:
@@ -217,6 +267,11 @@ def build(all_hooks: list[dict]) -> dict:
             # DESIGN.md §2 wants every asset traceable to the angle AND the hook behind it.
             # Carrying the ad ids through is what lets a consumer complete that chain.
             "hook_ids": sorted(r["ad_id"] for r in rows),
+            # Strategy's concentration gate: a category claim needs >=3 brands and no single brand
+            # holding >30% of the evidence. Emitting the distribution is what makes that testable.
+            "brand_distribution": dict(collections.Counter(r["brand"] for r in rows)),
+            "max_brand_share": round(
+                max(collections.Counter(r["brand"] for r in rows).values()) / len(rows), 2),
             "examples": [r["hook_text"][:110] for r in rows[:3]],
         })
     angles.sort(key=lambda x: (-x["brand_count"], -x["ad_count"]))
@@ -227,16 +282,19 @@ def build(all_hooks: list[dict]) -> dict:
                            else "contested" if a["brand_count"] >= 2
                            else "single_brand")
 
-    unclaimed, demoted = [], []
+    unclaimed, position, claimed = [], [], []
     for key, desc, probe in CANDIDATES:
         hits = [h["hook_text"][:90] for h in hooks if re.search(probe, h["hook_text"], re.I)]
         entry = {"angle": key, "description": desc, "probe": probe, "corpus_hits": len(hits)}
         ext = EXTERNAL_PROBES.get(key)
         entry["external_probe"] = ext or {"verdict": "UNPROBED", "note": UNPROBED_NOTE}
-        if hits or (ext and ext["verdict"] != "HOLDS"):
-            if hits:
-                entry["example_hits"] = hits[:3]
-            demoted.append(entry)
+        if hits:
+            entry["example_hits"] = hits[:3]
+        verdict = ext["verdict"] if ext else "UNPROBED"
+        if hits or verdict in {"CLAIMED", "CLAIMED_ADJACENT"}:
+            claimed.append(entry)
+        elif verdict == "UNCLAIMED_POSITION":
+            position.append(entry)
         else:
             unclaimed.append(entry)
 
@@ -250,11 +308,13 @@ def build(all_hooks: list[dict]) -> dict:
     # unclaimed angle, so the claims get their own fingerprint to fail on.
     claims_fingerprint = hashlib.sha256(
         "|".join(f"{c['angle']}={c.get('external_probe', {}).get('verdict', '?')}"
-                 for c in sorted(unclaimed + demoted, key=lambda x: x["angle"])).encode()
+                 for c in sorted(unclaimed + position + claimed,
+                                 key=lambda x: x["angle"])).encode()
     ).hexdigest()[:16]
 
     return {
         "schema_version": 3,
+        "corpus_version": CORPUS_VERSION,
         "claims_fingerprint": claims_fingerprint,
         "generated_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
         # Changes iff the underlying hook set changes. A consumer that stamped one value and sees
@@ -295,7 +355,11 @@ def build(all_hooks: list[dict]) -> dict:
         "contested_angles": [a for a in angles if a["saturation"] == "contested"],
         "single_brand_angles": [a for a in angles if a["saturation"] == "single_brand"],
         "unclaimed_angles": unclaimed,
-        "demoted_candidates": demoted,
+        # The sharpest category in the file. These angles EXIST in the market but nobody opens on
+        # them, so the claim is positional and survives a brand pointing at its own body copy --
+        # unlike a bare absence claim, which that rebuttal kills.
+        "unclaimed_position_angles": position,
+        "claimed_angles": claimed,
     }
 
 
