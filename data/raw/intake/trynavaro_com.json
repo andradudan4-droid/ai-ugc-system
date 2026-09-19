@@ -1,0 +1,41 @@
+{
+  "products": {
+    "n": 0,
+    "vendor": "Navaro",
+    "source": "homepage rail \u2014 /products.json not served",
+    "items": [
+      {
+        "title": "Collagen peptide treatment",
+        "type": "Face Treatment",
+        "tags": [],
+        "price": "",
+        "available": true,
+        "created": "",
+        "body": "Professional-grade collagen skincare applied topically: cleanse and dry, apply to forehead, smile lines, jawline and neck, massage upward until the peptide threads melt. Used 1-2 times daily."
+      },
+      {
+        "title": "Buy 1 Get 1 Free offer",
+        "type": "Bundle",
+        "tags": [],
+        "price": "",
+        "available": true,
+        "created": "",
+        "body": "End of summer sale, the site's main acquisition offer."
+      }
+    ]
+  },
+  "home": {
+    "title": "Navaro",
+    "description": "Navaro",
+    "site_name": "Navaro",
+    "fit": "**Topical skincare, but with supplement-shaped trust signals \u2014 verify before pitching.** The routine described is unambiguously topical (apply, massage upward, peptide threads melt). But the trust badges read 100% Vegan Capsules, Non-GMO, GMP-Certified Facility, Gluten/Soy/Dairy Free \u2014 that is ingestible-supplement language, which suggests either an ingestible line alongside the topical or badge copy lifted from one. Worth resolving before creative, because a supplement line would pull in the compliance surface DESIGN.md \u00a71 chose this category to avoid. Claim caution: 'Clinically Inspired Formula' is doing deliberate work \u2014 inspired by, not proven by.",
+    "headings": [
+      "Reveal Firmer, Brighter Skin With Professional-Grade Collagen Care",
+      "SIMPLE ROUTINE. VISIBLE RESULTS.",
+      "OUR CUSTOMERS RESULTS"
+    ],
+    "reviews": "",
+    "rating": "",
+    "body_sample": "END OF SUMMER SALE - BUY 1 GET 1 FREE. Trusted by Thousands. Reveal Firmer, Brighter Skin With Professional-Grade Collagen Care. Clinically Inspired Formula. Deep Hydration & Firmness. Radiant Results You Can See. 60-Day Money Back Guarantee. 100% Vegan Capsules. Non-GMO. GMP-Certified Facility. Gluten, Soy & Dairy Free. Step 1 Cleanse & Dry. Step 2 Target Smarter \u2014 forehead, smile lines, jawline, neck. Step 3 Massage Upward until the peptide threads melt. Use 1-2 Times Daily."
+  }
+}

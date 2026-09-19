@@ -1,0 +1,43 @@
+{
+  "products": {
+    "n": 0,
+    "vendor": "prefix (formerly pureskin)",
+    "source": "homepage rail \u2014 /products.json not served",
+    "items": [
+      {
+        "title": "prefix\u2122 disposable face towels",
+        "type": "Face Towel",
+        "tags": [],
+        "price": "",
+        "available": true,
+        "created": "",
+        "body": "100% pure cotton single-use face towels. 2M+ delivered, 85% of buyers subscribe."
+      },
+      {
+        "title": "Subscription",
+        "type": "Subscription",
+        "tags": [],
+        "price": "",
+        "available": true,
+        "created": "",
+        "body": "8,000+ active subscribers \u2014 the business is a consumable subscription."
+      }
+    ]
+  },
+  "home": {
+    "title": "prefix\u2122 (formerly pureskin)",
+    "description": "prefix: the preventative fix for acne.",
+    "site_name": "prefix",
+    "fit": "**Consumable textile, not skincare \u2014 and the domain has rebranded.** trypureskin.com now serves prefixskin.com: 'pureskin is now pre\u00b7fix'. The product is a single-use cotton face towel sold on an acne-prevention argument (dirty reusable towels reintroduce bacteria and dead skin). There is no formulation and no active, so ingredient and routine hooks do not transfer. The acne framing makes its ad copy read as skincare, which is exactly why it needs tagging. Strong UGC product in its own right \u2014 the problem demo is vivid \u2014 but its own corpus, not the skincare one.",
+    "headings": [
+      "The Traditional Towel Problem",
+      "Small Change. Big Difference",
+      "The Power of prefix\u2122",
+      "Trusted by Acne-Prone, Sensitive, and Real Skin",
+      "Get Ahead of Your Breakouts"
+    ],
+    "reviews": "80,000",
+    "rating": "4.8",
+    "body_sample": "prefix (formerly pureskin). pureskin is now pre\u00b7fix, noun: the preventative fix for acne. Shop prefix towels. 80,000+ happy customers. 8,000+ ACTIVE SUBSCRIBERS. 4.8 AVERAGE RATING. 85% CHOOSE TO SUBSCRIBE. 2M+ TOWELS DELIVERED. 100% PURE COTTON. The Traditional Towel Problem: dirt & dead skin can clog pores and transfer residue back onto freshly cleansed skin; germs & bacteria may contribute to breakouts; harsh fibers cause friction and irritation in the skin barrier."
+  }
+}

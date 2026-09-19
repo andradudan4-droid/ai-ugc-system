@@ -52,7 +52,7 @@ _None of the tracked actives appear in public copy._
 - **Segment:** `high_volume` · fatigue score 67.03
 - **Active ads:** 130 · video ads (est.) 61
 - **Oldest live ad:** 507d · **newest:** 18d ago
-- Notes: ugc est. from 30-ad sample; ad ages from sample; true oldest may be older; 15+ UGC video ads
+- Notes: ugc est. from 30-ad sample; ad ages from sample; true oldest may be older; accessory — EXCLUDE from skincare hook corpus (DESIGN.md §4); 15+ UGC video ads
 
 **The pitch:** newest creative is 18 days old against 130 ads still running — they are spending but not refreshing.
 

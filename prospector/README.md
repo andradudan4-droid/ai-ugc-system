@@ -68,6 +68,32 @@ staleness only times the approach.
 | `dormant` | 180d+ silent — kept in the file, excluded from outreach |
 | `unqualified` | under 15 UGC video ads |
 
+## Category, and the corpus gate
+
+`category` comes from Agent 0 visiting the site, via `data/categories.json`. Values: `skincare`,
+`beauty_device`, `fragrance`, `makeup`, `accessory`, `unverified`.
+
+**Only `category == "skincare"` may enter the skincare hook corpus** (`docs/DESIGN.md` §4). That
+corpus is the compounding asset; mixing in a filtered showerhead or a silk pillowcase destroys what
+makes it valuable. Non-skincare rows stay in `targets.csv` as legitimate prospects — they just get
+their own corpus if one is ever taken as a client — and carry an EXCLUDE note so the gate is visible
+two ways.
+
+`unverified` means nobody has visited it yet. Those brands surfaced from skincare keyword searches
+so they are probably skincare, but on current evidence that guess is wrong often enough to matter:
+of 25 brands visited, 5 were disqualified outright and 8 more were in-category beauty but not
+skincare. **Roughly half of what ad behaviour ranks highly is not what it looks like.** Intake
+before mining.
+
+## What we pitch (Strategy position)
+
+> We never promise performance or medical outcomes. We sell creative volume and angle coverage.
+
+A brand's own claims stay in their `Do not say` and never enter our scripts — Agent 3 enforces that
+mechanically. The same restraint applies to our pitch: more creative and better-targeted angles, not
+results. This is the honest position and it keeps us out of the regulatory surface `DESIGN.md` §1
+chose this category to avoid.
+
 ## Known limits
 
 - **Ad Library renders ~30 ads per page and does not paginate for logged-out users.** `ad_count` is

@@ -9,7 +9,7 @@ import json
 import pathlib
 import re
 
-from .brands import candidates, _norm, _titleize
+from .brands import candidates, categories, _norm, _titleize
 from .score import fatigue_score, segment
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -17,7 +17,7 @@ RAW = ROOT / "data" / "raw"
 OUT = ROOT / "data" / "targets.csv"
 
 COLUMNS = [
-    "brand", "website", "segment", "ad_count", "ugc_ad_count_est",
+    "brand", "website", "category", "segment", "ad_count", "ugc_ad_count_est",
     "oldest_ad_days", "newest_ad_days", "fatigue_score", "notes",
 ]
 
@@ -48,6 +48,7 @@ def build(today: dt.date | None = None) -> list[dict]:
             for f in glob.glob(str(RAW / "discovery" / "*.json"))}
     meas = json.load(open(RAW / "advertisers" / "measurements.json"))
     prev = _prev_counts(today)
+    cats = categories()
 
     rows = []
     for c in candidates(disc):
@@ -91,6 +92,9 @@ def build(today: dt.date | None = None) -> list[dict]:
             notes.append(f"advertises as \"{pname}\"")
         if c["affiliate_pages"]:
             notes.append(f"{c['affiliate_pages']} affiliate page(s) run its creative")
+        cat = cats.get(c["website"], "unverified")
+        if cat not in ("skincare", "unverified"):
+            notes.append(f"{cat} — EXCLUDE from skincare hook corpus (DESIGN.md §4)")
         if ugc >= 15:
             notes.append("15+ UGC video ads")
         if seg == "dormant":
@@ -101,6 +105,7 @@ def build(today: dt.date | None = None) -> list[dict]:
         rows.append({
             "brand": brand,
             "website": f"https://{c['website']}" if c["website"] else "",
+            "category": cats.get(c["website"], "unverified"),
             "segment": seg,
             "ad_count": ad_count,
             "ugc_ad_count_est": ugc,

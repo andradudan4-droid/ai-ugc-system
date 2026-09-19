@@ -78,4 +78,15 @@ voiceover and on-screen direction, duration). Agent 5 checks audio sync, avatar/
 product visibility and first-frame scroll-stop — so `avatar_brief`, `product`, `hook` and
 `first_frame` are each addressable on their own rather than buried in prose.
 
-This contract is proposed, not agreed — Producer consumes it and has not reviewed it.
+Strategy accepted this contract as **provisional**: ship it, Producer reviews before Agent 4 is
+built, and it changes then if it needs to. It is not settled, and it does not need to be — revising
+it later costs nothing.
+
+## What we pitch
+
+Strategy's position, which bounds what these scripts may claim:
+
+> We never promise performance or medical outcomes. We sell creative volume and angle coverage.
+
+The brand's own unsubstantiated claims stay in `Do not say` and are rejected mechanically. Our pitch
+carries the same restraint.

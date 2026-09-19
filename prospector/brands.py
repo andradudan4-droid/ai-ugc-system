@@ -14,6 +14,15 @@ import pathlib
 import re
 
 DISQUALIFIED = pathlib.Path(__file__).resolve().parent.parent / "data" / "disqualified.json"
+CATEGORIES = pathlib.Path(__file__).resolve().parent.parent / "data" / "categories.json"
+
+
+def categories() -> dict[str, str]:
+    """Category per domain, assigned by Agent 0 from visiting the site. See data/categories.json."""
+    if not CATEGORIES.exists():
+        return {}
+    return {k: v for k, v in json.loads(CATEGORIES.read_text()).items()
+            if not k.startswith("_")}
 
 
 def _disqualified() -> dict[str, str]:

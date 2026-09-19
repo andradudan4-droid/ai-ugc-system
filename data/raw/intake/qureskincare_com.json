@@ -1,0 +1,70 @@
+{
+  "products": {
+    "n": 0,
+    "vendor": "Qure Skincare",
+    "source": "homepage rail \u2014 /products.json not served",
+    "items": [
+      {
+        "title": "Q-Rejuvalight LED Mask",
+        "type": "LED Device",
+        "tags": [],
+        "price": "",
+        "available": true,
+        "created": "",
+        "body": "LED face mask, $100 off with free Blue+ Serum. A hero SKU."
+      },
+      {
+        "title": "Micro-Infusion System",
+        "type": "Device",
+        "tags": [],
+        "price": "",
+        "available": true,
+        "created": "",
+        "body": "At-home micro-infusion, up to 70% off."
+      },
+      {
+        "title": "Q-Renew LLLT Helmet",
+        "type": "Device",
+        "tags": [],
+        "price": "",
+        "available": true,
+        "created": "",
+        "body": "Low-level laser therapy helmet for hair."
+      },
+      {
+        "title": "Shower Filter",
+        "type": "Device",
+        "tags": [],
+        "price": "",
+        "available": true,
+        "created": "",
+        "body": "Filtered showerhead."
+      },
+      {
+        "title": "Blue+ Serum",
+        "type": "Face Serum",
+        "tags": [],
+        "price": "79.00",
+        "available": true,
+        "created": "",
+        "body": "Topical serum positioned to enhance LED session results. Given as a free gift with the mask."
+      }
+    ]
+  },
+  "home": {
+    "title": "Science-Backed Skincare, Clinically-Proven Results | Qure",
+    "description": "Qure brings clinical treatments and skincare to your home, minus the 'clinical' costs.",
+    "site_name": "Qure Skincare",
+    "fit": "**Device-led, not topical \u2014 despite the name and the meta description.** The hero SKUs are an LED mask, a micro-infusion system, an LLLT helmet and a shower filter; topicals like Blue+ Serum are positioned as accessories to the devices and given away free with them. Same shape as Omnilux and eskiin: demo-able and high-AOV, but the creative job is device demonstration and results-over-time. Claim caution: the title tag asserts 'Clinically-Proven Results' outright.",
+    "headings": [
+      "Discover the power of Blue+ Serum",
+      "Results you'll see with your own eyes",
+      "Top Rated Products",
+      "Trusted and Recommended by Experts",
+      "Meet our board of advisors"
+    ],
+    "reviews": "1,312",
+    "rating": "",
+    "body_sample": "Free Shipping on Orders $149+ US & UK Only. Save Up To 70% on Micro-Infusion. Discover the power of Blue+ Serum \u2014 enhances LED session results, supports daily oxidative stress defense. Best Sellers: Micro-Infusion System, Q-Renew LLLT Helmet, Shower Filter, Q-Rejuvalight LED Mask. Save $100 on LED mask & Get Free Blue+ Serum. Trusted and Recommended by Experts. Meet our board of advisors."
+  }
+}
