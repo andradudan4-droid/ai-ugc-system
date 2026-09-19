@@ -11,7 +11,7 @@ import json
 import pathlib
 import re
 
-from .angles import EVIDENCE_NOTE, evidence_grade
+from .angles import EVIDENCE_NOTE, SATURATION_NOTE, evidence_grade
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 BRANDS = ROOT / "data" / "brands"
@@ -52,11 +52,13 @@ USER = """## Brand brief
 - **angle_id:** {angle_id}
 - **label:** {label}
 - **description:** {description}
-- **unclaimed in category:** {unclaimed}
+- **saturation:** {saturation}
 - **evidence grade:** {evidence}
 
-**How much to lean on this angle's wording:** {evidence_note}
+**Competitive position:** {saturation_note}
 
+**How much to lean on this angle's wording:** {evidence_note}
+{examples_block}{scope_block}
 Set `angle_id` to "{angle_id}" and `source_hook_ids` to {hook_ids} on every script you return.
 Set `brand_slug` to "{brand_slug}", `provenance` to "{provenance}", and `status` to "draft".
 Use script_id "{brand_slug}-{angle_id}-01", "-02", ... in order.
@@ -93,14 +95,35 @@ def do_not_say(md: str) -> list[str]:
     return re.findall(r'^- "([^"]+)"', m.group(1), re.M) if m else []
 
 
-def build(slug: str, angle: dict, n: int, provenance: str) -> dict:
+def _examples_block(angle: dict) -> str:
+    ex = angle.get("examples") or []
+    if not ex:
+        return ""
+    lines = "\n".join(f"  - {e}" for e in ex[:5])
+    return (
+        "\n**Openings already running in this angle** (ad copy, NOT spoken hooks — read them for "
+        f"what is already taken, then go elsewhere):\n{lines}\n"
+    )
+
+
+def _scope_block(corpus: dict) -> str:
+    w = corpus.get("scope_warning")
+    a = corpus.get("absence_is_measured_on")
+    if not (w or a):
+        return ""
+    return "\n**Scope of the evidence:** " + " ".join(x for x in (w, a) if x) + "\n"
+
+
+def build(slug: str, angle: dict, n: int, provenance: str, corpus: dict | None = None) -> dict:
     md = brand_md(slug)
+    corpus = corpus or {}
     grade = evidence_grade(angle)
     return {
         "brand_slug": slug,
         "angle_id": angle["angle_id"],
         "provenance": provenance,
         "angle_evidence": grade,
+        "angle_saturation": angle.get("saturation", "unclaimed"),
         "do_not_say": do_not_say(md),
         "system": SYSTEM.format(n=n, schema=json.dumps(SCHEMA_SKETCH, indent=2)),
         "user": USER.format(
@@ -108,9 +131,12 @@ def build(slug: str, angle: dict, n: int, provenance: str) -> dict:
             angle_id=angle["angle_id"],
             label=angle["label"],
             description=angle["description"],
-            unclaimed=angle.get("unclaimed", False),
+            saturation=angle.get("saturation", "unclaimed"),
+            saturation_note=SATURATION_NOTE.get(angle.get("saturation", "unclaimed"), ""),
             evidence=grade,
             evidence_note=EVIDENCE_NOTE[grade],
+            examples_block=_examples_block(angle),
+            scope_block=_scope_block(corpus),
             hook_ids=json.dumps(angle["hook_ids"]),
             brand_slug=slug,
             provenance=provenance,

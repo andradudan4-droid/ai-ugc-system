@@ -18,7 +18,7 @@ RETURNS = OUT / "returns"
 
 
 def emit_prompts(slug: str, angle_ids: list[str] | None, n: int) -> list[pathlib.Path]:
-    angles, is_fixture, src = load()
+    angles, is_fixture, src, corpus = load()
     if angle_ids:
         angles = [a for a in angles if a["angle_id"] in angle_ids]
     prov = f"FIXTURE ({src.name}) — NOT client-safe" if is_fixture else f"angles.json ({src.name})"
@@ -26,11 +26,31 @@ def emit_prompts(slug: str, angle_ids: list[str] | None, n: int) -> list[pathlib
     PROMPTS.mkdir(parents=True, exist_ok=True)
     written = []
     for a in angles:
-        p = build_prompt(slug, a, n, prov)
+        p = build_prompt(slug, a, n, prov, corpus)
         f = PROMPTS / f"{slug}--{a['angle_id']}.json"
         f.write_text(json.dumps(p, indent=2))
         written.append(f)
     return written
+
+
+def _attribution(angle: dict | None, grade: str) -> str:
+    """State plainly what a script traces back to -- and what it does not."""
+    if not angle:
+        return "UNTRACEABLE: angle_id not found in the angles source."
+    aid, sat = angle["angle_id"], angle.get("saturation")
+    if sat == "unclaimed":
+        return (
+            f"angle={aid} (UNCLAIMED, {angle.get('corpus_hits', 0)} corpus hits). No hooks exist to "
+            f"attribute to: the angle is defined by absence, verified by probe regex. Evidence "
+            f"grade {grade}. Traceable to the angle only, not to any ad."
+        )
+    n = angle.get("ad_count", 0)
+    brands = ", ".join(angle.get("brands", [])) or "unknown"
+    return (
+        f"angle={aid} ({sat}, {n} ads across {brands}). Agent 2 does not carry hook ids through "
+        f"from hooks.jsonl, so DESIGN.md §2 hook-level attribution is INCOMPLETE — traceable to the "
+        f"angle, not to individual ads. Evidence grade {grade}."
+    )
 
 
 def _banned_used(script: dict, banned: list[str]) -> list[str]:
@@ -44,7 +64,7 @@ def _banned_used(script: dict, banned: list[str]) -> list[str]:
 
 def assemble() -> dict:
     """Read model returns from data/scripts/returns/, validate, write scripts.json."""
-    angles, is_fixture, src = load()
+    angles, is_fixture, src, corpus = load()
     by_id = {a["angle_id"]: a for a in angles}
     RETURNS.mkdir(parents=True, exist_ok=True)
 
@@ -58,6 +78,9 @@ def assemble() -> dict:
             # Provenance is stamped from the angles file, not taken from the model's output.
             a = by_id.get(s.get("angle_id") or angle_id)
             s["angle_evidence"] = evidence_grade(a) if a else "unknown"
+            s["angle_saturation"] = (a or {}).get("saturation", "unclaimed")
+            s["source_hook_ids"] = (a or {}).get("hook_ids", [])
+            s["attribution_basis"] = _attribution(a, s["angle_evidence"])
             errs = validate(s)
             hits = _banned_used(s, banned)
             if hits:
@@ -69,6 +92,7 @@ def assemble() -> dict:
 
     doc = {
         "generated_from": src.name,
+        "corpus": corpus,
         "is_fixture": is_fixture,
         "script_count": len(scripts),
         "rejected": problems,

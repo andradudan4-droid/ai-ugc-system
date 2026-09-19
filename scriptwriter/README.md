@@ -16,7 +16,38 @@ step for an API call against the *same* prompts. So `--emit` writes one prompt p
 `data/scripts/returns/<slug>--<angle_id>.json`; `--assemble` validates and builds `scripts.json`.
 No spend either way — this repo makes no model calls.
 
-## Status: built against a fixture
+## Status: live on real angles
+
+`angles.json` landed. The fixture is retired to a regression path — it still works and still cannot
+publish, but the default source is now `shared/data/angles.json`.
+
+Agent 2 emits angles in four saturation buckets rather than a flat list, so `angles._normalise()`
+flattens them and records `saturation` per angle. That drives a second prompt instruction alongside
+evidence grade: a `saturated` angle is where every long-running ad already is (one creative in
+`customer_testimonial` has been alive 614 days), so writing there needs a real wedge; an `unclaimed`
+angle has no examples to imitate because none exist.
+
+**The loader refuses to run rather than return nothing.** Agent 2's real shape has no top-level
+`angles` key, so a fixture-shaped loader parses it to an empty list and silently produces zero
+prompts. `load()` now raises with the file's actual top-level keys instead.
+
+## Attribution is incomplete, and says so
+
+`docs/DESIGN.md` §2 requires every asset to trace back to the angle **and the hook** that produced
+it. Agent 2 does not carry hook ids through from `hooks.jsonl`, so hook-level attribution is not
+possible — and for an `unclaimed` angle there is no hook to trace to by definition, since the angle
+is established by absence.
+
+Rather than fabricate ids to satisfy a required field, every script carries `attribution_basis`
+stating what it does and does not trace to:
+
+> angle=heritage_origin (single_brand, 4 ads across Froya Organics). Agent 2 does not carry hook ids
+> through from hooks.jsonl, so DESIGN.md §2 hook-level attribution is INCOMPLETE — traceable to the
+> angle, not to individual ads. Evidence grade copy_derived.
+
+Validation requires that string to be substantive, so the gap cannot be silently skipped.
+
+## The fixture (retired)
 
 `angles.json` does not exist yet — Agent 2 is blocked upstream on the `DESIGN.md` §10 ad-intel
 decision. Agent 3 is complete and tested against `data/fixtures/angles.fixture.json`, a hand-written

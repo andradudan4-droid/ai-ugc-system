@@ -2,7 +2,7 @@ brand,website,category,segment,ad_count,ugc_ad_count_est,oldest_ad_days,newest_a
 Froya Organics,https://froyaorganics.com,skincare,fatigued,3400,1473,614,49,89.96,ugc est. from 30-ad sample; ad ages from sample; true oldest may be older; 2 affiliate page(s) run its creative; 15+ UGC video ads
 SpoiledChild,https://spoiledchild.com,skincare,fatigued,520,312,325,58,89.44,ugc est. from 30-ad sample; ad ages from sample; true oldest may be older; 1 affiliate page(s) run its creative; 15+ UGC video ads
 Saeskyn,https://saeskyn.com,skincare,fatigued,390,299,283,65,89.19,ugc est. from 30-ad sample; ad ages from sample; true oldest may be older; 15+ UGC video ads; nothing new in 65d
-Saltair,https://saltair.com,skincare,fatigued,700,327,220,45,88.59,"ugc est. from 30-ad sample; ad ages from sample; true oldest may be older; advertises as ""jaxandbrynco""; 15+ UGC video ads"
+Saltair,https://saltair.com,body_care,fatigued,700,327,220,45,88.59,"ugc est. from 30-ad sample; ad ages from sample; true oldest may be older; advertises as ""jaxandbrynco""; body_care — EXCLUDE from skincare hook corpus (DESIGN.md §4); 15+ UGC video ads"
 Try Strawberry,https://trystrawberry.com,skincare,cooling,240,160,515,125,87.8,ugc est. from 30-ad sample; ad ages from sample; true oldest may be older; 15+ UGC video ads; nothing new in 125d
 Beauty From Bees,https://beautyfrombees.ca,skincare,active,180,84,313,43,87.65,ugc est. from 30-ad sample; ad ages from sample; true oldest may be older; 15+ UGC video ads
 Asarai,https://asarai.com,skincare,fatigued,47,33,399,50,84.23,ugc est. from 30-ad sample; ad ages from sample; true oldest may be older; 15+ UGC video ads

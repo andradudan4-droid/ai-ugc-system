@@ -1,0 +1,71 @@
+[
+  {
+    "script_id": "froyaorganics-com-menopause_skin-01",
+    "brand_slug": "froyaorganics-com",
+    "angle_id": "menopause_skin",
+    "source_hook_ids": [],
+    "product": "The Complete System for Mature Women's Skin ($121.07)",
+    "avatar_brief": "Woman 50-56, mid-length hair she clearly does herself, sitting on the edge of a bed still in work clothes. Evening lamp light, slightly warm and dim. Delivery is flat and a bit tired — the tone of someone saying a thing out loud for the first time, not performing a realisation.",
+    "hook": "Nobody sat me down and told me my face was going to change too.",
+    "first_frame": "Mid-shot, woman on the edge of a bed, lamp behind her. She is looking slightly off-camera, not smiling. No product anywhere in frame.",
+    "beats": [
+      {"t": 0, "vo": "Nobody sat me down and told me my face was going to change too.", "visual": "Static mid-shot, lamp light. She holds the look for a beat before continuing."},
+      {"t": 5, "vo": "They mention the temperature thing. The sleep thing. Nobody mentions that your skin stops behaving like your skin.", "visual": "She glances down, back up. Small shrug."},
+      {"t": 12, "vo": "Everything I owned was suddenly wrong. Light lotions sat on top. Foundation went into places it never used to go.", "visual": "Cut to a cluttered bathroom shelf of half-used bottles, shot plainly from above."},
+      {"t": 20, "vo": "What actually worked for me was going heavier. Balms, not lotions. Norwegian arctic plants, four steps, morning and night.", "visual": "She sets the four Frøya jars on the bed beside her, unhurried, no flourish."},
+      {"t": 28, "vo": "It supports the skin barrier in 7 days, and 95% reported youthful glow. I mostly just stopped feeling like my face was a stranger.", "visual": "Close on her pressing the day balm into her cheek, no mirror."},
+      {"t": 35, "vo": "If your skin changed and nobody warned you either — this is the one I'd hand you.", "visual": "She holds the system box at chest height. Brand name on screen."}
+    ],
+    "cta": "If your skin changed and nobody warned you either — this is the one I'd hand you.",
+    "duration_s": 41,
+    "claims_used": ["supports the skin barrier in 7 days", "95% reported youthful glow"],
+    "provenance": "angles.json (angles.json)",
+    "status": "draft"
+  },
+  {
+    "script_id": "froyaorganics-com-menopause_skin-02",
+    "brand_slug": "froyaorganics-com",
+    "angle_id": "menopause_skin",
+    "source_hook_ids": [],
+    "product": "Wrinkle Smoothing Night Balm ($37.00)",
+    "avatar_brief": "Woman 54-62, filmed by a friend rather than selfie-style, standing in a kitchen mid-conversation with a tea towel still in one hand. Natural daylight. Delivery is brisk and funny, the register of complaining to a mate rather than confiding.",
+    "hook": "Three things changed at once and only one of them gets talked about.",
+    "first_frame": "Woman standing in a kitchen, caught mid-gesture, tea towel in hand. Slightly off-centre framing — clearly someone else is holding the phone.",
+    "beats": [
+      {"t": 0, "vo": "Three things changed at once and only one of them gets talked about.", "visual": "She holds up a finger, kitchen daylight, friend-shot framing."},
+      {"t": 5, "vo": "Sleep. Temperature. And my skin, which went from oily-if-anything to tight by ten in the morning.", "visual": "She counts them off on her fingers, unpolished."},
+      {"t": 13, "vo": "I kept buying the same thin serums I'd used for twenty years and wondering why nothing landed.", "visual": "Quick cut: a drawer pulled open, full of small bottles."},
+      {"t": 20, "vo": "Switched to a beeswax balm at night. Rosehip and marigold. It works overnight while you sleep, and it softens the look of fine lines.", "visual": "She scoops the night balm, warms it between fingers so the texture stretches."},
+      {"t": 29, "vo": "Thirty-seven quid and it's the only thing in that drawer I've rebought.", "visual": "Jar in palm, label readable, kitchen behind."},
+      {"t": 34, "vo": "Frøya's Wrinkle Smoothing Night Balm. Go heavier than you think you need to.", "visual": "She tosses the tea towel over her shoulder, jar on the counter. Brand on screen."}
+    ],
+    "cta": "Frøya's Wrinkle Smoothing Night Balm. Go heavier than you think you need to.",
+    "duration_s": 39,
+    "claims_used": ["works overnight while you sleep", "softens the look of fine lines"],
+    "provenance": "angles.json (angles.json)",
+    "status": "draft"
+  },
+  {
+    "script_id": "froyaorganics-com-menopause_skin-03",
+    "brand_slug": "froyaorganics-com",
+    "angle_id": "menopause_skin",
+    "source_hook_ids": [],
+    "product": "Complete System For Mature Hair & Scalp ($67.77)",
+    "avatar_brief": "Woman 48-55, bathroom, hair wet and pushed back so the hairline and parting are plainly visible. No makeup. Delivery is quiet and matter-of-fact, slightly guarded — this is the vulnerable one and it must not be played for sympathy.",
+    "hook": "The hair thing is the part I didn't want to say out loud.",
+    "first_frame": "Close on a wet parting, shot from slightly above, bathroom light. Her hands are lifting the hair to show the scalp.",
+    "beats": [
+      {"t": 0, "vo": "The hair thing is the part I didn't want to say out loud.", "visual": "Hands lifting wet hair at the parting, scalp visible, unglamorous."},
+      {"t": 5, "vo": "The skin changes, fine, everyone jokes about that. The shedding is the one that got me.", "visual": "She lets the hair fall, looks at the camera for the first time."},
+      {"t": 12, "vo": "This is a three-step thing. Rosemary shampoo, a rosemary spray, and a serum for the roots.", "visual": "Three bottles lined up on the edge of the sink, one at a time."},
+      {"t": 19, "vo": "It's made for women whose hair changed with stress, postpartum, perimenopause or menopause. That's the actual brief on the box.", "visual": "She turns the box so the copy is legible, holds it steady."},
+      {"t": 27, "vo": "Sixty-day supply, sixty-eight dollars. 93% experience better hair. I'm not going to oversell it beyond that.", "visual": "Massaging the serum into the parting, fingers working the scalp."},
+      {"t": 34, "vo": "Frøya's Complete System for Mature Hair and Scalp. Say it out loud sooner than I did.", "visual": "Three bottles on the sink, brand name on screen."}
+    ],
+    "cta": "Frøya's Complete System for Mature Hair and Scalp. Say it out loud sooner than I did.",
+    "duration_s": 40,
+    "claims_used": ["93% experience better hair", "60-day supply", "made for women whose hair has been affected by stress, postpartum changes, perimenopause, or menopause"],
+    "provenance": "angles.json (angles.json)",
+    "status": "draft"
+  }
+]

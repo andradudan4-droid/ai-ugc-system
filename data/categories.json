@@ -2,6 +2,7 @@
   "_comment": "Category per brand, assigned by Agent 0 (Intake) from visiting the site. Agent -1 reads this to fill the `category` column in targets.csv. Only `skincare` may enter the skincare hook corpus (docs/DESIGN.md \u00a74) \u2014 that corpus is the compounding asset and mixing a showerhead or a silk pillowcase into it destroys what makes it valuable. Brands with no intake yet default to `unverified`: they surfaced via skincare keyword searches so they are probably skincare, but nobody has looked.",
   "_values": [
     "skincare",
+    "body_care",
     "beauty_device",
     "fragrance",
     "makeup",
@@ -12,7 +13,7 @@
   "froyaorganics.com": "skincare",
   "spoiledchild.com": "skincare",
   "saeskyn.com": "skincare",
-  "saltair.com": "skincare",
+  "saltair.com": "body_care",
   "asarai.com": "skincare",
   "biodance.com": "skincare",
   "drmtlgy.com": "skincare",
@@ -33,5 +34,7 @@
   "glomelanin.com": "skincare",
   "trynavaro.com": "skincare",
   "trypureskin.com": "accessory",
-  "qureskincare.com": "beauty_device"
+  "qureskincare.com": "beauty_device",
+  "_note_granularity": "Brand-level category is coarser than Agent 2's ad-level product_class. A brand tagged `skincare` can still run mostly off-category ads: Miner found SpoiledChild advertising ingestible collagen and appetite suppression, and Saltair advertising body wash and fragrance. The skincare hook corpus needs BOTH gates \u2014 this one to pick brands, and Agent 2's product_class to drop individual ads.",
+  "_note_spoiledchild": "Sells topical face serums (S33+, T31, O36+) alongside ingestible collagen and magnesium. Stays `skincare` because the topical line is real, but a majority of its ADS are ingestible \u2014 Agent 2's ad-level gate is what keeps those out of the corpus, not this field."
 }

@@ -19,7 +19,9 @@ REQUIRED = [
     "script_id",        # stable id: <brand_slug>-<angle_id>-<nn>
     "brand_slug",       # matches data/brands/<slug>/
     "angle_id",         # attribution -> angles.json
-    "source_hook_ids",  # attribution -> hooks.jsonl, list[str]
+    "source_hook_ids",  # attribution -> hooks.jsonl; EMPTY when Agent 2 carries no hook ids
+    "attribution_basis",  # plain-English record of what this script can actually be traced to
+    "angle_saturation",   # saturated | contested | single_brand | unclaimed
     "product",          # the SKU this script sells, from brand.md
     "avatar_brief",     # who delivers it: age band, presentation, setting
     "hook",             # spoken first 1-3s -- Agent 5's scroll-stop check
@@ -35,6 +37,7 @@ REQUIRED = [
 
 ALLOWED_STATUS = {"draft", "approved", "rendered"}
 ALLOWED_EVIDENCE = {"transcribed", "copy_derived", "mixed", "unknown"}
+ALLOWED_SATURATION = {"saturated", "contested", "single_brand", "unclaimed"}
 
 
 def validate(script: dict) -> list[str]:
@@ -51,8 +54,16 @@ def validate(script: dict) -> list[str]:
 
     if not script.get("angle_id"):
         errs.append("angle_id is empty -- breaks attribution (DESIGN.md §2)")
-    if not isinstance(script.get("source_hook_ids"), list) or not script.get("source_hook_ids"):
-        errs.append("source_hook_ids must be a non-empty list -- breaks attribution")
+    # DESIGN.md §2 wants every asset traced to the angle AND hook that produced it. Agent 2 does
+    # not carry hook ids through, so hook-level attribution is often impossible. Record that gap in
+    # attribution_basis rather than fabricating ids to satisfy the field.
+    if not isinstance(script.get("source_hook_ids"), list):
+        errs.append("source_hook_ids must be a list (may be empty)")
+    basis = (script.get("attribution_basis") or "").strip()
+    if len(basis) < 20:
+        errs.append("attribution_basis must say what this traces back to, and what it does not")
+    if script.get("angle_saturation") not in ALLOWED_SATURATION:
+        errs.append(f"angle_saturation must be one of {sorted(ALLOWED_SATURATION)}")
 
     beats = script.get("beats")
     if not isinstance(beats, list) or not beats:

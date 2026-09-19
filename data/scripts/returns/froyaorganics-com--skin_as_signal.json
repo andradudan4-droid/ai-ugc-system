@@ -1,0 +1,71 @@
+[
+  {
+    "script_id": "froyaorganics-com-skin_as_signal-01",
+    "brand_slug": "froyaorganics-com",
+    "angle_id": "skin_as_signal",
+    "source_hook_ids": [],
+    "product": "The Complete System for Mature Women's Skin ($121.07)",
+    "avatar_brief": "Woman 45-55, sitting on a sofa late evening, one lamp on, phone propped on a cushion. Slightly slumped posture, no makeup, glass of water beside her. Delivery is slow and thoughtful with real pauses — this angle dies if it is performed briskly.",
+    "hook": "My face is the first place my week shows up. Before I notice it anywhere else.",
+    "first_frame": "Woman on a sofa in low lamp light, phone-height framing, half her face in shadow. Nothing else in frame.",
+    "beats": [
+      {"t": 0, "vo": "My face is the first place my week shows up. Before I notice it anywhere else.", "visual": "Static low-light sofa shot. She holds still, no gesture."},
+      {"t": 6, "vo": "Bad sleep, too much on, not enough water — it's on me by Wednesday and I can see it.", "visual": "She touches under one eye briefly, not theatrically."},
+      {"t": 13, "vo": "I stopped treating that as a thing to cover and started treating it as information.", "visual": "Cut to her setting the four jars out on the coffee table in a row."},
+      {"t": 20, "vo": "The routine isn't the fix for a bad week. It's the thing that means a bad week doesn't compound.", "visual": "Applying the night balm, slow, in lamp light."},
+      {"t": 28, "vo": "Four steps, arctic plants, supports the skin barrier in 7 days. Sixty days or your money back, which is how long it actually takes to tell.", "visual": "The four jars on the table, shot from above."},
+      {"t": 36, "vo": "The Complete System for Mature Women's Skin. Frøya. Listen to your face a bit earlier than I did.", "visual": "She turns the lamp off. Brand name on screen over black."}
+    ],
+    "cta": "The Complete System for Mature Women's Skin. Frøya. Listen to your face a bit earlier than I did.",
+    "duration_s": 43,
+    "claims_used": ["supports the skin barrier in 7 days", "results in 60 days or your money back"],
+    "provenance": "angles.json (angles.json)",
+    "status": "draft"
+  },
+  {
+    "script_id": "froyaorganics-com-skin_as_signal-02",
+    "brand_slug": "froyaorganics-com",
+    "angle_id": "skin_as_signal",
+    "source_hook_ids": [],
+    "product": "Anti-Age & Insane Glow Day Balm ($29.70)",
+    "avatar_brief": "Woman 38-48, getting ready in a hallway mirror before work, jacket half on, moving. Handheld, a bit rushed. Delivery is quick and clipped, talking while doing — the opposite energy to script 01 on the same angle deliberately.",
+    "hook": "I can tell you exactly how last week went by looking at my cheeks.",
+    "first_frame": "Hallway mirror, she is putting one arm into a jacket, face visible in reflection. Morning light through a door behind.",
+    "beats": [
+      {"t": 0, "vo": "I can tell you exactly how last week went by looking at my cheeks.", "visual": "Mirror reflection, jacket half on, movement in frame."},
+      {"t": 5, "vo": "Dull means I didn't sleep. Tight means I lived on coffee. It's a readout, not a mystery.", "visual": "She leans closer to the mirror, turns her face side to side."},
+      {"t": 12, "vo": "So the morning one has to actually do something in the ninety seconds I give it.", "visual": "Grabs the day balm from a shelf by the door, opens it one-handed."},
+      {"t": 19, "vo": "Sea buckthorn and pomegranate balm. 95% reported youthful glow. Goes on like a balm, sits like nothing.", "visual": "Quick press into both cheeks, no blending ritual, finish visible in the mirror."},
+      {"t": 27, "vo": "Under thirty dollars, and it's the only step I don't skip when I'm late.", "visual": "Jar back on the shelf, she picks up keys."},
+      {"t": 33, "vo": "Anti-Age and Insane Glow Day Balm. Frøya. Your face is already telling you — go on.", "visual": "Door opening, light flare, brand name on screen."}
+    ],
+    "cta": "Anti-Age and Insane Glow Day Balm. Frøya. Your face is already telling you — go on.",
+    "duration_s": 38,
+    "claims_used": ["95% reported youthful glow"],
+    "provenance": "angles.json (angles.json)",
+    "status": "draft"
+  },
+  {
+    "script_id": "froyaorganics-com-skin_as_signal-03",
+    "brand_slug": "froyaorganics-com",
+    "angle_id": "skin_as_signal",
+    "source_hook_ids": [],
+    "product": "Dry and Itchy Balm for Face and Body ($44.00)",
+    "avatar_brief": "Woman 40-52, sitting on the floor against a radiator in winter, jumper sleeves pushed up showing dry forearms. Cold blue daylight. Delivery is plain and unembarrassed, the tone of stating a fact about her own body without apology.",
+    "hook": "Every winter my arms tell me the heating's been on for three weeks before I work it out.",
+    "first_frame": "Close on a forearm against a jumper sleeve, dry patches visible in cold daylight. No face yet.",
+    "beats": [
+      {"t": 0, "vo": "Every winter my arms tell me the heating's been on for three weeks before I work it out.", "visual": "Macro on dry forearm skin, cold window light, sleeve pushed up."},
+      {"t": 7, "vo": "Same signal every year. Indoor air, hot showers, and I notice it on my body before my face.", "visual": "Pull back to reveal her sitting against a radiator."},
+      {"t": 14, "vo": "This is chamomile and thistle in beeswax. It's for face and body, which is the only reason I actually use it on both.", "visual": "She opens the jar, scoops with two fingers, texture visible."},
+      {"t": 22, "vo": "Soothes dry, itchy skin. Supports the skin barrier in 7 days. Gentle enough for the face.", "visual": "Working it into the forearm, then briefly along the jaw."},
+      {"t": 30, "vo": "Forty-four dollars and one jar does both, which is why it's the one that lasts in this house.", "visual": "Jar set on the radiator shelf, sleeve pulled back down."},
+      {"t": 36, "vo": "Dry and Itchy Balm, from Frøya. When your arms start telling you, believe them.", "visual": "Wide of her by the window, brand name on screen."}
+    ],
+    "cta": "Dry and Itchy Balm, from Frøya. When your arms start telling you, believe them.",
+    "duration_s": 41,
+    "claims_used": ["soothes dry, itchy skin", "supports the skin barrier in 7 days", "gentle enough for face and body"],
+    "provenance": "angles.json (angles.json)",
+    "status": "draft"
+  }
+]
