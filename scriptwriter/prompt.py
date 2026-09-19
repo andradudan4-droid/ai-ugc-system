@@ -123,7 +123,8 @@ def build(slug: str, angle: dict, n: int, provenance: str, corpus: dict | None =
         "angle_id": angle["angle_id"],
         "provenance": provenance,
         "angle_evidence": grade,
-        "angle_saturation": angle.get("saturation", "unclaimed"),
+        # Never default to "unclaimed": absent must resolve to unknown, not to a positive claim.
+        "angle_saturation": angle.get("saturation") or "unknown",
         "do_not_say": do_not_say(md),
         "system": SYSTEM.format(n=n, schema=json.dumps(SCHEMA_SKETCH, indent=2)),
         "user": USER.format(
@@ -131,8 +132,9 @@ def build(slug: str, angle: dict, n: int, provenance: str, corpus: dict | None =
             angle_id=angle["angle_id"],
             label=angle["label"],
             description=angle["description"],
-            saturation=angle.get("saturation", "unclaimed"),
-            saturation_note=SATURATION_NOTE.get(angle.get("saturation", "unclaimed"), ""),
+            saturation=angle.get("saturation") or "unknown",
+            saturation_note=SATURATION_NOTE.get(
+                angle.get("saturation") or "unknown", SATURATION_NOTE["unknown"]),
             evidence=grade,
             evidence_note=EVIDENCE_NOTE[grade],
             examples_block=_examples_block(angle),

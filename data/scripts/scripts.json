@@ -34,13 +34,61 @@
     ],
     "min_days_running": 33,
     "scope_warning": "PILOT CORPUS \u2014 5 fatigued brands of 81 in scope. 'unclaimed' means absent from THIS sample, not proven absent from the category. Verify against the full 81 before putting an unclaimed angle in front of a client.",
-    "absence_is_measured_on": "Hook position only \u2014 the ad's opening line, which is what was captured in full. Body copy was stored truncated, so NO claim is made about whether an angle appears deeper in an ad, and the probes must not be read as evidence about it. Observed directly while collecting: DRMTLGY runs '\ud83e\ude7a Dermatologist Recommended' as a trust bullet. So dermatologist_as_ally exists in the category as reassurance and is still unclaimed as an opening argument \u2014 which is the unit being sold, and a sharper finding than simple absence."
+    "absence_is_measured_on": "Hook position only \u2014 the ad's opening line, which is what was captured in full. Body copy was stored truncated, so NO claim is made about whether an angle appears deeper in an ad, and the probes must not be read as evidence about it. Observed directly while collecting: DRMTLGY runs '\ud83e\ude7a Dermatologist Recommended' as a trust bullet. So dermatologist_as_ally exists in the category as reassurance and is still unclaimed as an opening argument \u2014 which is the unit being sold, and a sharper finding than simple absence.",
+    "schema_version": 3,
+    "generated_at": "2026-09-19T19:53:09+00:00",
+    "corpus_fingerprint": "ead00f7c359ea8c8"
   },
+  "corpus_fingerprint": "ead00f7c359ea8c8",
+  "schema_version": 3,
   "client_ready": false,
-  "client_ready_reason": "PIPELINE TEST \u2014 angle corpus is 139 hooks from 12 brands, below the 150/8 bar for client-facing work. Contamination in a pilot this size already inverted one angle result once. Nothing here goes near a brand until Agent 2 re-derives on the extended corpus and reports which angles survive.",
+  "client_ready_reason": "Gated per claim \u2014 see claim_type and claim_evidence on each script.",
   "is_fixture": false,
-  "script_count": 12,
-  "rejected": [],
+  "script_count": 10,
+  "rejected": [
+    {
+      "file": "froyaorganics-com--menopause_skin.json",
+      "script_id": "froyaorganics-com-menopause_skin-01",
+      "errors": [
+        "angle_id 'menopause_skin' is not in angles.json \u2014 the angle it was written against no longer exists in the corpus. Rewrite against a current angle."
+      ]
+    },
+    {
+      "file": "froyaorganics-com--menopause_skin.json",
+      "script_id": "froyaorganics-com-menopause_skin-02",
+      "errors": [
+        "angle_id 'menopause_skin' is not in angles.json \u2014 the angle it was written against no longer exists in the corpus. Rewrite against a current angle."
+      ]
+    },
+    {
+      "file": "froyaorganics-com--menopause_skin.json",
+      "script_id": "froyaorganics-com-menopause_skin-03",
+      "errors": [
+        "angle_id 'menopause_skin' is not in angles.json \u2014 the angle it was written against no longer exists in the corpus. Rewrite against a current angle."
+      ]
+    },
+    {
+      "file": "froyaorganics-com--skin_as_signal.json",
+      "script_id": "froyaorganics-com-skin_as_signal-01",
+      "errors": [
+        "angle_id 'skin_as_signal' is not in angles.json \u2014 the angle it was written against no longer exists in the corpus. Rewrite against a current angle."
+      ]
+    },
+    {
+      "file": "froyaorganics-com--skin_as_signal.json",
+      "script_id": "froyaorganics-com-skin_as_signal-02",
+      "errors": [
+        "angle_id 'skin_as_signal' is not in angles.json \u2014 the angle it was written against no longer exists in the corpus. Rewrite against a current angle."
+      ]
+    },
+    {
+      "file": "froyaorganics-com--skin_as_signal.json",
+      "script_id": "froyaorganics-com-skin_as_signal-03",
+      "errors": [
+        "angle_id 'skin_as_signal' is not in angles.json \u2014 the angle it was written against no longer exists in the corpus. Rewrite against a current angle."
+      ]
+    }
+  ],
   "scripts": [
     {
       "script_id": "froyaorganics-com-customer_testimonial-01",
@@ -95,9 +143,11 @@
       "status": "draft",
       "angle_evidence": "copy_derived",
       "angle_saturation": "single_brand",
-      "attribution_basis": "angle=customer_testimonial (single_brand, 1 ads across Froya Organics). Agent 2 does not carry hook ids through from hooks.jsonl, so DESIGN.md \u00a72 hook-level attribution is INCOMPLETE \u2014 traceable to the angle, not to individual ads. Evidence grade copy_derived.",
-      "client_ready": false,
-      "hold_reason": "PIPELINE TEST \u2014 angle corpus is 139 hooks from 12 brands, below the 150/8 bar for client-facing work. Contamination in a pilot this size already inverted one angle result once. Nothing here goes near a brand until Agent 2 re-derives on the extended corpus and reports which angles survive."
+      "attribution_basis": "angle=customer_testimonial (single_brand, 1 ads across Froya Organics); traceable to 1 hook ids. Evidence grade copy_derived.",
+      "claim_type": "brand_own",
+      "claim_evidence": "Observation about the client's own ads (1 ads). Needs no category evidence \u2014 it is not a claim about the market.",
+      "corpus_fingerprint": "ead00f7c359ea8c8",
+      "client_ready": true
     },
     {
       "script_id": "froyaorganics-com-customer_testimonial-02",
@@ -152,9 +202,11 @@
       "status": "draft",
       "angle_evidence": "copy_derived",
       "angle_saturation": "single_brand",
-      "attribution_basis": "angle=customer_testimonial (single_brand, 1 ads across Froya Organics). Agent 2 does not carry hook ids through from hooks.jsonl, so DESIGN.md \u00a72 hook-level attribution is INCOMPLETE \u2014 traceable to the angle, not to individual ads. Evidence grade copy_derived.",
-      "client_ready": false,
-      "hold_reason": "PIPELINE TEST \u2014 angle corpus is 139 hooks from 12 brands, below the 150/8 bar for client-facing work. Contamination in a pilot this size already inverted one angle result once. Nothing here goes near a brand until Agent 2 re-derives on the extended corpus and reports which angles survive."
+      "attribution_basis": "angle=customer_testimonial (single_brand, 1 ads across Froya Organics); traceable to 1 hook ids. Evidence grade copy_derived.",
+      "claim_type": "brand_own",
+      "claim_evidence": "Observation about the client's own ads (1 ads). Needs no category evidence \u2014 it is not a claim about the market.",
+      "corpus_fingerprint": "ead00f7c359ea8c8",
+      "client_ready": true
     },
     {
       "script_id": "froyaorganics-com-customer_testimonial-03",
@@ -210,9 +262,243 @@
       "status": "draft",
       "angle_evidence": "copy_derived",
       "angle_saturation": "single_brand",
-      "attribution_basis": "angle=customer_testimonial (single_brand, 1 ads across Froya Organics). Agent 2 does not carry hook ids through from hooks.jsonl, so DESIGN.md \u00a72 hook-level attribution is INCOMPLETE \u2014 traceable to the angle, not to individual ads. Evidence grade copy_derived.",
+      "attribution_basis": "angle=customer_testimonial (single_brand, 1 ads across Froya Organics); traceable to 1 hook ids. Evidence grade copy_derived.",
+      "claim_type": "brand_own",
+      "claim_evidence": "Observation about the client's own ads (1 ads). Needs no category evidence \u2014 it is not a claim about the market.",
+      "corpus_fingerprint": "ead00f7c359ea8c8",
+      "client_ready": true
+    },
+    {
+      "script_id": "froyaorganics-com-dermatologist_as_ally-01",
+      "brand_slug": "froyaorganics-com",
+      "angle_id": "dermatologist_as_ally",
+      "source_hook_ids": [],
+      "product": "The Complete System for Mature Women's Skin ($121.07)",
+      "avatar_brief": "Woman 54-62, sitting in a car in a clinic car park, coat on, appointment card still in her hand. Daylight through the windscreen. Delivery is thoughtful and slightly surprised \u2014 she is repeating advice she did not expect to get.",
+      "hook": "The best thing a dermatologist ever told me was to stop buying so much.",
+      "first_frame": "Her in the driver's seat, appointment card visible in frame, clinic building blurred through the window behind.",
+      "beats": [
+        {
+          "t": 0,
+          "vo": "The best thing a dermatologist ever told me was to stop buying so much.",
+          "visual": "Car interior, daylight, she turns the appointment card over in her fingers."
+        },
+        {
+          "t": 6,
+          "vo": "Not a prescription. Not a procedure. Fewer things, used properly, on a barrier that's had a hard few years.",
+          "visual": "She glances back toward the clinic, then to camera."
+        },
+        {
+          "t": 14,
+          "vo": "So I went from eleven products to four. Cleanse, day, eyes, night. That's the whole routine now.",
+          "visual": "Cut to four Fr\u00f8ya jars lined on a kitchen counter, shot plainly."
+        },
+        {
+          "t": 22,
+          "vo": "They're dermatologist-tested, which was the bit I checked first, and they support the skin barrier in 7 days.",
+          "visual": "Close on the box copy, held steady enough to read."
+        },
+        {
+          "t": 30,
+          "vo": "Nobody in this industry makes money telling you to own less. That's why I believed her.",
+          "visual": "Back to her face in the car, calm, direct."
+        },
+        {
+          "t": 37,
+          "vo": "The Complete System for Mature Women's Skin, from Fr\u00f8ya. Four things.",
+          "visual": "Four jars on the counter. Brand name on screen."
+        }
+      ],
+      "cta": "The Complete System for Mature Women's Skin, from Fr\u00f8ya. Four things.",
+      "duration_s": 43,
+      "claims_used": [
+        "Dermatologist-Tested",
+        "supports the skin barrier in 7 days"
+      ],
+      "provenance": "angles.json (angles.json)",
+      "status": "draft",
+      "angle_evidence": "copy_derived",
+      "angle_saturation": "unclaimed",
+      "attribution_basis": "angle=dermatologist_as_ally (UNCLAIMED, 0 corpus hits). No hooks exist to attribute to: the angle is defined by absence, verified by probe regex. Evidence grade copy_derived. Traceable to the angle only, not to any ad.",
+      "claim_type": "category_absence",
+      "claim_evidence": "Absence measured across the whole corpus: 139 hooks from 12 brands, zero hits.",
+      "corpus_fingerprint": "ead00f7c359ea8c8",
       "client_ready": false,
-      "hold_reason": "PIPELINE TEST \u2014 angle corpus is 139 hooks from 12 brands, below the 150/8 bar for client-facing work. Contamination in a pilot this size already inverted one angle result once. Nothing here goes near a brand until Agent 2 re-derives on the extended corpus and reports which angles survive."
+      "hold_reason": "Absence claim, evidenced on caption openings only. Six of the nine unclaimed angles concern who is being addressed, which caption text may not capture \u2014 so these may have survived a test unable to reject them. Held until Agent 2's transcription pass lands."
+    },
+    {
+      "script_id": "froyaorganics-com-dermatologist_as_ally-02",
+      "brand_slug": "froyaorganics-com",
+      "angle_id": "dermatologist_as_ally",
+      "source_hook_ids": [],
+      "product": "Wrinkle Smoothing Night Balm ($37.00)",
+      "avatar_brief": "Woman 46-54, at a kitchen table with a laptop open on a skincare brand's ingredients page. Reading glasses on. Delivery is precise and a little pedantic in a likeable way \u2014 she is the friend who actually looks things up.",
+      "hook": "I finally looked up what 'dermatologist tested' legally means. It's less than you'd hope and more than nothing.",
+      "first_frame": "Over her shoulder at a laptop showing a product ingredients page, her finger on the trackpad, glasses on.",
+      "beats": [
+        {
+          "t": 0,
+          "vo": "I finally looked up what 'dermatologist tested' legally means. It's less than you'd hope and more than nothing.",
+          "visual": "Laptop screen, she scrolls an ingredients page."
+        },
+        {
+          "t": 8,
+          "vo": "It means a dermatologist oversaw testing for irritation. It doesn't mean one endorsed it. Those are different sentences.",
+          "visual": "She turns to camera, glasses coming off."
+        },
+        {
+          "t": 16,
+          "vo": "Which matters, because on mature skin the thing that goes wrong first is usually irritation, not ageing.",
+          "visual": "Cut to the night balm jar on the table beside the laptop."
+        },
+        {
+          "t": 24,
+          "vo": "This one's dermatologist-tested, it's rosehip and marigold in beeswax, and it softens the look of fine lines.",
+          "visual": "She opens it, works a little between her fingers \u2014 dense, slow."
+        },
+        {
+          "t": 32,
+          "vo": "Thirty-seven dollars. I'd rather have the honest claim than the impressive one.",
+          "visual": "Laptop closed, jar in the centre of the table."
+        },
+        {
+          "t": 38,
+          "vo": "Wrinkle Smoothing Night Balm, from Fr\u00f8ya. Go and read what yours actually says.",
+          "visual": "Jar held to camera, brand name on screen."
+        }
+      ],
+      "cta": "Wrinkle Smoothing Night Balm, from Fr\u00f8ya. Go and read what yours actually says.",
+      "duration_s": 44,
+      "claims_used": [
+        "Dermatologist-Tested",
+        "softens the look of fine lines"
+      ],
+      "provenance": "angles.json (angles.json)",
+      "status": "draft",
+      "angle_evidence": "copy_derived",
+      "angle_saturation": "unclaimed",
+      "attribution_basis": "angle=dermatologist_as_ally (UNCLAIMED, 0 corpus hits). No hooks exist to attribute to: the angle is defined by absence, verified by probe regex. Evidence grade copy_derived. Traceable to the angle only, not to any ad.",
+      "claim_type": "category_absence",
+      "claim_evidence": "Absence measured across the whole corpus: 139 hooks from 12 brands, zero hits.",
+      "corpus_fingerprint": "ead00f7c359ea8c8",
+      "client_ready": false,
+      "hold_reason": "Absence claim, evidenced on caption openings only. Six of the nine unclaimed angles concern who is being addressed, which caption text may not capture \u2014 so these may have survived a test unable to reject them. Held until Agent 2's transcription pass lands."
+    },
+    {
+      "script_id": "froyaorganics-com-dermatologist_as_ally-03",
+      "brand_slug": "froyaorganics-com",
+      "angle_id": "dermatologist_as_ally",
+      "source_hook_ids": [],
+      "product": "Balm for Acne-Prone Skin ($29.00)",
+      "avatar_brief": "Woman 38-46, bathroom, bare-faced, sitting on the edge of the bath. Delivery is warm and unbothered \u2014 she is not complaining about her dermatologist, which is the whole point of the angle.",
+      "hook": "My dermatologist didn't try to sell me anything. That's still the strangest appointment I've had.",
+      "first_frame": "Her sitting on the edge of a bath, bare-faced, bathroom shelf visible behind with only a few items on it.",
+      "beats": [
+        {
+          "t": 0,
+          "vo": "My dermatologist didn't try to sell me anything. That's still the strangest appointment I've had.",
+          "visual": "Edge of the bath, bare face, sparse shelf behind her."
+        },
+        {
+          "t": 7,
+          "vo": "She said most of what I was using was fine, and most of what I was doing to it wasn't.",
+          "visual": "Small laugh, she pushes her hair back."
+        },
+        {
+          "t": 14,
+          "vo": "Less scrubbing, less layering, and something calming that doesn't strip on the days it's angry.",
+          "visual": "She reaches back for the jar on the shelf, brings it into frame."
+        },
+        {
+          "t": 21,
+          "vo": "Marigold and calendula in beeswax. Made for red, breakout-prone skin. It calms and protects with arctic plants.",
+          "visual": "Dabbing it onto a reddened area along the jaw, no mirror, no ceremony."
+        },
+        {
+          "t": 29,
+          "vo": "Twenty-nine dollars. The advice was free and it was better than the shopping.",
+          "visual": "Jar back on the shelf beside two other items \u2014 a genuinely short routine."
+        },
+        {
+          "t": 36,
+          "vo": "Balm for Acne-Prone Skin, from Fr\u00f8ya. Ask yours what to stop doing.",
+          "visual": "Sparse shelf in focus, brand name on screen."
+        }
+      ],
+      "cta": "Balm for Acne-Prone Skin, from Fr\u00f8ya. Ask yours what to stop doing.",
+      "duration_s": 42,
+      "claims_used": [
+        "made for red, breakout-prone skin",
+        "calms & protects skin with Arctic plants"
+      ],
+      "provenance": "angles.json (angles.json)",
+      "status": "draft",
+      "angle_evidence": "copy_derived",
+      "angle_saturation": "unclaimed",
+      "attribution_basis": "angle=dermatologist_as_ally (UNCLAIMED, 0 corpus hits). No hooks exist to attribute to: the angle is defined by absence, verified by probe regex. Evidence grade copy_derived. Traceable to the angle only, not to any ad.",
+      "claim_type": "category_absence",
+      "claim_evidence": "Absence measured across the whole corpus: 139 hooks from 12 brands, zero hits.",
+      "corpus_fingerprint": "ead00f7c359ea8c8",
+      "client_ready": false,
+      "hold_reason": "Absence claim, evidenced on caption openings only. Six of the nine unclaimed angles concern who is being addressed, which caption text may not capture \u2014 so these may have survived a test unable to reject them. Held until Agent 2's transcription pass lands."
+    },
+    {
+      "script_id": "froyaorganics-com-dermatologist_as_ally-04",
+      "brand_slug": "froyaorganics-com",
+      "angle_id": "dermatologist_as_ally",
+      "source_hook_ids": [],
+      "product": "Magic Revive Eye Balm ($52.00)",
+      "avatar_brief": "Woman 58-66, seated in good window light, well put together, glasses on a chain. Delivery is confident and slightly amused \u2014 she has been sold to for forty years and has stopped being impressed.",
+      "hook": "Every ad tells me what my dermatologist is hiding. Mine told me to wear sunscreen and go home.",
+      "first_frame": "Her in a chair by a window, hands folded, looking directly at camera. Nothing in frame but her.",
+      "beats": [
+        {
+          "t": 0,
+          "vo": "Every ad tells me what my dermatologist is hiding. Mine told me to wear sunscreen and go home.",
+          "visual": "Static, window light, direct address, hands folded."
+        },
+        {
+          "t": 8,
+          "vo": "There's no conspiracy. There's just a lot of people who'd like you anxious enough to buy something.",
+          "visual": "She unfolds her hands, small shrug."
+        },
+        {
+          "t": 15,
+          "vo": "The one thing I did add was for the eye area, because the skin there is genuinely thinner and it does behave differently.",
+          "visual": "Cut to the eye balm jar in her hand, small against her palm."
+        },
+        {
+          "t": 24,
+          "vo": "Arctic arnica in a beeswax balm. Six of the ten top anti-age ingredients, and it looks less puffy in 4 to 9 days.",
+          "visual": "Ring finger tapping along the orbital bone, window light, no mirror."
+        },
+        {
+          "t": 32,
+          "vo": "Fifty-two dollars, one product, no conspiracy required.",
+          "visual": "She sets the jar down on the windowsill."
+        },
+        {
+          "t": 37,
+          "vo": "Magic Revive Eye Balm, from Fr\u00f8ya. Believe your dermatologist over your feed.",
+          "visual": "Jar on the sill in the light, brand name on screen."
+        }
+      ],
+      "cta": "Magic Revive Eye Balm, from Fr\u00f8ya. Believe your dermatologist over your feed.",
+      "duration_s": 42,
+      "claims_used": [
+        "6 of the 10 top anti-age ingredients",
+        "looks less puffy in 4-9 days"
+      ],
+      "provenance": "angles.json (angles.json)",
+      "status": "draft",
+      "angle_evidence": "copy_derived",
+      "angle_saturation": "unclaimed",
+      "attribution_basis": "angle=dermatologist_as_ally (UNCLAIMED, 0 corpus hits). No hooks exist to attribute to: the angle is defined by absence, verified by probe regex. Evidence grade copy_derived. Traceable to the angle only, not to any ad.",
+      "claim_type": "category_absence",
+      "claim_evidence": "Absence measured across the whole corpus: 139 hooks from 12 brands, zero hits.",
+      "corpus_fingerprint": "ead00f7c359ea8c8",
+      "client_ready": false,
+      "hold_reason": "Absence claim, evidenced on caption openings only. Six of the nine unclaimed angles concern who is being addressed, which caption text may not capture \u2014 so these may have survived a test unable to reject them. Held until Agent 2's transcription pass lands."
     },
     {
       "script_id": "froyaorganics-com-ingredient_villain-01",
@@ -271,9 +557,11 @@
       "status": "draft",
       "angle_evidence": "copy_derived",
       "angle_saturation": "single_brand",
-      "attribution_basis": "angle=ingredient_villain (single_brand, 5 ads across Froya Organics). Agent 2 does not carry hook ids through from hooks.jsonl, so DESIGN.md \u00a72 hook-level attribution is INCOMPLETE \u2014 traceable to the angle, not to individual ads. Evidence grade copy_derived.",
-      "client_ready": false,
-      "hold_reason": "PIPELINE TEST \u2014 angle corpus is 139 hooks from 12 brands, below the 150/8 bar for client-facing work. Contamination in a pilot this size already inverted one angle result once. Nothing here goes near a brand until Agent 2 re-derives on the extended corpus and reports which angles survive."
+      "attribution_basis": "angle=ingredient_villain (single_brand, 5 ads across Froya Organics); traceable to 5 hook ids. Evidence grade copy_derived.",
+      "claim_type": "brand_own",
+      "claim_evidence": "Observation about the client's own ads (5 ads). Needs no category evidence \u2014 it is not a claim about the market.",
+      "corpus_fingerprint": "ead00f7c359ea8c8",
+      "client_ready": true
     },
     {
       "script_id": "froyaorganics-com-ingredient_villain-02",
@@ -332,9 +620,11 @@
       "status": "draft",
       "angle_evidence": "copy_derived",
       "angle_saturation": "single_brand",
-      "attribution_basis": "angle=ingredient_villain (single_brand, 5 ads across Froya Organics). Agent 2 does not carry hook ids through from hooks.jsonl, so DESIGN.md \u00a72 hook-level attribution is INCOMPLETE \u2014 traceable to the angle, not to individual ads. Evidence grade copy_derived.",
-      "client_ready": false,
-      "hold_reason": "PIPELINE TEST \u2014 angle corpus is 139 hooks from 12 brands, below the 150/8 bar for client-facing work. Contamination in a pilot this size already inverted one angle result once. Nothing here goes near a brand until Agent 2 re-derives on the extended corpus and reports which angles survive."
+      "attribution_basis": "angle=ingredient_villain (single_brand, 5 ads across Froya Organics); traceable to 5 hook ids. Evidence grade copy_derived.",
+      "claim_type": "brand_own",
+      "claim_evidence": "Observation about the client's own ads (5 ads). Needs no category evidence \u2014 it is not a claim about the market.",
+      "corpus_fingerprint": "ead00f7c359ea8c8",
+      "client_ready": true
     },
     {
       "script_id": "froyaorganics-com-ingredient_villain-03",
@@ -393,340 +683,11 @@
       "status": "draft",
       "angle_evidence": "copy_derived",
       "angle_saturation": "single_brand",
-      "attribution_basis": "angle=ingredient_villain (single_brand, 5 ads across Froya Organics). Agent 2 does not carry hook ids through from hooks.jsonl, so DESIGN.md \u00a72 hook-level attribution is INCOMPLETE \u2014 traceable to the angle, not to individual ads. Evidence grade copy_derived.",
-      "client_ready": false,
-      "hold_reason": "PIPELINE TEST \u2014 angle corpus is 139 hooks from 12 brands, below the 150/8 bar for client-facing work. Contamination in a pilot this size already inverted one angle result once. Nothing here goes near a brand until Agent 2 re-derives on the extended corpus and reports which angles survive."
-    },
-    {
-      "script_id": "froyaorganics-com-menopause_skin-01",
-      "brand_slug": "froyaorganics-com",
-      "angle_id": "menopause_skin",
-      "source_hook_ids": [],
-      "product": "The Complete System for Mature Women's Skin ($121.07)",
-      "avatar_brief": "Woman 50-56, mid-length hair she clearly does herself, sitting on the edge of a bed still in work clothes. Evening lamp light, slightly warm and dim. Delivery is flat and a bit tired \u2014 the tone of someone saying a thing out loud for the first time, not performing a realisation.",
-      "hook": "Nobody sat me down and told me my face was going to change too.",
-      "first_frame": "Mid-shot, woman on the edge of a bed, lamp behind her. She is looking slightly off-camera, not smiling. No product anywhere in frame.",
-      "beats": [
-        {
-          "t": 0,
-          "vo": "Nobody sat me down and told me my face was going to change too.",
-          "visual": "Static mid-shot, lamp light. She holds the look for a beat before continuing."
-        },
-        {
-          "t": 5,
-          "vo": "They mention the temperature thing. The sleep thing. Nobody mentions that your skin stops behaving like your skin.",
-          "visual": "She glances down, back up. Small shrug."
-        },
-        {
-          "t": 12,
-          "vo": "Everything I owned was suddenly wrong. Light lotions sat on top. Foundation went into places it never used to go.",
-          "visual": "Cut to a cluttered bathroom shelf of half-used bottles, shot plainly from above."
-        },
-        {
-          "t": 20,
-          "vo": "What actually worked for me was going heavier. Balms, not lotions. Norwegian arctic plants, four steps, morning and night.",
-          "visual": "She sets the four Fr\u00f8ya jars on the bed beside her, unhurried, no flourish."
-        },
-        {
-          "t": 28,
-          "vo": "It supports the skin barrier in 7 days, and 95% reported youthful glow. I mostly just stopped feeling like my face was a stranger.",
-          "visual": "Close on her pressing the day balm into her cheek, no mirror."
-        },
-        {
-          "t": 35,
-          "vo": "If your skin changed and nobody warned you either \u2014 this is the one I'd hand you.",
-          "visual": "She holds the system box at chest height. Brand name on screen."
-        }
-      ],
-      "cta": "If your skin changed and nobody warned you either \u2014 this is the one I'd hand you.",
-      "duration_s": 41,
-      "claims_used": [
-        "supports the skin barrier in 7 days",
-        "95% reported youthful glow"
-      ],
-      "provenance": "angles.json (angles.json)",
-      "status": "draft",
-      "angle_evidence": "copy_derived",
-      "angle_saturation": "unclaimed",
-      "attribution_basis": "angle=menopause_skin (UNCLAIMED, 0 corpus hits). No hooks exist to attribute to: the angle is defined by absence, verified by probe regex. Evidence grade copy_derived. Traceable to the angle only, not to any ad.",
-      "client_ready": false,
-      "hold_reason": "PIPELINE TEST \u2014 angle corpus is 139 hooks from 12 brands, below the 150/8 bar for client-facing work. Contamination in a pilot this size already inverted one angle result once. Nothing here goes near a brand until Agent 2 re-derives on the extended corpus and reports which angles survive."
-    },
-    {
-      "script_id": "froyaorganics-com-menopause_skin-02",
-      "brand_slug": "froyaorganics-com",
-      "angle_id": "menopause_skin",
-      "source_hook_ids": [],
-      "product": "Wrinkle Smoothing Night Balm ($37.00)",
-      "avatar_brief": "Woman 54-62, filmed by a friend rather than selfie-style, standing in a kitchen mid-conversation with a tea towel still in one hand. Natural daylight. Delivery is brisk and funny, the register of complaining to a mate rather than confiding.",
-      "hook": "Three things changed at once and only one of them gets talked about.",
-      "first_frame": "Woman standing in a kitchen, caught mid-gesture, tea towel in hand. Slightly off-centre framing \u2014 clearly someone else is holding the phone.",
-      "beats": [
-        {
-          "t": 0,
-          "vo": "Three things changed at once and only one of them gets talked about.",
-          "visual": "She holds up a finger, kitchen daylight, friend-shot framing."
-        },
-        {
-          "t": 5,
-          "vo": "Sleep. Temperature. And my skin, which went from oily-if-anything to tight by ten in the morning.",
-          "visual": "She counts them off on her fingers, unpolished."
-        },
-        {
-          "t": 13,
-          "vo": "I kept buying the same thin serums I'd used for twenty years and wondering why nothing landed.",
-          "visual": "Quick cut: a drawer pulled open, full of small bottles."
-        },
-        {
-          "t": 20,
-          "vo": "Switched to a beeswax balm at night. Rosehip and marigold. It works overnight while you sleep, and it softens the look of fine lines.",
-          "visual": "She scoops the night balm, warms it between fingers so the texture stretches."
-        },
-        {
-          "t": 29,
-          "vo": "Thirty-seven quid and it's the only thing in that drawer I've rebought.",
-          "visual": "Jar in palm, label readable, kitchen behind."
-        },
-        {
-          "t": 34,
-          "vo": "Fr\u00f8ya's Wrinkle Smoothing Night Balm. Go heavier than you think you need to.",
-          "visual": "She tosses the tea towel over her shoulder, jar on the counter. Brand on screen."
-        }
-      ],
-      "cta": "Fr\u00f8ya's Wrinkle Smoothing Night Balm. Go heavier than you think you need to.",
-      "duration_s": 39,
-      "claims_used": [
-        "works overnight while you sleep",
-        "softens the look of fine lines"
-      ],
-      "provenance": "angles.json (angles.json)",
-      "status": "draft",
-      "angle_evidence": "copy_derived",
-      "angle_saturation": "unclaimed",
-      "attribution_basis": "angle=menopause_skin (UNCLAIMED, 0 corpus hits). No hooks exist to attribute to: the angle is defined by absence, verified by probe regex. Evidence grade copy_derived. Traceable to the angle only, not to any ad.",
-      "client_ready": false,
-      "hold_reason": "PIPELINE TEST \u2014 angle corpus is 139 hooks from 12 brands, below the 150/8 bar for client-facing work. Contamination in a pilot this size already inverted one angle result once. Nothing here goes near a brand until Agent 2 re-derives on the extended corpus and reports which angles survive."
-    },
-    {
-      "script_id": "froyaorganics-com-menopause_skin-03",
-      "brand_slug": "froyaorganics-com",
-      "angle_id": "menopause_skin",
-      "source_hook_ids": [],
-      "product": "Complete System For Mature Hair & Scalp ($67.77)",
-      "avatar_brief": "Woman 48-55, bathroom, hair wet and pushed back so the hairline and parting are plainly visible. No makeup. Delivery is quiet and matter-of-fact, slightly guarded \u2014 this is the vulnerable one and it must not be played for sympathy.",
-      "hook": "The hair thing is the part I didn't want to say out loud.",
-      "first_frame": "Close on a wet parting, shot from slightly above, bathroom light. Her hands are lifting the hair to show the scalp.",
-      "beats": [
-        {
-          "t": 0,
-          "vo": "The hair thing is the part I didn't want to say out loud.",
-          "visual": "Hands lifting wet hair at the parting, scalp visible, unglamorous."
-        },
-        {
-          "t": 5,
-          "vo": "The skin changes, fine, everyone jokes about that. The shedding is the one that got me.",
-          "visual": "She lets the hair fall, looks at the camera for the first time."
-        },
-        {
-          "t": 12,
-          "vo": "This is a three-step thing. Rosemary shampoo, a rosemary spray, and a serum for the roots.",
-          "visual": "Three bottles lined up on the edge of the sink, one at a time."
-        },
-        {
-          "t": 19,
-          "vo": "It's made for women whose hair changed with stress, postpartum, perimenopause or menopause. That's the actual brief on the box.",
-          "visual": "She turns the box so the copy is legible, holds it steady."
-        },
-        {
-          "t": 27,
-          "vo": "Sixty-day supply, sixty-eight dollars. 93% experience better hair. I'm not going to oversell it beyond that.",
-          "visual": "Massaging the serum into the parting, fingers working the scalp."
-        },
-        {
-          "t": 34,
-          "vo": "Fr\u00f8ya's Complete System for Mature Hair and Scalp. Say it out loud sooner than I did.",
-          "visual": "Three bottles on the sink, brand name on screen."
-        }
-      ],
-      "cta": "Fr\u00f8ya's Complete System for Mature Hair and Scalp. Say it out loud sooner than I did.",
-      "duration_s": 40,
-      "claims_used": [
-        "93% experience better hair",
-        "60-day supply",
-        "made for women whose hair has been affected by stress, postpartum changes, perimenopause, or menopause"
-      ],
-      "provenance": "angles.json (angles.json)",
-      "status": "draft",
-      "angle_evidence": "copy_derived",
-      "angle_saturation": "unclaimed",
-      "attribution_basis": "angle=menopause_skin (UNCLAIMED, 0 corpus hits). No hooks exist to attribute to: the angle is defined by absence, verified by probe regex. Evidence grade copy_derived. Traceable to the angle only, not to any ad.",
-      "client_ready": false,
-      "hold_reason": "PIPELINE TEST \u2014 angle corpus is 139 hooks from 12 brands, below the 150/8 bar for client-facing work. Contamination in a pilot this size already inverted one angle result once. Nothing here goes near a brand until Agent 2 re-derives on the extended corpus and reports which angles survive."
-    },
-    {
-      "script_id": "froyaorganics-com-skin_as_signal-01",
-      "brand_slug": "froyaorganics-com",
-      "angle_id": "skin_as_signal",
-      "source_hook_ids": [],
-      "product": "The Complete System for Mature Women's Skin ($121.07)",
-      "avatar_brief": "Woman 45-55, sitting on a sofa late evening, one lamp on, phone propped on a cushion. Slightly slumped posture, no makeup, glass of water beside her. Delivery is slow and thoughtful with real pauses \u2014 this angle dies if it is performed briskly.",
-      "hook": "My face is the first place my week shows up. Before I notice it anywhere else.",
-      "first_frame": "Woman on a sofa in low lamp light, phone-height framing, half her face in shadow. Nothing else in frame.",
-      "beats": [
-        {
-          "t": 0,
-          "vo": "My face is the first place my week shows up. Before I notice it anywhere else.",
-          "visual": "Static low-light sofa shot. She holds still, no gesture."
-        },
-        {
-          "t": 6,
-          "vo": "Bad sleep, too much on, not enough water \u2014 it's on me by Wednesday and I can see it.",
-          "visual": "She touches under one eye briefly, not theatrically."
-        },
-        {
-          "t": 13,
-          "vo": "I stopped treating that as a thing to cover and started treating it as information.",
-          "visual": "Cut to her setting the four jars out on the coffee table in a row."
-        },
-        {
-          "t": 20,
-          "vo": "The routine isn't the fix for a bad week. It's the thing that means a bad week doesn't compound.",
-          "visual": "Applying the night balm, slow, in lamp light."
-        },
-        {
-          "t": 28,
-          "vo": "Four steps, arctic plants, supports the skin barrier in 7 days. Sixty days or your money back, which is how long it actually takes to tell.",
-          "visual": "The four jars on the table, shot from above."
-        },
-        {
-          "t": 36,
-          "vo": "The Complete System for Mature Women's Skin. Fr\u00f8ya. Listen to your face a bit earlier than I did.",
-          "visual": "She turns the lamp off. Brand name on screen over black."
-        }
-      ],
-      "cta": "The Complete System for Mature Women's Skin. Fr\u00f8ya. Listen to your face a bit earlier than I did.",
-      "duration_s": 43,
-      "claims_used": [
-        "supports the skin barrier in 7 days",
-        "results in 60 days or your money back"
-      ],
-      "provenance": "angles.json (angles.json)",
-      "status": "draft",
-      "angle_evidence": "copy_derived",
-      "angle_saturation": "unclaimed",
-      "attribution_basis": "angle=skin_as_signal (UNCLAIMED, 0 corpus hits). No hooks exist to attribute to: the angle is defined by absence, verified by probe regex. Evidence grade copy_derived. Traceable to the angle only, not to any ad.",
-      "client_ready": false,
-      "hold_reason": "PIPELINE TEST \u2014 angle corpus is 139 hooks from 12 brands, below the 150/8 bar for client-facing work. Contamination in a pilot this size already inverted one angle result once. Nothing here goes near a brand until Agent 2 re-derives on the extended corpus and reports which angles survive."
-    },
-    {
-      "script_id": "froyaorganics-com-skin_as_signal-02",
-      "brand_slug": "froyaorganics-com",
-      "angle_id": "skin_as_signal",
-      "source_hook_ids": [],
-      "product": "Anti-Age & Insane Glow Day Balm ($29.70)",
-      "avatar_brief": "Woman 38-48, getting ready in a hallway mirror before work, jacket half on, moving. Handheld, a bit rushed. Delivery is quick and clipped, talking while doing \u2014 the opposite energy to script 01 on the same angle deliberately.",
-      "hook": "I can tell you exactly how last week went by looking at my cheeks.",
-      "first_frame": "Hallway mirror, she is putting one arm into a jacket, face visible in reflection. Morning light through a door behind.",
-      "beats": [
-        {
-          "t": 0,
-          "vo": "I can tell you exactly how last week went by looking at my cheeks.",
-          "visual": "Mirror reflection, jacket half on, movement in frame."
-        },
-        {
-          "t": 5,
-          "vo": "Dull means I didn't sleep. Tight means I lived on coffee. It's a readout, not a mystery.",
-          "visual": "She leans closer to the mirror, turns her face side to side."
-        },
-        {
-          "t": 12,
-          "vo": "So the morning one has to actually do something in the ninety seconds I give it.",
-          "visual": "Grabs the day balm from a shelf by the door, opens it one-handed."
-        },
-        {
-          "t": 19,
-          "vo": "Sea buckthorn and pomegranate balm. 95% reported youthful glow. Goes on like a balm, sits like nothing.",
-          "visual": "Quick press into both cheeks, no blending ritual, finish visible in the mirror."
-        },
-        {
-          "t": 27,
-          "vo": "Under thirty dollars, and it's the only step I don't skip when I'm late.",
-          "visual": "Jar back on the shelf, she picks up keys."
-        },
-        {
-          "t": 33,
-          "vo": "Anti-Age and Insane Glow Day Balm. Fr\u00f8ya. Your face is already telling you \u2014 go on.",
-          "visual": "Door opening, light flare, brand name on screen."
-        }
-      ],
-      "cta": "Anti-Age and Insane Glow Day Balm. Fr\u00f8ya. Your face is already telling you \u2014 go on.",
-      "duration_s": 38,
-      "claims_used": [
-        "95% reported youthful glow"
-      ],
-      "provenance": "angles.json (angles.json)",
-      "status": "draft",
-      "angle_evidence": "copy_derived",
-      "angle_saturation": "unclaimed",
-      "attribution_basis": "angle=skin_as_signal (UNCLAIMED, 0 corpus hits). No hooks exist to attribute to: the angle is defined by absence, verified by probe regex. Evidence grade copy_derived. Traceable to the angle only, not to any ad.",
-      "client_ready": false,
-      "hold_reason": "PIPELINE TEST \u2014 angle corpus is 139 hooks from 12 brands, below the 150/8 bar for client-facing work. Contamination in a pilot this size already inverted one angle result once. Nothing here goes near a brand until Agent 2 re-derives on the extended corpus and reports which angles survive."
-    },
-    {
-      "script_id": "froyaorganics-com-skin_as_signal-03",
-      "brand_slug": "froyaorganics-com",
-      "angle_id": "skin_as_signal",
-      "source_hook_ids": [],
-      "product": "Dry and Itchy Balm for Face and Body ($44.00)",
-      "avatar_brief": "Woman 40-52, sitting on the floor against a radiator in winter, jumper sleeves pushed up showing dry forearms. Cold blue daylight. Delivery is plain and unembarrassed, the tone of stating a fact about her own body without apology.",
-      "hook": "Every winter my arms tell me the heating's been on for three weeks before I work it out.",
-      "first_frame": "Close on a forearm against a jumper sleeve, dry patches visible in cold daylight. No face yet.",
-      "beats": [
-        {
-          "t": 0,
-          "vo": "Every winter my arms tell me the heating's been on for three weeks before I work it out.",
-          "visual": "Macro on dry forearm skin, cold window light, sleeve pushed up."
-        },
-        {
-          "t": 7,
-          "vo": "Same signal every year. Indoor air, hot showers, and I notice it on my body before my face.",
-          "visual": "Pull back to reveal her sitting against a radiator."
-        },
-        {
-          "t": 14,
-          "vo": "This is chamomile and thistle in beeswax. It's for face and body, which is the only reason I actually use it on both.",
-          "visual": "She opens the jar, scoops with two fingers, texture visible."
-        },
-        {
-          "t": 22,
-          "vo": "Soothes dry, itchy skin. Supports the skin barrier in 7 days. Gentle enough for the face.",
-          "visual": "Working it into the forearm, then briefly along the jaw."
-        },
-        {
-          "t": 30,
-          "vo": "Forty-four dollars and one jar does both, which is why it's the one that lasts in this house.",
-          "visual": "Jar set on the radiator shelf, sleeve pulled back down."
-        },
-        {
-          "t": 36,
-          "vo": "Dry and Itchy Balm, from Fr\u00f8ya. When your arms start telling you, believe them.",
-          "visual": "Wide of her by the window, brand name on screen."
-        }
-      ],
-      "cta": "Dry and Itchy Balm, from Fr\u00f8ya. When your arms start telling you, believe them.",
-      "duration_s": 41,
-      "claims_used": [
-        "soothes dry, itchy skin",
-        "supports the skin barrier in 7 days",
-        "gentle enough for face and body"
-      ],
-      "provenance": "angles.json (angles.json)",
-      "status": "draft",
-      "angle_evidence": "copy_derived",
-      "angle_saturation": "unclaimed",
-      "attribution_basis": "angle=skin_as_signal (UNCLAIMED, 0 corpus hits). No hooks exist to attribute to: the angle is defined by absence, verified by probe regex. Evidence grade copy_derived. Traceable to the angle only, not to any ad.",
-      "client_ready": false,
-      "hold_reason": "PIPELINE TEST \u2014 angle corpus is 139 hooks from 12 brands, below the 150/8 bar for client-facing work. Contamination in a pilot this size already inverted one angle result once. Nothing here goes near a brand until Agent 2 re-derives on the extended corpus and reports which angles survive."
+      "attribution_basis": "angle=ingredient_villain (single_brand, 5 ads across Froya Organics); traceable to 5 hook ids. Evidence grade copy_derived.",
+      "claim_type": "brand_own",
+      "claim_evidence": "Observation about the client's own ads (5 ads). Needs no category evidence \u2014 it is not a claim about the market.",
+      "corpus_fingerprint": "ead00f7c359ea8c8",
+      "client_ready": true
     }
   ],
   "published": true,

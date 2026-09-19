@@ -9,7 +9,7 @@ import json
 import pathlib
 import re
 
-from .brands import candidates, categories, _norm, _titleize
+from .brands import candidates, categories, category_evidence, _norm, _titleize
 from .score import fatigue_score, segment
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -17,7 +17,7 @@ RAW = ROOT / "data" / "raw"
 OUT = ROOT / "data" / "targets.csv"
 
 COLUMNS = [
-    "brand", "website", "category", "segment", "ad_count", "ugc_ad_count_est",
+    "brand", "website", "category", "category_by_ads", "segment", "ad_count", "ugc_ad_count_est",
     "oldest_ad_days", "newest_ad_days", "fatigue_score", "notes",
 ]
 
@@ -49,6 +49,8 @@ def build(today: dt.date | None = None) -> list[dict]:
     meas = json.load(open(RAW / "advertisers" / "measurements.json"))
     prev = _prev_counts(today)
     cats = categories()
+    eviden = category_evidence()
+    ev_by_norm = {_norm(k): v for k, v in eviden.items()}
 
     rows = []
     for c in candidates(disc):
@@ -93,6 +95,15 @@ def build(today: dt.date | None = None) -> list[dict]:
         if c["affiliate_pages"]:
             notes.append(f"{c['affiliate_pages']} affiliate page(s) run its creative")
         cat = cats.get(c["website"], "unverified")
+        # Absent evidence resolves to "unconfirmed", never to agreement with the site.
+        ev = ev_by_norm.get(_norm(c["brand"])) or ev_by_norm.get(_norm(c["website"].split(".")[0]))
+        cat_ads = (ev or {}).get("category_confirmed_by_ads") or "unconfirmed"
+        # Compare the CURRENT site-derived category against the ads, not the value the evidence
+        # file was computed against -- intake may have been corrected since.
+        EQUIV = {"skincare": "topical_skincare"}
+        if ev and cat_ads != "unconfirmed" and EQUIV.get(cat, cat) != cat_ads:
+            notes.append(
+                f"SITE SAYS {cat}, ADS SAY {cat_ads} ({ev['ads_sampled']} ads) — ads win")
         if cat not in ("skincare", "unverified"):
             notes.append(f"{cat} — EXCLUDE from skincare hook corpus (DESIGN.md §4)")
         if ugc >= 15:
@@ -105,7 +116,8 @@ def build(today: dt.date | None = None) -> list[dict]:
         rows.append({
             "brand": brand,
             "website": f"https://{c['website']}" if c["website"] else "",
-            "category": cats.get(c["website"], "unverified"),
+            "category": cat,
+            "category_by_ads": cat_ads,
             "segment": seg,
             "ad_count": ad_count,
             "ugc_ad_count_est": ugc,

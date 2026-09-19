@@ -32,7 +32,10 @@ REQUIRED = [
     "claims_used",      # list[str] -- every efficacy claim spoken
     "angle_evidence",   # transcribed | copy_derived | mixed | unknown -- see angles.py
     "provenance",       # where the angle came from; FIXTURE output is marked here
-    "client_ready",     # False until the angle corpus clears the bar in build.py
+    "claim_type",       # brand_own | category_pattern | category_absence | single_brand | fixture
+    "claim_evidence",   # what the claim rests on, stated in full
+    "corpus_fingerprint",  # which corpus version this was built against
+    "client_ready",     # gated per claim -- see build.claim_gate()
     "status",           # draft | approved | rendered
 ]
 

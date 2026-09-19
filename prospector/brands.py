@@ -15,6 +15,7 @@ import re
 
 DISQUALIFIED = pathlib.Path(__file__).resolve().parent.parent / "data" / "disqualified.json"
 CATEGORIES = pathlib.Path(__file__).resolve().parent.parent / "data" / "categories.json"
+CATEGORY_EVIDENCE = pathlib.Path(__file__).resolve().parent.parent / "data" / "category_evidence.json"
 
 
 def categories() -> dict[str, str]:
@@ -23,6 +24,17 @@ def categories() -> dict[str, str]:
         return {}
     return {k: v for k, v in json.loads(CATEGORIES.read_text()).items()
             if not k.startswith("_")}
+
+
+def category_evidence() -> dict[str, dict]:
+    """Category as Agent 1's ADS confirm it, keyed by brand name.
+
+    Site intake reads positioning; this reads spend. Where the two disagree the ads win, because
+    only the ad set can see what a brand actually advertises.
+    """
+    if not CATEGORY_EVIDENCE.exists():
+        return {}
+    return json.loads(CATEGORY_EVIDENCE.read_text()).get("brands", {})
 
 
 def _disqualified() -> dict[str, str]:

@@ -10,14 +10,23 @@ from .angles import FixtureData, evidence_grade, guard_publish, load
 from .prompt import build as build_prompt
 from .schema import validate
 
-# A thin corpus does not make a script wrong, it makes it unproven. Agent 2's pilot ran 4 brands
-# (effectively 3 -- SpoiledChild contributes 2 hooks after the off-category gate), and contamination
-# in that pilot already inverted one result: customer_testimonial read as the most saturated angle
-# in the category off 25 ads, but 24 were ingestible or body-care. In facial skincare it runs on
-# one. An "unclaimed" angle measured against 3 brands carries the same risk in the other direction.
-# So client-readiness is a gate on the CORPUS, checked mechanically, not a judgement call per batch.
-CLIENT_READY_MIN_BRANDS = 8
-CLIENT_READY_MIN_HOOKS = 150
+# CLIENT-READINESS IS GATED PER CLAIM, NOT PER CORPUS.
+#
+# Ask what failure the gate prevents. The one actually hit: customer_testimonial inverted because
+# ONE brand's ingestible ads dominated a 4-brand sample. That is a CONCENTRATION failure, not a
+# volume failure -- and a hook count cannot see it, which is why an earlier 150-hook bar punished
+# the off-category cleaning that fixed it. Brand count alone is also too crude: 12 brands where one
+# contributes 100 hooks and eleven contribute three is just as invertible.
+#
+# So each script is gated on the specific claim it rests on:
+#   category_pattern  ("the category runs X")     >=3 brands AND no brand over 30% of the evidence
+#   category_absence  ("the category doesn't")    corpus floor only; absence is measured corpus-wide
+#   single_brand      (one other brand does X)    NOT client-ready as a category finding -- label it
+#   brand_own         (this client's own ads)     no category evidence needed; it is an observation
+#                                                 about the client, not about the market
+CORPUS_MIN_BRANDS = 8       # floor for any category-level claim at all
+CATEGORY_MIN_BRANDS = 3     # independent brands behind a positive category pattern
+MAX_SINGLE_BRAND_SHARE = 0.30
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SHARED = pathlib.Path.home() / "Desktop" / "ai-ugc-system" / "shared" / "data"
@@ -42,20 +51,96 @@ def emit_prompts(slug: str, angle_ids: list[str] | None, n: int) -> list[pathlib
     return written
 
 
-def client_readiness(corpus: dict, is_fixture: bool) -> tuple[bool, str]:
-    """Is the angle evidence strong enough to put derived scripts in front of a brand?"""
+def _norm(s: str) -> str:
+    return "".join(ch for ch in (s or "").lower() if ch.isalnum())
+
+
+def _hooks_by_ad_id() -> dict[str, dict]:
+    f = SHARED / "hooks.jsonl"
+    if not f.exists():
+        return {}
+    out = {}
+    for line in f.read_text().splitlines():
+        if line.strip():
+            h = json.loads(line)
+            out[str(h.get("ad_id"))] = h
+    return out
+
+
+def brand_mix(angle: dict) -> dict[str, int]:
+    """Ads per brand behind one angle.
+
+    Resolved through the angle's own `hook_ids` against hooks.jsonl's `ad_id`. Agent 2 does not
+    write its classification back onto the hook rows (`angle` is null on all of them), so joining
+    on that field silently yields nothing -- which, with the fail-closed rule, blocked every
+    category claim. Empty here still means "could not check", and still fails closed.
+    """
+    ids = angle.get("hook_ids") or []
+    if not ids:
+        return {}
+    by_ad = _hooks_by_ad_id()
+    mix: dict[str, int] = {}
+    for i in ids:
+        h = by_ad.get(str(i))
+        if h:
+            b = h.get("brand", "?")
+            mix[b] = mix.get(b, 0) + 1
+    return mix
+
+
+def claim_gate(angle: dict, brand_slug: str, corpus: dict, is_fixture: bool) -> tuple[bool, str, str]:
+    """Return (client_ready, claim_type, reason) for one script's underlying claim."""
     if is_fixture:
-        return False, "Generated from a hand-written FIXTURE. Not real evidence."
-    brands, hooks = len(corpus.get("brands", [])), corpus.get("hooks", 0)
-    if brands < CLIENT_READY_MIN_BRANDS or hooks < CLIENT_READY_MIN_HOOKS:
-        return False, (
-            f"PIPELINE TEST — angle corpus is {hooks} hooks from {brands} brands, below the "
-            f"{CLIENT_READY_MIN_HOOKS}/{CLIENT_READY_MIN_BRANDS} bar for client-facing work. "
-            "Contamination in a pilot this size already inverted one angle result once. Nothing "
-            "here goes near a brand until Agent 2 re-derives on the extended corpus and reports "
-            "which angles survive."
+        return False, "fixture", "Generated from a hand-written FIXTURE. Not real evidence."
+
+    corpus_brands = len(corpus.get("brands", []))
+    brands = angle.get("brands", [])
+    owns_it = len(brands) == 1 and _norm(brands[0]) in _norm(brand_slug)
+
+    if owns_it:
+        return True, "brand_own", (
+            f"Observation about the client's own ads ({angle.get('ad_count', 0)} ads). Needs no "
+            "category evidence — it is not a claim about the market."
         )
-    return True, f"Angle corpus is {hooks} hooks from {brands} brands."
+
+    if angle.get("saturation") == "unclaimed":
+        if corpus_brands < CORPUS_MIN_BRANDS:
+            return False, "category_absence", (
+                f"Absence claim against only {corpus_brands} brands, below the "
+                f"{CORPUS_MIN_BRANDS}-brand floor."
+            )
+        return True, "category_absence", (
+            f"Absence measured across the whole corpus: {corpus.get('hooks', 0)} hooks from "
+            f"{corpus_brands} brands, zero hits."
+        )
+
+    n_brands = angle.get("brand_count") or len(brands)
+    if n_brands < CATEGORY_MIN_BRANDS:
+        return False, "single_brand", (
+            f"Only {n_brands} brand(s) behind this angle ({', '.join(brands) or 'unknown'}). "
+            "Usable as an observation, NOT sellable as a category finding."
+        )
+
+    mix = brand_mix(angle)
+    total = sum(mix.values())
+    if total:
+        top, top_n = max(mix.items(), key=lambda kv: kv[1])
+        share = top_n / total
+        if share > MAX_SINGLE_BRAND_SHARE:
+            return False, "category_pattern", (
+                f"Concentration failure: {top} is {share:.0%} of the {total} ads behind this angle "
+                f"(cap {MAX_SINGLE_BRAND_SHARE:.0%}). One brand dominating a sample is exactly how "
+                "customer_testimonial inverted."
+            )
+        return True, "category_pattern", (
+            f"{n_brands} independent brands, {total} ads, largest single brand {share:.0%}."
+        )
+    # No per-brand distribution available means the concentration check could not run. That is an
+    # unknown, and an unknown must fail closed -- not pass because the evidence was missing.
+    return False, "category_pattern", (
+        f"Concentration check could not run: no resolvable hook_ids for '{angle['angle_id']}' "
+        "against hooks.jsonl. A category claim is not client-ready without it."
+    )
 
 
 def _attribution(angle: dict | None, grade: str) -> str:
@@ -71,10 +156,10 @@ def _attribution(angle: dict | None, grade: str) -> str:
         )
     n = angle.get("ad_count", 0)
     brands = ", ".join(angle.get("brands", [])) or "unknown"
+    ids = angle.get("hook_ids") or []
+    trace = f"{len(ids)} hook ids" if ids else "NO hook ids in angles.json — angle-level only"
     return (
-        f"angle={aid} ({sat}, {n} ads across {brands}). Agent 2 does not carry hook ids through "
-        f"from hooks.jsonl, so DESIGN.md §2 hook-level attribution is INCOMPLETE — traceable to the "
-        f"angle, not to individual ads. Evidence grade {grade}."
+        f"angle={aid} ({sat}, {n} ads across {brands}); traceable to {trace}. Evidence grade {grade}."
     )
 
 
@@ -93,7 +178,6 @@ def assemble() -> dict:
     by_id = {a["angle_id"]: a for a in angles}
     RETURNS.mkdir(parents=True, exist_ok=True)
 
-    ready, ready_why = client_readiness(corpus, is_fixture)
     scripts, problems = [], []
     for f in sorted(RETURNS.glob("*.json")):
         slug, angle_id = f.stem.split("--", 1)
@@ -120,14 +204,23 @@ def assemble() -> dict:
             s["angle_saturation"] = a.get("saturation", "unclaimed")
             s["source_hook_ids"] = a.get("hook_ids", [])
             s["attribution_basis"] = _attribution(a, s["angle_evidence"])
-            s["client_ready"] = ready
-            if not ready:
-                s["hold_reason"] = ready_why
-            elif s["angle_saturation"] == "unclaimed":
+            ok, claim_type, why = claim_gate(a, slug, corpus, is_fixture)
+            s["claim_type"] = claim_type
+            s["claim_evidence"] = why
+            s["corpus_fingerprint"] = corpus.get("corpus_fingerprint")
+            s["client_ready"] = ok
+            if not ok:
+                s["hold_reason"] = why
+            elif claim_type == "category_absence":
+                # Absence can only be disproved by more data, and six of the nine unclaimed angles
+                # are about WHO is addressed -- which caption copy may not be able to see at all.
+                # So an absence claim stays held until the transcription pass can reject it.
                 s["client_ready"] = False
                 s["hold_reason"] = (
-                    "Angle is UNCLAIMED — established by absence. Absence is only as strong as the "
-                    "corpus it was measured against; confirm against the extended corpus first."
+                    "Absence claim, evidenced on caption openings only. Six of the nine unclaimed "
+                    "angles concern who is being addressed, which caption text may not capture — "
+                    "so these may have survived a test unable to reject them. Held until Agent 2's "
+                    "transcription pass lands."
                 )
             errs = validate(s)
             hits = _banned_used(s, banned)
@@ -141,8 +234,10 @@ def assemble() -> dict:
     doc = {
         "generated_from": src.name,
         "corpus": corpus,
-        "client_ready": ready,
-        "client_ready_reason": ready_why,
+        "corpus_fingerprint": corpus.get("corpus_fingerprint"),
+        "schema_version": corpus.get("schema_version"),
+        "client_ready": all(x["client_ready"] for x in scripts) if scripts else False,
+        "client_ready_reason": "Gated per claim — see claim_type and claim_evidence on each script.",
         "is_fixture": is_fixture,
         "script_count": len(scripts),
         "rejected": problems,

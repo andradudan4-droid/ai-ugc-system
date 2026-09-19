@@ -1,0 +1,94 @@
+[
+  {
+    "script_id": "froyaorganics-com-dermatologist_as_ally-01",
+    "brand_slug": "froyaorganics-com",
+    "angle_id": "dermatologist_as_ally",
+    "source_hook_ids": [],
+    "product": "The Complete System for Mature Women's Skin ($121.07)",
+    "avatar_brief": "Woman 54-62, sitting in a car in a clinic car park, coat on, appointment card still in her hand. Daylight through the windscreen. Delivery is thoughtful and slightly surprised — she is repeating advice she did not expect to get.",
+    "hook": "The best thing a dermatologist ever told me was to stop buying so much.",
+    "first_frame": "Her in the driver's seat, appointment card visible in frame, clinic building blurred through the window behind.",
+    "beats": [
+      {"t": 0, "vo": "The best thing a dermatologist ever told me was to stop buying so much.", "visual": "Car interior, daylight, she turns the appointment card over in her fingers."},
+      {"t": 6, "vo": "Not a prescription. Not a procedure. Fewer things, used properly, on a barrier that's had a hard few years.", "visual": "She glances back toward the clinic, then to camera."},
+      {"t": 14, "vo": "So I went from eleven products to four. Cleanse, day, eyes, night. That's the whole routine now.", "visual": "Cut to four Frøya jars lined on a kitchen counter, shot plainly."},
+      {"t": 22, "vo": "They're dermatologist-tested, which was the bit I checked first, and they support the skin barrier in 7 days.", "visual": "Close on the box copy, held steady enough to read."},
+      {"t": 30, "vo": "Nobody in this industry makes money telling you to own less. That's why I believed her.", "visual": "Back to her face in the car, calm, direct."},
+      {"t": 37, "vo": "The Complete System for Mature Women's Skin, from Frøya. Four things.", "visual": "Four jars on the counter. Brand name on screen."}
+    ],
+    "cta": "The Complete System for Mature Women's Skin, from Frøya. Four things.",
+    "duration_s": 43,
+    "claims_used": ["Dermatologist-Tested", "supports the skin barrier in 7 days"],
+    "provenance": "angles.json (angles.json)",
+    "status": "draft"
+  },
+  {
+    "script_id": "froyaorganics-com-dermatologist_as_ally-02",
+    "brand_slug": "froyaorganics-com",
+    "angle_id": "dermatologist_as_ally",
+    "source_hook_ids": [],
+    "product": "Wrinkle Smoothing Night Balm ($37.00)",
+    "avatar_brief": "Woman 46-54, at a kitchen table with a laptop open on a skincare brand's ingredients page. Reading glasses on. Delivery is precise and a little pedantic in a likeable way — she is the friend who actually looks things up.",
+    "hook": "I finally looked up what 'dermatologist tested' legally means. It's less than you'd hope and more than nothing.",
+    "first_frame": "Over her shoulder at a laptop showing a product ingredients page, her finger on the trackpad, glasses on.",
+    "beats": [
+      {"t": 0, "vo": "I finally looked up what 'dermatologist tested' legally means. It's less than you'd hope and more than nothing.", "visual": "Laptop screen, she scrolls an ingredients page."},
+      {"t": 8, "vo": "It means a dermatologist oversaw testing for irritation. It doesn't mean one endorsed it. Those are different sentences.", "visual": "She turns to camera, glasses coming off."},
+      {"t": 16, "vo": "Which matters, because on mature skin the thing that goes wrong first is usually irritation, not ageing.", "visual": "Cut to the night balm jar on the table beside the laptop."},
+      {"t": 24, "vo": "This one's dermatologist-tested, it's rosehip and marigold in beeswax, and it softens the look of fine lines.", "visual": "She opens it, works a little between her fingers — dense, slow."},
+      {"t": 32, "vo": "Thirty-seven dollars. I'd rather have the honest claim than the impressive one.", "visual": "Laptop closed, jar in the centre of the table."},
+      {"t": 38, "vo": "Wrinkle Smoothing Night Balm, from Frøya. Go and read what yours actually says.", "visual": "Jar held to camera, brand name on screen."}
+    ],
+    "cta": "Wrinkle Smoothing Night Balm, from Frøya. Go and read what yours actually says.",
+    "duration_s": 44,
+    "claims_used": ["Dermatologist-Tested", "softens the look of fine lines"],
+    "provenance": "angles.json (angles.json)",
+    "status": "draft"
+  },
+  {
+    "script_id": "froyaorganics-com-dermatologist_as_ally-03",
+    "brand_slug": "froyaorganics-com",
+    "angle_id": "dermatologist_as_ally",
+    "source_hook_ids": [],
+    "product": "Balm for Acne-Prone Skin ($29.00)",
+    "avatar_brief": "Woman 38-46, bathroom, bare-faced, sitting on the edge of the bath. Delivery is warm and unbothered — she is not complaining about her dermatologist, which is the whole point of the angle.",
+    "hook": "My dermatologist didn't try to sell me anything. That's still the strangest appointment I've had.",
+    "first_frame": "Her sitting on the edge of a bath, bare-faced, bathroom shelf visible behind with only a few items on it.",
+    "beats": [
+      {"t": 0, "vo": "My dermatologist didn't try to sell me anything. That's still the strangest appointment I've had.", "visual": "Edge of the bath, bare face, sparse shelf behind her."},
+      {"t": 7, "vo": "She said most of what I was using was fine, and most of what I was doing to it wasn't.", "visual": "Small laugh, she pushes her hair back."},
+      {"t": 14, "vo": "Less scrubbing, less layering, and something calming that doesn't strip on the days it's angry.", "visual": "She reaches back for the jar on the shelf, brings it into frame."},
+      {"t": 21, "vo": "Marigold and calendula in beeswax. Made for red, breakout-prone skin. It calms and protects with arctic plants.", "visual": "Dabbing it onto a reddened area along the jaw, no mirror, no ceremony."},
+      {"t": 29, "vo": "Twenty-nine dollars. The advice was free and it was better than the shopping.", "visual": "Jar back on the shelf beside two other items — a genuinely short routine."},
+      {"t": 36, "vo": "Balm for Acne-Prone Skin, from Frøya. Ask yours what to stop doing.", "visual": "Sparse shelf in focus, brand name on screen."}
+    ],
+    "cta": "Balm for Acne-Prone Skin, from Frøya. Ask yours what to stop doing.",
+    "duration_s": 42,
+    "claims_used": ["made for red, breakout-prone skin", "calms & protects skin with Arctic plants"],
+    "provenance": "angles.json (angles.json)",
+    "status": "draft"
+  },
+  {
+    "script_id": "froyaorganics-com-dermatologist_as_ally-04",
+    "brand_slug": "froyaorganics-com",
+    "angle_id": "dermatologist_as_ally",
+    "source_hook_ids": [],
+    "product": "Magic Revive Eye Balm ($52.00)",
+    "avatar_brief": "Woman 58-66, seated in good window light, well put together, glasses on a chain. Delivery is confident and slightly amused — she has been sold to for forty years and has stopped being impressed.",
+    "hook": "Every ad tells me what my dermatologist is hiding. Mine told me to wear sunscreen and go home.",
+    "first_frame": "Her in a chair by a window, hands folded, looking directly at camera. Nothing in frame but her.",
+    "beats": [
+      {"t": 0, "vo": "Every ad tells me what my dermatologist is hiding. Mine told me to wear sunscreen and go home.", "visual": "Static, window light, direct address, hands folded."},
+      {"t": 8, "vo": "There's no conspiracy. There's just a lot of people who'd like you anxious enough to buy something.", "visual": "She unfolds her hands, small shrug."},
+      {"t": 15, "vo": "The one thing I did add was for the eye area, because the skin there is genuinely thinner and it does behave differently.", "visual": "Cut to the eye balm jar in her hand, small against her palm."},
+      {"t": 24, "vo": "Arctic arnica in a beeswax balm. Six of the ten top anti-age ingredients, and it looks less puffy in 4 to 9 days.", "visual": "Ring finger tapping along the orbital bone, window light, no mirror."},
+      {"t": 32, "vo": "Fifty-two dollars, one product, no conspiracy required.", "visual": "She sets the jar down on the windowsill."},
+      {"t": 37, "vo": "Magic Revive Eye Balm, from Frøya. Believe your dermatologist over your feed.", "visual": "Jar on the sill in the light, brand name on screen."}
+    ],
+    "cta": "Magic Revive Eye Balm, from Frøya. Believe your dermatologist over your feed.",
+    "duration_s": 42,
+    "claims_used": ["6 of the 10 top anti-age ingredients", "looks less puffy in 4-9 days"],
+    "provenance": "angles.json (angles.json)",
+    "status": "draft"
+  }
+]

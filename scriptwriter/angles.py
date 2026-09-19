@@ -86,7 +86,12 @@ def _describe(a: dict, saturation: str) -> str:
 
 
 def load() -> tuple[list[dict], bool, pathlib.Path, dict]:
-    """Return (angles, is_fixture, path, corpus)."""
+    """Return (angles, is_fixture, path, corpus).
+
+    `corpus` carries Agent 2's version stamps (schema_version, generated_at, corpus_fingerprint) so
+    a script can record exactly which corpus it was built against. The fingerprint is a hash over
+    the sorted hook ids, so it changes iff the underlying hook set changes.
+    """
     p = source_path()
     if not p.exists():
         raise SystemExit(f"no angles source at {p}")
@@ -97,7 +102,11 @@ def load() -> tuple[list[dict], bool, pathlib.Path, dict]:
             f"{p} parsed to zero angles — its shape is not one this loader recognises. "
             f"Top-level keys: {sorted(doc)}. Refusing to run rather than silently produce nothing."
         )
-    return angles, bool(doc.get("_fixture")), p, doc.get("corpus", {})
+    corpus = dict(doc.get("corpus", {}))
+    for k in ("schema_version", "generated_at", "corpus_fingerprint"):
+        if k in doc:
+            corpus[k] = doc[k]
+    return angles, bool(doc.get("_fixture")), p, corpus
 
 
 def evidence_grade(angle: dict) -> str:
@@ -147,6 +156,10 @@ SATURATION_NOTE = {
         "SINGLE BRAND — one brand owns this in the sample. If it is this brand's own angle, it is "
         "proven for them and worth extending. If it is a competitor's, entering means a head-on "
         "comparison."
+    ),
+    "unknown": (
+        "UNKNOWN — this angle's competitive position is not recorded. Assume it is contested and "
+        "that the position may already be taken; do not write as though it were open."
     ),
     "unclaimed": (
         "UNCLAIMED — zero hits in the mined corpus. This is the angle being sold: nobody in the "
