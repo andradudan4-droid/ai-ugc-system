@@ -1,0 +1,890 @@
+{
+  "535166349670487": {
+    "ad_count_text": "1",
+    "prefix": "~",
+    "sampled": 1,
+    "sampled_video": 1,
+    "oldest_start": 1768464000,
+    "newest_start": 1768464000
+  },
+  "602241646302170": {
+    "ad_count_text": "180",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 28,
+    "oldest_start": 1781852400,
+    "newest_start": 1785826800
+  },
+  "104229891456069": {
+    "ad_count_text": "470",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 27,
+    "oldest_start": 1764921600,
+    "newest_start": 1789110000
+  },
+  "207391868502": {
+    "ad_count_text": "170",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 14,
+    "oldest_start": 1788418800,
+    "newest_start": 1789110000
+  },
+  "140620315959593": {
+    "ad_count_text": "180",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 28,
+    "oldest_start": 1785826800,
+    "newest_start": 1789455600
+  },
+  "286863750778": {
+    "ad_count_text": "380",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 30,
+    "oldest_start": 1788159600,
+    "newest_start": 1789110000
+  },
+  "161067203973094": {
+    "ad_count_text": "1300",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 22,
+    "oldest_start": 1746082800,
+    "newest_start": 1788332400
+  },
+  "509205278938288": {
+    "ad_count_text": "200",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 20,
+    "oldest_start": 1774335600,
+    "newest_start": 1788418800
+  },
+  "268818459646425": {
+    "ad_count_text": "600",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 14,
+    "oldest_start": 1779951600,
+    "newest_start": 1786431600
+  },
+  "420143697843183": {
+    "ad_count_text": "19",
+    "prefix": "~",
+    "sampled": 19,
+    "sampled_video": 19,
+    "oldest_start": 1767168000,
+    "newest_start": 1789110000
+  },
+  "796698963526145": {
+    "ad_count_text": "950",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 25,
+    "oldest_start": 1762329600,
+    "newest_start": 1786950000
+  },
+  "337470849796957": {
+    "ad_count_text": "1200",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 11,
+    "oldest_start": 1774681200,
+    "newest_start": 1787036400
+  },
+  "278851805311073": {
+    "ad_count_text": "3400",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 13,
+    "oldest_start": 1736755200,
+    "newest_start": 1785567600
+  },
+  "202470527313669": {
+    "ad_count_text": "330",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 22,
+    "oldest_start": 1787554800,
+    "newest_start": 1789110000
+  },
+  "970427359485076": {
+    "ad_count_text": "26",
+    "prefix": "~",
+    "sampled": 26,
+    "sampled_video": 26,
+    "oldest_start": 1768809600,
+    "newest_start": 1773903600
+  },
+  "2003695169857895": {
+    "ad_count_text": "180",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 14,
+    "oldest_start": 1762761600,
+    "newest_start": 1786086000
+  },
+  "508860438988313": {
+    "ad_count_text": "240",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 20,
+    "oldest_start": 1745305200,
+    "newest_start": 1779001200
+  },
+  "683748144815985": {
+    "ad_count_text": "390",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 23,
+    "oldest_start": 1765353600,
+    "newest_start": 1784185200
+  },
+  "358527744010018": {
+    "ad_count_text": "270",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 27,
+    "oldest_start": 1747983600,
+    "newest_start": 1789628400
+  },
+  "112073498622361": {
+    "ad_count_text": "240",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 22,
+    "oldest_start": 1775977200,
+    "newest_start": 1786777200
+  },
+  "114830840156278": {
+    "ad_count_text": "780",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 24,
+    "oldest_start": 1781852400,
+    "newest_start": 1789282800
+  },
+  "129780217415": {
+    "ad_count_text": "59",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 30,
+    "oldest_start": 1786950000,
+    "newest_start": 1789628400
+  },
+  "100519338927801": {
+    "ad_count_text": "8",
+    "prefix": "~",
+    "sampled": 8,
+    "sampled_video": 8,
+    "oldest_start": 1777705200,
+    "newest_start": 1782889200
+  },
+  "859925427381656": {
+    "ad_count_text": "81",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 29,
+    "oldest_start": 1772784000,
+    "newest_start": 1786690800
+  },
+  "110672808600905": {
+    "ad_count_text": "18",
+    "prefix": "~",
+    "sampled": 18,
+    "sampled_video": 18,
+    "oldest_start": 1743145200,
+    "newest_start": 1759647600
+  },
+  "113679117022557": {
+    "ad_count_text": "20",
+    "prefix": "~",
+    "sampled": 20,
+    "sampled_video": 20,
+    "oldest_start": 1750402800,
+    "newest_start": 1789282800
+  },
+  "750425248160827": {
+    "ad_count_text": "230",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 26,
+    "oldest_start": 1767686400,
+    "newest_start": 1788418800
+  },
+  "101100400538": {
+    "ad_count_text": "75",
+    "prefix": "~",
+    "sampled": 28,
+    "sampled_video": 25,
+    "oldest_start": 1783407600,
+    "newest_start": 1788937200
+  },
+  "107080555444744": {
+    "ad_count_text": "33",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 22,
+    "oldest_start": 1787295600,
+    "newest_start": 1789714800
+  },
+  "121135054419977": {
+    "ad_count_text": "350",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 30,
+    "oldest_start": 1765785600,
+    "newest_start": 1788246000
+  },
+  "315362238333405": {
+    "ad_count_text": "300",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 22,
+    "oldest_start": 1773212400,
+    "newest_start": 1789023600
+  },
+  "6391689884": {
+    "ad_count_text": "130",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 20,
+    "oldest_start": 1782975600,
+    "newest_start": 1789455600
+  },
+  "106879958280508": {
+    "ad_count_text": "43",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 25,
+    "oldest_start": 1780124400,
+    "newest_start": 1789455600
+  },
+  "57162292232": {
+    "ad_count_text": "770",
+    "prefix": "~",
+    "sampled": 25,
+    "sampled_video": 13,
+    "oldest_start": 1787554800,
+    "newest_start": 1788850800
+  },
+  "328908196980991": {
+    "ad_count_text": "46",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 30,
+    "oldest_start": 1774508400,
+    "newest_start": 1789628400
+  },
+  "662331720305715": {
+    "ad_count_text": "150",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 11,
+    "oldest_start": 1768032000,
+    "newest_start": 1787036400
+  },
+  "1200431263143164": {
+    "ad_count_text": "52",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 28,
+    "oldest_start": 1782284400,
+    "newest_start": 1789714800
+  },
+  "605585299524797": {
+    "ad_count_text": "33",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 30,
+    "oldest_start": 1763280000,
+    "newest_start": 1789628400
+  },
+  "837532596100345": {
+    "ad_count_text": "94",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 25,
+    "oldest_start": 1765353600,
+    "newest_start": 1788678000
+  },
+  "1098892030125622": {
+    "ad_count_text": "310",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 27,
+    "oldest_start": 1738051200,
+    "newest_start": 1786604400
+  },
+  "103345698622969": {
+    "ad_count_text": "520",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 18,
+    "oldest_start": 1761721200,
+    "newest_start": 1784790000
+  },
+  "1527404313960050": {
+    "ad_count_text": "72",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 13,
+    "oldest_start": 1776236400,
+    "newest_start": 1788246000
+  },
+  "451118111639116": {
+    "ad_count_text": "9",
+    "prefix": "~",
+    "sampled": 9,
+    "sampled_video": 2,
+    "oldest_start": 1731052800,
+    "newest_start": 1773730800
+  },
+  "103320531246886": {
+    "ad_count_text": "15",
+    "prefix": "~",
+    "sampled": 15,
+    "sampled_video": 14,
+    "oldest_start": 1783494000,
+    "newest_start": 1788418800
+  },
+  "408298409369276": {
+    "ad_count_text": "47",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 21,
+    "oldest_start": 1755327600,
+    "newest_start": 1785481200
+  },
+  "74506070864": {
+    "ad_count_text": "51",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 26,
+    "oldest_start": 1787295600,
+    "newest_start": 1787468400
+  },
+  "226627607207935": {
+    "ad_count_text": "530",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 29,
+    "oldest_start": 1776754800,
+    "newest_start": 1788764400
+  },
+  "417354944788041": {
+    "ad_count_text": "29",
+    "prefix": "~",
+    "sampled": 29,
+    "sampled_video": 9,
+    "oldest_start": 1735027200,
+    "newest_start": 1750230000
+  },
+  "1613109158994048": {
+    "ad_count_text": "15",
+    "prefix": "~",
+    "sampled": 15,
+    "sampled_video": 15,
+    "oldest_start": 1785826800,
+    "newest_start": 1789714800
+  },
+  "459501810587662": {
+    "ad_count_text": "70",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 19,
+    "oldest_start": 1773730800,
+    "newest_start": 1789455600
+  },
+  "104847301722609": {
+    "ad_count_text": "21",
+    "prefix": "~",
+    "sampled": 21,
+    "sampled_video": 9,
+    "oldest_start": 1765699200,
+    "newest_start": 1782802800
+  },
+  "110247565137490": {
+    "ad_count_text": "320",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 16,
+    "oldest_start": 1732521600,
+    "newest_start": 1786690800
+  },
+  "448440815172770": {
+    "ad_count_text": "160",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 9,
+    "oldest_start": 1737705600,
+    "newest_start": 1788505200
+  },
+  "346239188767285": {
+    "ad_count_text": "360",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 27,
+    "oldest_start": 1781679600,
+    "newest_start": 1788332400
+  },
+  "102165485133338": {
+    "ad_count_text": "1700",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 13,
+    "oldest_start": 1758178800,
+    "newest_start": 1786690800
+  },
+  "112882131741114": {
+    "ad_count_text": "190",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 25,
+    "oldest_start": 1778569200,
+    "newest_start": 1787036400
+  },
+  "130217660397292": {
+    "ad_count_text": "110",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 26,
+    "oldest_start": 1782889200,
+    "newest_start": 1789542000
+  },
+  "1089860041103335": {
+    "ad_count_text": "800",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 28,
+    "oldest_start": 1775286000,
+    "newest_start": 1787814000
+  },
+  "208746615851264": {
+    "ad_count_text": "44",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 22,
+    "oldest_start": 1786690800,
+    "newest_start": 1789455600
+  },
+  "193761463826127": {
+    "ad_count_text": "100",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 15,
+    "oldest_start": 1760338800,
+    "newest_start": 1789455600
+  },
+  "100619789520687": {
+    "ad_count_text": "1",
+    "prefix": "~",
+    "sampled": 1,
+    "sampled_video": 1,
+    "oldest_start": 1709366400,
+    "newest_start": 1709366400
+  },
+  "102284061999989": {
+    "ad_count_text": "9",
+    "prefix": "~",
+    "sampled": 9,
+    "sampled_video": 6,
+    "oldest_start": 1776927600,
+    "newest_start": 1787900400
+  },
+  "159323594080744": {
+    "ad_count_text": "300",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 14,
+    "oldest_start": 1775026800,
+    "newest_start": 1786518000
+  },
+  "109505650695478": {
+    "ad_count_text": "640",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 19,
+    "oldest_start": 1778310000,
+    "newest_start": 1788505200
+  },
+  "120104979378033": {
+    "ad_count_text": "6",
+    "prefix": "~",
+    "sampled": 6,
+    "sampled_video": 6,
+    "oldest_start": 1771574400,
+    "newest_start": 1788246000
+  },
+  "104976161758578": {
+    "ad_count_text": "46",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 12,
+    "oldest_start": 1713769200,
+    "newest_start": 1787554800
+  },
+  "126203422113010": {
+    "ad_count_text": "700",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 14,
+    "oldest_start": 1770796800,
+    "newest_start": 1785913200
+  },
+  "1063658896841629": {
+    "ad_count_text": "21",
+    "prefix": "~",
+    "sampled": 21,
+    "sampled_video": 19,
+    "oldest_start": 1788418800,
+    "newest_start": 1789110000
+  },
+  "285365931564403": {
+    "ad_count_text": "59",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 22,
+    "oldest_start": 1787641200,
+    "newest_start": 1789023600
+  },
+  "467750376429054": {
+    "ad_count_text": "4",
+    "prefix": "~",
+    "sampled": 4,
+    "sampled_video": 4,
+    "oldest_start": 1786604400,
+    "newest_start": 1788937200
+  },
+  "964998840030543": {
+    "ad_count_text": "880",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 16,
+    "oldest_start": 1780210800,
+    "newest_start": 1789023600
+  },
+  "227162770487454": {
+    "ad_count_text": "70",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 29,
+    "oldest_start": 1762761600,
+    "newest_start": 1770105600
+  },
+  "217096514825962": {
+    "ad_count_text": "14",
+    "prefix": "~",
+    "sampled": 14,
+    "sampled_video": 9,
+    "oldest_start": 1779692400,
+    "newest_start": 1784444400
+  },
+  "785032631896994": {
+    "ad_count_text": "130",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 14,
+    "oldest_start": 1745996400,
+    "newest_start": 1788246000
+  },
+  "585732621292177": {
+    "ad_count_text": "1",
+    "prefix": "~",
+    "sampled": 1,
+    "sampled_video": 1,
+    "oldest_start": 1782111600,
+    "newest_start": 1782111600
+  },
+  "609553568908244": {
+    "ad_count_text": "110",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 15,
+    "oldest_start": 1780902000,
+    "newest_start": 1789455600
+  },
+  "523724637799039": {
+    "ad_count_text": "6",
+    "prefix": "~",
+    "sampled": 6,
+    "sampled_video": 6,
+    "oldest_start": 1789023600,
+    "newest_start": 1789110000
+  },
+  "919231054611967": {
+    "ad_count_text": "480",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 26,
+    "oldest_start": 1775113200,
+    "newest_start": 1787900400
+  },
+  "64819929264": {
+    "ad_count_text": "21",
+    "prefix": "~",
+    "sampled": 21,
+    "sampled_video": 18,
+    "oldest_start": 1759215600,
+    "newest_start": 1789714800
+  },
+  "191704024550": {
+    "ad_count_text": "65",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 30,
+    "oldest_start": 1783926000,
+    "newest_start": 1789455600
+  },
+  "337131756644532": {
+    "ad_count_text": "210",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 9,
+    "oldest_start": 1762848000,
+    "newest_start": 1787641200
+  },
+  "119133458143386": {
+    "ad_count_text": "53",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 20,
+    "oldest_start": 1782457200,
+    "newest_start": 1789542000
+  },
+  "100834832925574": {
+    "ad_count_text": "220",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 14,
+    "oldest_start": 1776236400,
+    "newest_start": 1787554800
+  },
+  "100305879090611": {
+    "ad_count_text": "30",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 18,
+    "oldest_start": 1783666800,
+    "newest_start": 1789110000
+  },
+  "113461401765381": {
+    "ad_count_text": "380",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 27,
+    "oldest_start": 1778742000,
+    "newest_start": 1787986800
+  },
+  "357271311061455": {
+    "ad_count_text": "35",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 19,
+    "oldest_start": 1788246000,
+    "newest_start": 1789369200
+  },
+  "105546979319281": {
+    "ad_count_text": "1200",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 23,
+    "oldest_start": 1744700400,
+    "newest_start": 1787122800
+  },
+  "619270281261494": {
+    "ad_count_text": "42",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 18,
+    "oldest_start": 1772265600,
+    "newest_start": 1785481200
+  },
+  "226916157168437": {
+    "ad_count_text": "400",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 25,
+    "oldest_start": 1767427200,
+    "newest_start": 1788764400
+  },
+  "100404942642164": {
+    "ad_count_text": "100",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 20,
+    "oldest_start": 1701417600,
+    "newest_start": 1788764400
+  },
+  "102163941558548": {
+    "ad_count_text": "1200",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 0,
+    "oldest_start": 1773039600,
+    "newest_start": 1787209200
+  },
+  "100427111842981": {
+    "ad_count_text": "1",
+    "prefix": "~",
+    "sampled": 1,
+    "sampled_video": 1,
+    "oldest_start": 1779519600,
+    "newest_start": 1779519600
+  },
+  "947219371809937": {
+    "ad_count_text": "100",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 0,
+    "oldest_start": 1777359600,
+    "newest_start": 1787727600
+  },
+  "2070070263055100": {
+    "ad_count_text": "1",
+    "prefix": "~",
+    "sampled": 0,
+    "sampled_video": 0,
+    "oldest_start": null,
+    "newest_start": null
+  },
+  "107407134548054": {
+    "ad_count_text": "86",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 30,
+    "oldest_start": 1754982000,
+    "newest_start": 1789455600
+  },
+  "970647302793200": {
+    "ad_count_text": "1",
+    "prefix": "~",
+    "sampled": 1,
+    "sampled_video": 0,
+    "oldest_start": 1777532400,
+    "newest_start": 1777532400
+  },
+  "251982061949281": {
+    "ad_count_text": "300",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 18,
+    "oldest_start": 1770969600,
+    "newest_start": 1789023600
+  },
+  "138439552622": {
+    "ad_count_text": "64",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 21,
+    "oldest_start": 1779087600,
+    "newest_start": 1789455600
+  },
+  "143187522431127": {
+    "ad_count_text": "160",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 20,
+    "oldest_start": 1766736000,
+    "newest_start": 1786690800
+  },
+  "270005912855541": {
+    "ad_count_text": "510",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 30,
+    "oldest_start": 1773903600,
+    "newest_start": 1787554800
+  },
+  "555596914311762": {
+    "ad_count_text": "36",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 28,
+    "oldest_start": 1781506800,
+    "newest_start": 1789628400
+  },
+  "130282577019034": {
+    "ad_count_text": "9",
+    "prefix": "~",
+    "sampled": 9,
+    "sampled_video": 9,
+    "oldest_start": 1739260800,
+    "newest_start": 1789714800
+  },
+  "2062330653806632": {
+    "ad_count_text": "250",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 9,
+    "oldest_start": 1774249200,
+    "newest_start": 1788159600
+  },
+  "694293103758087": {
+    "ad_count_text": "250",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 27,
+    "oldest_start": 1779260400,
+    "newest_start": 1789628400
+  },
+  "110438335027165": {
+    "ad_count_text": "140",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 18,
+    "oldest_start": 1708675200,
+    "newest_start": 1787727600
+  },
+  "525714733949625": {
+    "ad_count_text": "230",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 30,
+    "oldest_start": 1750402800,
+    "newest_start": 1781766000
+  },
+  "899524816588260": {
+    "ad_count_text": "410",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 0,
+    "oldest_start": 1777359600,
+    "newest_start": 1789110000
+  },
+  "903917486130556": {
+    "ad_count_text": "750",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 25,
+    "oldest_start": 1775545200,
+    "newest_start": 1788505200
+  },
+  "43383149747": {
+    "ad_count_text": "450",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 0,
+    "oldest_start": 1712300400,
+    "newest_start": 1779519600
+  },
+  "312650818596944": {
+    "ad_count_text": "80",
+    "prefix": "~",
+    "sampled": 30,
+    "sampled_video": 30,
+    "oldest_start": 1733904000,
+    "newest_start": 1786950000
+  },
+  "203899256723268": {
+    "ad_count_text": "6",
+    "prefix": "~",
+    "sampled": 6,
+    "sampled_video": 6,
+    "oldest_start": 1788159600,
+    "newest_start": 1789023600
+  }
+}

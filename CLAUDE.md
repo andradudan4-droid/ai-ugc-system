@@ -32,8 +32,8 @@ conversation. They are **not** open questions here.
 
 | Step | Deliverable | Status |
 |------|-------------|--------|
-| 1 | Agent −1 (Prospector) → `targets.csv`, 100 skincare brands | **current** |
-| 2 | Agent 0 (Intake) → `brand.md` | not started |
+| 1 | Agent −1 (Prospector) → `targets.csv`, 100 skincare brands | **done** (108 rows) |
+| 2 | Agent 0 (Intake) → `brand.md` | **current** |
 | 3 | Agent 1 (Ad miner) → `hooks.jsonl` | not started |
 | 4 | Agent 2 (Taxonomist) → `angles.json` | not started |
 | 5 | Agent 3 (Scriptwriter) → `scripts.json` | not started |
