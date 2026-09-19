@@ -1,0 +1,69 @@
+{
+  "products": {
+    "n": 0,
+    "vendor": "Korean Skin Therapy",
+    "source": "homepage product rail \u2014 /products.json not served",
+    "items": [
+      {
+        "title": "The Ampoule",
+        "type": "Ampoule",
+        "tags": [],
+        "price": "",
+        "available": true,
+        "created": "",
+        "body": "#1 bestseller, 125,000+ sold. 'Firm, plump skin in 4 weeks. Or your money back.' 90-day risk-free trial."
+      },
+      {
+        "title": "Volufiline Collagen Serum",
+        "type": "Face Serum",
+        "tags": [],
+        "price": "23.00",
+        "available": true,
+        "created": "",
+        "body": "Discounted from 31.00. Claim: fills hollow under eyes in 2 weeks."
+      },
+      {
+        "title": "Radiance-RX Serum",
+        "type": "Face Serum",
+        "tags": [],
+        "price": "32.00",
+        "available": true,
+        "created": "",
+        "body": "Fades dark spots, evens tone."
+      },
+      {
+        "title": "PDRN Capsule Moisturizer",
+        "type": "Face Moisturizer",
+        "tags": [],
+        "price": "32.00",
+        "available": true,
+        "created": "",
+        "body": "Salmon DNA + collagen. 30% off."
+      },
+      {
+        "title": "CC Cream",
+        "type": "Makeup",
+        "tags": [],
+        "price": "27.00",
+        "available": true,
+        "created": "",
+        "body": "Tinted colour corrector with SPF 25, discounted from 54.00. Positioned to replace foundation, concealer and primer."
+      }
+    ]
+  },
+  "home": {
+    "title": "Korean Skin Therapy",
+    "description": "Korean Skin Therapy",
+    "site_name": "Korean Skin Therapy",
+    "fit": "**Core skincare plus treatment makeup, strong fit.** Peptide and PDRN actives, a clear hero SKU, and a mature-skin audience (testimonial from a 68-year-old). The guarantee-led framing ('or your money back', 90-day risk-free) is already a hook structure. Claim caution: 'Firm, plump skin in 4 weeks' and 'fills hollow under eyes in 2 weeks' are specific time-bound efficacy claims needing substantiation before reuse.",
+    "headings": [
+      "Firm, plump skin in 4 weeks. Or your money back.",
+      "Complete your routine.",
+      "Coverage that treats.",
+      "125,000+ women. One skin they recognize again."
+    ],
+    "reviews": "125,000",
+    "rating": "4.6",
+    "body_sample": "Free shipping over $45. Try the Ampoule risk-free for 90 days. #1 BESTSELLER 125,000+ SOLD. Firm, plump skin in 4 weeks. Or your money back. 4.6/5 from 125,000+ women. THE SKINCARE: peptide treatments that pair with the Ampoule for compounding results. THE MAKEUP: Coverage that treats \u2014 foundation-level coverage that treats your skin while you wear it. 'For the first time in a decade, I recognize the woman in the mirror.' DIANA W., AGE 68."
+  }
+}

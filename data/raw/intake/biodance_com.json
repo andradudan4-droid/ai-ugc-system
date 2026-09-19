@@ -1,0 +1,87 @@
+{
+  "products": {
+    "n": 0,
+    "vendor": "Biodance",
+    "source": "homepage product rail \u2014 /products.json not served",
+    "items": [
+      {
+        "title": "Bio Collagen-Real Deep Mask",
+        "type": "Hydrogel Mask",
+        "tags": [],
+        "price": "19.00",
+        "available": true,
+        "created": "",
+        "body": "The brand's flagship hydrogel mask, 128 ratings. Positioned as the #1 hydrogel mask."
+      },
+      {
+        "title": "Rejuvenating Caviar PDRN Real Deep Mask",
+        "type": "Hydrogel Mask",
+        "tags": [],
+        "price": "19.00",
+        "available": false,
+        "created": "",
+        "body": "Caviar and PDRN rejuvenating mask, 24 ratings. Sold out."
+      },
+      {
+        "title": "Pore Perfecting Collagen Peptide Serum",
+        "type": "Face Serum",
+        "tags": [],
+        "price": "21.90",
+        "available": true,
+        "created": "",
+        "body": "Collagen peptide serum for pores, 7 ratings."
+      },
+      {
+        "title": "Hydro Cera-Nol Serum",
+        "type": "Face Serum",
+        "tags": [],
+        "price": "21.90",
+        "available": true,
+        "created": "",
+        "body": "Ceramide hydrating serum."
+      },
+      {
+        "title": "Radiant Vita Niacinamide Serum",
+        "type": "Face Serum",
+        "tags": [],
+        "price": "21.90",
+        "available": true,
+        "created": "",
+        "body": "Niacinamide brightening serum, 3 ratings."
+      },
+      {
+        "title": "Refreshing Sea Kelp Serum",
+        "type": "Face Serum",
+        "tags": [],
+        "price": "21.90",
+        "available": true,
+        "created": "",
+        "body": "Sea kelp serum, 2 ratings."
+      },
+      {
+        "title": "Collagen Mask to Foam Cleanser",
+        "type": "Cleanser",
+        "tags": [],
+        "price": "19.00",
+        "available": false,
+        "created": "",
+        "body": "Mask-to-foam cleanser, 2 ratings. Sold out."
+      }
+    ]
+  },
+  "home": {
+    "title": "Biodance | Unmask Your Own Glow",
+    "description": "Biodance | Unmask Your Own Glow",
+    "site_name": "Biodance",
+    "fit": "**Core skincare, strong fit.** K-beauty hydrogel masks and serums at $19\u2013$21.90 \u2014 impulse price, highly visual application, and the flagship mask is an established viral format. Best UGC fit of this batch.",
+    "headings": [
+      "Meet the Founder Who Started it All",
+      "Find Your Glow with Serum Collection",
+      "Powered by Caviar & PDRN Innovation",
+      "OUR TOP SHELF"
+    ],
+    "reviews": "",
+    "rating": "",
+    "body_sample": "YOU'RE SHOPPING THE OFFICIAL BIODANCE STORE. FREE SHIPPING ON ALL ORDERS ABOVE $50. WHO'S BEHIND THE #1 HYDROGEL MASK? Meet the Founder Who Started it All. WHICH SERUM IS RIGHT FOR YOU? Find Your Glow with Serum Collection. THE ULTIMATE REJUVENATING MASK Powered by Caviar & PDRN Innovation. Serum line all $21.90; masks from $19.00. Several SKUs sold out."
+  }
+}

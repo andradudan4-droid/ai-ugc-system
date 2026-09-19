@@ -1,0 +1,70 @@
+{
+  "products": {
+    "n": 0,
+    "vendor": "JIYU",
+    "source": "homepage product rail \u2014 /products.json not served",
+    "items": [
+      {
+        "title": "Renewal & Rejuvenation Toner Pads",
+        "type": "Toner Pads",
+        "tags": [],
+        "price": "",
+        "available": true,
+        "created": "",
+        "body": "Hero SKU. Customer testimonial cites smoother skin and fading post-breakout dark spots by week six."
+      },
+      {
+        "title": "Polish Pads",
+        "type": "Exfoliant",
+        "tags": [],
+        "price": "",
+        "available": true,
+        "created": "",
+        "body": "Named in the meta description as a core product."
+      },
+      {
+        "title": "NAD+ Moisturizing Cream",
+        "type": "Face Moisturizer",
+        "tags": [],
+        "price": "",
+        "available": true,
+        "created": "",
+        "body": "NAD+ cream, named in meta description."
+      },
+      {
+        "title": "Anti-Aging Glow-Up Bundle",
+        "type": "Bundle",
+        "tags": [],
+        "price": "",
+        "available": true,
+        "created": "",
+        "body": "Bundle cited in an 8-week testimonial."
+      },
+      {
+        "title": "Heal & Seal Trio",
+        "type": "Bundle",
+        "tags": [],
+        "price": "",
+        "available": true,
+        "created": "",
+        "body": "Three-step bundle given its own homepage section."
+      }
+    ]
+  },
+  "home": {
+    "title": "JIYU | The science of skin longevity. Powered by Korean innovation.",
+    "description": "JIYU Korean Skincare \u2014 formulated and manufactured in South Korea at certified facilities. Shop Polish Pads, Toner Pads & NAD+ Moisturizing Cream backed by K-beauty science.",
+    "site_name": "JIYU",
+    "fit": "**Core skincare, strong fit.** Korean-manufactured, clinically-framed, and already leaning on before/after testimonial creative \u2014 which is exactly the UGC format. Caution: the site runs explicit Before/After imagery at 6 and 8 weeks, so claim substantiation needs checking before reusing that structure.",
+    "headings": [
+      "Your Shortcut to Radiant, Glassy Skin",
+      "Real People. Real Results.",
+      "8 Clinically-backed Ingredients",
+      "Heal & Seal Trio",
+      "KEY BENEFITS"
+    ],
+    "reviews": "12450",
+    "rating": "",
+    "body_sample": "SAVE UP TO 45%! 30,000+ 5-star reviews. Your Shortcut to Radiant, Glassy Skin. The science of skin longevity. Powered by Korean innovation. Real People. Real Results. 95% reported brighter, smoother, healthier-looking skin after consistent use. Before / 6 Weeks and Before / 8 Weeks testimonial blocks with named verified customers. 8-9 clinically-backed ingredients."
+  }
+}

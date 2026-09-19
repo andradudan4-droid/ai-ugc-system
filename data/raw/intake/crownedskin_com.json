@@ -1,0 +1,70 @@
+{
+  "products": {
+    "n": 0,
+    "vendor": "Crowned Skin",
+    "source": "homepage product rail \u2014 /products.json not served",
+    "items": [
+      {
+        "title": "King Body Butter Cologne - Warm and Sensual",
+        "type": "Body Butter Cologne",
+        "tags": [],
+        "price": "29.00",
+        "available": false,
+        "created": "",
+        "body": "Body butter cologne, warm and sensual. 4,097 ratings. Currently sold out."
+      },
+      {
+        "title": "Reign Body Butter Cologne - Fresh and Nautical",
+        "type": "Body Butter Cologne",
+        "tags": [],
+        "price": "29.00",
+        "available": false,
+        "created": "",
+        "body": "Fresh and nautical scent. 2,025 ratings. Sold out."
+      },
+      {
+        "title": "Prince Body Butter Cologne - Smoky Santal",
+        "type": "Body Butter Cologne",
+        "tags": [],
+        "price": "29.00",
+        "available": false,
+        "created": "",
+        "body": "Smoky santal scent. 956 ratings. Sold out."
+      },
+      {
+        "title": "Monarch Body Butter Cologne - Spicy and Bold",
+        "type": "Body Butter Cologne",
+        "tags": [],
+        "price": "29.00",
+        "available": false,
+        "created": "",
+        "body": "Spicy and bold scent. 712 ratings. Sold out."
+      },
+      {
+        "title": "Empire Body Butter Cologne - Smoky Citrus Musk",
+        "type": "Body Butter Cologne",
+        "tags": [],
+        "price": "29.00",
+        "available": false,
+        "created": "",
+        "body": "Smoky citrus musk. 831 ratings. Sold out."
+      }
+    ]
+  },
+  "home": {
+    "title": "Crowned Skin | Formulated to Attract",
+    "description": "Crowned Skin crafts organic body butter cologne, body oil, body wash, eau de parfum and bundles for men - formulated to attract. As Seen on Shark Tank.",
+    "site_name": "Crowned Skin",
+    "fit": "**Fragrance, not skincare \u2014 despite the name.** Crowned Skin sells scented body butter cologne and eau de parfum for men. The buying trigger is scent and attraction, not a skin concern, so category hooks (actives, texture, before/after) do not transfer. Treat as a separate men's-fragrance angle set. Also note every hero SKU reads SOLD OUT, which caps any near-term creative spend.",
+    "headings": [
+      "Crowned Skin Enters the Tank",
+      "Fragrances that Attract",
+      "New Improved Formulas Made To Attract",
+      "Why Crowned Skin?",
+      "The Best-Smelling Man in the Room"
+    ],
+    "reviews": "",
+    "rating": "",
+    "body_sample": "AS SEEN ON ABC'S SHARK TANK. Crowned Skin Enters the Tank. Fragrances that Attract. Over 100,000 Happy Customers. The Best-Smelling Man in the Room. Founder Darrell Spencer \u2014 clean, best-in-class cologne formulations for men's skincare. Free shipping over $80. All five hero colognes show SOLD OUT."
+  }
+}

@@ -97,6 +97,9 @@ def render(domain: str, today: dt.date | None = None) -> pathlib.Path:
         A(f"- **Newest SKU published:** {recent[0]}")
     A("")
 
+    if home.get("fit"):
+        A(f"## Category fit\n\n{home['fit']}\n")
+
     A("## Positioning")
     A("")
     A(home.get("description") or "_No meta description on the homepage._")

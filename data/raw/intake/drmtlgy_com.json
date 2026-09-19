@@ -1,0 +1,61 @@
+{
+  "products": {
+    "n": 0,
+    "vendor": "DRMTLGY",
+    "source": "homepage product rail \u2014 /products.json not served",
+    "items": [
+      {
+        "title": "Needle-less Growth Factor Serum",
+        "type": "Face Serum",
+        "tags": [],
+        "price": "46.50",
+        "available": true,
+        "created": "",
+        "body": "Anti-wrinkle bio-growth factor serum. 749 ratings, 195K+ sold. Listed at 46.50 from 62.00 during a 25% sitewide sale."
+      },
+      {
+        "title": "Medical-grade sunscreens",
+        "type": "Sunscreen",
+        "tags": [],
+        "price": "",
+        "available": true,
+        "created": "",
+        "body": "Sunscreen is a headline category with its own nav entry."
+      },
+      {
+        "title": "Anti-aging range",
+        "type": "Face Treatment",
+        "tags": [],
+        "price": "",
+        "available": true,
+        "created": "",
+        "body": "Anti-aging is one of five homepage category rails."
+      },
+      {
+        "title": "Eye care range",
+        "type": "Eye Cream",
+        "tags": [],
+        "price": "",
+        "available": true,
+        "created": "",
+        "body": "Eye care category rail."
+      }
+    ]
+  },
+  "home": {
+    "title": "DRMTLGY - Medical Grade Skin Care | Official Site",
+    "description": "Shop online for medical grade sunscreens, moisturizers, serums and more skin care products from DRMTLGY. Free US shipping over $40.",
+    "site_name": "DRMTLGY",
+    "fit": "**Core skincare, strong fit.** Medical-grade positioning with dermatologist endorsement and 5M+ claimed transformations. Note the site is running 25% off sitewide plus auto-ship and bundle discounts simultaneously \u2014 heavy discounting alongside 800 active ads suggests efficiency pressure, which is a useful thing to know before pricing a pitch.",
+    "headings": [
+      "25% Off Everything",
+      "Your Perfect Routine, Backed by Science",
+      "5+ Million Skin Transformations & Counting",
+      "Shop by Category",
+      "Meet Our Dermatologists"
+    ],
+    "reviews": "749",
+    "rating": "",
+    "body_sample": "25% OFF SITEWIDE. FREE SHIPPING ON ORDERS \u00a350+. SAVE 25% OFF FOREVER WITH AUTO-SHIP. BUILD YOUR OWN BUNDLE: UP TO 30% OFF. FRIENDS & FAMILY SALE 25% Off Everything, rewards members save sitewide. Your Perfect Routine, Backed by Science. 5+ Million Skin Transformations & Counting. Meet Our Dermatologists. Needle-less Growth Factor Serum, 195K+ sold, visibly firm and lift skin with anti-wrinkle bio-growth factors."
+  }
+}

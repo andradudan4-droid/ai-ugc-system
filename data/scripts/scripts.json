@@ -1,0 +1,188 @@
+{
+  "generated_from": "angles.fixture.json",
+  "is_fixture": true,
+  "script_count": 3,
+  "rejected": [
+    {
+      "file": "froyaorganics-com--A08.json",
+      "script_id": "froyaorganics-com-A08-04",
+      "errors": [
+        "uses do-not-say language: ['heals', 'prevents', 'treat']"
+      ]
+    }
+  ],
+  "scripts": [
+    {
+      "script_id": "froyaorganics-com-A08-01",
+      "brand_slug": "froyaorganics-com",
+      "angle_id": "A08",
+      "source_hook_ids": [
+        "FIXTURE-h080",
+        "FIXTURE-h081"
+      ],
+      "product": "Wrinkle Smoothing Night Balm ($37.00)",
+      "avatar_brief": "Woman 55-65, silver or greying hair worn naturally, no makeup, bare-faced in a bathroom with a window behind her so the light is flat and unflattering. Delivery is dry and unhurried, like she is talking to one friend, not a camera.",
+      "hook": "This is my skin at 8am in the worst light in my house. No filter, no makeup.",
+      "first_frame": "Extreme close-up on the outer corner of her eye and cheek, harsh window light raking across so texture and lines read clearly. No product in frame.",
+      "beats": [
+        {
+          "t": 0,
+          "vo": "This is my skin at 8am in the worst light in my house. No filter, no makeup.",
+          "visual": "Macro on eye corner and cheek in flat window light. Slow push in."
+        },
+        {
+          "t": 4,
+          "vo": "I stopped hiding from this mirror about a year ago.",
+          "visual": "She leans back, we see her full face for the first time, still bare."
+        },
+        {
+          "t": 8,
+          "vo": "Most nights now I use one thing. It's a beeswax balm, rosehip and marigold, and it works overnight while you sleep.",
+          "visual": "She scoops the night balm with two fingers. Product name clearly legible on the jar."
+        },
+        {
+          "t": 15,
+          "vo": "It's thick. It doesn't disappear in ten seconds like the light lotions I kept buying.",
+          "visual": "Close on the balm warming between her fingertips, stretching."
+        },
+        {
+          "t": 21,
+          "vo": "It supports the skin barrier in 7 days, and it softens the look of fine lines. That's it. That's the whole claim.",
+          "visual": "She presses it into the same cheek from the opening frame."
+        },
+        {
+          "t": 28,
+          "vo": "I'm not going to tell you it made me 40 again. I'm telling you I stopped avoiding this light.",
+          "visual": "Same harsh window light, same angle as the first frame, now with balm on."
+        },
+        {
+          "t": 34,
+          "vo": "Fr\u00f8ya's Wrinkle Smoothing Night Balm. Thirty-seven dollars. Link's here.",
+          "visual": "Jar held at chest height, site name on screen."
+        }
+      ],
+      "cta": "Fr\u00f8ya's Wrinkle Smoothing Night Balm. Thirty-seven dollars. Link's here.",
+      "duration_s": 39,
+      "claims_used": [
+        "works overnight while you sleep",
+        "supports the skin barrier in 7 days",
+        "softens the look of fine lines"
+      ],
+      "provenance": "FIXTURE (angles.fixture.json) \u2014 NOT client-safe",
+      "status": "draft"
+    },
+    {
+      "script_id": "froyaorganics-com-A08-02",
+      "brand_slug": "froyaorganics-com",
+      "angle_id": "A08",
+      "source_hook_ids": [
+        "FIXTURE-h080",
+        "FIXTURE-h081"
+      ],
+      "product": "Magic Revive Eye Balm ($52.00)",
+      "avatar_brief": "Woman 48-58, dressed for work, filming in a parked car with the visor mirror down \u2014 daylight is brutal and she is clearly not in a studio. Delivery is fast, slightly irritated, venting between errands.",
+      "hook": "Car mirror. Midday sun. This is the lighting that tells the truth about under-eyes.",
+      "first_frame": "Phone held at arm's length in a car, visor mirror down, direct sun on the left side of her face. Under-eye shadow and puffiness clearly visible.",
+      "beats": [
+        {
+          "t": 0,
+          "vo": "Car mirror. Midday sun. This is the lighting that tells the truth about under-eyes.",
+          "visual": "Handheld in-car selfie framing, harsh sun, no colour grading."
+        },
+        {
+          "t": 5,
+          "vo": "I've spent more on eye creams than I want to say out loud.",
+          "visual": "She tilts her face toward the sun, deliberately showing the area."
+        },
+        {
+          "t": 10,
+          "vo": "This one is an arctic arnica beeswax balm. It has 6 of the 10 top anti-age ingredients.",
+          "visual": "Small jar pulled from her bag, held near her face so scale reads."
+        },
+        {
+          "t": 17,
+          "vo": "Looks less puffy in 4 to 9 days. That's the number they give, so that's the number I'm giving you.",
+          "visual": "Ring-finger tap along the orbital bone, unglamorous and quick."
+        },
+        {
+          "t": 24,
+          "vo": "It's fifty-two dollars, which I did wince at. I'm on my second jar.",
+          "visual": "She caps the jar, drops it back in her bag."
+        },
+        {
+          "t": 30,
+          "vo": "Magic Revive Eye Balm, from Fr\u00f8ya. Go look at it in bad lighting first.",
+          "visual": "Product on the passenger seat, brand name on screen."
+        }
+      ],
+      "cta": "Magic Revive Eye Balm, from Fr\u00f8ya. Go look at it in bad lighting first.",
+      "duration_s": 35,
+      "claims_used": [
+        "6 of the 10 top anti-age ingredients",
+        "looks less puffy in 4-9 days"
+      ],
+      "provenance": "FIXTURE (angles.fixture.json) \u2014 NOT client-safe",
+      "status": "draft"
+    },
+    {
+      "script_id": "froyaorganics-com-A08-03",
+      "brand_slug": "froyaorganics-com",
+      "angle_id": "A08",
+      "source_hook_ids": [
+        "FIXTURE-h080"
+      ],
+      "product": "The Complete System for Mature Women's Skin ($121.07)",
+      "avatar_brief": "Woman 60-70, at a kitchen table early morning, dressing gown, tea going cold. Overhead kitchen light only \u2014 the least flattering source in a house. Delivery is warm and conversational, mid-thought, no performance energy.",
+      "hook": "Overhead kitchen light. Nobody films themselves in overhead kitchen light.",
+      "first_frame": "Phone propped against something on a kitchen table, framing her face from slightly below under a single overhead bulb. Shadows fall badly under the eyes and nose.",
+      "beats": [
+        {
+          "t": 0,
+          "vo": "Overhead kitchen light. Nobody films themselves in overhead kitchen light.",
+          "visual": "Static propped shot, overhead bulb, unretouched skin."
+        },
+        {
+          "t": 5,
+          "vo": "I did it on purpose. You should see what you're actually buying into.",
+          "visual": "She shrugs, turns her face slowly left then right under the light."
+        },
+        {
+          "t": 11,
+          "vo": "Four steps, wild-harvested Arctic plants. Cleanse, day balm, eye balm, night balm.",
+          "visual": "She sets the four jars down in order, one at a time, on the table."
+        },
+        {
+          "t": 19,
+          "vo": "It's a hundred and twenty-one dollars for the set, which is a real amount of money.",
+          "visual": "Overhead shot of the four jars in a row."
+        },
+        {
+          "t": 25,
+          "vo": "What I can tell you is 95% reported youthful glow, and 823,000 women have bought into this.",
+          "visual": "Back to her face, same bad light, applying the day balm."
+        },
+        {
+          "t": 32,
+          "vo": "Decide in your own worst lighting. That's all I did.",
+          "visual": "She picks up the cold tea, shot holds on the four jars."
+        },
+        {
+          "t": 37,
+          "vo": "The Complete System for Mature Women's Skin, at Fr\u00f8ya.",
+          "visual": "Brand name and site on screen over the kitchen table."
+        }
+      ],
+      "cta": "The Complete System for Mature Women's Skin, at Fr\u00f8ya.",
+      "duration_s": 42,
+      "claims_used": [
+        "95% reported youthful glow",
+        "wild-harvested Arctic plants",
+        "823,000+ customers"
+      ],
+      "provenance": "FIXTURE (angles.fixture.json) \u2014 NOT client-safe",
+      "status": "draft"
+    }
+  ],
+  "published": false,
+  "publish_refused": "angles source is a FIXTURE \u2014 hand-written, not mined from real ads. Refusing to publish to shared/data/. Wire in Miner's angles.json first."
+}

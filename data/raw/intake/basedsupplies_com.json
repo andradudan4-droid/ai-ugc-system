@@ -1,0 +1,79 @@
+{
+  "products": {
+    "n": 0,
+    "vendor": "Based Supplies",
+    "source": "homepage product rail \u2014 /products.json not served",
+    "items": [
+      {
+        "title": "Tallow & Honey Balm - 2 oz",
+        "type": "Body Balm",
+        "tags": [],
+        "price": "30.00",
+        "available": true,
+        "created": "",
+        "body": "Flagship tallow and honey balm. Testimonial cites use on a baby after baths and on dry elbows, knees, feet, and face."
+      },
+      {
+        "title": "No Essential Oils - Tallow & Honey Balm",
+        "type": "Body Balm",
+        "tags": [],
+        "price": "30.00",
+        "available": true,
+        "created": "",
+        "body": "Fragrance-free variant for sensitive users."
+      },
+      {
+        "title": "Tallow Soap Bar",
+        "type": "Soap",
+        "tags": [],
+        "price": "14.00",
+        "available": true,
+        "created": "",
+        "body": "Tallow soap bar."
+      },
+      {
+        "title": "Onion Hydrosol Shower Duo",
+        "type": "Haircare",
+        "tags": [],
+        "price": "35.00",
+        "available": true,
+        "created": "",
+        "body": "Shower duo, discounted from 70.00."
+      },
+      {
+        "title": "Peppermint Beeswax Lip Balm - 15 ml",
+        "type": "Lip Balm",
+        "tags": [],
+        "price": "5.00",
+        "available": true,
+        "created": "",
+        "body": "Beeswax lip balm from $5.00."
+      },
+      {
+        "title": "Magnesium Lotion - 2 oz",
+        "type": "Body Lotion",
+        "tags": [],
+        "price": "30.00",
+        "available": true,
+        "created": "",
+        "body": "Magnesium lotion."
+      }
+    ]
+  },
+  "home": {
+    "title": "Based Supplies",
+    "description": "Based Supplies",
+    "site_name": "Based Supplies",
+    "fit": "**Natural skincare, good fit with a caveat.** Tallow balms, soap and lip balm sourced from Ontario farms. Ingredient-transparency and anti-additive positioning ('no added stuff or hormone disruptors') is a strong, well-worn UGC angle. Caveat: that positioning shades into implied health claims about other brands' ingredients, which is a comparative-claims risk in paid social.",
+    "headings": [
+      "Welcome",
+      "Choose Based Supplies",
+      "All Natural Ingredients",
+      "Testimonials",
+      "About Us"
+    ],
+    "reviews": "",
+    "rating": "",
+    "body_sample": "FREE SHIPPING ON ORDERS OVER $40. Join our movement embracing nature's gifts for wellness for everyone one product at a time! Choose Based Supplies \u2014 better quality, greater benefits, and more transparency than other brands. Comparison table versus OTHERS on: Natural Ingredients, Biocompatible, Gentle on Skin, Nutrient Rich. All natural ingredients, high quality, sourced from local farms here in Ontario, Canada."
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "products": {
+    "n": 0,
+    "vendor": "Good Molecules",
+    "source": "homepage product rail \u2014 /products.json not served",
+    "items": [
+      {
+        "title": "Discoloration Correcting Serum",
+        "type": "Face Serum",
+        "tags": [],
+        "price": "11.00",
+        "available": true,
+        "created": "",
+        "body": "Hero SKU, 30 ml, 7,666 ratings. Creator testimonial on discoloration and blemish scars over 3 months."
+      },
+      {
+        "title": "Firming Peptide Eye Cream",
+        "type": "Eye Cream",
+        "tags": [],
+        "price": "5.50",
+        "available": true,
+        "created": "",
+        "body": "15 ml. Visibly smooth fine lines and brighten the look of dark circles. 12 ratings."
+      },
+      {
+        "title": "Copper Peptide Serum with PDRN",
+        "type": "Face Serum",
+        "tags": [],
+        "price": "11.00",
+        "available": true,
+        "created": "",
+        "body": "30 ml. Multi-peptide complex and rose PDRN. 11 ratings."
+      },
+      {
+        "title": "Dark Spot Microdart Patches",
+        "type": "Treatment",
+        "tags": [],
+        "price": "12.50",
+        "available": true,
+        "created": "",
+        "body": "24 patches, targeted dark spot treatment."
+      }
+    ]
+  },
+  "home": {
+    "title": "See a difference in your skin | Good Molecules",
+    "description": "Shop skincare with science-backed ingredients for all skin types. Target hyperpigmentation, acne, texture and pores, dry skin, fine lines, and more with vegan, cruelty-free formulas starting at just $6.",
+    "site_name": "Good Molecules",
+    "fit": "**Core skincare, strong fit.** Science-backed actives at \u00a35.50\u2013\u00a312.50 \u2014 the lowest price point in this batch, which makes impulse-conversion UGC viable and lowers the risk of any single creative. Already uses creator-attributed testimonial copy on the homepage, so the format is proven for them.",
+    "headings": [
+      "THE WORLD HAS ENOUGH PRODUCTS THAT DON'T WORK AND COST TOO MUCH",
+      "SEE A DIFFERENCE IN YOUR SKIN",
+      "NEW ARRIVALS",
+      "BEST SELLERS",
+      "FEATURED IN"
+    ],
+    "reviews": "7666",
+    "rating": "",
+    "body_sample": "Free shipping on all orders over \u00a335 in the UK. THE WORLD HAS ENOUGH PRODUCTS THAT DON'T WORK AND COST TOO MUCH. We started Good Molecules to change this. Our products make a difference in your skin by using ingredients backed by science. They are also safe for you and the planet. Low prices make sure as many people around the world can use Good Molecules as possible. Creator quote from @lillianncortes on discoloration and blemish scars."
+  }
+}

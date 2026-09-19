@@ -1,0 +1,79 @@
+{
+  "products": {
+    "n": 0,
+    "vendor": "Blissy",
+    "source": "homepage product rail \u2014 /products.json not served",
+    "items": [
+      {
+        "title": "Silk Pillowcase",
+        "type": "Pillowcase",
+        "tags": [],
+        "price": "",
+        "available": true,
+        "created": "",
+        "body": "100% Mulberry silk, 22-Momme 6A grade. The flagship product. Buy 3 get 1 free."
+      },
+      {
+        "title": "Silk Bonnets",
+        "type": "Haircare",
+        "tags": [],
+        "price": "",
+        "available": true,
+        "created": "",
+        "body": "Silk bonnets sold as a nighttime hair routine."
+      },
+      {
+        "title": "Sleep Masks",
+        "type": "Sleep Mask",
+        "tags": [],
+        "price": "",
+        "available": true,
+        "created": "",
+        "body": "Silk sleep masks, own bestseller rail."
+      },
+      {
+        "title": "Hair Accessories",
+        "type": "Haircare",
+        "tags": [],
+        "price": "",
+        "available": true,
+        "created": "",
+        "body": "Silk scrunchies and hair accessories."
+      },
+      {
+        "title": "Pillow Mists",
+        "type": "Home Fragrance",
+        "tags": [],
+        "price": "",
+        "available": true,
+        "created": "",
+        "body": "Pillow mists, buy 2 get 1 free."
+      },
+      {
+        "title": "Gift & Dream Sets",
+        "type": "Bundle",
+        "tags": [],
+        "price": "",
+        "available": true,
+        "created": "",
+        "body": "Gift sets and loungewear."
+      }
+    ]
+  },
+  "home": {
+    "title": "Blissy \u2014 Leading The Silk Revolution",
+    "description": "Blissy is the best kept secret of super models, hair stylists, beauty experts and dermatologists around the world. Experience pure bliss with the Blissy ultra premium 22-Momme 6A Grade silk pillowcases, hair accessories, sleep masks and more.",
+    "site_name": "Blissy",
+    "fit": "**Textile, not skincare.** Blissy sells silk pillowcases, bonnets and sleep masks, marketed on downstream hair and skin benefit. There is no formulation, no active, no application \u2014 so ingredient and routine hooks do not transfer at all. The creative job is material quality, sleep ritual and gifting. Worth keeping as a separate beauty-adjacent angle set; do not pitch it category skincare creative. Note: blissy.co redirects to uk.blissy.com.",
+    "headings": [
+      "Sleep on the bright side.",
+      "Pick your kind of bliss.",
+      "Good hair starts at bedtime.",
+      "One for you. One for them.",
+      "A little silk. A lot to love."
+    ],
+    "reviews": "",
+    "rating": "",
+    "body_sample": "Buy 3 pillowcases, get 1 free + free laundry bags. Experience the luxury of 100% Mulberry Silk. A LITTLE EVERYDAY LUXURY. Sleep on the bright side. A SOFTER NIGHTTIME HAIR ROUTINE. Good hair starts at bedtime. Collections: Pillowcases, Hair care, Sleep masks, Gift sets, Silk Bonnets, Loungewear, Blissy Junior, Silk Care, Pillow Mists, Candles, Collaborations. Heavy BOGO structure throughout."
+  }
+}

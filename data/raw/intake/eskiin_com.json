@@ -1,0 +1,52 @@
+{
+  "products": {
+    "n": 0,
+    "vendor": "eskiin",
+    "source": "homepage product rail \u2014 /products.json not served",
+    "items": [
+      {
+        "title": "Filtered Showerhead",
+        "type": "Shower Filter",
+        "tags": [],
+        "price": "",
+        "available": true,
+        "created": "",
+        "body": "The core product: a high-performance filtered showerhead marketed as America's #1. Ad copy promises 'your best skin & hair \u2014 guaranteed'."
+      },
+      {
+        "title": "Fall Sale Bundles",
+        "type": "Bundle",
+        "tags": [],
+        "price": "",
+        "available": true,
+        "created": "",
+        "body": "Bundles at up to 45% off, positioned as gifting."
+      },
+      {
+        "title": "Replacement Filters",
+        "type": "Consumable",
+        "tags": [],
+        "price": "",
+        "available": true,
+        "created": "",
+        "body": "Recurring filter replacements \u2014 the subscription mechanic."
+      }
+    ]
+  },
+  "home": {
+    "title": "eskiin",
+    "description": "Clean Shower Water Is The Foundation Of Health & Beauty",
+    "site_name": "eskiin",
+    "fit": "**Device/hardware, not skincare.** eskiin sells a filtered showerhead on skin-and-hair benefit claims. High UGC fit in practice \u2014 the demo (filter discolouration after use, water testing) is inherently visual and testimonial-driven \u2014 but the hook logic is problem-agitation about water quality, not actives or routine. Treat as its own angle set. Claim caution: the homepage runs 'prevent hair loss' and 'clears skin' as a scrolling marquee, which are strong claims for a hardware product.",
+    "headings": [
+      "Clean Shower Water Is The Foundation Of Health & Beauty",
+      "Save Up to 45% on Fall Sale Bundles",
+      "People just like you who ditched their old showerhead",
+      "Find Out What's In Your Water",
+      "Ever wondered what's lurking in your shower water?"
+    ],
+    "reviews": "",
+    "rating": "",
+    "body_sample": "Fall Sale: UP TO 45% OFF. Better Skin and Hair Guaranteed with eskiin. Scrolling marquee: prevent hair loss / hydrates skin / softens hair / clears skin / reduces dryness / improves skin and hair texture. People just like you who ditched their old showerhead. Find Out What's In Your Water."
+  }
+}
