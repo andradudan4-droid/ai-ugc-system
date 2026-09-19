@@ -1,0 +1,93 @@
+{
+  "_note": "Awaiting user approval. 8 verified-skincare high_volume brands. Rendered-text read only, one navigation each, no script injection. category_confirmed_by_ads is filled after collection and may contradict the site claim.",
+  "brands": [
+    {
+      "brand": "Biodance_global",
+      "website": "biodance.com",
+      "page_id": "100834832925574",
+      "segment": "high_volume",
+      "category_claimed_by_site": "skincare",
+      "category_confirmed_by_ads": null,
+      "ad_count": 220,
+      "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&view_all_page_id=100834832925574&media_type=video",
+      "collected": false
+    },
+    {
+      "brand": "DRMTLGY",
+      "website": "drmtlgy.com",
+      "page_id": "1089860041103335",
+      "segment": "high_volume",
+      "category_claimed_by_site": "skincare",
+      "category_confirmed_by_ads": null,
+      "ad_count": 800,
+      "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&view_all_page_id=1089860041103335&media_type=video",
+      "collected": false
+    },
+    {
+      "brand": "JiYu Skin",
+      "website": "jiyuskin.com",
+      "page_id": "919231054611967",
+      "segment": "high_volume",
+      "category_claimed_by_site": "skincare",
+      "category_confirmed_by_ads": null,
+      "ad_count": 480,
+      "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&view_all_page_id=919231054611967&media_type=video",
+      "collected": false
+    },
+    {
+      "brand": "Koreanskintherapy",
+      "website": "koreanskintherapy.com",
+      "page_id": "121135054419977",
+      "segment": "high_volume",
+      "category_claimed_by_site": "skincare",
+      "category_confirmed_by_ads": null,
+      "ad_count": 350,
+      "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&view_all_page_id=121135054419977&media_type=video",
+      "collected": false
+    },
+    {
+      "brand": "Based Supplies",
+      "website": "basedsupplies.com",
+      "page_id": "161067203973094",
+      "segment": "high_volume",
+      "category_claimed_by_site": "skincare",
+      "category_confirmed_by_ads": null,
+      "ad_count": 1300,
+      "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&view_all_page_id=161067203973094&media_type=video",
+      "collected": false
+    },
+    {
+      "brand": "Good Molecules",
+      "website": "goodmolecules.com",
+      "page_id": "2062330653806632",
+      "segment": "high_volume",
+      "category_claimed_by_site": "skincare",
+      "category_confirmed_by_ads": null,
+      "ad_count": 250,
+      "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&view_all_page_id=2062330653806632&media_type=video",
+      "collected": false
+    },
+    {
+      "brand": "Navaro",
+      "website": "trynavaro.com",
+      "page_id": "750425248160827",
+      "segment": "high_volume",
+      "category_claimed_by_site": "skincare",
+      "category_confirmed_by_ads": null,
+      "ad_count": 230,
+      "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&view_all_page_id=750425248160827&media_type=video",
+      "collected": false
+    },
+    {
+      "brand": "GloMelanin",
+      "website": "glomelanin.com",
+      "page_id": "100404942642164",
+      "segment": "high_volume",
+      "category_claimed_by_site": "skincare",
+      "category_confirmed_by_ads": null,
+      "ad_count": 100,
+      "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&view_all_page_id=100404942642164&media_type=video",
+      "collected": false
+    }
+  ]
+}
