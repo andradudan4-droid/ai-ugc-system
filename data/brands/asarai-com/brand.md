@@ -7,6 +7,12 @@
 - **Product data source:** homepage product rail — /products.json not served
 - **Price range:** $16.00–$162.00 (median $56.00)
 
+## Category fit
+
+**Core skincare, strong fit.** Naturopath-developed, Australian, 4.7 from 10,000+ reviews, $16–$162. Award-winning brightening mask with a 10-minute demo built into the product, which is close to ideal for short-form. Cleanest evidence base of the fatigued five.
+
+_Provisional until the ad set confirms it._ Intake establishes what a brand **says** it sells; only its ads show what it actually **advertises**. Both SpoiledChild and Saltair read as skincare on the website and were tagged as such here — at ad level SpoiledChild runs 27 of 29 ads on ingestible collagen, and Saltair runs 22 of 22 on body care with no facial SKU. Treat this section as the brand's claim, and Agent 2's per-ad product class as the check on it.
+
 ## Positioning
 
 We have created the best natural skincare for a generation dedicated to long life and adventure. Nature has the answer to better skin, we deliver it to you in a bright yellow package.

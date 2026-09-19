@@ -98,7 +98,17 @@ def render(domain: str, today: dt.date | None = None) -> pathlib.Path:
     A("")
 
     if home.get("fit"):
-        A(f"## Category fit\n\n{home['fit']}\n")
+        A("## Category fit")
+        A("")
+        A(home["fit"])
+        A("")
+        A("_Provisional until the ad set confirms it._ Intake establishes what a brand **says** it "
+          "sells; only its ads show what it actually **advertises**. Both SpoiledChild and Saltair "
+          "read as skincare on the website and were tagged as such here — at ad level SpoiledChild "
+          "runs 27 of 29 ads on ingestible collagen, and Saltair runs 22 of 22 on body care with no "
+          "facial SKU. Treat this section as the brand's claim, and Agent 2's per-ad product class "
+          "as the check on it.")
+        A("")
 
     A("## Positioning")
     A("")

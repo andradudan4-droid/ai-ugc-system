@@ -11,6 +11,8 @@
 
 **Device-led, not topical — despite the name and the meta description.** The hero SKUs are an LED mask, a micro-infusion system, an LLLT helmet and a shower filter; topicals like Blue+ Serum are positioned as accessories to the devices and given away free with them. Same shape as Omnilux and eskiin: demo-able and high-AOV, but the creative job is device demonstration and results-over-time. Claim caution: the title tag asserts 'Clinically-Proven Results' outright.
 
+_Provisional until the ad set confirms it._ Intake establishes what a brand **says** it sells; only its ads show what it actually **advertises**. Both SpoiledChild and Saltair read as skincare on the website and were tagged as such here — at ad level SpoiledChild runs 27 of 29 ads on ingestible collagen, and Saltair runs 22 of 22 on body care with no facial SKU. Treat this section as the brand's claim, and Agent 2's per-ad product class as the check on it.
+
 ## Positioning
 
 Qure brings clinical treatments and skincare to your home, minus the 'clinical' costs.

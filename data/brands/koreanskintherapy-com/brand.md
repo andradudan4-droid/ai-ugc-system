@@ -11,6 +11,8 @@
 
 **Core skincare plus treatment makeup, strong fit.** Peptide and PDRN actives, a clear hero SKU, and a mature-skin audience (testimonial from a 68-year-old). The guarantee-led framing ('or your money back', 90-day risk-free) is already a hook structure. Claim caution: 'Firm, plump skin in 4 weeks' and 'fills hollow under eyes in 2 weeks' are specific time-bound efficacy claims needing substantiation before reuse.
 
+_Provisional until the ad set confirms it._ Intake establishes what a brand **says** it sells; only its ads show what it actually **advertises**. Both SpoiledChild and Saltair read as skincare on the website and were tagged as such here — at ad level SpoiledChild runs 27 of 29 ads on ingestible collagen, and Saltair runs 22 of 22 on body care with no facial SKU. Treat this section as the brand's claim, and Agent 2's per-ad product class as the check on it.
+
 ## Positioning
 
 Korean Skin Therapy

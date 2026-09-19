@@ -31,6 +31,23 @@ angle has no examples to imitate because none exist.
 `angles` key, so a fixture-shaped loader parses it to an empty list and silently produces zero
 prompts. `load()` now raises with the file's actual top-level keys instead.
 
+## Client-readiness is a corpus gate, not a judgement
+
+A thin corpus does not make a script wrong — it makes it unproven. `build.client_readiness()` checks
+the angle corpus mechanically: under `CLIENT_READY_MIN_HOOKS` (150) or `CLIENT_READY_MIN_BRANDS` (8)
+and the whole file is marked `client_ready: false`, with the reason written into `scripts.json` and a
+`hold_reason` on every script. Validation rejects `client_ready: false` without a reason.
+
+Unclaimed angles carry a second, independent hold: absence is only as strong as the corpus it was
+measured against, so an unclaimed angle stays held even once the corpus clears the bar, until it is
+re-confirmed against the wider sample.
+
+The reason this is mechanical rather than a per-batch call: contamination in a 4-brand pilot already
+inverted one result. `customer_testimonial` read as the most saturated angle in the category off 25
+ads — 24 of them ingestible or body-care. In facial skincare it runs on **one** ad. Agent 3 steered
+away from one of the emptiest positions available to the brand it was writing for, on evidence that
+looked solid. A gate that only fires when someone remembers to think about it would not have fired.
+
 ## Attribution is incomplete, and says so
 
 `docs/DESIGN.md` §2 requires every asset to trace back to the angle **and the hook** that produced

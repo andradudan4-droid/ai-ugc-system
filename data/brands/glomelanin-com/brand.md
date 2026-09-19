@@ -11,6 +11,8 @@
 
 **Core skincare, strong and differentiated fit.** Formulated specifically for melanin-rich skin, African-American owned, Atlanta based, doctor backed, 4.9 from 4,500+ reviews. The audience specificity is the asset — hyperpigmentation, dark inner thighs and ingrowns are named concerns that most of the category talks around, and casting is unambiguous. The best-reviewed SKU is a $20-ish scrub, so impulse conversion is viable. Claim caution: the hero product is named 'Dark Spot REMOVAL Scrub' and the site promises 'Better skin in 30 days or it's FREE' — removal is a strong claim and 30 days is time-bound.
 
+_Provisional until the ad set confirms it._ Intake establishes what a brand **says** it sells; only its ads show what it actually **advertises**. Both SpoiledChild and Saltair read as skincare on the website and were tagged as such here — at ad level SpoiledChild runs 27 of 29 ads on ingestible collagen, and Saltair runs 22 of 22 on body care with no facial SKU. Treat this section as the brand's claim, and Agent 2's per-ad product class as the check on it.
+
 ## Positioning
 
 Natural Skincare Product Specifically Designed for Melanin-Rich Skin. Doctor Backed. Atlanta Based. Over 10,000 reviews.

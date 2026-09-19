@@ -10,6 +10,8 @@
 
 **Makeup, not skincare — but a clean adjacent fit.** Colour cosmetics for mature women, with the 'pro-age' framing doing the differentiating. Highly demo-able (application on mature skin, before/after on lashes) and the audience overlaps the mature-skin skincare brands in this list, so an avatar pool is shared. Treat as its own angle set. **Claim flag:** the brand's own tagline is 'Make-up That Heals' — 'heals' is drug-claim language and must not carry into creative, even though it is their line.
 
+_Provisional until the ad set confirms it._ Intake establishes what a brand **says** it sells; only its ads show what it actually **advertises**. Both SpoiledChild and Saltair read as skincare on the website and were tagged as such here — at ad level SpoiledChild runs 27 of 29 ads on ingestible collagen, and Saltair runs 22 of 22 on body care with no facial SKU. Treat this section as the brand's claim, and Agent 2's per-ad product class as the check on it.
+
 ## Positioning
 
 Pro-Age Make-up That Heals

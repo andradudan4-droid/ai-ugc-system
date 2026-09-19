@@ -7,6 +7,12 @@
 - **Price range:** $2.50–$50.00 (median $23.00)
 - **Newest SKU published:** 2026-09-15
 
+## Category fit
+
+**Body care, not facial skincare — and the ad set is unambiguous.** Body wash, body oil, body butter, scrubs, serum deodorant, body mist and scent collections. There is a genuine HA Body Hydrator and a Vitamin C Body Serum, so the actives language reads like skincare, but Agent 2 found 22 of 22 mined ads on body care with no facial SKU anywhere. It belongs in the beauty category and in targets.csv; it does not belong in the facial skincare hook corpus. Tagged `body_care`.
+
+_Provisional until the ad set confirms it._ Intake establishes what a brand **says** it sells; only its ads show what it actually **advertises**. Both SpoiledChild and Saltair read as skincare on the website and were tagged as such here — at ad level SpoiledChild runs 27 of 29 ads on ingestible collagen, and Saltair runs 22 of 22 on body care with no facial SKU. Treat this section as the brand's claim, and Agent 2's per-ad product class as the check on it.
+
 ## Positioning
 
 Saltair body care and hair care products are made with advanced ingredients and exotic botanicals to treat the skin and hair while awakening the senses.
@@ -57,7 +63,7 @@ hyaluronic acid, niacinamide, retinol, vitamin c, salicylic acid, glycolic acid,
 - **Segment:** `fatigued` · fatigue score 88.59
 - **Active ads:** 700 · video ads (est.) 327
 - **Oldest live ad:** 220d · **newest:** 45d ago
-- Notes: ugc est. from 30-ad sample; ad ages from sample; true oldest may be older; advertises as "jaxandbrynco"; 15+ UGC video ads
+- Notes: ugc est. from 30-ad sample; ad ages from sample; true oldest may be older; advertises as "jaxandbrynco"; body_care — EXCLUDE from skincare hook corpus (DESIGN.md §4); 15+ UGC video ads
 
 **The pitch:** newest creative is 45 days old against 700 ads still running — they are spending but not refreshing.
 

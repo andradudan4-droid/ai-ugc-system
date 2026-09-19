@@ -11,6 +11,8 @@
 
 **Core skincare, strong fit.** Science-backed actives at £5.50–£12.50 — the lowest price point in this batch, which makes impulse-conversion UGC viable and lowers the risk of any single creative. Already uses creator-attributed testimonial copy on the homepage, so the format is proven for them.
 
+_Provisional until the ad set confirms it._ Intake establishes what a brand **says** it sells; only its ads show what it actually **advertises**. Both SpoiledChild and Saltair read as skincare on the website and were tagged as such here — at ad level SpoiledChild runs 27 of 29 ads on ingestible collagen, and Saltair runs 22 of 22 on body care with no facial SKU. Treat this section as the brand's claim, and Agent 2's per-ad product class as the check on it.
+
 ## Positioning
 
 Shop skincare with science-backed ingredients for all skin types. Target hyperpigmentation, acne, texture and pores, dry skin, fine lines, and more with vegan, cruelty-free formulas starting at just $6.

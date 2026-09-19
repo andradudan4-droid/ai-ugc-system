@@ -7,6 +7,12 @@
 - **Product data source:** /collections/all page — /products.json not served
 - **Price range:** $23.00–$31.00 (median $27.00)
 
+## Category fit
+
+**Skincare, but dropshipper-shaped.** 24 white-label Korean SKUs, every one showing '50% OFF ENDS TODAY', no about page, no reviews, no ingredient library. Genuinely in category and it scores well on ad behaviour, but the absence of any brand substance means creative has nothing to stand on beyond the actives themselves. Worth a look, not a first call.
+
+_Provisional until the ad set confirms it._ Intake establishes what a brand **says** it sells; only its ads show what it actually **advertises**. Both SpoiledChild and Saltair read as skincare on the website and were tagged as such here — at ad level SpoiledChild runs 27 of 29 ads on ingestible collagen, and Saltair runs 22 of 22 on body care with no facial SKU. Treat this section as the brand's claim, and Agent 2's per-ad product class as the check on it.
+
 ## Positioning
 
 SAESKYN

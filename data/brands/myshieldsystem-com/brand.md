@@ -11,6 +11,8 @@
 
 **Core skincare, good fit — highest claim risk in the batch.** Men's acne is an under-served UGC segment with a clear before/after demo and a defined avatar. But the homepage runs a wall of BEFORE/AFTER pairs plus '271,342+ Men Cleared Their Acne in Under 6 Weeks', '97% had less acne after 6 weeks' and '37% less irritation than traditional benzoyl peroxide' — time-bound efficacy, a competitor-ingredient comparison, and acne treatment claims that sit in OTC-drug territory in the US. The trial is footnoted as double-blind and dermatologist-reviewed, so substantiation may well exist, but creative must not reuse any of it without seeing that file first.
 
+_Provisional until the ad set confirms it._ Intake establishes what a brand **says** it sells; only its ads show what it actually **advertises**. Both SpoiledChild and Saltair read as skincare on the website and were tagged as such here — at ad level SpoiledChild runs 27 of 29 ads on ingestible collagen, and Saltair runs 22 of 22 on body care with no facial SKU. Treat this section as the brand's claim, and Agent 2's per-ad product class as the check on it.
+
 ## Positioning
 
 Acne Technology for Men

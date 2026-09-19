@@ -10,6 +10,8 @@
 
 **Core skincare, strong fit.** Korean-manufactured, clinically-framed, and already leaning on before/after testimonial creative — which is exactly the UGC format. Caution: the site runs explicit Before/After imagery at 6 and 8 weeks, so claim substantiation needs checking before reusing that structure.
 
+_Provisional until the ad set confirms it._ Intake establishes what a brand **says** it sells; only its ads show what it actually **advertises**. Both SpoiledChild and Saltair read as skincare on the website and were tagged as such here — at ad level SpoiledChild runs 27 of 29 ads on ingestible collagen, and Saltair runs 22 of 22 on body care with no facial SKU. Treat this section as the brand's claim, and Agent 2's per-ad product class as the check on it.
+
 ## Positioning
 
 JIYU Korean Skincare — formulated and manufactured in South Korea at certified facilities. Shop Polish Pads, Toner Pads & NAD+ Moisturizing Cream backed by K-beauty science.

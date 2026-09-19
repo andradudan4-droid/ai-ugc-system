@@ -26,6 +26,8 @@
     "scope_warning": "PILOT CORPUS \u2014 5 fatigued brands of 81 in scope. 'unclaimed' means absent from THIS sample, not proven absent from the category. Verify against the full 81 before putting an unclaimed angle in front of a client.",
     "absence_is_measured_on": "hook position only (the ad's opening line). An angle listed as unclaimed may still appear deeper in body copy \u2014 it is unclaimed as a HOOK, which is the unit being sold."
   },
+  "client_ready": false,
+  "client_ready_reason": "PIPELINE TEST \u2014 angle corpus is 64 hooks from 4 brands, below the 150/8 bar for client-facing work. Contamination in a pilot this size already inverted one angle result once. Nothing here goes near a brand until Agent 2 re-derives on the extended corpus and reports which angles survive.",
   "is_fixture": false,
   "script_count": 9,
   "rejected": [],
@@ -81,7 +83,9 @@
       "status": "draft",
       "angle_evidence": "copy_derived",
       "angle_saturation": "single_brand",
-      "attribution_basis": "angle=heritage_origin (single_brand, 4 ads across Froya Organics). Agent 2 does not carry hook ids through from hooks.jsonl, so DESIGN.md \u00a72 hook-level attribution is INCOMPLETE \u2014 traceable to the angle, not to individual ads. Evidence grade copy_derived."
+      "attribution_basis": "angle=heritage_origin (single_brand, 4 ads across Froya Organics). Agent 2 does not carry hook ids through from hooks.jsonl, so DESIGN.md \u00a72 hook-level attribution is INCOMPLETE \u2014 traceable to the angle, not to individual ads. Evidence grade copy_derived.",
+      "client_ready": false,
+      "hold_reason": "PIPELINE TEST \u2014 angle corpus is 64 hooks from 4 brands, below the 150/8 bar for client-facing work. Contamination in a pilot this size already inverted one angle result once. Nothing here goes near a brand until Agent 2 re-derives on the extended corpus and reports which angles survive."
     },
     {
       "script_id": "froyaorganics-com-heritage_origin-02",
@@ -134,7 +138,9 @@
       "status": "draft",
       "angle_evidence": "copy_derived",
       "angle_saturation": "single_brand",
-      "attribution_basis": "angle=heritage_origin (single_brand, 4 ads across Froya Organics). Agent 2 does not carry hook ids through from hooks.jsonl, so DESIGN.md \u00a72 hook-level attribution is INCOMPLETE \u2014 traceable to the angle, not to individual ads. Evidence grade copy_derived."
+      "attribution_basis": "angle=heritage_origin (single_brand, 4 ads across Froya Organics). Agent 2 does not carry hook ids through from hooks.jsonl, so DESIGN.md \u00a72 hook-level attribution is INCOMPLETE \u2014 traceable to the angle, not to individual ads. Evidence grade copy_derived.",
+      "client_ready": false,
+      "hold_reason": "PIPELINE TEST \u2014 angle corpus is 64 hooks from 4 brands, below the 150/8 bar for client-facing work. Contamination in a pilot this size already inverted one angle result once. Nothing here goes near a brand until Agent 2 re-derives on the extended corpus and reports which angles survive."
     },
     {
       "script_id": "froyaorganics-com-heritage_origin-03",
@@ -187,7 +193,9 @@
       "status": "draft",
       "angle_evidence": "copy_derived",
       "angle_saturation": "single_brand",
-      "attribution_basis": "angle=heritage_origin (single_brand, 4 ads across Froya Organics). Agent 2 does not carry hook ids through from hooks.jsonl, so DESIGN.md \u00a72 hook-level attribution is INCOMPLETE \u2014 traceable to the angle, not to individual ads. Evidence grade copy_derived."
+      "attribution_basis": "angle=heritage_origin (single_brand, 4 ads across Froya Organics). Agent 2 does not carry hook ids through from hooks.jsonl, so DESIGN.md \u00a72 hook-level attribution is INCOMPLETE \u2014 traceable to the angle, not to individual ads. Evidence grade copy_derived.",
+      "client_ready": false,
+      "hold_reason": "PIPELINE TEST \u2014 angle corpus is 64 hooks from 4 brands, below the 150/8 bar for client-facing work. Contamination in a pilot this size already inverted one angle result once. Nothing here goes near a brand until Agent 2 re-derives on the extended corpus and reports which angles survive."
     },
     {
       "script_id": "froyaorganics-com-menopause_skin-01",
@@ -240,7 +248,9 @@
       "status": "draft",
       "angle_evidence": "copy_derived",
       "angle_saturation": "unclaimed",
-      "attribution_basis": "angle=menopause_skin (UNCLAIMED, 0 corpus hits). No hooks exist to attribute to: the angle is defined by absence, verified by probe regex. Evidence grade copy_derived. Traceable to the angle only, not to any ad."
+      "attribution_basis": "angle=menopause_skin (UNCLAIMED, 0 corpus hits). No hooks exist to attribute to: the angle is defined by absence, verified by probe regex. Evidence grade copy_derived. Traceable to the angle only, not to any ad.",
+      "client_ready": false,
+      "hold_reason": "PIPELINE TEST \u2014 angle corpus is 64 hooks from 4 brands, below the 150/8 bar for client-facing work. Contamination in a pilot this size already inverted one angle result once. Nothing here goes near a brand until Agent 2 re-derives on the extended corpus and reports which angles survive."
     },
     {
       "script_id": "froyaorganics-com-menopause_skin-02",
@@ -293,7 +303,9 @@
       "status": "draft",
       "angle_evidence": "copy_derived",
       "angle_saturation": "unclaimed",
-      "attribution_basis": "angle=menopause_skin (UNCLAIMED, 0 corpus hits). No hooks exist to attribute to: the angle is defined by absence, verified by probe regex. Evidence grade copy_derived. Traceable to the angle only, not to any ad."
+      "attribution_basis": "angle=menopause_skin (UNCLAIMED, 0 corpus hits). No hooks exist to attribute to: the angle is defined by absence, verified by probe regex. Evidence grade copy_derived. Traceable to the angle only, not to any ad.",
+      "client_ready": false,
+      "hold_reason": "PIPELINE TEST \u2014 angle corpus is 64 hooks from 4 brands, below the 150/8 bar for client-facing work. Contamination in a pilot this size already inverted one angle result once. Nothing here goes near a brand until Agent 2 re-derives on the extended corpus and reports which angles survive."
     },
     {
       "script_id": "froyaorganics-com-menopause_skin-03",
@@ -347,7 +359,9 @@
       "status": "draft",
       "angle_evidence": "copy_derived",
       "angle_saturation": "unclaimed",
-      "attribution_basis": "angle=menopause_skin (UNCLAIMED, 0 corpus hits). No hooks exist to attribute to: the angle is defined by absence, verified by probe regex. Evidence grade copy_derived. Traceable to the angle only, not to any ad."
+      "attribution_basis": "angle=menopause_skin (UNCLAIMED, 0 corpus hits). No hooks exist to attribute to: the angle is defined by absence, verified by probe regex. Evidence grade copy_derived. Traceable to the angle only, not to any ad.",
+      "client_ready": false,
+      "hold_reason": "PIPELINE TEST \u2014 angle corpus is 64 hooks from 4 brands, below the 150/8 bar for client-facing work. Contamination in a pilot this size already inverted one angle result once. Nothing here goes near a brand until Agent 2 re-derives on the extended corpus and reports which angles survive."
     },
     {
       "script_id": "froyaorganics-com-skin_as_signal-01",
@@ -400,7 +414,9 @@
       "status": "draft",
       "angle_evidence": "copy_derived",
       "angle_saturation": "unclaimed",
-      "attribution_basis": "angle=skin_as_signal (UNCLAIMED, 0 corpus hits). No hooks exist to attribute to: the angle is defined by absence, verified by probe regex. Evidence grade copy_derived. Traceable to the angle only, not to any ad."
+      "attribution_basis": "angle=skin_as_signal (UNCLAIMED, 0 corpus hits). No hooks exist to attribute to: the angle is defined by absence, verified by probe regex. Evidence grade copy_derived. Traceable to the angle only, not to any ad.",
+      "client_ready": false,
+      "hold_reason": "PIPELINE TEST \u2014 angle corpus is 64 hooks from 4 brands, below the 150/8 bar for client-facing work. Contamination in a pilot this size already inverted one angle result once. Nothing here goes near a brand until Agent 2 re-derives on the extended corpus and reports which angles survive."
     },
     {
       "script_id": "froyaorganics-com-skin_as_signal-02",
@@ -452,7 +468,9 @@
       "status": "draft",
       "angle_evidence": "copy_derived",
       "angle_saturation": "unclaimed",
-      "attribution_basis": "angle=skin_as_signal (UNCLAIMED, 0 corpus hits). No hooks exist to attribute to: the angle is defined by absence, verified by probe regex. Evidence grade copy_derived. Traceable to the angle only, not to any ad."
+      "attribution_basis": "angle=skin_as_signal (UNCLAIMED, 0 corpus hits). No hooks exist to attribute to: the angle is defined by absence, verified by probe regex. Evidence grade copy_derived. Traceable to the angle only, not to any ad.",
+      "client_ready": false,
+      "hold_reason": "PIPELINE TEST \u2014 angle corpus is 64 hooks from 4 brands, below the 150/8 bar for client-facing work. Contamination in a pilot this size already inverted one angle result once. Nothing here goes near a brand until Agent 2 re-derives on the extended corpus and reports which angles survive."
     },
     {
       "script_id": "froyaorganics-com-skin_as_signal-03",
@@ -506,7 +524,9 @@
       "status": "draft",
       "angle_evidence": "copy_derived",
       "angle_saturation": "unclaimed",
-      "attribution_basis": "angle=skin_as_signal (UNCLAIMED, 0 corpus hits). No hooks exist to attribute to: the angle is defined by absence, verified by probe regex. Evidence grade copy_derived. Traceable to the angle only, not to any ad."
+      "attribution_basis": "angle=skin_as_signal (UNCLAIMED, 0 corpus hits). No hooks exist to attribute to: the angle is defined by absence, verified by probe regex. Evidence grade copy_derived. Traceable to the angle only, not to any ad.",
+      "client_ready": false,
+      "hold_reason": "PIPELINE TEST \u2014 angle corpus is 64 hooks from 4 brands, below the 150/8 bar for client-facing work. Contamination in a pilot this size already inverted one angle result once. Nothing here goes near a brand until Agent 2 re-derives on the extended corpus and reports which angles survive."
     }
   ],
   "published": true,

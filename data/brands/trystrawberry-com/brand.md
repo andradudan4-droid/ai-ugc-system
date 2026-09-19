@@ -10,6 +10,8 @@
 
 **Core skincare, strong fit, unusually sharp niche.** Keratosis pilaris is a specific, visible, under-served concern with a built-in visual demo and a named search term people already use. A concern-first site architecture ('Pick one and we'll do the rest') maps almost one-to-one onto hook segmentation. Best niche fit of this batch. Claim caution: eczema is a medical condition — the copy hedges with 'support' and 'designed to', and creative must keep that hedge.
 
+_Provisional until the ad set confirms it._ Intake establishes what a brand **says** it sells; only its ads show what it actually **advertises**. Both SpoiledChild and Saltair read as skincare on the website and were tagged as such here — at ad level SpoiledChild runs 27 of 29 ads on ingestible collagen, and Saltair runs 22 of 22 on body care with no facial SKU. Treat this section as the brand's claim, and Agent 2's per-ad product class as the check on it.
+
 ## Positioning
 
 Improve keratosis pilaris, strawberry skin and dark spots with targeted formulas designed to smooth KP bumps and support even-looking skin.

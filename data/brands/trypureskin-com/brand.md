@@ -10,6 +10,8 @@
 
 **Consumable textile, not skincare — and the domain has rebranded.** trypureskin.com now serves prefixskin.com: 'pureskin is now pre·fix'. The product is a single-use cotton face towel sold on an acne-prevention argument (dirty reusable towels reintroduce bacteria and dead skin). There is no formulation and no active, so ingredient and routine hooks do not transfer. The acne framing makes its ad copy read as skincare, which is exactly why it needs tagging. Strong UGC product in its own right — the problem demo is vivid — but its own corpus, not the skincare one.
 
+_Provisional until the ad set confirms it._ Intake establishes what a brand **says** it sells; only its ads show what it actually **advertises**. Both SpoiledChild and Saltair read as skincare on the website and were tagged as such here — at ad level SpoiledChild runs 27 of 29 ads on ingestible collagen, and Saltair runs 22 of 22 on body care with no facial SKU. Treat this section as the brand's claim, and Agent 2's per-ad product class as the check on it.
+
 ## Positioning
 
 prefix: the preventative fix for acne.

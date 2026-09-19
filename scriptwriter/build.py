@@ -10,6 +10,15 @@ from .angles import FixtureData, evidence_grade, guard_publish, load
 from .prompt import build as build_prompt
 from .schema import validate
 
+# A thin corpus does not make a script wrong, it makes it unproven. Agent 2's pilot ran 4 brands
+# (effectively 3 -- SpoiledChild contributes 2 hooks after the off-category gate), and contamination
+# in that pilot already inverted one result: customer_testimonial read as the most saturated angle
+# in the category off 25 ads, but 24 were ingestible or body-care. In facial skincare it runs on
+# one. An "unclaimed" angle measured against 3 brands carries the same risk in the other direction.
+# So client-readiness is a gate on the CORPUS, checked mechanically, not a judgement call per batch.
+CLIENT_READY_MIN_BRANDS = 8
+CLIENT_READY_MIN_HOOKS = 150
+
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SHARED = pathlib.Path.home() / "Desktop" / "ai-ugc-system" / "shared" / "data"
 OUT = ROOT / "data" / "scripts"
@@ -31,6 +40,22 @@ def emit_prompts(slug: str, angle_ids: list[str] | None, n: int) -> list[pathlib
         f.write_text(json.dumps(p, indent=2))
         written.append(f)
     return written
+
+
+def client_readiness(corpus: dict, is_fixture: bool) -> tuple[bool, str]:
+    """Is the angle evidence strong enough to put derived scripts in front of a brand?"""
+    if is_fixture:
+        return False, "Generated from a hand-written FIXTURE. Not real evidence."
+    brands, hooks = len(corpus.get("brands", [])), corpus.get("hooks", 0)
+    if brands < CLIENT_READY_MIN_BRANDS or hooks < CLIENT_READY_MIN_HOOKS:
+        return False, (
+            f"PIPELINE TEST — angle corpus is {hooks} hooks from {brands} brands, below the "
+            f"{CLIENT_READY_MIN_HOOKS}/{CLIENT_READY_MIN_BRANDS} bar for client-facing work. "
+            "Contamination in a pilot this size already inverted one angle result once. Nothing "
+            "here goes near a brand until Agent 2 re-derives on the extended corpus and reports "
+            "which angles survive."
+        )
+    return True, f"Angle corpus is {hooks} hooks from {brands} brands."
 
 
 def _attribution(angle: dict | None, grade: str) -> str:
@@ -68,6 +93,7 @@ def assemble() -> dict:
     by_id = {a["angle_id"]: a for a in angles}
     RETURNS.mkdir(parents=True, exist_ok=True)
 
+    ready, ready_why = client_readiness(corpus, is_fixture)
     scripts, problems = [], []
     for f in sorted(RETURNS.glob("*.json")):
         slug, angle_id = f.stem.split("--", 1)
@@ -81,6 +107,15 @@ def assemble() -> dict:
             s["angle_saturation"] = (a or {}).get("saturation", "unclaimed")
             s["source_hook_ids"] = (a or {}).get("hook_ids", [])
             s["attribution_basis"] = _attribution(a, s["angle_evidence"])
+            s["client_ready"] = ready
+            if not ready:
+                s["hold_reason"] = ready_why
+            elif s["angle_saturation"] == "unclaimed":
+                s["client_ready"] = False
+                s["hold_reason"] = (
+                    "Angle is UNCLAIMED — established by absence. Absence is only as strong as the "
+                    "corpus it was measured against; confirm against the extended corpus first."
+                )
             errs = validate(s)
             hits = _banned_used(s, banned)
             if hits:
@@ -93,6 +128,8 @@ def assemble() -> dict:
     doc = {
         "generated_from": src.name,
         "corpus": corpus,
+        "client_ready": ready,
+        "client_ready_reason": ready_why,
         "is_fixture": is_fixture,
         "script_count": len(scripts),
         "rejected": problems,

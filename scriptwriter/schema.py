@@ -32,6 +32,7 @@ REQUIRED = [
     "claims_used",      # list[str] -- every efficacy claim spoken
     "angle_evidence",   # transcribed | copy_derived | mixed | unknown -- see angles.py
     "provenance",       # where the angle came from; FIXTURE output is marked here
+    "client_ready",     # False until the angle corpus clears the bar in build.py
     "status",           # draft | approved | rendered
 ]
 
@@ -62,6 +63,10 @@ def validate(script: dict) -> list[str]:
     basis = (script.get("attribution_basis") or "").strip()
     if len(basis) < 20:
         errs.append("attribution_basis must say what this traces back to, and what it does not")
+    if not isinstance(script.get("client_ready"), bool):
+        errs.append("client_ready must be a bool")
+    if script.get("client_ready") is False and not (script.get("hold_reason") or "").strip():
+        errs.append("client_ready False requires a hold_reason")
     if script.get("angle_saturation") not in ALLOWED_SATURATION:
         errs.append(f"angle_saturation must be one of {sorted(ALLOWED_SATURATION)}")
 

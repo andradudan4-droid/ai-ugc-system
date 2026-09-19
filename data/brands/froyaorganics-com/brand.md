@@ -7,6 +7,12 @@
 - **Price range:** $25.00–$219.00 (median $44.00)
 - **Newest SKU published:** 2026-08-06
 
+## Category fit
+
+**Core skincare, strong fit — with the widest category sprawl in the set.** Arctic-plant balms for mature women's skin, plus a full hair/scalp line, plus joint and muscle balms and an intimate balm. The skincare line is the pitch; the rest is why an angle set has to be scoped to face before anything is written. Highest ad volume of any target (3400).
+
+_Provisional until the ad set confirms it._ Intake establishes what a brand **says** it sells; only its ads show what it actually **advertises**. Both SpoiledChild and Saltair read as skincare on the website and were tagged as such here — at ad level SpoiledChild runs 27 of 29 ads on ingestible collagen, and Saltair runs 22 of 22 on body care with no facial SKU. Treat this section as the brand's claim, and Agent 2's per-ad product class as the check on it.
+
 ## Positioning
 
 Shop natural skincare & haircare for mature skin and thinning hair. Wild Arctic plant balms with visible results in 60 days, loved by 805,709+ women.

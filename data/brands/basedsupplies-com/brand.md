@@ -11,6 +11,8 @@
 
 **Natural skincare, good fit with a caveat.** Tallow balms, soap and lip balm sourced from Ontario farms. Ingredient-transparency and anti-additive positioning ('no added stuff or hormone disruptors') is a strong, well-worn UGC angle. Caveat: that positioning shades into implied health claims about other brands' ingredients, which is a comparative-claims risk in paid social.
 
+_Provisional until the ad set confirms it._ Intake establishes what a brand **says** it sells; only its ads show what it actually **advertises**. Both SpoiledChild and Saltair read as skincare on the website and were tagged as such here — at ad level SpoiledChild runs 27 of 29 ads on ingestible collagen, and Saltair runs 22 of 22 on body care with no facial SKU. Treat this section as the brand's claim, and Agent 2's per-ad product class as the check on it.
+
 ## Positioning
 
 Based Supplies

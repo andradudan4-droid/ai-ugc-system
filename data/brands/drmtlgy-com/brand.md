@@ -11,6 +11,8 @@
 
 **Core skincare, strong fit.** Medical-grade positioning with dermatologist endorsement and 5M+ claimed transformations. Note the site is running 25% off sitewide plus auto-ship and bundle discounts simultaneously — heavy discounting alongside 800 active ads suggests efficiency pressure, which is a useful thing to know before pricing a pitch.
 
+_Provisional until the ad set confirms it._ Intake establishes what a brand **says** it sells; only its ads show what it actually **advertises**. Both SpoiledChild and Saltair read as skincare on the website and were tagged as such here — at ad level SpoiledChild runs 27 of 29 ads on ingestible collagen, and Saltair runs 22 of 22 on body care with no facial SKU. Treat this section as the brand's claim, and Agent 2's per-ad product class as the check on it.
+
 ## Positioning
 
 Shop online for medical grade sunscreens, moisturizers, serums and more skin care products from DRMTLGY. Free US shipping over $40.

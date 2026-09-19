@@ -6,6 +6,12 @@
 - **Catalogue:** 0 published products
 - **Product data source:** homepage product rail — /products.json returns 404 (headless storefront)
 
+## Category fit
+
+**Skincare at brand level, ingestible at ad level — the gap matters.** The topical line is real (S33+ Collagen Burst Serum, T31 Vitamin C Eye Cream, O36+ Triple-Peptide Moisturizer), which is why it stays tagged `skincare`. But Agent 2 found 27 of its 29 mined ads running ingestible liquid collagen, appetite suppression and hair thinning, with only two topical eye ads. Whatever we write has to sell the topical line, not follow where their spend actually goes.
+
+_Provisional until the ad set confirms it._ Intake establishes what a brand **says** it sells; only its ads show what it actually **advertises**. Both SpoiledChild and Saltair read as skincare on the website and were tagged as such here — at ad level SpoiledChild runs 27 of 29 ads on ingestible collagen, and Saltair runs 22 of 22 on body care with no facial SKU. Treat this section as the brand's claim, and Agent 2's per-ad product class as the check on it.
+
 ## Positioning
 
 GETTING OLD IS GETTING OLD. Intelligent skin and hair products that refuse to take aging seriously. SpoiledBrain, our proprietary machine learning algorithm, will determine the exact products you need by combining millions of data points with your personal profile.

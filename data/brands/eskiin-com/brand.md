@@ -10,6 +10,8 @@
 
 **Device/hardware, not skincare.** eskiin sells a filtered showerhead on skin-and-hair benefit claims. High UGC fit in practice — the demo (filter discolouration after use, water testing) is inherently visual and testimonial-driven — but the hook logic is problem-agitation about water quality, not actives or routine. Treat as its own angle set. Claim caution: the homepage runs 'prevent hair loss' and 'clears skin' as a scrolling marquee, which are strong claims for a hardware product.
 
+_Provisional until the ad set confirms it._ Intake establishes what a brand **says** it sells; only its ads show what it actually **advertises**. Both SpoiledChild and Saltair read as skincare on the website and were tagged as such here — at ad level SpoiledChild runs 27 of 29 ads on ingestible collagen, and Saltair runs 22 of 22 on body care with no facial SKU. Treat this section as the brand's claim, and Agent 2's per-ad product class as the check on it.
+
 ## Positioning
 
 Clean Shower Water Is The Foundation Of Health & Beauty

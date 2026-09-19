@@ -11,6 +11,8 @@
 
 **Fragrance, not skincare — despite the name.** Crowned Skin sells scented body butter cologne and eau de parfum for men. The buying trigger is scent and attraction, not a skin concern, so category hooks (actives, texture, before/after) do not transfer. Treat as a separate men's-fragrance angle set. Also note every hero SKU reads SOLD OUT, which caps any near-term creative spend.
 
+_Provisional until the ad set confirms it._ Intake establishes what a brand **says** it sells; only its ads show what it actually **advertises**. Both SpoiledChild and Saltair read as skincare on the website and were tagged as such here — at ad level SpoiledChild runs 27 of 29 ads on ingestible collagen, and Saltair runs 22 of 22 on body care with no facial SKU. Treat this section as the brand's claim, and Agent 2's per-ad product class as the check on it.
+
 ## Positioning
 
 Crowned Skin crafts organic body butter cologne, body oil, body wash, eau de parfum and bundles for men - formulated to attract. As Seen on Shark Tank.

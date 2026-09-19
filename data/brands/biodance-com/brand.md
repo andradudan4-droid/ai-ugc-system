@@ -11,6 +11,8 @@
 
 **Core skincare, strong fit.** K-beauty hydrogel masks and serums at $19–$21.90 — impulse price, highly visual application, and the flagship mask is an established viral format. Best UGC fit of this batch.
 
+_Provisional until the ad set confirms it._ Intake establishes what a brand **says** it sells; only its ads show what it actually **advertises**. Both SpoiledChild and Saltair read as skincare on the website and were tagged as such here — at ad level SpoiledChild runs 27 of 29 ads on ingestible collagen, and Saltair runs 22 of 22 on body care with no facial SKU. Treat this section as the brand's claim, and Agent 2's per-ad product class as the check on it.
+
 ## Positioning
 
 Biodance | Unmask Your Own Glow

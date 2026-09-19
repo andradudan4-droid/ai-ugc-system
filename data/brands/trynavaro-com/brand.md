@@ -10,6 +10,8 @@
 
 **Topical skincare, but with supplement-shaped trust signals — verify before pitching.** The routine described is unambiguously topical (apply, massage upward, peptide threads melt). But the trust badges read 100% Vegan Capsules, Non-GMO, GMP-Certified Facility, Gluten/Soy/Dairy Free — that is ingestible-supplement language, which suggests either an ingestible line alongside the topical or badge copy lifted from one. Worth resolving before creative, because a supplement line would pull in the compliance surface DESIGN.md §1 chose this category to avoid. Claim caution: 'Clinically Inspired Formula' is doing deliberate work — inspired by, not proven by.
 
+_Provisional until the ad set confirms it._ Intake establishes what a brand **says** it sells; only its ads show what it actually **advertises**. Both SpoiledChild and Saltair read as skincare on the website and were tagged as such here — at ad level SpoiledChild runs 27 of 29 ads on ingestible collagen, and Saltair runs 22 of 22 on body care with no facial SKU. Treat this section as the brand's claim, and Agent 2's per-ad product class as the check on it.
+
 ## Positioning
 
 Navaro

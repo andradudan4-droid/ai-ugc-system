@@ -10,6 +10,8 @@
 
 **Core skincare, good fit.** Canadian, formulates in-house, and leads on full-ingredient transparency rather than hero ingredients — a defensible and differentiated angle. Breadth is the risk: skincare, makeup, haircare, baby care and 'Good Fumes' in one catalogue means creative has to pick a lane per audience rather than sell the brand.
 
+_Provisional until the ad set confirms it._ Intake establishes what a brand **says** it sells; only its ads show what it actually **advertises**. Both SpoiledChild and Saltair read as skincare on the website and were tagged as such here — at ad level SpoiledChild runs 27 of 29 ads on ingestible collagen, and Saltair runs 22 of 22 on body care with no facial SKU. Treat this section as the brand's claim, and Agent 2's per-ad product class as the check on it.
+
 ## Positioning
 
 Naturally handcrafted bath products that are safe for the whole family! Probiotic and antioxidant infused for health and skin benefits. No synthetic fragrances are used, only pure essential oils.

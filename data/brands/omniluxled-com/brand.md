@@ -11,6 +11,8 @@
 
 **Device-led, not topical.** Omnilux sells LED masks at £348, with a smaller topical skincare line alongside. Beauty category and highly demo-able on video, but the creative job is device demonstration and results-over-time, not texture/application. Price point means a considered purchase, so UGC needs proof and authority rather than impulse.
 
+_Provisional until the ad set confirms it._ Intake establishes what a brand **says** it sells; only its ads show what it actually **advertises**. Both SpoiledChild and Saltair read as skincare on the website and were tagged as such here — at ad level SpoiledChild runs 27 of 29 ads on ingestible collagen, and Saltair runs 22 of 22 on body care with no facial SKU. Treat this section as the brand's claim, and Agent 2's per-ad product class as the check on it.
+
 ## Positioning
 
 FDA-cleared LED light therapy backed by 40+ studies helping you achieve healthier, more radiant skin.

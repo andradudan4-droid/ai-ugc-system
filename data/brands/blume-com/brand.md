@@ -11,6 +11,8 @@
 
 **Core skincare, strong fit.** Hormonal-acne focus with a clear hero SKU and a young audience that is native to UGC. Two claim cautions: 'Works in Just 3 Days' is a specific time-bound efficacy claim, and 'Dermatologist Recommended' appears as a homepage heading — both need substantiation on file before creative repeats them. Heavy bundle discounting (43–50%) alongside 310 active ads suggests margin pressure.
 
+_Provisional until the ad set confirms it._ Intake establishes what a brand **says** it sells; only its ads show what it actually **advertises**. Both SpoiledChild and Saltair read as skincare on the website and were tagged as such here — at ad level SpoiledChild runs 27 of 29 ads on ingestible collagen, and Saltair runs 22 of 22 on body care with no facial SKU. Treat this section as the brand's claim, and Agent 2's per-ad product class as the check on it.
+
 ## Positioning
 
 Hi, we're Blume and we're all up in your bathroom with products that are good for you, and the environment. Award winning skin care. Clean, effective and affordable.

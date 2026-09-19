@@ -10,6 +10,8 @@
 
 **Textile, not skincare.** Blissy sells silk pillowcases, bonnets and sleep masks, marketed on downstream hair and skin benefit. There is no formulation, no active, no application — so ingredient and routine hooks do not transfer at all. The creative job is material quality, sleep ritual and gifting. Worth keeping as a separate beauty-adjacent angle set; do not pitch it category skincare creative. Note: blissy.co redirects to uk.blissy.com.
 
+_Provisional until the ad set confirms it._ Intake establishes what a brand **says** it sells; only its ads show what it actually **advertises**. Both SpoiledChild and Saltair read as skincare on the website and were tagged as such here — at ad level SpoiledChild runs 27 of 29 ads on ingestible collagen, and Saltair runs 22 of 22 on body care with no facial SKU. Treat this section as the brand's claim, and Agent 2's per-ad product class as the check on it.
+
 ## Positioning
 
 Blissy is the best kept secret of super models, hair stylists, beauty experts and dermatologists around the world. Experience pure bliss with the Blissy ultra premium 22-Momme 6A Grade silk pillowcases, hair accessories, sleep masks and more.
