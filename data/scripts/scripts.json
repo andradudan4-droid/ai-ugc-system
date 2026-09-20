@@ -36,23 +36,14 @@
     "scope_warning": "PILOT CORPUS \u2014 5 fatigued brands of 81 in scope. 'unclaimed' means absent from THIS sample, not proven absent from the category. Verify against the full 81 before putting an unclaimed angle in front of a client.",
     "absence_is_measured_on": "Hook position only \u2014 the ad's opening line, which is what was captured in full. Body copy was stored truncated, so NO claim is made about whether an angle appears deeper in an ad, and the probes must not be read as evidence about it. Observed directly while collecting: DRMTLGY runs '\ud83e\ude7a Dermatologist Recommended' as a trust bullet. So dermatologist_as_ally exists in the category as reassurance and is still unclaimed as an opening argument \u2014 which is the unit being sold, and a sharper finding than simple absence.",
     "schema_version": 3,
-    "generated_at": "2026-09-20T04:39:58+00:00",
+    "generated_at": "2026-09-20T04:43:00+00:00",
     "corpus_fingerprint": "a2dda442e1764359",
     "claims_fingerprint": "acf932e14b7b4ecc"
   },
   "corpus_fingerprint": "a2dda442e1764359",
   "claims_fingerprint": "acf932e14b7b4ecc",
   "schema_version": 3,
-  "evidence_moved_since_last_build": {
-    "corpus_fingerprint": {
-      "was": "ead00f7c359ea8c8",
-      "now": "a2dda442e1764359"
-    },
-    "claims_fingerprint": {
-      "was": "216b73afcb9cbd77",
-      "now": "acf932e14b7b4ecc"
-    }
-  },
+  "evidence_moved_since_last_build": null,
   "client_ready": false,
   "client_ready_reason": "Gated per claim \u2014 see claim_type and claim_evidence on each script.",
   "is_fixture": false,

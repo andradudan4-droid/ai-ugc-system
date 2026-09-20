@@ -94,6 +94,27 @@ mechanically. The same restraint applies to our pitch: more creative and better-
 results. This is the honest position and it keeps us out of the regulatory surface `DESIGN.md` §1
 chose this category to avoid.
 
+## Structural limit: this discovery method is challenger-biased
+
+Agent −1 finds advertisers by keyword-searching **ad copy**. That surfaces brands buying heavily on
+direct response — challenger DTC brands — and under-samples incumbents, who advertise differently
+and often on other surfaces. The seed queries in `SEED_QUERIES` are written in challenger language
+("dark spots", "skincare routine"), which compounds it.
+
+**Consequence: every downstream corpus built from `targets.csv` will read incumbent-held positions
+as empty.** This is not a sampling accident that more brands would fix — it is what the discovery
+method selects for.
+
+The worked example cost a real finding. `dermatologist_as_ally` appeared in zero of 139 mined
+openings, and Agent 2 reported it as the category's best open position. It is heavily occupied —
+Dove, CeraVe, Eucerin, SkinCeuticals and Bio-Oil all open on derm endorsement. The corpus saw only
+challengers, who define themselves *against* derm authority, and read the position as vacant.
+
+The fix is not more of the same discovery. Any absence claim drawn from this corpus has to be probed
+against the live ad library, and a gap has to pass a **natural-owner test**: find the advertiser with
+the strongest claim to the position and check whether they open on it. If the obvious owner will not
+touch it, the gap is evidence the position does not sell.
+
 ## Known limits
 
 - **Ad Library renders ~30 ads per page and does not paginate for logged-out users.** `ad_count` is

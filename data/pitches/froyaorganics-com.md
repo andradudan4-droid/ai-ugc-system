@@ -20,11 +20,17 @@
 | Category gate | per-ad, not per-brand: body care, ingestible, lip care and community ads excluded |
 | Evidence unit | **hook position only** — the ad's opening line |
 | Evidence grade | caption copy. No spoken transcription yet. |
-| Version | corpus `a2dda442e1764359` · claims `acf932e14b7b4ecc` · v5 · 2026-09-20 |
+| Version | corpus `a2dda442e1764359` · claims `acf932e14b7b4ecc` · v6 · 2026-09-20 |
 
 **What this cannot tell you.** Nothing here is a claim about ad bodies, landing pages, or what a
 brand sells — only what it **opens with**. We measure openings because the opening decides whether
 the ad is watched.
+
+**And one structural limit, stated up front.** We find advertisers by searching ad copy, which
+surfaces brands buying heavily on direct response — challenger DTC brands like you. It under-samples
+incumbents. So this corpus is reliable about what *your peer set* does, and systematically blind to
+what Dove, CeraVe or Eucerin are doing. That blindness cost us a finding, and section 4 is what it
+cost.
 
 ---
 
@@ -120,8 +126,15 @@ cohort: Dove opens *"the #1 dermatologist recommended brand"*; SkinCeuticals run
 there.
 
 So the category splits cleanly. **Legacy brands open on clinical endorsement. Challengers open
-against it.** That is a real positioning boundary, and it means derm-authority is occupied
-territory for a brand like yours — not an opening.
+against it.**
+
+That is a real positioning boundary, and the advice that falls out of it is concrete: the derm-ally
+position is held by precisely the brands you define yourself against. Taking it would blur your
+positioning rather than sharpen it. Your existing adversarial-derm material — *"she barely looked at
+me"*, *"dermatologists hide this"* — is correctly placed, and should stay that way.
+
+This is also the one finding in this document we reached **by being wrong in a way we could
+measure**, which is why we trust it more than the predictions that happened to hold.
 
 ---
 
@@ -152,7 +165,14 @@ each against the live Ad Library. **None survived as a verified absence.**
 | `reactive_sensitive_identity` | **Claimed.** CeraVe: *"If your skin squeaks, your barrier is weak."* |
 | `glp1_facial_volume_loss`, `skin_as_signal` | **Claimed by adjacents** — supplements, not topical. |
 | `pregnancy_safe` | **Claimed**, but only ~6 ads exist in the entire category. |
-| `prevention_early`, `water_quality` | Unclaimed as an *opening* — but no evidence anyone has made either work. |
+| `prevention_early` | **Nobody opens on it — and the brand best placed to does not.** Good Molecules, the cheapest brand in the set ($6 eye cream), runs 15 ads and opens on prevention in none; one targets *"the best over 50 skincare"*. |
+| `water_quality` | **Nobody opens on it — and the brand best placed to does not.** eskiin sells water filtration, runs 390 ads, and opens every one on outcome with filtration in sentence two. |
+
+**Seven of the nine were falsified outright — a 78% failure rate.** The remaining two survived as
+unclaimed openings and then failed a second test: for each, we identified the brand with the
+strongest natural claim to the position and checked whether *they* open on it. Neither does. A gap
+nobody enters, including the one advertiser who obviously should, is not an opportunity — it is
+evidence the position does not sell.
 
 Absence is the weakest claim available: more evidence can only fail to contradict it, never confirm
 it. One keyword search falsified four of these on the first attempt.
@@ -190,13 +210,14 @@ live long enough to be paying for themselves — then we kept the survival times
 them away. We classify openings by argument, rank them by how long their ads actually last, and test
 any claim of absence against the live ad library before showing it to you.
 
-Where we cannot support a claim, this document says so. Nine of our nine original opportunity claims
-were withdrawn on testing. What remains is smaller, positive, and checkable in ten minutes.
+Where we cannot support a claim, this document says so. **Seven of our nine original opportunity
+claims were falsified on testing and the other two failed a natural-owner check — none survived.**
+What remains is smaller, positive, and checkable in ten minutes.
 
 ---
 
 ### Provenance
 
-corpus `a2dda442e1764359` · claims `acf932e14b7b4ecc` · v5 · 139 openings · 12 advertisers · ads
+corpus `a2dda442e1764359` · claims `acf932e14b7b4ecc` · v6 · 139 openings · 12 advertisers · ads
 live 33+ days · caption evidence only · 2026-09-20. Frøya at capture: 3,400 active ads, ~1,473
 video, oldest live ad 614 days, newest 49 days.
