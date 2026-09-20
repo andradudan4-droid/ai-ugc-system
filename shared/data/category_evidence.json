@@ -1,0 +1,56 @@
+{
+  "_note": "Category as the ADS confirm it, which is the only source that can see what a brand actually sells. Site intake reads positioning; these read spend. Where they disagree, the ads win. Merge into targets.csv -- Writer owns that file and is writing it concurrently, so this is emitted separately rather than edited in.",
+  "brands": {
+    "Asarai": {
+      "category_claimed_by_site": "skincare",
+      "category_confirmed_by_ads": "topical_skincare",
+      "agrees": true,
+      "ads_sampled": 15,
+      "product_class_mix": {
+        "topical_skincare": 15
+      },
+      "confidence": 1.0
+    },
+    "Froya Organics": {
+      "category_claimed_by_site": "skincare",
+      "category_confirmed_by_ads": "topical_skincare",
+      "agrees": true,
+      "ads_sampled": 26,
+      "product_class_mix": {
+        "topical_skincare": 26
+      },
+      "confidence": 1.0
+    },
+    "Saeskyn": {
+      "category_claimed_by_site": "skincare",
+      "category_confirmed_by_ads": "topical_skincare",
+      "agrees": true,
+      "ads_sampled": 21,
+      "product_class_mix": {
+        "topical_skincare": 21
+      },
+      "confidence": 1.0
+    },
+    "Saltair": {
+      "category_claimed_by_site": "skincare",
+      "category_confirmed_by_ads": "body_care",
+      "agrees": false,
+      "ads_sampled": 22,
+      "product_class_mix": {
+        "body_care": 22
+      },
+      "confidence": 1.0
+    },
+    "SpoiledChild": {
+      "category_claimed_by_site": "skincare",
+      "category_confirmed_by_ads": "ingestible",
+      "agrees": false,
+      "ads_sampled": 29,
+      "product_class_mix": {
+        "ingestible": 27,
+        "topical_skincare": 2
+      },
+      "confidence": 0.93
+    }
+  }
+}

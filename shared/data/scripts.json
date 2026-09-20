@@ -1,0 +1,835 @@
+{
+  "generated_from": "angles.json",
+  "corpus": {
+    "product_class": "topical_skincare",
+    "hook_sources": {
+      "ad_copy_opening": 139
+    },
+    "excluded_off_category": {
+      "hooks": 62,
+      "by_class": {
+        "lip_care": 4,
+        "body_care": 29,
+        "community": 2,
+        "ingestible": 27
+      },
+      "note": "Mined but kept out of the skincare corpus. SpoiledChild advertises ingestible collagen, appetite suppression and hair thinning; Saltair advertises body wash, body oil, deodorant and fragrance. Both are tagged skincare at brand level in targets.csv -- the ad copy says otherwise."
+    },
+    "hooks": 139,
+    "classified": 139,
+    "unclassified": 0,
+    "brands": [
+      "Asarai",
+      "Based Supplies",
+      "Biodance_global",
+      "DRMTLGY",
+      "Froya Organics",
+      "GloMelanin",
+      "Good Molecules",
+      "JiYu Skin",
+      "Koreanskintherapy",
+      "Navaro",
+      "Saeskyn",
+      "SpoiledChild"
+    ],
+    "min_days_running": 33,
+    "scope_warning": "PILOT CORPUS \u2014 5 fatigued brands of 81 in scope. 'unclaimed' means absent from THIS sample, not proven absent from the category. Verify against the full 81 before putting an unclaimed angle in front of a client.",
+    "absence_is_measured_on": "Hook position only \u2014 the ad's opening line, which is what was captured in full. Body copy was stored truncated, so NO claim is made about whether an angle appears deeper in an ad, and the probes must not be read as evidence about it. Observed directly while collecting: DRMTLGY runs '\ud83e\ude7a Dermatologist Recommended' as a trust bullet. So dermatologist_as_ally exists in the category as reassurance and is still unclaimed as an opening argument \u2014 which is the unit being sold, and a sharper finding than simple absence.",
+    "schema_version": 3,
+    "generated_at": "2026-09-20T04:39:58+00:00",
+    "corpus_fingerprint": "a2dda442e1764359",
+    "claims_fingerprint": "acf932e14b7b4ecc"
+  },
+  "corpus_fingerprint": "a2dda442e1764359",
+  "claims_fingerprint": "acf932e14b7b4ecc",
+  "schema_version": 3,
+  "evidence_moved_since_last_build": {
+    "corpus_fingerprint": {
+      "was": "ead00f7c359ea8c8",
+      "now": "a2dda442e1764359"
+    },
+    "claims_fingerprint": {
+      "was": "216b73afcb9cbd77",
+      "now": "acf932e14b7b4ecc"
+    }
+  },
+  "client_ready": false,
+  "client_ready_reason": "Gated per claim \u2014 see claim_type and claim_evidence on each script.",
+  "is_fixture": false,
+  "script_count": 12,
+  "rejected": [],
+  "scripts": [
+    {
+      "script_id": "froyaorganics-com-customer_testimonial-01",
+      "brand_slug": "froyaorganics-com",
+      "angle_id": "customer_testimonial",
+      "source_hook_ids": [
+        "2123759134760755"
+      ],
+      "product": "The Complete System for Mature Women's Skin ($121.07)",
+      "avatar_brief": "Woman 62-70, in a conservatory or by a window with plants, cup of tea, cardigan. Unhurried. Delivery is specific and undramatic \u2014 she gives dates and details rather than adjectives, which is what makes it land as testimony rather than advertising.",
+      "hook": "Four months. That's how long before I stopped checking whether it was working.",
+      "first_frame": "Her by a bright window, tea in hand, mid-sentence as if the camera started late. Face fully visible in daylight, no makeup.",
+      "beats": [
+        {
+          "t": 0,
+          "vo": "Four months. That's how long before I stopped checking whether it was working.",
+          "visual": "Window light, tea, she is settled and still. No product in frame yet."
+        },
+        {
+          "t": 6,
+          "vo": "I'm not going to show you a before photo. I didn't take one, because I didn't expect anything.",
+          "visual": "Small shrug, she sets the tea down."
+        },
+        {
+          "t": 13,
+          "vo": "What I noticed was small. I stopped putting powder on at eleven in the morning to fix how my face had gone.",
+          "visual": "She touches her cheek briefly, matter-of-fact."
+        },
+        {
+          "t": 21,
+          "vo": "It's four steps. Scrub, day balm, eye balm, night balm. Arctic plants. Supports the skin barrier in 7 days, though for me it was longer than that.",
+          "visual": "The four jars set out on the windowsill in order, sunlight behind them."
+        },
+        {
+          "t": 31,
+          "vo": "A hundred and twenty-one dollars, sixty days or your money back. I'm on my third order.",
+          "visual": "Back to her face, daylight, no retouching."
+        },
+        {
+          "t": 38,
+          "vo": "The Complete System for Mature Women's Skin. Fr\u00f8ya. Give it longer than you think.",
+          "visual": "She picks the tea back up. Brand name on screen."
+        }
+      ],
+      "cta": "The Complete System for Mature Women's Skin. Fr\u00f8ya. Give it longer than you think.",
+      "duration_s": 44,
+      "claims_used": [
+        "supports the skin barrier in 7 days",
+        "results in 60 days or your money back"
+      ],
+      "provenance": "angles.json (angles.json)",
+      "status": "draft",
+      "angle_evidence": "copy_derived",
+      "angle_saturation": "single_brand",
+      "attribution_basis": "angle=customer_testimonial (single_brand, 1 ads across Froya Organics); traceable to 1 hook ids. Evidence grade copy_derived.",
+      "claim_type": "brand_own",
+      "claim_evidence": "Observation about the client's own ads (1 ads). Needs no category evidence \u2014 it is not a claim about the market.",
+      "corpus_fingerprint": "a2dda442e1764359",
+      "claims_fingerprint": "acf932e14b7b4ecc",
+      "client_ready": true
+    },
+    {
+      "script_id": "froyaorganics-com-customer_testimonial-02",
+      "brand_slug": "froyaorganics-com",
+      "angle_id": "customer_testimonial",
+      "source_hook_ids": [
+        "2123759134760755"
+      ],
+      "product": "Magic Revive Hair & Scalp Shampoo ($29.00)",
+      "avatar_brief": "Woman 50-58, filmed in a car park or outside a hairdresser's, coat on, hair freshly done. Handheld, wind, slightly breathless \u2014 she has just walked out and is recording immediately. Delivery is fast and genuinely pleased.",
+      "hook": "My hairdresser asked what I'd changed. She's done my hair for nine years.",
+      "first_frame": "Outdoors, handheld selfie, hair visibly just blow-dried, salon window behind her slightly out of focus.",
+      "beats": [
+        {
+          "t": 0,
+          "vo": "My hairdresser asked what I'd changed. She's done my hair for nine years.",
+          "visual": "Handheld, outdoors, wind moving the fresh blow-dry. Salon behind."
+        },
+        {
+          "t": 6,
+          "vo": "I said nothing. Then I remembered \u2014 I swapped my shampoo about three months ago.",
+          "visual": "She laughs, pushes hair back off her face."
+        },
+        {
+          "t": 13,
+          "vo": "It's a rosemary one. Natural, meant to help rebuild the scalp barrier in 2 to 7 days.",
+          "visual": "She holds the bottle up out of her bag, label readable in daylight."
+        },
+        {
+          "t": 20,
+          "vo": "93% experience better hair, apparently. I just know someone who touches my head for a living noticed.",
+          "visual": "Close on the ends of her hair between her fingers."
+        },
+        {
+          "t": 28,
+          "vo": "Twenty-nine dollars. That's the whole story, I'm standing in a car park.",
+          "visual": "Wider shot, car park visible, bottle still in hand."
+        },
+        {
+          "t": 34,
+          "vo": "Magic Revive Hair and Scalp Shampoo, from Fr\u00f8ya. Ask someone who'd notice.",
+          "visual": "She gets into the car. Brand name on screen."
+        }
+      ],
+      "cta": "Magic Revive Hair and Scalp Shampoo, from Fr\u00f8ya. Ask someone who'd notice.",
+      "duration_s": 39,
+      "claims_used": [
+        "helps rebuild scalp barrier in 2-7 days",
+        "93% experience better hair"
+      ],
+      "provenance": "angles.json (angles.json)",
+      "status": "draft",
+      "angle_evidence": "copy_derived",
+      "angle_saturation": "single_brand",
+      "attribution_basis": "angle=customer_testimonial (single_brand, 1 ads across Froya Organics); traceable to 1 hook ids. Evidence grade copy_derived.",
+      "claim_type": "brand_own",
+      "claim_evidence": "Observation about the client's own ads (1 ads). Needs no category evidence \u2014 it is not a claim about the market.",
+      "corpus_fingerprint": "a2dda442e1764359",
+      "claims_fingerprint": "acf932e14b7b4ecc",
+      "client_ready": true
+    },
+    {
+      "script_id": "froyaorganics-com-customer_testimonial-03",
+      "brand_slug": "froyaorganics-com",
+      "angle_id": "customer_testimonial",
+      "source_hook_ids": [
+        "2123759134760755"
+      ],
+      "product": "Dry and Itchy Balm for Face and Body ($44.00)",
+      "avatar_brief": "Woman 46-54, sitting on the end of a bed with a laundry basket beside her, dressing gown, late evening. Delivery is quiet and slightly flat \u2014 this is the least performed of the three, someone recounting something that mattered without wanting to make a thing of it.",
+      "hook": "I bought it for me. My daughter's the one who kept stealing it.",
+      "first_frame": "Her on the end of a bed, laundry basket half-folded beside her, lamp light. A small jar sitting on top of the folded clothes.",
+      "beats": [
+        {
+          "t": 0,
+          "vo": "I bought it for me. My daughter's the one who kept stealing it.",
+          "visual": "She picks the jar off the laundry pile, turns it over in her hands."
+        },
+        {
+          "t": 6,
+          "vo": "She's nineteen and her hands crack every winter. Mine's the elbows and shins, same as my mum.",
+          "visual": "She shows her own forearm briefly, then lets the sleeve fall."
+        },
+        {
+          "t": 14,
+          "vo": "It's chamomile and thistle in beeswax. Soothes dry, itchy skin, supports the skin barrier in 7 days.",
+          "visual": "Opens the jar, the balm is solid and has to be warmed \u2014 she works it between her fingers."
+        },
+        {
+          "t": 22,
+          "vo": "Gentle enough for face and body, which is the only reason two people can share one jar.",
+          "visual": "Working it into a knuckle, then along the jaw."
+        },
+        {
+          "t": 29,
+          "vo": "Forty-four dollars and I've bought it three times because it keeps leaving this house.",
+          "visual": "She sets the jar back on the folded laundry, deadpan look to camera."
+        },
+        {
+          "t": 36,
+          "vo": "Dry and Itchy Balm, from Fr\u00f8ya. Buy two if anyone else lives with you.",
+          "visual": "Lamp light, jar on the laundry. Brand name on screen."
+        }
+      ],
+      "cta": "Dry and Itchy Balm, from Fr\u00f8ya. Buy two if anyone else lives with you.",
+      "duration_s": 41,
+      "claims_used": [
+        "soothes dry, itchy skin",
+        "supports the skin barrier in 7 days",
+        "gentle enough for face and body"
+      ],
+      "provenance": "angles.json (angles.json)",
+      "status": "draft",
+      "angle_evidence": "copy_derived",
+      "angle_saturation": "single_brand",
+      "attribution_basis": "angle=customer_testimonial (single_brand, 1 ads across Froya Organics); traceable to 1 hook ids. Evidence grade copy_derived.",
+      "claim_type": "brand_own",
+      "claim_evidence": "Observation about the client's own ads (1 ads). Needs no category evidence \u2014 it is not a claim about the market.",
+      "corpus_fingerprint": "a2dda442e1764359",
+      "claims_fingerprint": "acf932e14b7b4ecc",
+      "client_ready": true
+    },
+    {
+      "script_id": "froyaorganics-com-heritage_origin-01",
+      "brand_slug": "froyaorganics-com",
+      "angle_id": "heritage_origin",
+      "source_hook_ids": [
+        "1314498993541295",
+        "1573353981185859",
+        "752419270915808"
+      ],
+      "product": "Anti-Age & Insane Glow Day Balm ($29.70)",
+      "avatar_brief": "Woman 35-45, at a laptop at a desk, cardigan, half a coffee. Screen glow on her face. Delivery is dry and investigative \u2014 the register of someone who enjoys catching brands out and is mildly annoyed to have failed.",
+      "hook": "I tried to find out where this brand actually makes things. I expected a warehouse in Shenzhen.",
+      "first_frame": "Over-shoulder on a laptop showing a map zoomed to northern Norway, her hand on the trackpad.",
+      "beats": [
+        {
+          "t": 0,
+          "vo": "I tried to find out where this brand actually makes things. I expected a warehouse in Shenzhen.",
+          "visual": "Over-shoulder, laptop, map of northern Norway on screen."
+        },
+        {
+          "t": 6,
+          "vo": "Instead there's a woman called Line, she's their head of brand, and she writes from a farm inside the Arctic circle.",
+          "visual": "She turns the laptop toward camera, scrolling the brand's own page."
+        },
+        {
+          "t": 14,
+          "vo": "Which matters less as a story and more as a reason the formulas are what they are \u2014 sea buckthorn, arnica, rosehip. Plants that have to survive up there.",
+          "visual": "Cut to the day balm jar on the desk beside the coffee, opened."
+        },
+        {
+          "t": 23,
+          "vo": "It's a balm, not a cream. Studies show 22% younger skin, and 95% reported youthful glow.",
+          "visual": "She takes a small amount, presses it into the back of her hand, shows the finish."
+        },
+        {
+          "t": 31,
+          "vo": "Thirty dollars. I went looking for a reason not to buy it and came back with the opposite.",
+          "visual": "Laptop closed, jar in frame, she shrugs at camera."
+        },
+        {
+          "t": 37,
+          "vo": "Anti-Age and Insane Glow Day Balm, from Fr\u00f8ya. Go and check them yourself.",
+          "visual": "Jar held to camera, brand name on screen."
+        }
+      ],
+      "cta": "Anti-Age and Insane Glow Day Balm, from Fr\u00f8ya. Go and check them yourself.",
+      "duration_s": 42,
+      "claims_used": [
+        "studies show 22% younger skin",
+        "95% reported youthful glow"
+      ],
+      "provenance": "angles.json (angles.json)",
+      "status": "draft",
+      "angle_evidence": "copy_derived",
+      "angle_saturation": "single_brand",
+      "attribution_basis": "angle=heritage_origin (single_brand, 3 ads across Froya Organics); traceable to 3 hook ids. Evidence grade copy_derived.",
+      "claim_type": "brand_own",
+      "claim_evidence": "Observation about the client's own ads (3 ads). Needs no category evidence \u2014 it is not a claim about the market.",
+      "corpus_fingerprint": "a2dda442e1764359",
+      "claims_fingerprint": "acf932e14b7b4ecc",
+      "client_ready": true
+    },
+    {
+      "script_id": "froyaorganics-com-heritage_origin-02",
+      "brand_slug": "froyaorganics-com",
+      "angle_id": "heritage_origin",
+      "source_hook_ids": [
+        "1314498993541295",
+        "1573353981185859",
+        "752419270915808"
+      ],
+      "product": "Magic Revive Eye Balm ($52.00)",
+      "avatar_brief": "Woman 58-68, outdoors on a cold bright day, coat zipped, wind moving her hair. Handheld, slightly unsteady. Delivery is warm and unhurried with the cadence of someone used to being listened to.",
+      "hook": "Cold does two things to skin and only one of them is bad.",
+      "first_frame": "Outdoors, overcast bright light, her face fills the left of frame with bare landscape behind. Breath faintly visible.",
+      "beats": [
+        {
+          "t": 0,
+          "vo": "Cold does two things to skin and only one of them is bad.",
+          "visual": "Outdoors, wind, handheld. She squints slightly against the light."
+        },
+        {
+          "t": 5,
+          "vo": "It strips you. But the plants that grow in it get dense \u2014 they concentrate, because they have to.",
+          "visual": "She gestures at the landscape behind her, camera follows loosely."
+        },
+        {
+          "t": 13,
+          "vo": "That's the whole idea behind this one. Arctic arnica, in a beeswax balm, made for the eye area.",
+          "visual": "Small jar produced from a coat pocket, held in a gloved hand."
+        },
+        {
+          "t": 21,
+          "vo": "Six of the ten top anti-age ingredients, and it looks less puffy in 4 to 9 days.",
+          "visual": "Ring finger tapping along the orbital bone, outdoors, no mirror."
+        },
+        {
+          "t": 28,
+          "vo": "Fifty-two dollars, and it's the one I take when I know I'll be out in weather.",
+          "visual": "She pockets the jar, pulls her collar up."
+        },
+        {
+          "t": 34,
+          "vo": "Magic Revive Eye Balm. Fr\u00f8ya. Made where the weather is worse than here.",
+          "visual": "Wide shot of her walking away, brand name on screen."
+        }
+      ],
+      "cta": "Magic Revive Eye Balm. Fr\u00f8ya. Made where the weather is worse than here.",
+      "duration_s": 39,
+      "claims_used": [
+        "6 of the 10 top anti-age ingredients",
+        "looks less puffy in 4-9 days"
+      ],
+      "provenance": "angles.json (angles.json)",
+      "status": "draft",
+      "angle_evidence": "copy_derived",
+      "angle_saturation": "single_brand",
+      "attribution_basis": "angle=heritage_origin (single_brand, 3 ads across Froya Organics); traceable to 3 hook ids. Evidence grade copy_derived.",
+      "claim_type": "brand_own",
+      "claim_evidence": "Observation about the client's own ads (3 ads). Needs no category evidence \u2014 it is not a claim about the market.",
+      "corpus_fingerprint": "a2dda442e1764359",
+      "claims_fingerprint": "acf932e14b7b4ecc",
+      "client_ready": true
+    },
+    {
+      "script_id": "froyaorganics-com-heritage_origin-03",
+      "brand_slug": "froyaorganics-com",
+      "angle_id": "heritage_origin",
+      "source_hook_ids": [
+        "1314498993541295",
+        "1573353981185859",
+        "752419270915808"
+      ],
+      "product": "Ultra Cleanse & Revive Face Scrub ($37.00)",
+      "avatar_brief": "Woman 30-40, bathroom, hair clipped up, mid-routine with a wet face. Fast, chatty delivery, slightly amused. She is the youngest avatar in this set on purpose \u2014 heritage as craft appeal rather than age appeal.",
+      "hook": "Read the ingredients on your scrub. Mine used to be plastic and apricot dust.",
+      "first_frame": "Close on her holding a generic scrub tube, squinting at the back-of-pack ingredients, face already wet.",
+      "beats": [
+        {
+          "t": 0,
+          "vo": "Read the ingredients on your scrub. Mine used to be plastic and apricot dust.",
+          "visual": "She turns a generic tube to read the back, pulls a face."
+        },
+        {
+          "t": 6,
+          "vo": "This one is arctic rose petal. That's it, that's the abrasive. Rose petal.",
+          "visual": "Opens the Fr\u00f8ya scrub, tips some into her palm so the texture is visible."
+        },
+        {
+          "t": 13,
+          "vo": "It's rougher than you expect and gentler than it looks, which is a weird combination to describe and easy to feel.",
+          "visual": "Macro on the scrub between her fingertips."
+        },
+        {
+          "t": 21,
+          "vo": "Skin cells revive in 2 to 9 days. Instant deep and natural cleanse. That's their language, not mine.",
+          "visual": "She works it over her cheeks in small circles, water running."
+        },
+        {
+          "t": 29,
+          "vo": "Thirty-seven dollars, and I've stopped keeping the plastic one under the sink as a backup.",
+          "visual": "Rinsing, patting dry with a towel, no reveal shot."
+        },
+        {
+          "t": 35,
+          "vo": "Ultra Cleanse and Revive Face Scrub, from Fr\u00f8ya. Go and read your current one.",
+          "visual": "Jar on the edge of the sink, brand name on screen."
+        }
+      ],
+      "cta": "Ultra Cleanse and Revive Face Scrub, from Fr\u00f8ya. Go and read your current one.",
+      "duration_s": 40,
+      "claims_used": [
+        "skin cells revive in 2-9 days",
+        "instant deep & natural cleanse"
+      ],
+      "provenance": "angles.json (angles.json)",
+      "status": "draft",
+      "angle_evidence": "copy_derived",
+      "angle_saturation": "single_brand",
+      "attribution_basis": "angle=heritage_origin (single_brand, 3 ads across Froya Organics); traceable to 3 hook ids. Evidence grade copy_derived.",
+      "claim_type": "brand_own",
+      "claim_evidence": "Observation about the client's own ads (3 ads). Needs no category evidence \u2014 it is not a claim about the market.",
+      "corpus_fingerprint": "a2dda442e1764359",
+      "claims_fingerprint": "acf932e14b7b4ecc",
+      "client_ready": true
+    },
+    {
+      "script_id": "froyaorganics-com-ingredient_villain-01",
+      "brand_slug": "froyaorganics-com",
+      "angle_id": "ingredient_villain",
+      "source_hook_ids": [
+        "1293384729008089",
+        "1682942059719767",
+        "2028032508122792",
+        "3475912505892584",
+        "772006008705472"
+      ],
+      "product": "Anti-Age & Insane Glow Day Balm ($29.70)",
+      "avatar_brief": "Woman 52-60, sitting on a closed toilet lid in a small bathroom with the cabinet open behind her, products visibly crowded on the shelves. No makeup, hair up. Delivery is deadpan and slightly self-mocking \u2014 she is indicting her own past spending, not lecturing the viewer.",
+      "hook": "I counted. Eleven products, and nine of them are mostly water.",
+      "first_frame": "Open bathroom cabinet crammed with bottles, shot straight on. Her hand is already reaching in to start pulling them out.",
+      "beats": [
+        {
+          "t": 0,
+          "vo": "I counted. Eleven products, and nine of them are mostly water.",
+          "visual": "Cabinet open, she lifts out bottles one at a time and lines them on the sink."
+        },
+        {
+          "t": 6,
+          "vo": "That's what a light lotion is. Water, a thickener, and enough active to put on the front of the box.",
+          "visual": "She tips one bottle sideways \u2014 the lotion runs thin and fast off her fingers."
+        },
+        {
+          "t": 14,
+          "vo": "On skin that's already drier than it used to be, water evaporates and takes your own moisture with it.",
+          "visual": "Close on the thin lotion absorbing instantly on the back of her hand, leaving nothing."
+        },
+        {
+          "t": 21,
+          "vo": "This is a balm. Sea buckthorn and pomegranate, beeswax base. It doesn't vanish because there's nothing in it to evaporate.",
+          "visual": "She scoops the Fr\u00f8ya day balm \u2014 it holds its shape, stretches between her fingers."
+        },
+        {
+          "t": 29,
+          "vo": "95% reported youthful glow, and studies show 22% younger skin. Thirty dollars.",
+          "visual": "Pressing it into her cheek, the finish sits visibly on the surface then settles."
+        },
+        {
+          "t": 36,
+          "vo": "Anti-Age and Insane Glow Day Balm, from Fr\u00f8ya. Go and tip your moisturiser sideways.",
+          "visual": "The row of thin bottles on the sink, one jar standing apart. Brand on screen."
+        }
+      ],
+      "cta": "Anti-Age and Insane Glow Day Balm, from Fr\u00f8ya. Go and tip your moisturiser sideways.",
+      "duration_s": 42,
+      "claims_used": [
+        "95% reported youthful glow",
+        "studies show 22% younger skin"
+      ],
+      "provenance": "angles.json (angles.json)",
+      "status": "draft",
+      "angle_evidence": "copy_derived",
+      "angle_saturation": "single_brand",
+      "attribution_basis": "angle=ingredient_villain (single_brand, 5 ads across Froya Organics); traceable to 5 hook ids. Evidence grade copy_derived.",
+      "claim_type": "brand_own",
+      "claim_evidence": "Observation about the client's own ads (5 ads). Needs no category evidence \u2014 it is not a claim about the market.",
+      "corpus_fingerprint": "a2dda442e1764359",
+      "claims_fingerprint": "acf932e14b7b4ecc",
+      "client_ready": true
+    },
+    {
+      "script_id": "froyaorganics-com-ingredient_villain-02",
+      "brand_slug": "froyaorganics-com",
+      "angle_id": "ingredient_villain",
+      "source_hook_ids": [
+        "1293384729008089",
+        "1682942059719767",
+        "2028032508122792",
+        "3475912505892584",
+        "772006008705472"
+      ],
+      "product": "Balm for Acne-Prone Skin ($29.00)",
+      "avatar_brief": "Woman 44-52, kitchen table, reading glasses pushed up on her head, a product box in her hands. Daylight. Delivery is patient and a little amused \u2014 the register of someone who has learned to read labels and now cannot stop.",
+      "hook": "The word 'fragrance' on a label can legally hide about three thousand ingredients.",
+      "first_frame": "Her hands holding a generic cream tube, glasses coming down onto her nose as she turns it to the ingredients panel.",
+      "beats": [
+        {
+          "t": 0,
+          "vo": "The word 'fragrance' on a label can legally hide about three thousand ingredients.",
+          "visual": "Glasses down, finger tracing the ingredients list on a generic tube."
+        },
+        {
+          "t": 7,
+          "vo": "I found that out after two years of blaming my own face for reacting to things.",
+          "visual": "She sets the tube down, looks at camera over the glasses."
+        },
+        {
+          "t": 14,
+          "vo": "Now I buy things where the list is short enough to read out loud. Marigold. Calendula. Beeswax.",
+          "visual": "She picks up the Fr\u00f8ya balm, turns it, reads it \u2014 genuinely short list, held steady and legible."
+        },
+        {
+          "t": 22,
+          "vo": "It's made for red, breakout-prone skin, and it calms and protects with arctic plants.",
+          "visual": "Opens the jar, takes a small amount, dabs it on a reddened patch along the jaw."
+        },
+        {
+          "t": 29,
+          "vo": "Twenty-nine dollars. If you can't pronounce your current one, that's the experiment.",
+          "visual": "Both products side by side on the table \u2014 one long label, one short."
+        },
+        {
+          "t": 36,
+          "vo": "Balm for Acne-Prone Skin, from Fr\u00f8ya. Read yours out loud tonight.",
+          "visual": "Glasses back up on her head, jar in hand, brand on screen."
+        }
+      ],
+      "cta": "Balm for Acne-Prone Skin, from Fr\u00f8ya. Read yours out loud tonight.",
+      "duration_s": 41,
+      "claims_used": [
+        "made for red, breakout-prone skin",
+        "calms & protects skin with Arctic plants"
+      ],
+      "provenance": "angles.json (angles.json)",
+      "status": "draft",
+      "angle_evidence": "copy_derived",
+      "angle_saturation": "single_brand",
+      "attribution_basis": "angle=ingredient_villain (single_brand, 5 ads across Froya Organics); traceable to 5 hook ids. Evidence grade copy_derived.",
+      "claim_type": "brand_own",
+      "claim_evidence": "Observation about the client's own ads (5 ads). Needs no category evidence \u2014 it is not a claim about the market.",
+      "corpus_fingerprint": "a2dda442e1764359",
+      "claims_fingerprint": "acf932e14b7b4ecc",
+      "client_ready": true
+    },
+    {
+      "script_id": "froyaorganics-com-ingredient_villain-03",
+      "brand_slug": "froyaorganics-com",
+      "angle_id": "ingredient_villain",
+      "source_hook_ids": [
+        "1293384729008089",
+        "1682942059719767",
+        "2028032508122792",
+        "3475912505892584",
+        "772006008705472"
+      ],
+      "product": "Magic Revive Eye Balm ($52.00)",
+      "avatar_brief": "Woman 56-64, seated at a dressing table with a lit mirror, mid-morning, cardigan. Delivery is crisp and a bit exasperated \u2014 the tone of someone correcting a thing she has heard repeated too often.",
+      "hook": "Eye creams are mostly face cream in a smaller jar at four times the price.",
+      "first_frame": "Her at a lit dressing-table mirror, holding two jars up side by side \u2014 one obviously tiny, one normal-sized.",
+      "beats": [
+        {
+          "t": 0,
+          "vo": "Eye creams are mostly face cream in a smaller jar at four times the price.",
+          "visual": "Two jars held up to the mirror light, the size difference exaggerated by the framing."
+        },
+        {
+          "t": 7,
+          "vo": "I compared the lists once. Same first six ingredients. Different box.",
+          "visual": "She sets both down, taps each in turn."
+        },
+        {
+          "t": 13,
+          "vo": "The thing that actually changed it for me was a balm built round arnica, specifically for the thinner skin there.",
+          "visual": "Opens the Fr\u00f8ya eye balm, shows the texture \u2014 denser than a cream."
+        },
+        {
+          "t": 21,
+          "vo": "Six of the ten top anti-age ingredients, and it looks less puffy in 4 to 9 days.",
+          "visual": "Ring-finger tapping along the orbital bone in the mirror light."
+        },
+        {
+          "t": 28,
+          "vo": "Fifty-two dollars, which is not cheap, and I'd rather pay it once than pay less four times.",
+          "visual": "She caps the jar, sets it in front of the mirror."
+        },
+        {
+          "t": 35,
+          "vo": "Magic Revive Eye Balm, from Fr\u00f8ya. Compare the lists before you buy the box.",
+          "visual": "Both jars in frame, the small one pushed aside. Brand on screen."
+        }
+      ],
+      "cta": "Magic Revive Eye Balm, from Fr\u00f8ya. Compare the lists before you buy the box.",
+      "duration_s": 40,
+      "claims_used": [
+        "6 of the 10 top anti-age ingredients",
+        "looks less puffy in 4-9 days"
+      ],
+      "provenance": "angles.json (angles.json)",
+      "status": "draft",
+      "angle_evidence": "copy_derived",
+      "angle_saturation": "single_brand",
+      "attribution_basis": "angle=ingredient_villain (single_brand, 5 ads across Froya Organics); traceable to 5 hook ids. Evidence grade copy_derived.",
+      "claim_type": "brand_own",
+      "claim_evidence": "Observation about the client's own ads (5 ads). Needs no category evidence \u2014 it is not a claim about the market.",
+      "corpus_fingerprint": "a2dda442e1764359",
+      "claims_fingerprint": "acf932e14b7b4ecc",
+      "client_ready": true
+    },
+    {
+      "script_id": "froyaorganics-com-third_party_verdict-01",
+      "brand_slug": "froyaorganics-com",
+      "angle_id": "third_party_verdict",
+      "source_hook_ids": [
+        "1048540074330060",
+        "1202549438346043",
+        "1336186871324534",
+        "1353730826159193",
+        "1370401584614351",
+        "2227423411076090",
+        "26994645366882007",
+        "895519976373743",
+        "968965552835672"
+      ],
+      "product": "The Complete System for Mature Women's Skin ($121.07)",
+      "avatar_brief": "Woman 50-58, at a kitchen table with a phone propped against a fruit bowl, scrolling on a second phone. Morning light. Delivery is sceptical-turning-curious \u2014 she is reading other people's words aloud, not making claims of her own.",
+      "hook": "Thirty-four thousand people reviewed this before I did. I read the one-stars first.",
+      "first_frame": "Her holding a phone showing a wall of review text, screen angled to camera so the volume of it reads even if the words don't.",
+      "beats": [
+        {
+          "t": 0,
+          "vo": "Thirty-four thousand people reviewed this before I did. I read the one-stars first.",
+          "visual": "Phone held up, review list scrolling, kitchen behind."
+        },
+        {
+          "t": 7,
+          "vo": "That's my rule. If the complaints are all about shipping and none about the product, that tells you something.",
+          "visual": "She scrolls with her thumb, genuinely reading, not performing."
+        },
+        {
+          "t": 15,
+          "vo": "Eight hundred and twenty-three thousand customers. At that size you can't hide a bad product behind good marketing.",
+          "visual": "Puts the phone down, picks up the Fr\u00f8ya system box."
+        },
+        {
+          "t": 23,
+          "vo": "Four steps, arctic plants, dermatologist-tested. It supports the skin barrier in 7 days.",
+          "visual": "The four jars come out of the box onto the table, one at a time."
+        },
+        {
+          "t": 31,
+          "vo": "A hundred and twenty-one dollars with sixty days to change your mind. I let other people take that risk first.",
+          "visual": "Back to her face, morning light, no makeup."
+        },
+        {
+          "t": 38,
+          "vo": "The Complete System for Mature Women's Skin. Fr\u00f8ya. Go read the one-stars yourself.",
+          "visual": "Four jars on the table, phone beside them. Brand name on screen."
+        }
+      ],
+      "cta": "The Complete System for Mature Women's Skin. Fr\u00f8ya. Go read the one-stars yourself.",
+      "duration_s": 44,
+      "claims_used": [
+        "34,634 reviews",
+        "823,167+ customers",
+        "Dermatologist-Tested",
+        "supports the skin barrier in 7 days",
+        "results in 60 days or your money back"
+      ],
+      "provenance": "angles.json (angles.json)",
+      "status": "draft",
+      "angle_evidence": "copy_derived",
+      "angle_saturation": "single_brand",
+      "attribution_basis": "angle=third_party_verdict (single_brand, 9 ads across Asarai); traceable to 9 hook ids. Evidence grade copy_derived.",
+      "claim_type": "single_brand",
+      "claim_evidence": "Only 1 brand(s) behind this angle (Asarai). Usable as an observation, NOT sellable as a category finding.",
+      "corpus_fingerprint": "a2dda442e1764359",
+      "claims_fingerprint": "acf932e14b7b4ecc",
+      "client_ready": false,
+      "hold_reason": "Only 1 brand(s) behind this angle (Asarai). Usable as an observation, NOT sellable as a category finding."
+    },
+    {
+      "script_id": "froyaorganics-com-third_party_verdict-02",
+      "brand_slug": "froyaorganics-com",
+      "angle_id": "third_party_verdict",
+      "source_hook_ids": [
+        "1048540074330060",
+        "1202549438346043",
+        "1336186871324534",
+        "1353730826159193",
+        "1370401584614351",
+        "2227423411076090",
+        "26994645366882007",
+        "895519976373743",
+        "968965552835672"
+      ],
+      "product": "Anti-Age & Insane Glow Day Balm ($29.70)",
+      "avatar_brief": "Woman 42-50, sitting on a stairwell or hallway floor with a laptop, casual, slightly hunched over the screen. Delivery is quick and analytical \u2014 the register of someone who researches purchases to an unreasonable degree and knows it.",
+      "hook": "I don't trust brands. I trust the number of strangers who bothered to come back and write something.",
+      "first_frame": "Laptop on her knees on a stairwell, review page on screen, her face lit by it from below.",
+      "beats": [
+        {
+          "t": 0,
+          "vo": "I don't trust brands. I trust the number of strangers who bothered to come back and write something.",
+          "visual": "Laptop on knees, review page, screen light on her face."
+        },
+        {
+          "t": 8,
+          "vo": "Writing a review is annoying. People only do it when something genuinely worked or genuinely didn't.",
+          "visual": "She scrolls, pauses on a longer review, keeps scrolling."
+        },
+        {
+          "t": 15,
+          "vo": "This one has thirty-four thousand of them, and it's the day balm that keeps coming up.",
+          "visual": "Cut to the day balm jar sitting on the step beside her."
+        },
+        {
+          "t": 22,
+          "vo": "Sea buckthorn and pomegranate. Studies show 22% younger skin, 95% reported youthful glow.",
+          "visual": "She opens it one-handed, presses some into the back of her hand."
+        },
+        {
+          "t": 30,
+          "vo": "Under thirty dollars, which is the price where I'll take a stranger's word for it.",
+          "visual": "Laptop closed, jar in hand."
+        },
+        {
+          "t": 36,
+          "vo": "Anti-Age and Insane Glow Day Balm, from Fr\u00f8ya. Let the reviews do the work.",
+          "visual": "Jar held to camera on the stairwell. Brand name on screen."
+        }
+      ],
+      "cta": "Anti-Age and Insane Glow Day Balm, from Fr\u00f8ya. Let the reviews do the work.",
+      "duration_s": 42,
+      "claims_used": [
+        "34,634 reviews",
+        "studies show 22% younger skin",
+        "95% reported youthful glow"
+      ],
+      "provenance": "angles.json (angles.json)",
+      "status": "draft",
+      "angle_evidence": "copy_derived",
+      "angle_saturation": "single_brand",
+      "attribution_basis": "angle=third_party_verdict (single_brand, 9 ads across Asarai); traceable to 9 hook ids. Evidence grade copy_derived.",
+      "claim_type": "single_brand",
+      "claim_evidence": "Only 1 brand(s) behind this angle (Asarai). Usable as an observation, NOT sellable as a category finding.",
+      "corpus_fingerprint": "a2dda442e1764359",
+      "claims_fingerprint": "acf932e14b7b4ecc",
+      "client_ready": false,
+      "hold_reason": "Only 1 brand(s) behind this angle (Asarai). Usable as an observation, NOT sellable as a category finding."
+    },
+    {
+      "script_id": "froyaorganics-com-third_party_verdict-03",
+      "brand_slug": "froyaorganics-com",
+      "angle_id": "third_party_verdict",
+      "source_hook_ids": [
+        "1048540074330060",
+        "1202549438346043",
+        "1336186871324534",
+        "1353730826159193",
+        "1370401584614351",
+        "2227423411076090",
+        "26994645366882007",
+        "895519976373743",
+        "968965552835672"
+      ],
+      "product": "Magic Revive Hair & Scalp Shampoo ($29.00)",
+      "avatar_brief": "Woman 48-56, in a hairdresser's chair mid-appointment, cape on, filmed by the stylist or propped. Salon noise. Delivery is conversational and slightly sheepish \u2014 she is reporting someone else's verdict about her, not her own about a product.",
+      "hook": "I didn't tell her I'd changed anything. She noticed first and then asked.",
+      "first_frame": "Her in a salon chair, cape on, damp hair, mirror and salon behind her. She is mid-laugh.",
+      "beats": [
+        {
+          "t": 0,
+          "vo": "I didn't tell her I'd changed anything. She noticed first and then asked.",
+          "visual": "Salon chair, cape, damp hair, mirror behind."
+        },
+        {
+          "t": 6,
+          "vo": "Nine years she's done my hair. She's the only review I actually care about.",
+          "visual": "Stylist's hands briefly in frame lifting a section of hair."
+        },
+        {
+          "t": 13,
+          "vo": "It's a rosemary shampoo. Meant to help rebuild the scalp barrier in 2 to 7 days.",
+          "visual": "She pulls the bottle out of her bag under the cape, awkwardly, label visible."
+        },
+        {
+          "t": 21,
+          "vo": "93% experience better hair, according to them. One hairdresser, according to me.",
+          "visual": "Close on the bottle, then back to the mirror."
+        },
+        {
+          "t": 28,
+          "vo": "Twenty-nine dollars. Lowest-stakes thing I've changed all year.",
+          "visual": "Bottle back in the bag, stylist working behind her."
+        },
+        {
+          "t": 34,
+          "vo": "Magic Revive Hair and Scalp Shampoo, from Fr\u00f8ya. Wait for someone to ask.",
+          "visual": "Salon mirror shot, brand name on screen."
+        }
+      ],
+      "cta": "Magic Revive Hair and Scalp Shampoo, from Fr\u00f8ya. Wait for someone to ask.",
+      "duration_s": 39,
+      "claims_used": [
+        "helps rebuild scalp barrier in 2-7 days",
+        "93% experience better hair"
+      ],
+      "provenance": "angles.json (angles.json)",
+      "status": "draft",
+      "angle_evidence": "copy_derived",
+      "angle_saturation": "single_brand",
+      "attribution_basis": "angle=third_party_verdict (single_brand, 9 ads across Asarai); traceable to 9 hook ids. Evidence grade copy_derived.",
+      "claim_type": "single_brand",
+      "claim_evidence": "Only 1 brand(s) behind this angle (Asarai). Usable as an observation, NOT sellable as a category finding.",
+      "corpus_fingerprint": "a2dda442e1764359",
+      "claims_fingerprint": "acf932e14b7b4ecc",
+      "client_ready": false,
+      "hold_reason": "Only 1 brand(s) behind this angle (Asarai). Usable as an observation, NOT sellable as a category finding."
+    }
+  ],
+  "published": true,
+  "publish_refused": null
+}

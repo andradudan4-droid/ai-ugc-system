@@ -1,0 +1,8 @@
+{
+  "_comment": "Brands Agent 0 (Intake) checked and rejected. Agent -1 reads this so a rejected brand does not climb the list again on the next weekly run. Ad data alone cannot see these -- only visiting the site can.",
+  "shopellox.com": "Redirects to shoppaya.com, a general dropship store (hair clips, foot files, curtain rod brackets). Not a skincare brand; ran skincare-keyword ads only.",
+  "lovi.care": "AI skincare app that scans faces and recommends other brands' products. No own product line -- different ICP from a DTC product brand.",
+  "dustrico.com": "UPF sun-protective APPAREL \u2014 hoodies, hats, sunshirts, kids' adventure hoodies. Not skincare. Had ranked #9 in the fatigued segment on ad signals alone.",
+  "emuaid.com": "OTC medicinal ointment marketed for 100+ skin CONDITIONS \u2014 fungal infections, psoriasis, shingles, lichen sclerosus, hemorrhoids. Regulated drug claims throughout. DESIGN.md \u00a71 chose beauty/skincare specifically to avoid needing a compliance agent in v1; this is further outside that line than supplements.",
+  "trylumineskin.com": "Redirects to hestiacosmetics.com \u2014 now a colour-changing foundation stick (makeup), not the skincare brand the ad data was measured against. Stale target: the 950 active ads were attributed to a brand that no longer exists at this domain."
+}

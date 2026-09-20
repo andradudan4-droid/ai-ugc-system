@@ -69,10 +69,61 @@ scroll-stop, visual artifacts.
 `hooks.jsonl` is keyed by **category, not by client.**
 
 Mining 40 skincare brands produces a corpus that serves every skincare client we ever sign, and
-improves with each one. By the third client the corpus outperforms the brand's in-house team,
-which is what lets us charge more while doing less work.
+improves with each one. Changing category resets it to zero. That is why category is locked early.
 
-Changing category resets this asset to zero. That is why category is locked early.
+### What the corpus is reliable for — revised 2026-09-20
+
+The original spine of this product was "unclaimed angles": telling a brand what nobody in its
+category is running. **That thesis failed testing and is withdrawn as a headline claim.**
+
+Measured: **11 of 13 absence-shaped claims were falsified** once probed against the live ad index.
+Nine "unclaimed angles" resolved to zero verified-absent, two thin positional gaps, and seven
+already claimed. This is not variance — it is the structure of the claim. An absence claim cannot
+be confirmed by more evidence, only fail to be contradicted, and a single keyword search can kill it.
+
+**The corpus is reliable for presence and unreliable for absence.** Sell accordingly:
+
+| Sell | Do not sell |
+|------|-------------|
+| What the category *is* running, with concentration shown | "Nobody is doing X" |
+| **Durability** — which openings survive, and how long | Verified absence of any kind |
+| Positional divides (who opens on what, and who doesn't) | Gaps we cannot explain |
+| What a client already owns and under-runs | |
+
+### Durability is the compounding asset
+
+Every ad carries `days_running`, and the corpus is already filtered to 30+ days because an ad still
+running is paying for itself. That signal was used as an inclusion rule and then discarded.
+
+Rank angles by median and maximum survival. This answers a better question than absence — *what
+actually works here* — and it is positive, confirmable, and improves monotonically with every brand
+mined. It cannot be falsified by one search.
+
+### The natural-owner test
+
+Before any positional gap is called an opportunity:
+
+> Identify the brand with the strongest possible claim to the angle. Do they open on it? If not,
+> the absence is probably a verdict the market already reached, not a gap it overlooked.
+
+Worked example: `water_quality` looked unclaimed. eskiin sells a water filter — its entire product
+is water quality — and across 390 ads still opens on outcome, demoting filtration to sentence two.
+The natural owner declined the position. That is evidence the position does not work.
+
+A genuine gap requires explaining *why everyone else is wrong*. If we cannot, we do not sell it.
+
+### Known sampling bias
+
+The corpus is built from DTC challenger brands. Incumbents (CeraVe, Dove, Eucerin, SkinCeuticals)
+are absent by construction, so **positions held by incumbents will read as empty.** The
+dermatologist-as-ally angle failed exactly this way. State this limit in every deliverable's method
+section.
+
+### Probing is mandatory
+
+No angle may carry an absence or positional verdict that has not been probed against the live index.
+Unprobed resolves to `unknown`, and `unknown` never reaches a client document.
+
 
 ## 5. Compounding loop
 
