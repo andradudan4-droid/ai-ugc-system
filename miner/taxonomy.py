@@ -228,6 +228,34 @@ EXTERNAL_PROBES = {
     },
 }
 
+# The natural-owner test. Before a positional gap is called an opportunity, identify the brand
+# with the strongest possible claim to the angle and check whether THEY open on it. If the brand
+# that would most obviously own the position declines to take it, the absence is likely a verdict
+# the market already reached rather than a gap it overlooked.
+NATURAL_OWNER_TEST = {
+    "water_quality": {
+        "natural_owner": "eskiin",
+        "why": "Filtered showerhead sold entirely on skin and hair outcomes. 390 active video "
+               "ads. No brand has a stronger claim to 'your water is the problem'.",
+        "opens_on_it": False,
+        "finding": "Opens on outcome — 'eskiin will give you your best skin & hair, guaranteed' — "
+                   "with chlorine and filtration demoted to sentence two as mechanism.",
+        "verdict": "FAILS — the position's natural owner declines it, which is evidence it does "
+                   "not sell rather than evidence it is available.",
+    },
+    "prevention_early": {
+        "natural_owner": "Good Molecules (and Biodance as a second check)",
+        "why": "Good Molecules is the cheapest, most entry-level brand in the corpus — $6 eye "
+               "cream, $12 serum — and price point is what makes a prevention pitch to younger "
+               "buyers viable. Biodance is K-beauty/glass-skin with a young audience.",
+        "opens_on_it": False,
+        "finding": "Good Molecules runs 15 ads and opens on none of them with prevention; one "
+                   "opens on 'the best over 50 skincare', the opposite direction. Biodance runs "
+                   "10 and opens on correction throughout — dry skin, tired under-eyes.",
+        "verdict": "FAILS — both natural owners message correction, not prevention.",
+    },
+}
+
 UNPROBED_NOTE = ("Not yet probed externally. Corpus-absence only, which the probed angles just "
                  "showed is weak evidence -- 4 of 5 tested turned out to be claimed. Treat as an "
                  "untested hypothesis, not a finding.")
@@ -245,7 +273,7 @@ CORPUS_CLASS = "topical_skincare"
 
 # Monotonic. Bump on any change to the corpus or the rules. Consumers pin what they built against
 # and refuse to assemble when it moves -- Writer had an angle vanish under them between 2 and 3.
-CORPUS_VERSION = 5
+CORPUS_VERSION = 6
 
 
 def _leave_one_out(rows: list[dict]) -> dict:
@@ -319,6 +347,8 @@ def build(all_hooks: list[dict]) -> dict:
         entry = {"angle": key, "description": desc, "probe": probe, "corpus_hits": len(hits)}
         ext = EXTERNAL_PROBES.get(key)
         entry["external_probe"] = ext or {"verdict": "UNPROBED", "note": UNPROBED_NOTE}
+        if key in NATURAL_OWNER_TEST:
+            entry["natural_owner_test"] = NATURAL_OWNER_TEST[key]
         if hits:
             entry["example_hits"] = hits[:3]
         verdict = ext["verdict"] if ext else "UNPROBED"
@@ -389,6 +419,31 @@ def build(all_hooks: list[dict]) -> dict:
         "saturated_angles": [a for a in angles if a["saturation"] == "saturated"],
         "contested_angles": [a for a in angles if a["saturation"] == "contested"],
         "single_brand_angles": [a for a in angles if a["saturation"] == "single_brand"],
+        # How this artifact performed on its own absence claims. Stated as a property, not buried
+        # as a caveat: the corpus is reliable about what a category IS running and unreliable
+        # about what it is not. Every absence claim needs its own probe before it is sold.
+        "self_assessment": {
+            "absence_claims_made": 9,
+            "absence_claims_probed": 9,
+            "falsified_outright": 7,
+            "falsification_rate": "78%",
+            "survived_as_positional": 2,
+            "survived_natural_owner_test": 0,
+            "note": "Both positional survivors fail the natural-owner test, so ZERO of nine "
+                    "absence claims survive as sellable opportunities. Saturation findings are "
+                    "earned from the corpus; absence findings are not, and must be probed "
+                    "individually.",
+        },
+        "sampling_bias": {
+            "issue": "The corpus is DTC-challenger-only by construction — Agent -1 discovers "
+                     "advertisers by keyword search over ad copy, which surfaces brands buying "
+                     "heavily on direct response.",
+            "consequence": "It will systematically mistake incumbent-held positions for empty "
+                           "ones. dermatologist_as_ally is the worked example: challengers treat "
+                           "dermatologists adversarially, while Dove, CeraVe, Eucerin, "
+                           "SkinCeuticals and Bio-Oil all open on derm endorsement. The corpus "
+                           "saw only the challengers and read the position as vacant.",
+        },
         "unclaimed_angles": unclaimed,
         # The sharpest category in the file. These angles EXIST in the market but nobody opens on
         # them, so the claim is positional and survives a brand pointing at its own body copy --
