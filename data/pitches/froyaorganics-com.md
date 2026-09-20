@@ -5,9 +5,9 @@
 > Held pending Agent 2's transcription pass. Everything below is measured on **caption openings**,
 > not on what is spoken in the video.
 >
-> This document deliberately makes **no claim that any position is unclaimed in the category.** An
-> earlier draft did. Nine such claims were tested against the live Ad Library and eight did not
-> survive — see *What we tested and withdrew*.
+> This document makes **no claim that any position is unclaimed.** An earlier draft did. Nine such
+> claims were probed against the live Ad Library and **none survived as verified absences** — see
+> *What we tested and withdrew*.
 
 ---
 
@@ -20,113 +20,161 @@
 | Category gate | per-ad, not per-brand: body care, ingestible, lip care and community ads excluded |
 | Evidence unit | **hook position only** — the ad's opening line |
 | Evidence grade | caption copy. No spoken transcription yet. |
-| Version | corpus `ead00f7c359ea8c8` · claims `216b73afcb9cbd77` · 2026-09-19 |
+| Version | corpus `a2dda442e1764359` · claims `acf932e14b7b4ecc` · v5 · 2026-09-20 |
 
 **What this cannot tell you.** Nothing here is a claim about ad bodies, landing pages, or what a
-brand sells — only about what it **opens with**. We measured openings because the opening decides
-whether the ad is watched.
+brand sells — only what it **opens with**. We measure openings because the opening decides whether
+the ad is watched.
 
 ---
 
-## 1. What we tested and withdrew
+## 1. The finding
 
-We began with nine positions that appeared in zero of 139 openings. Rather than sell absence, we
-probed them against the live Ad Library by keyword. **Eight did not survive.**
+> **Your single most durable creative is the most durable in your entire competitive set — and it
+> sits in a position you have since abandoned, which no competitor in the set occupies.**
 
-| Position | Verdict |
-|---|---|
-| `menopause_skin` | **Claimed.** Maelove opens with it — *"Perimenopause changed my skin before I even realized… when estrogen drops, collagen production slows."* Live since 22 Jul. Olay tags creator content `#perimenopause`. |
-| `glp1_facial_volume_loss` | **Claimed by adjacents.** Worked hard by collagen supplements; no topical brand found. |
-| `skin_as_signal` | **Claimed by adjacents.** Ingestibles own the "inside out" frame. |
-| `pregnancy_safe` | **Claimed**, but only ~6 ads exist in the whole category. |
-| `dermatologist_as_ally`, `male_facing`, `reactive_sensitive_identity`, `prevention_early` | Withdrawn as untested. |
-| `water_quality` | **Holds** — but it is a water-filter argument, and you sell balms. |
+One Frøya ad, opening on a customer's own account, has been live **614 days**. Across 139 openings
+from your twelve closest competitors, nothing else comes close.
 
-**Why this matters more than a longer list would.** Absence in a 139-ad sample is weak evidence: a
-larger sample can only fail to contradict it, never confirm it. One keyword probe falsified four
-positions on the first attempt. We are telling you this because the alternative was a deck full of
-"nobody is doing X" claims that a competitor could disprove in one search — in front of you.
+You can see the 614 days yourself. What you cannot see without this corpus is that it is **the
+longest-surviving creative in the category**, that no other advertiser in the sample opens that way,
+and that you have run exactly **one** of them.
 
-**Nothing in the rest of this document rests on an absence claim.**
+An ad that survives twenty months is not luck. It is the clearest performance signal available in
+public data — and you have the best one in your category, unrepeated.
+
+One caveat we will not bury: that is a single ad. One creative cannot establish a pattern. What it
+establishes is that the position works *for you*, which is a different and more useful claim than
+anything we could say about the category.
 
 ---
 
-## 2. What the category opens with
+## 2. What actually survives — the durability table
 
-Ranked by ads in our sample. **Read the concentration column.**
+We filtered the corpus to ads live 33+ days because an ad still running is paying for itself. Then
+we kept the number. Every opening argument, ranked by how long its ads actually last:
 
-| Opening argument | Brands | Ads | Largest single brand |
+| Opening argument | Ads | Brands | Median days | Longest |
+|---|---|---|---|---|
+| `customer_testimonial` | 1 | 1 (**you**) | **614** | 614 |
+| `heritage_origin` | 3 | 1 (**you**) | **365** | 380 |
+| `third_party_verdict` | 9 | 1 (Asarai) | **294** | 373 |
+| `failed_solutions` | 14 | 3 | 201 | 281 |
+| `skeptic_convert` | 5 | 3 | 199 | 249 |
+| `ingredient_discovery` | 5 | 3 | 174 | 292 |
+| `ingredient_villain` | 5 | 1 (**you**) | 173 | 408 |
+| `injectable_displacement` | 38 | 5 | 138 | 278 |
+| `routine_simplification` | 9 | 4 | 127 | 283 |
+| `result_first` | 8 | 3 | 107 | 399 |
+| `symptom_callout` | 17 | 6 | 103 | 323 |
+| `mechanism_explainer` | 10 | 3 | 92 | 522 |
+
+**The crowded positions are the least durable ones.** `injectable_displacement` is the busiest
+argument in the category — 38 ads, five advertisers — and its median ad dies at 138 days.
+`symptom_callout` is the most widely shared, running at six of twelve brands, and its median dies at
+103. Meanwhile the three longest-surviving positions in the entire table are run by **one advertiser
+each**.
+
+Volume and survival are not the same thing, and the category is optimising for the wrong one.
+
+**Your three positions rank 1st, 2nd and 7th.** You own the two most durable arguments in your
+competitive set and you are under-running both.
+
+---
+
+## 3. What the category opens with
+
+Our bar for "the category does X": drop the single largest contributing advertiser entirely, and
+**≥3 brands and ≥5 ads must remain.** It asks the only question that matters — is this a pattern, or
+one advertiser being loud?
+
+Two of nine pass:
+
+| Opening argument | Ads | Without its largest contributor | Verdict |
 |---|---|---|---|
-| `injectable_displacement` — "skip the needles" | 5 | 38 | Korean Skin Therapy **42%** |
-| `symptom_callout` — names the visible problem | 6 | 17 | JiYu **53%** |
-| `failed_solutions` — "you've tried everything" | 3 | 14 | Based Supplies **50%** |
-| `mechanism_explainer` — why it works | 3 | 10 | Biodance **40%** |
-| `routine_simplification` — fewer steps | 4 | 9 | Saeskyn **56%** |
+| `injectable_displacement` | 38 | drop Korean Skin Therapy (16) → 22 ads, 4 brands | **pattern** |
+| `symptom_callout` | 17 | drop JiYu (9) → 8 ads, 5 brands | **pattern** |
+| `failed_solutions` | 14 | drop Based Supplies (7) → 7 ads, 2 brands | one advertiser |
+| `mechanism_explainer` | 10 | drop Biodance (4) → 6 ads, 2 brands | one advertiser |
+| `routine_simplification` | 9 | drop Saeskyn (5) → 4 ads, 3 brands | one advertiser |
+| `result_first` | 8 | drop Asarai (4) → 4 ads, 2 brands | one advertiser |
 
-Our bar for "the category does X" is three or more independent advertisers with **no single one
-above 30%** of the evidence. Every row fails it. Each is one or two advertisers running a lot of
-near-identical creative — `injectable_displacement` is 38 ads, but 16 are Korean Skin Therapy
-running variations on one idea.
-
-So we are not claiming these are category patterns. The finding is the shape itself: **what reads as
-a crowded category is usually one competitor being loud.**
+**Seven of nine crowded-looking positions are one advertiser running a lot of near-identical
+creative.** What reads as a saturated category mostly isn't.
 
 **Where you already sit:** 6 of the 38 injectable-displacement ads are yours, plus 4 of 10 on
-mechanism, 3 of 5 on ingredient discovery, 3 of 4 on story openings. You are already inside the most
-contested rooms in the sample.
+mechanism, 3 of 5 on ingredient discovery. You are competing inside both genuine patterns — the two
+lowest-durability rows in section 2 — while under-running the two highest, which you own outright.
 
 ---
 
-## 3. What you already own — and under-run
+## 4. The positioning divide we found by being wrong
 
-Three positions in our sample belong to Frøya alone. These are observations about **your own ads**,
-so they need no category evidence and carry no hold.
+We predicted nobody opens with the dermatologist as an ally. **That was wrong, and the reason is
+worth more than the prediction.**
 
-| Position | Your ads | Longest alive |
-|---|---|---|
-| `ingredient_villain` — names the culprit | 5 | **408 days** |
-| `heritage_origin` — Norwegian Arctic, the farm | 4 | **380 days** |
-| `customer_testimonial` — a customer's own account | **1** | **614 days** |
+In our corpus — twelve DTC challengers — every dermatologist reference is adversarial: dismissive,
+withholding, overprescribing. Probing wider, the position is heavily occupied, but by a different
+cohort: Dove opens *"the #1 dermatologist recommended brand"*; SkinCeuticals runs 13 ads opening on
+*"the #1 Dermatologist Recommended Vitamin C Serum"*; Eucerin, CeraVe, CLn and Bio-Oil all open
+there.
 
-That last row is the recommendation. **One ad. Running for 614 days — the longest-surviving creative
-in the entire 139-ad sample, yours or anyone's.** No competitor in the sample opens here.
-
-An ad that survives twenty months is not luck; it is the clearest performance signal available in
-public data. You have one of them and you have not built on it.
-
-Our own first read of this category showed testimonial openings as the *most saturated* position
-available. That was wrong — it was one competitor's ingestible-supplement ads contaminating the
-sample. Cleaned, it is nearly empty, and your 614-day ad is sitting in it alone.
+So the category splits cleanly. **Legacy brands open on clinical endorsement. Challengers open
+against it.** That is a real positioning boundary, and it means derm-authority is occupied
+territory for a brand like yours — not an opening.
 
 ---
 
-## 4. The one contested position worth entering — `third_party_verdict`
+## 5. The open question — `third_party_verdict`
 
-Asarai runs 9 ads opening on outside verdicts — press, editors, forum consensus. Longest alive 373
-days. At triple our original sample size, **nobody else has entered.**
+Asarai runs 9 ads opening on outside verdicts. Median survival **294 days**, third-longest in the
+table, and at triple our original sample size **nobody else has entered.**
 
-Two readings, and we cannot currently distinguish them:
+Two readings we cannot currently distinguish:
 
 - **A moat** — Asarai has press others cannot get.
 - **Untried** — nobody has tested whether borrowed authority beats brand voice here.
 
 We are not resolving that by assertion. But you have unusual material for it: 34,634 reviews and
-823,167 customers is a third-party verdict that needs no press relationship at all.
+823,167 customers is a third-party verdict needing no press relationship at all.
 
 ---
 
-## 5. Scripts
+## 6. What we tested and withdrew
 
-**Nine cleared** — built on positions you already own, resting on no category claim:
+We began with nine positions appearing in zero of 139 openings. Rather than sell absence, we probed
+each against the live Ad Library. **None survived as a verified absence.**
 
-| Angle | # | Lead product |
+| Position | Verdict |
+|---|---|
+| `menopause_skin` | **Claimed.** Maelove opens with it, live since 22 Jul. Olay tags creator content `#perimenopause`. |
+| `dermatologist_as_ally` | **Claimed.** Dove, SkinCeuticals (13 ads), Eucerin, CeraVe, CLn, Bio-Oil. |
+| `reactive_sensitive_identity` | **Claimed.** CeraVe: *"If your skin squeaks, your barrier is weak."* |
+| `glp1_facial_volume_loss`, `skin_as_signal` | **Claimed by adjacents** — supplements, not topical. |
+| `pregnancy_safe` | **Claimed**, but only ~6 ads exist in the entire category. |
+| `prevention_early`, `water_quality` | Unclaimed as an *opening* — but no evidence anyone has made either work. |
+
+Absence is the weakest claim available: more evidence can only fail to contradict it, never confirm
+it. One keyword search falsified four of these on the first attempt.
+
+We are showing you our discarded claims because the alternative was a document full of "nobody is
+doing X" that a competitor could disprove in one search — in front of you. Everything in sections 1
+to 3 is the opposite kind of claim: positive, checkable, and stronger with more data.
+
+---
+
+## 7. Scripts
+
+**Nine cleared**, all built on positions you already own — no category claim, nothing to disprove:
+
+| Angle | # | Median survival of your ads here |
 |---|---|---|
-| `customer_testimonial` | 3 | Complete System · Hair & Scalp Shampoo · Dry and Itchy Balm |
-| `ingredient_villain` | 3 | Day Balm · Acne-Prone Balm · Eye Balm |
-| `heritage_origin` | 3 | Day Balm · Eye Balm · Face Scrub |
+| `customer_testimonial` | 3 | 614 days |
+| `heritage_origin` | 3 | 365 days |
+| `ingredient_villain` | 3 | 173 days |
 
-**Three held** on `third_party_verdict` — the position is Asarai's, so entering it is a creative bet,
-not a finding. They are written and ready if you want to take that bet.
+**Three held** on `third_party_verdict` — Asarai's position, so entering is a creative bet, not a
+finding. Written and ready if you want to take it.
 
 Every efficacy claim spoken is traceable to your own materials, and each script is machine-checked
 against a do-not-say list built from language on your own site that is not substantiated for paid
@@ -138,17 +186,17 @@ are in `scripts.json`.
 ## Method, plainly
 
 We read what your category **opens** ads with, from public ad transparency data, restricted to ads
-live long enough to be paying for themselves. We classify openings by argument, then ask which are
-crowded, which one advertiser owns, and which nobody is making — and then we try to falsify that
-last group before showing it to you.
+live long enough to be paying for themselves — then we kept the survival times rather than throwing
+them away. We classify openings by argument, rank them by how long their ads actually last, and test
+any claim of absence against the live ad library before showing it to you.
 
-Where we cannot support a claim, this document says so. Eight of our nine original opportunity
-claims were withdrawn on testing. What remains is smaller and considerably harder to argue with.
+Where we cannot support a claim, this document says so. Nine of our nine original opportunity claims
+were withdrawn on testing. What remains is smaller, positive, and checkable in ten minutes.
 
 ---
 
 ### Provenance
 
-corpus `ead00f7c359ea8c8` · claims `216b73afcb9cbd77` · 139 openings · 12 advertisers · ads live 33+
-days · caption evidence only · 2026-09-19. Frøya at capture: 3,400 active ads, ~1,473 video, oldest
-live ad 614 days, newest 49 days.
+corpus `a2dda442e1764359` · claims `acf932e14b7b4ecc` · v5 · 139 openings · 12 advertisers · ads
+live 33+ days · caption evidence only · 2026-09-20. Frøya at capture: 3,400 active ads, ~1,473
+video, oldest live ad 614 days, newest 49 days.

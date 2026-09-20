@@ -24,9 +24,18 @@ from .schema import validate
 #   single_brand      (one other brand does X)    NOT client-ready as a category finding -- label it
 #   brand_own         (this client's own ads)     no category evidence needed; it is an observation
 #                                                 about the client, not about the market
+#   category_pattern  ("the category runs X")     LEAVE-ONE-OUT: drop the largest contributing
+#                                                  brand entirely; >=3 brands and >=5 ads must
+#                                                  remain. Asks the question that matters -- is this
+#                                                  a pattern, or one advertiser being loud -- and is
+#                                                  scale-free, so it needs no separate sample floor.
+#
+# The previous rule (>=3 brands AND no brand over 30%) was unsatisfiable: at exactly 3 brands the
+# smallest possible largest share is 33.3%, so a 3-brand angle could never pass whatever the data
+# said. It also scored MORE evidence worse -- a 3-ad even split cleared a bar a 38-ad angle failed.
 CORPUS_MIN_BRANDS = 8       # floor for any category-level claim at all
-CATEGORY_MIN_BRANDS = 3     # independent brands behind a positive category pattern
-MAX_SINGLE_BRAND_SHARE = 0.30
+LOO_MIN_BRANDS = 3          # brands remaining after dropping the largest contributor
+LOO_MIN_ADS = 5             # ads remaining after dropping the largest contributor
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SHARED = pathlib.Path.home() / "Desktop" / "ai-ugc-system" / "shared" / "data"
@@ -115,7 +124,7 @@ def claim_gate(angle: dict, brand_slug: str, corpus: dict, is_fixture: bool) -> 
         )
 
     n_brands = angle.get("brand_count") or len(brands)
-    if n_brands < CATEGORY_MIN_BRANDS:
+    if n_brands < LOO_MIN_BRANDS:
         return False, "single_brand", (
             f"Only {n_brands} brand(s) behind this angle ({', '.join(brands) or 'unknown'}). "
             "Usable as an observation, NOT sellable as a category finding."
@@ -125,15 +134,18 @@ def claim_gate(angle: dict, brand_slug: str, corpus: dict, is_fixture: bool) -> 
     total = sum(mix.values())
     if total:
         top, top_n = max(mix.items(), key=lambda kv: kv[1])
-        share = top_n / total
-        if share > MAX_SINGLE_BRAND_SHARE:
+        rest = {b: n for b, n in mix.items() if b != top}
+        rest_ads, rest_brands = sum(rest.values()), len(rest)
+        if rest_brands < LOO_MIN_BRANDS or rest_ads < LOO_MIN_ADS:
             return False, "category_pattern", (
-                f"Concentration failure: {top} is {share:.0%} of the {total} ads behind this angle "
-                f"(cap {MAX_SINGLE_BRAND_SHARE:.0%}). One brand dominating a sample is exactly how "
-                "customer_testimonial inverted."
+                f"Leave-one-out failure: drop {top} ({top_n}/{total} ads) and only {rest_ads} ads "
+                f"across {rest_brands} brands remain (need {LOO_MIN_ADS}/{LOO_MIN_BRANDS}). This is "
+                "one advertiser being loud, not a category pattern."
             )
         return True, "category_pattern", (
-            f"{n_brands} independent brands, {total} ads, largest single brand {share:.0%}."
+            f"Holds without its largest contributor: drop {top} ({top_n}/{total} ads) and "
+            f"{rest_ads} ads across {rest_brands} brands remain. Largest brand is "
+            f"{top_n / total:.0%} of the evidence."
         )
     # No per-brand distribution available means the concentration check could not run. That is an
     # unknown, and an unknown must fail closed -- not pass because the evidence was missing.

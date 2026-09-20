@@ -36,14 +36,23 @@
     "scope_warning": "PILOT CORPUS \u2014 5 fatigued brands of 81 in scope. 'unclaimed' means absent from THIS sample, not proven absent from the category. Verify against the full 81 before putting an unclaimed angle in front of a client.",
     "absence_is_measured_on": "Hook position only \u2014 the ad's opening line, which is what was captured in full. Body copy was stored truncated, so NO claim is made about whether an angle appears deeper in an ad, and the probes must not be read as evidence about it. Observed directly while collecting: DRMTLGY runs '\ud83e\ude7a Dermatologist Recommended' as a trust bullet. So dermatologist_as_ally exists in the category as reassurance and is still unclaimed as an opening argument \u2014 which is the unit being sold, and a sharper finding than simple absence.",
     "schema_version": 3,
-    "generated_at": "2026-09-19T19:56:26+00:00",
-    "corpus_fingerprint": "ead00f7c359ea8c8",
-    "claims_fingerprint": "216b73afcb9cbd77"
+    "generated_at": "2026-09-20T04:39:58+00:00",
+    "corpus_fingerprint": "a2dda442e1764359",
+    "claims_fingerprint": "acf932e14b7b4ecc"
   },
-  "corpus_fingerprint": "ead00f7c359ea8c8",
-  "claims_fingerprint": "216b73afcb9cbd77",
+  "corpus_fingerprint": "a2dda442e1764359",
+  "claims_fingerprint": "acf932e14b7b4ecc",
   "schema_version": 3,
-  "evidence_moved_since_last_build": null,
+  "evidence_moved_since_last_build": {
+    "corpus_fingerprint": {
+      "was": "ead00f7c359ea8c8",
+      "now": "a2dda442e1764359"
+    },
+    "claims_fingerprint": {
+      "was": "216b73afcb9cbd77",
+      "now": "acf932e14b7b4ecc"
+    }
+  },
   "client_ready": false,
   "client_ready_reason": "Gated per claim \u2014 see claim_type and claim_evidence on each script.",
   "is_fixture": false,
@@ -106,8 +115,8 @@
       "attribution_basis": "angle=customer_testimonial (single_brand, 1 ads across Froya Organics); traceable to 1 hook ids. Evidence grade copy_derived.",
       "claim_type": "brand_own",
       "claim_evidence": "Observation about the client's own ads (1 ads). Needs no category evidence \u2014 it is not a claim about the market.",
-      "corpus_fingerprint": "ead00f7c359ea8c8",
-      "claims_fingerprint": "216b73afcb9cbd77",
+      "corpus_fingerprint": "a2dda442e1764359",
+      "claims_fingerprint": "acf932e14b7b4ecc",
       "client_ready": true
     },
     {
@@ -166,8 +175,8 @@
       "attribution_basis": "angle=customer_testimonial (single_brand, 1 ads across Froya Organics); traceable to 1 hook ids. Evidence grade copy_derived.",
       "claim_type": "brand_own",
       "claim_evidence": "Observation about the client's own ads (1 ads). Needs no category evidence \u2014 it is not a claim about the market.",
-      "corpus_fingerprint": "ead00f7c359ea8c8",
-      "claims_fingerprint": "216b73afcb9cbd77",
+      "corpus_fingerprint": "a2dda442e1764359",
+      "claims_fingerprint": "acf932e14b7b4ecc",
       "client_ready": true
     },
     {
@@ -227,8 +236,8 @@
       "attribution_basis": "angle=customer_testimonial (single_brand, 1 ads across Froya Organics); traceable to 1 hook ids. Evidence grade copy_derived.",
       "claim_type": "brand_own",
       "claim_evidence": "Observation about the client's own ads (1 ads). Needs no category evidence \u2014 it is not a claim about the market.",
-      "corpus_fingerprint": "ead00f7c359ea8c8",
-      "claims_fingerprint": "216b73afcb9cbd77",
+      "corpus_fingerprint": "a2dda442e1764359",
+      "claims_fingerprint": "acf932e14b7b4ecc",
       "client_ready": true
     },
     {
@@ -289,8 +298,8 @@
       "attribution_basis": "angle=heritage_origin (single_brand, 3 ads across Froya Organics); traceable to 3 hook ids. Evidence grade copy_derived.",
       "claim_type": "brand_own",
       "claim_evidence": "Observation about the client's own ads (3 ads). Needs no category evidence \u2014 it is not a claim about the market.",
-      "corpus_fingerprint": "ead00f7c359ea8c8",
-      "claims_fingerprint": "216b73afcb9cbd77",
+      "corpus_fingerprint": "a2dda442e1764359",
+      "claims_fingerprint": "acf932e14b7b4ecc",
       "client_ready": true
     },
     {
@@ -351,8 +360,8 @@
       "attribution_basis": "angle=heritage_origin (single_brand, 3 ads across Froya Organics); traceable to 3 hook ids. Evidence grade copy_derived.",
       "claim_type": "brand_own",
       "claim_evidence": "Observation about the client's own ads (3 ads). Needs no category evidence \u2014 it is not a claim about the market.",
-      "corpus_fingerprint": "ead00f7c359ea8c8",
-      "claims_fingerprint": "216b73afcb9cbd77",
+      "corpus_fingerprint": "a2dda442e1764359",
+      "claims_fingerprint": "acf932e14b7b4ecc",
       "client_ready": true
     },
     {
@@ -413,8 +422,8 @@
       "attribution_basis": "angle=heritage_origin (single_brand, 3 ads across Froya Organics); traceable to 3 hook ids. Evidence grade copy_derived.",
       "claim_type": "brand_own",
       "claim_evidence": "Observation about the client's own ads (3 ads). Needs no category evidence \u2014 it is not a claim about the market.",
-      "corpus_fingerprint": "ead00f7c359ea8c8",
-      "claims_fingerprint": "216b73afcb9cbd77",
+      "corpus_fingerprint": "a2dda442e1764359",
+      "claims_fingerprint": "acf932e14b7b4ecc",
       "client_ready": true
     },
     {
@@ -477,8 +486,8 @@
       "attribution_basis": "angle=ingredient_villain (single_brand, 5 ads across Froya Organics); traceable to 5 hook ids. Evidence grade copy_derived.",
       "claim_type": "brand_own",
       "claim_evidence": "Observation about the client's own ads (5 ads). Needs no category evidence \u2014 it is not a claim about the market.",
-      "corpus_fingerprint": "ead00f7c359ea8c8",
-      "claims_fingerprint": "216b73afcb9cbd77",
+      "corpus_fingerprint": "a2dda442e1764359",
+      "claims_fingerprint": "acf932e14b7b4ecc",
       "client_ready": true
     },
     {
@@ -541,8 +550,8 @@
       "attribution_basis": "angle=ingredient_villain (single_brand, 5 ads across Froya Organics); traceable to 5 hook ids. Evidence grade copy_derived.",
       "claim_type": "brand_own",
       "claim_evidence": "Observation about the client's own ads (5 ads). Needs no category evidence \u2014 it is not a claim about the market.",
-      "corpus_fingerprint": "ead00f7c359ea8c8",
-      "claims_fingerprint": "216b73afcb9cbd77",
+      "corpus_fingerprint": "a2dda442e1764359",
+      "claims_fingerprint": "acf932e14b7b4ecc",
       "client_ready": true
     },
     {
@@ -605,8 +614,8 @@
       "attribution_basis": "angle=ingredient_villain (single_brand, 5 ads across Froya Organics); traceable to 5 hook ids. Evidence grade copy_derived.",
       "claim_type": "brand_own",
       "claim_evidence": "Observation about the client's own ads (5 ads). Needs no category evidence \u2014 it is not a claim about the market.",
-      "corpus_fingerprint": "ead00f7c359ea8c8",
-      "claims_fingerprint": "216b73afcb9cbd77",
+      "corpus_fingerprint": "a2dda442e1764359",
+      "claims_fingerprint": "acf932e14b7b4ecc",
       "client_ready": true
     },
     {
@@ -676,8 +685,8 @@
       "attribution_basis": "angle=third_party_verdict (single_brand, 9 ads across Asarai); traceable to 9 hook ids. Evidence grade copy_derived.",
       "claim_type": "single_brand",
       "claim_evidence": "Only 1 brand(s) behind this angle (Asarai). Usable as an observation, NOT sellable as a category finding.",
-      "corpus_fingerprint": "ead00f7c359ea8c8",
-      "claims_fingerprint": "216b73afcb9cbd77",
+      "corpus_fingerprint": "a2dda442e1764359",
+      "claims_fingerprint": "acf932e14b7b4ecc",
       "client_ready": false,
       "hold_reason": "Only 1 brand(s) behind this angle (Asarai). Usable as an observation, NOT sellable as a category finding."
     },
@@ -746,8 +755,8 @@
       "attribution_basis": "angle=third_party_verdict (single_brand, 9 ads across Asarai); traceable to 9 hook ids. Evidence grade copy_derived.",
       "claim_type": "single_brand",
       "claim_evidence": "Only 1 brand(s) behind this angle (Asarai). Usable as an observation, NOT sellable as a category finding.",
-      "corpus_fingerprint": "ead00f7c359ea8c8",
-      "claims_fingerprint": "216b73afcb9cbd77",
+      "corpus_fingerprint": "a2dda442e1764359",
+      "claims_fingerprint": "acf932e14b7b4ecc",
       "client_ready": false,
       "hold_reason": "Only 1 brand(s) behind this angle (Asarai). Usable as an observation, NOT sellable as a category finding."
     },
@@ -815,8 +824,8 @@
       "attribution_basis": "angle=third_party_verdict (single_brand, 9 ads across Asarai); traceable to 9 hook ids. Evidence grade copy_derived.",
       "claim_type": "single_brand",
       "claim_evidence": "Only 1 brand(s) behind this angle (Asarai). Usable as an observation, NOT sellable as a category finding.",
-      "corpus_fingerprint": "ead00f7c359ea8c8",
-      "claims_fingerprint": "216b73afcb9cbd77",
+      "corpus_fingerprint": "a2dda442e1764359",
+      "claims_fingerprint": "acf932e14b7b4ecc",
       "client_ready": false,
       "hold_reason": "Only 1 brand(s) behind this angle (Asarai). Usable as an observation, NOT sellable as a category finding."
     }
