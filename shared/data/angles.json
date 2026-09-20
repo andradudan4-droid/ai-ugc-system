@@ -1,8 +1,8 @@
 {
   "schema_version": 3,
-  "corpus_version": 5,
+  "corpus_version": 6,
   "claims_fingerprint": "acf932e14b7b4ecc",
-  "generated_at": "2026-09-20T04:39:58+00:00",
+  "generated_at": "2026-09-20T04:43:00+00:00",
   "corpus_fingerprint": "a2dda442e1764359",
   "corpus": {
     "product_class": "topical_skincare",
@@ -738,6 +738,19 @@
       "saturation": "single_brand"
     }
   ],
+  "self_assessment": {
+    "absence_claims_made": 9,
+    "absence_claims_probed": 9,
+    "falsified_outright": 7,
+    "falsification_rate": "78%",
+    "survived_as_positional": 2,
+    "survived_natural_owner_test": 0,
+    "note": "Both positional survivors fail the natural-owner test, so ZERO of nine absence claims survive as sellable opportunities. Saturation findings are earned from the corpus; absence findings are not, and must be probed individually."
+  },
+  "sampling_bias": {
+    "issue": "The corpus is DTC-challenger-only by construction — Agent -1 discovers advertisers by keyword search over ad copy, which surfaces brands buying heavily on direct response.",
+    "consequence": "It will systematically mistake incumbent-held positions for empty ones. dermatologist_as_ally is the worked example: challengers treat dermatologists adversarially, while Dove, CeraVe, Eucerin, SkinCeuticals and Bio-Oil all open on derm endorsement. The corpus saw only the challengers and read the position as vacant."
+  },
   "unclaimed_angles": [],
   "unclaimed_position_angles": [
     {
@@ -755,6 +768,13 @@
           "Tiny field -- 16 ads in the whole category.",
           "NOTE: a first probe, 'prevent wrinkles in your 20s', returned zero. That was an invented phrase and its zero was discarded rather than recorded -- it would have tested our vocabulary, not the category."
         ]
+      },
+      "natural_owner_test": {
+        "natural_owner": "Good Molecules (and Biodance as a second check)",
+        "why": "Good Molecules is the cheapest, most entry-level brand in the corpus — $6 eye cream, $12 serum — and price point is what makes a prevention pitch to younger buyers viable. Biodance is K-beauty/glass-skin with a young audience.",
+        "opens_on_it": false,
+        "finding": "Good Molecules runs 15 ads and opens on none of them with prevention; one opens on 'the best over 50 skincare', the opposite direction. Biodance runs 10 and opens on correction throughout — dry skin, tired under-eyes.",
+        "verdict": "FAILS — both natural owners message correction, not prevention."
       }
     },
     {
@@ -773,6 +793,13 @@
           "So the brand whose entire product IS water quality still opens on outcome. That makes this unclaimed as a POSITION rather than proof the argument sells -- the opposite of the 'validated demand' reading, and a weaker claim than it first looked.",
           "LIMIT: ~390 ads, one page read, and that page was a single repeated creative."
         ]
+      },
+      "natural_owner_test": {
+        "natural_owner": "eskiin",
+        "why": "Filtered showerhead sold entirely on skin and hair outcomes. 390 active video ads. No brand has a stronger claim to 'your water is the problem'.",
+        "opens_on_it": false,
+        "finding": "Opens on outcome — 'eskiin will give you your best skin & hair, guaranteed' — with chlorine and filtration demoted to sentence two as mechanism.",
+        "verdict": "FAILS — the position's natural owner declines it, which is evidence it does not sell rather than evidence it is available."
       }
     }
   ],

@@ -76,10 +76,20 @@ improves with each one. Changing category resets it to zero. That is why categor
 The original spine of this product was "unclaimed angles": telling a brand what nobody in its
 category is running. **That thesis failed testing and is withdrawn as a headline claim.**
 
-Measured: **11 of 13 absence-shaped claims were falsified** once probed against the live ad index.
-Nine "unclaimed angles" resolved to zero verified-absent, two thin positional gaps, and seven
-already claimed. This is not variance — it is the structure of the claim. An absence claim cannot
-be confirmed by more evidence, only fail to be contradicted, and a single keyword search can kill it.
+Measured, on distinct angles: **7 of 9 absence claims (78%) were falsified** once probed against
+the live ad index. The surviving two (`water_quality`, `prevention_early`) then both fell to the
+natural-owner test below, so **zero of nine survive as sellable opportunities.**
+
+Use **78%** and nothing else. An earlier 11-of-13 figure double-counted two angles that were each
+falsified twice — once as unclaimed, again as positional. 78% is the number that survives a client
+asking how we counted. Counting intermediate verdicts gives 82%; do not use it.
+
+That the "we test our own claims" figure was itself initially unverified is the point, not an aside:
+a loosely-stated number became doctrine by being repeated. Every figure in a client document carries
+its own derivation.
+
+This is not variance — it is the structure of the claim. An absence claim cannot be confirmed by
+more evidence, only fail to be contradicted, and a single keyword search can kill it.
 
 **The corpus is reliable for presence and unreliable for absence.** Sell accordingly:
 
@@ -116,8 +126,21 @@ A genuine gap requires explaining *why everyone else is wrong*. If we cannot, we
 
 The corpus is built from DTC challenger brands. Incumbents (CeraVe, Dove, Eucerin, SkinCeuticals)
 are absent by construction, so **positions held by incumbents will read as empty.** The
-dermatologist-as-ally angle failed exactly this way. State this limit in every deliverable's method
-section.
+dermatologist-as-ally angle failed exactly this way: we saw only challengers and called a position
+vacant that Dove, CeraVe, Eucerin, SkinCeuticals and Bio-Oil all sit on.
+
+**Consequence for the product claim.** "Here is what your category runs" is currently only true of
+the *challenger* half. A client who is an incumbent, or who competes with one, gets a partial map.
+State this in every deliverable's method section until it is fixed.
+
+**Fix — next build.** Agent −1 discovers advertisers by keyword search over direct-response copy,
+which structurally cannot surface incumbents. Add a manually seeded incumbent list (CeraVe, Dove,
+Eucerin, SkinCeuticals, Bio-Oil, La Roche-Posay, Neutrogena, Olay) — these are public knowledge and
+need no discovery. Tag every brand `challenger` or `incumbent`.
+
+This converts the bias into an asset: the challenger/incumbent positioning divide is only visible
+with both halves present, it is a presence claim, it is confirmable, and it strengthens with data.
+"How incumbents position versus how challengers position" is a better product than either half.
 
 ### Probing is mandatory
 
