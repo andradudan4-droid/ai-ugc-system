@@ -173,22 +173,29 @@ EXTERNAL_PROBES = {
         ],
     },
     "dermatologist_as_ally": {
-        "verdict": "UNCLAIMED_POSITION", "query": "my dermatologist", "results": "~2,300",
-        "position": "body",
+        "verdict": "CLAIMED", "query": "dermatologist recommended / my dermatologist said",
+        "results": "~1,900 / ~350", "position": "hook",
         "evidence": [
-            "Term is common in the category, but no hook-position use was found -- the pattern "
-            "already seen with DRMTLGY's 'Dermatologist Recommended' trust bullet.",
-            "CONFIDENCE LOW: ~2,300 results and only the first page was read. The claim is "
-            "'no opener found in what was sampled', not 'no opener exists'.",
+            "FALSIFIED on a deeper read. The earlier UNCLAIMED_POSITION verdict came from one "
+            "page of a narrow query and was wrong.",
+            "Opened on directly by: Dove ('New Dove Advanced Care is the #1 dermatologist "
+            "recommended brand'), SkinCeuticals ('Add the #1 Dermatologist Recommended Vitamin C "
+            "Serum', 13 ads on the creative), Eucerin, CLn Skin Care, Bio-Oil. CeraVe carries it "
+            "as the ad headline.",
+            "STRUCTURE WORTH KEEPING: our corpus is DTC challengers, who treat dermatologists "
+            "adversarially. The legacy brands open on derm endorsement. So the position is not "
+            "empty -- it is held by the incumbents a challenger defines itself against. That is a "
+            "positioning divide, not an opportunity.",
         ],
     },
     "reactive_sensitive_identity": {
-        "verdict": "UNCLAIMED_POSITION", "query": "reactive skin", "results": "~510",
-        "position": "body",
+        "verdict": "CLAIMED", "query": "sensitive skin", "results": "~22,000", "position": "hook",
         "evidence": [
-            "Present in the category (Michael Todd Beauty, Circadia) but not as the identity the "
-            "ad opens on.",
-            "CONFIDENCE LOW: first page of ~510 only.",
+            "FALSIFIED on the generous query. 'reactive skin' was too narrow and returned a "
+            "misleading near-miss.",
+            "CeraVe opens on it: 'If your skin squeaks, your barrier is weak.' Beauty From Bees "
+            "opens on it: 'If your skin feels tight, flaky, or itchy no matter what you use -- "
+            "this is for you.' Both are the identity-lead this angle claimed nobody ran.",
         ],
     },
     "prevention_early": {
@@ -204,12 +211,19 @@ EXTERNAL_PROBES = {
         ],
     },
     "water_quality": {
-        "verdict": "HOLDS", "query": "hard water", "results": "~3,600",
+        "verdict": "UNCLAIMED_POSITION", "query": "hard water (+ eskiin ad set read directly)",
+        "results": "~3,600", "position": "body",
         "evidence": [
-            "All results are cleaning and appliance products -- dishwasher powder, washing machine "
-            "tablets, hard-water spot remover. No skincare advertiser found.",
-            "Note eskiin works this angle hard, but it is a filtered showerhead and was excluded "
-            "from this corpus as beauty_device.",
+            "'hard water' returns only cleaning and appliance products. No skincare advertiser.",
+            "eskiin was checked directly because it is the strongest possible counter-example -- "
+            "390 active video ads for a filtered showerhead sold on skin and hair outcomes. It "
+            "does NOT open on water quality. Every ad read opens 'eskiin will give you your best "
+            "skin & hair - guaranteed', with filtration and chlorine appearing in the second "
+            "sentence as mechanism.",
+            "So the brand whose entire product IS water quality still opens on outcome. That "
+            "makes this unclaimed as a POSITION rather than proof the argument sells -- the "
+            "opposite of the 'validated demand' reading, and a weaker claim than it first looked.",
+            "LIMIT: ~390 ads, one page read, and that page was a single repeated creative.",
         ],
     },
 }
@@ -231,7 +245,20 @@ CORPUS_CLASS = "topical_skincare"
 
 # Monotonic. Bump on any change to the corpus or the rules. Consumers pin what they built against
 # and refuse to assemble when it moves -- Writer had an angle vanish under them between 2 and 3.
-CORPUS_VERSION = 4
+CORPUS_VERSION = 5
+
+
+def _leave_one_out(rows: list[dict]) -> dict:
+    counts = collections.Counter(r["brand"] for r in rows)
+    biggest = counts.most_common(1)[0][0]
+    rest = [r for r in rows if r["brand"] != biggest]
+    brands = len({r["brand"] for r in rest})
+    return {
+        "dropped_brand": biggest,
+        "brands_remaining": brands,
+        "ads_remaining": len(rest),
+        "passes": brands >= 3 and len(rest) >= 5,
+    }
 
 
 def build(all_hooks: list[dict]) -> dict:
@@ -272,6 +299,10 @@ def build(all_hooks: list[dict]) -> dict:
             "brand_distribution": dict(collections.Counter(r["brand"] for r in rows)),
             "max_brand_share": round(
                 max(collections.Counter(r["brand"] for r in rows).values()) / len(rows), 2),
+            # Strategy's leave-one-out gate: drop the single largest contributor entirely; the
+            # claim holds if >=3 brands and >=5 ads survive. Scale-free, and it asks the real
+            # question -- a pattern, or one advertiser being loud.
+            "leave_one_out": _leave_one_out(rows),
             "examples": [r["hook_text"][:110] for r in rows[:3]],
         })
     angles.sort(key=lambda x: (-x["brand_count"], -x["ad_count"]))
@@ -298,8 +329,12 @@ def build(all_hooks: list[dict]) -> dict:
         else:
             unclaimed.append(entry)
 
+    # Covers ad_id -> angle, so a reclassification changes it even when the hook set is identical.
+    # Hooks alone were not enough: an ad moving between angles is invisible to a hook-only hash and
+    # to the claims hash, and that is exactly how heritage_origin vanished under Writer.
     fingerprint = hashlib.sha256(
-        "|".join(sorted(h["ad_id"] for h in hooks)).encode()
+        "|".join(f"{h['ad_id']}:{h['angle']}" for h in sorted(hooks, key=lambda x: x["ad_id"]))
+        .encode()
     ).hexdigest()[:16]
 
 
