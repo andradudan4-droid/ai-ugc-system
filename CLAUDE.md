@@ -34,8 +34,8 @@ conversation. They are **not** open questions here.
 |------|-------------|--------|
 | 1 | Agent −1 (Prospector) → `targets.csv`, 100 skincare brands | **done** (105 rows) |
 | 2 | Agent 0 (Intake) → `brand.md` | **done** (top 5 fatigued) |
-| 3 | Agent 1 (Ad miner) → `hooks.jsonl` | **done (pilot)** — 113 hooks, 5 of 81 brands; copy-derived openings |
-| 4 | Agent 2 (Taxonomist) → `angles.json` | **done (pilot)** — 14 angles, 9 saturated, 9 unclaimed |
+| 3 | Agent 1 (Ad miner) → `hooks.jsonl` | **done** — 139 skincare hooks, 12 brands (62 excluded off-category); copy-derived openings, transcription unrun |
+| 4 | Agent 2 (Taxonomist) → `angles.json` | **done** — v6; 2 saturations pass leave-one-out, 0 of 9 absence claims survive probing |
 | 5 | Agent 3 (Scriptwriter) → `scripts.json` | **current** (Writer) |
 | 6 | Agent 4 (Render queue) + Agent 5 (QA) | not started |
 | 7 | Agent 6 (Feedback) | not started |
