@@ -1,0 +1,75 @@
+name: Nightly prospect refresh
+
+# Re-scores the target list every night and reports which brands moved.
+#
+# No API key, no model, no network, no spend. `prospector/score.py` is pure arithmetic and
+# `run_prospector.py` rebuilds from the cache in data/raw/. The value is that ad ages recompute
+# from stored dates on every run, so brands drift into and out of the fatigue window purely with
+# the passage of time. A brand silent 44 days is `active`; at 45 it is a lead.
+#
+# Collection is deliberately NOT here. Mining the Ad Library is a supervised browsing step, not an
+# unattended crawl from a datacentre IP -- see prospector/adlibrary.py and docs/DESIGN.md.
+
+on:
+  schedule:
+    - cron: '0 2 * * *'   # 02:00 UTC daily
+  workflow_dispatch:       # and a "Run workflow" button for testing
+
+permissions:
+  contents: write          # commit the re-scored CSV
+  issues: write            # open an issue when brands move
+
+concurrency:
+  group: nightly-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Snapshot current targets
+        run: cp data/targets.csv /tmp/before.csv 2>/dev/null || : > /tmp/before.csv
+
+      - name: Re-score from cache
+        run: python3 run_prospector.py
+
+      - name: Guard — disqualified brands must not reappear
+        run: python3 tools/check_disqualified.py
+
+      - name: Diff segments
+        id: diff
+        run: |
+          python3 tools/segment_diff.py /tmp/before.csv data/targets.csv > /tmp/report.md
+          if [ -s /tmp/report.md ]; then
+            echo "moved=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "moved=false" >> "$GITHUB_OUTPUT"
+            echo "No movement since last run."
+          fi
+
+      - name: Commit updated scores
+        if: steps.diff.outputs.moved == 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/targets.csv
+          git diff --staged --quiet || git commit -m "Nightly re-score: segment movement
+
+          Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>"
+          git push
+
+      - name: Open issue with the movement
+        if: steps.diff.outputs.moved == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue create \
+            --title "New leads — $(date -u '+%d %b %Y')" \
+            --body-file /tmp/report.md \
+            --repo "${{ github.repository }}"
