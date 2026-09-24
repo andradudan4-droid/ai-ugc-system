@@ -1,0 +1,1754 @@
+{
+  "generated_at": "2026-09-24T06:17:20+00:00",
+  "stats": {
+    "brands": 102,
+    "researched": 32,
+    "scripts": 12,
+    "scripts_ready": 9,
+    "hooks": 201,
+    "spent_usd": "0.00"
+  },
+  "funnel": {
+    "prospect": 70,
+    "researched": 29,
+    "scripted": 0,
+    "drafted": 3,
+    "pitched": 0,
+    "client": 0
+  },
+  "agents": [
+    {
+      "role": "Strategy",
+      "owns": "\u2014",
+      "does": "Decides scope, reviews findings, resolves blocks",
+      "events": 0,
+      "last": null,
+      "blocked": 0
+    },
+    {
+      "role": "Writer",
+      "owns": "Agent 0, 3",
+      "does": "Brand intake and scriptwriting",
+      "events": 54,
+      "last": "2026-09-24T09:31Z",
+      "blocked": 4
+    },
+    {
+      "role": "Miner",
+      "owns": "Agent 1, 2",
+      "does": "Ad mining and angle taxonomy",
+      "events": 21,
+      "last": "2026-09-20T04:43Z",
+      "blocked": 5
+    },
+    {
+      "role": "Producer",
+      "owns": "Agent 4, 5",
+      "does": "Render queue and quality gate",
+      "events": 15,
+      "last": "2026-09-24T09:15Z",
+      "blocked": 1
+    },
+    {
+      "role": "Outreach",
+      "owns": "Agent 7",
+      "does": "Drafts outreach. Never sends.",
+      "events": 3,
+      "last": "2026-09-23T22:21Z",
+      "blocked": 1
+    }
+  ],
+  "brands": [
+    {
+      "brand": "Froya Organics",
+      "website": "https://froyaorganics.com",
+      "segment": "fatigued",
+      "category": "topical_skincare",
+      "ad_count": 3400,
+      "ugc_est": 1473,
+      "newest_ad_days": "53",
+      "score": 89.96,
+      "stage": "drafted",
+      "slug": "froyaorganics-com"
+    },
+    {
+      "brand": "SpoiledChild",
+      "website": "https://spoiledchild.com",
+      "segment": "fatigued",
+      "category": "ingestible",
+      "ad_count": 520,
+      "ugc_est": 312,
+      "newest_ad_days": "62",
+      "score": 89.46,
+      "stage": "researched",
+      "slug": "spoiledchild-com"
+    },
+    {
+      "brand": "Beauty From Bees",
+      "website": "https://beautyfrombees.ca",
+      "segment": "fatigued",
+      "category": "unconfirmed",
+      "ad_count": 180,
+      "ugc_est": 84,
+      "newest_ad_days": "47",
+      "score": 89.34,
+      "stage": "researched",
+      "slug": "beautyfrombees-ca"
+    },
+    {
+      "brand": "Saeskyn",
+      "website": "https://saeskyn.com",
+      "segment": "fatigued",
+      "category": "topical_skincare",
+      "ad_count": 390,
+      "ugc_est": 299,
+      "newest_ad_days": "69",
+      "score": 89.22,
+      "stage": "drafted",
+      "slug": "saeskyn-com"
+    },
+    {
+      "brand": "Saltair",
+      "website": "https://saltair.com",
+      "segment": "fatigued",
+      "category": "body_care",
+      "ad_count": 700,
+      "ugc_est": 327,
+      "newest_ad_days": "49",
+      "score": 88.63,
+      "stage": "researched",
+      "slug": "saltair-com"
+    },
+    {
+      "brand": "Meet Blume",
+      "website": "https://blume.com",
+      "segment": "active",
+      "category": "unconfirmed",
+      "ad_count": 310,
+      "ugc_est": 279,
+      "newest_ad_days": "41",
+      "score": 86.62,
+      "stage": "researched",
+      "slug": "blume-com"
+    },
+    {
+      "brand": "Try Strawberry",
+      "website": "https://trystrawberry.com",
+      "segment": "cooling",
+      "category": "unconfirmed",
+      "ad_count": 240,
+      "ugc_est": 160,
+      "newest_ad_days": "129",
+      "score": 86.14,
+      "stage": "researched",
+      "slug": "trystrawberry-com"
+    },
+    {
+      "brand": "Maree",
+      "website": "https://mareeglycolicpads.com",
+      "segment": "active",
+      "category": "unconfirmed",
+      "ad_count": 320,
+      "ugc_est": 171,
+      "newest_ad_days": "40",
+      "score": 85.81,
+      "stage": "prospect",
+      "slug": "mareeglycolicpads-com"
+    },
+    {
+      "brand": "Prime Prometics",
+      "website": "https://primeprometics.com",
+      "segment": "active",
+      "category": "unconfirmed",
+      "ad_count": 1700,
+      "ugc_est": 737,
+      "newest_ad_days": "40",
+      "score": 85.46,
+      "stage": "researched",
+      "slug": "primeprometics-com"
+    },
+    {
+      "brand": "Ursamajorvt",
+      "website": "https://ursamajorvt.com",
+      "segment": "active",
+      "category": "unconfirmed",
+      "ad_count": 300,
+      "ugc_est": 140,
+      "newest_ad_days": "42",
+      "score": 85.39,
+      "stage": "researched",
+      "slug": "ursamajorvt-com"
+    },
+    {
+      "brand": "Myshieldsystem",
+      "website": "https://myshieldsystem.com",
+      "segment": "active",
+      "category": "unconfirmed",
+      "ad_count": 600,
+      "ugc_est": 280,
+      "newest_ad_days": "43",
+      "score": 84.83,
+      "stage": "researched",
+      "slug": "myshieldsystem-com"
+    },
+    {
+      "brand": "Asarai",
+      "website": "https://asarai.com",
+      "segment": "fatigued",
+      "category": "topical_skincare",
+      "ad_count": 47,
+      "ugc_est": 33,
+      "newest_ad_days": "54",
+      "score": 84.24,
+      "stage": "drafted",
+      "slug": "asarai-com"
+    },
+    {
+      "brand": "Meditherapy.Global",
+      "website": "https://meditherapy.co",
+      "segment": "active",
+      "category": "unconfirmed",
+      "ad_count": 240,
+      "ugc_est": 176,
+      "newest_ad_days": "39",
+      "score": 82.66,
+      "stage": "prospect",
+      "slug": "meditherapy-co"
+    },
+    {
+      "brand": "Norseorganics",
+      "website": "https://norseorganics.co",
+      "segment": "active",
+      "category": "unconfirmed",
+      "ad_count": 81,
+      "ugc_est": 78,
+      "newest_ad_days": "40",
+      "score": 82.65,
+      "stage": "prospect",
+      "slug": "norseorganics-co"
+    },
+    {
+      "brand": "Luvia",
+      "website": "https://shopluvia.com",
+      "segment": "active",
+      "category": "unconfirmed",
+      "ad_count": 80,
+      "ugc_est": 80,
+      "newest_ad_days": "37",
+      "score": 81.75,
+      "stage": "prospect",
+      "slug": "shopluvia-com"
+    },
+    {
+      "brand": "Emmafy",
+      "website": "https://emmafy.com",
+      "segment": "active",
+      "category": "unconfirmed",
+      "ad_count": 1200,
+      "ugc_est": 920,
+      "newest_ad_days": "35",
+      "score": 81.57,
+      "stage": "prospect",
+      "slug": "emmafy-com"
+    },
+    {
+      "brand": "Bare Ritual",
+      "website": "https://bare-ritual.com",
+      "segment": "active",
+      "category": "unconfirmed",
+      "ad_count": 150,
+      "ugc_est": 55,
+      "newest_ad_days": "36",
+      "score": 81.21,
+      "stage": "prospect",
+      "slug": "bare-ritual-com"
+    },
+    {
+      "brand": "Vibriance",
+      "website": "https://vibriance.com",
+      "segment": "active",
+      "category": "unconfirmed",
+      "ad_count": 1200,
+      "ugc_est": 440,
+      "newest_ad_days": "36",
+      "score": 80.46,
+      "stage": "prospect",
+      "slug": "vibriance-com"
+    },
+    {
+      "brand": "Bonjout Beauty",
+      "website": "https://bonjoutbeauty.com",
+      "segment": "active",
+      "category": "unconfirmed",
+      "ad_count": 190,
+      "ugc_est": 158,
+      "newest_ad_days": "36",
+      "score": 79.42,
+      "stage": "prospect",
+      "slug": "bonjoutbeauty-com"
+    },
+    {
+      "brand": "Omnilux",
+      "website": "https://omniluxled.com",
+      "segment": "high_volume",
+      "category": "unconfirmed",
+      "ad_count": 210,
+      "ugc_est": 63,
+      "newest_ad_days": "29",
+      "score": 76.0,
+      "stage": "researched",
+      "slug": "omniluxled-com"
+    },
+    {
+      "brand": "Crowned Skin",
+      "website": "https://crownedskin.com",
+      "segment": "high_volume",
+      "category": "unconfirmed",
+      "ad_count": 510,
+      "ugc_est": 510,
+      "newest_ad_days": "30",
+      "score": 75.62,
+      "stage": "researched",
+      "slug": "crownedskin-com"
+    },
+    {
+      "brand": "Biodance_global",
+      "website": "https://biodance.com",
+      "segment": "high_volume",
+      "category": "unconfirmed",
+      "ad_count": 220,
+      "ugc_est": 103,
+      "newest_ad_days": "30",
+      "score": 75.09,
+      "stage": "researched",
+      "slug": "biodance-com"
+    },
+    {
+      "brand": "DRMTLGY",
+      "website": "https://drmtlgy.com",
+      "segment": "high_volume",
+      "category": "unconfirmed",
+      "ad_count": 800,
+      "ugc_est": 747,
+      "newest_ad_days": "27",
+      "score": 72.83,
+      "stage": "researched",
+      "slug": "drmtlgy-com"
+    },
+    {
+      "brand": "JiYu Skin",
+      "website": "https://jiyuskin.com",
+      "segment": "high_volume",
+      "category": "unconfirmed",
+      "ad_count": 480,
+      "ugc_est": 416,
+      "newest_ad_days": "26",
+      "score": 72.04,
+      "stage": "researched",
+      "slug": "jiyuskin-com"
+    },
+    {
+      "brand": "Blissy",
+      "website": "https://blissy.co",
+      "segment": "high_volume",
+      "category": "unconfirmed",
+      "ad_count": 130,
+      "ugc_est": 61,
+      "newest_ad_days": "22",
+      "score": 70.36,
+      "stage": "researched",
+      "slug": "blissy-co"
+    },
+    {
+      "brand": "Eskiin",
+      "website": "https://eskiin.com",
+      "segment": "high_volume",
+      "category": "unconfirmed",
+      "ad_count": 380,
+      "ugc_est": 342,
+      "newest_ad_days": "25",
+      "score": 70.24,
+      "stage": "researched",
+      "slug": "eskiin-com"
+    },
+    {
+      "brand": "Koreanskintherapy",
+      "website": "https://koreanskintherapy.com",
+      "segment": "high_volume",
+      "category": "unconfirmed",
+      "ad_count": 350,
+      "ugc_est": 350,
+      "newest_ad_days": "22",
+      "score": 70.02,
+      "stage": "researched",
+      "slug": "koreanskintherapy-com"
+    },
+    {
+      "brand": "Based Supplies",
+      "website": "https://basedsupplies.com",
+      "segment": "high_volume",
+      "category": "unconfirmed",
+      "ad_count": 1300,
+      "ugc_est": 953,
+      "newest_ad_days": "21",
+      "score": 69.89,
+      "stage": "researched",
+      "slug": "basedsupplies-com"
+    },
+    {
+      "brand": "Good Molecules",
+      "website": "https://goodmolecules.com",
+      "segment": "high_volume",
+      "category": "unconfirmed",
+      "ad_count": 250,
+      "ugc_est": 75,
+      "newest_ad_days": "23",
+      "score": 69.7,
+      "stage": "researched",
+      "slug": "goodmolecules-com"
+    },
+    {
+      "brand": "Navaro",
+      "website": "https://trynavaro.com",
+      "segment": "high_volume",
+      "category": "unconfirmed",
+      "ad_count": 230,
+      "ugc_est": 199,
+      "newest_ad_days": "20",
+      "score": 68.16,
+      "stage": "researched",
+      "slug": "trynavaro-com"
+    },
+    {
+      "brand": "LifeCell Skin",
+      "website": "https://lifecellskin.com",
+      "segment": "active",
+      "category": "unconfirmed",
+      "ad_count": 160,
+      "ugc_est": 48,
+      "newest_ad_days": "19",
+      "score": 67.96,
+      "stage": "prospect",
+      "slug": "lifecellskin-com"
+    },
+    {
+      "brand": "FREYARA Cosmetics",
+      "website": "https://freyara.com",
+      "segment": "active",
+      "category": "unconfirmed",
+      "ad_count": 46,
+      "ugc_est": 18,
+      "newest_ad_days": "30",
+      "score": 67.78,
+      "stage": "prospect",
+      "slug": "freyara-com"
+    },
+    {
+      "brand": "Eqqualberry-Global",
+      "website": "https://eqqualberryglobal.com",
+      "segment": "high_volume",
+      "category": "unconfirmed",
+      "ad_count": 200,
+      "ugc_est": 133,
+      "newest_ad_days": "20",
+      "score": 67.17,
+      "stage": "prospect",
+      "slug": "eqqualberryglobal-com"
+    },
+    {
+      "brand": "COVERGIRL",
+      "website": "https://covergirl.com",
+      "segment": "active",
+      "category": "unconfirmed",
+      "ad_count": 51,
+      "ugc_est": 44,
+      "newest_ad_days": "31",
+      "score": 66.64,
+      "stage": "prospect",
+      "slug": "covergirl-com"
+    },
+    {
+      "brand": "Veloma",
+      "website": "https://veloma.store",
+      "segment": "high_volume",
+      "category": "unconfirmed",
+      "ad_count": 750,
+      "ugc_est": 625,
+      "newest_ad_days": "19",
+      "score": 66.11,
+      "stage": "prospect",
+      "slug": "veloma-store"
+    },
+    {
+      "brand": "Michael Todd Beauty",
+      "website": "https://michaeltoddbeauty.com",
+      "segment": "high_volume",
+      "category": "unconfirmed",
+      "ad_count": 360,
+      "ugc_est": 324,
+      "newest_ad_days": "21",
+      "score": 65.81,
+      "stage": "prospect",
+      "slug": "michaeltoddbeauty-com"
+    },
+    {
+      "brand": "Naturelle Nubian",
+      "website": "",
+      "segment": "unqualified",
+      "category": "unconfirmed",
+      "ad_count": 21,
+      "ugc_est": 9,
+      "newest_ad_days": "85",
+      "score": 65.58,
+      "stage": "researched",
+      "slug": ""
+    },
+    {
+      "brand": "Skincareinsider",
+      "website": "https://theskincareinsider.com",
+      "segment": "high_volume",
+      "category": "unconfirmed",
+      "ad_count": 640,
+      "ugc_est": 405,
+      "newest_ad_days": "19",
+      "score": 65.37,
+      "stage": "prospect",
+      "slug": "theskincareinsider-com"
+    },
+    {
+      "brand": "Maelove",
+      "website": "https://maelove.com",
+      "segment": "active",
+      "category": "unconfirmed",
+      "ad_count": 72,
+      "ugc_est": 31,
+      "newest_ad_days": "22",
+      "score": 65.16,
+      "stage": "prospect",
+      "slug": "maelove-com"
+    },
+    {
+      "brand": "GloMelanin",
+      "website": "https://glomelanin.com",
+      "segment": "high_volume",
+      "category": "unconfirmed",
+      "ad_count": 100,
+      "ugc_est": 67,
+      "newest_ad_days": "16",
+      "score": 64.99,
+      "stage": "researched",
+      "slug": "glomelanin-com"
+    },
+    {
+      "brand": "Yuri",
+      "website": "https://officialyuri.com",
+      "segment": "high_volume",
+      "category": "unconfirmed",
+      "ad_count": 94,
+      "ugc_est": 78,
+      "newest_ad_days": "17",
+      "score": 64.89,
+      "stage": "prospect",
+      "slug": "officialyuri-com"
+    },
+    {
+      "brand": "Pureskin",
+      "website": "https://trypureskin.com",
+      "segment": "high_volume",
+      "category": "unconfirmed",
+      "ad_count": 270,
+      "ugc_est": 243,
+      "newest_ad_days": "6",
+      "score": 64.87,
+      "stage": "researched",
+      "slug": "trypureskin-com"
+    },
+    {
+      "brand": "Earthly Derm",
+      "website": "https://earthlyderm.com",
+      "segment": "high_volume",
+      "category": "unconfirmed",
+      "ad_count": 400,
+      "ugc_est": 333,
+      "newest_ad_days": "16",
+      "score": 64.87,
+      "stage": "prospect",
+      "slug": "earthlyderm-com"
+    },
+    {
+      "brand": "Qure Skincare",
+      "website": "https://qureskincare.com",
+      "segment": "high_volume",
+      "category": "unconfirmed",
+      "ad_count": 470,
+      "ugc_est": 423,
+      "newest_ad_days": "12",
+      "score": 64.25,
+      "stage": "researched",
+      "slug": "qureskincare-com"
+    },
+    {
+      "brand": "CLEARSTEM Skincare",
+      "website": "https://clearstem.com",
+      "segment": "high_volume",
+      "category": "unconfirmed",
+      "ad_count": 300,
+      "ugc_est": 180,
+      "newest_ad_days": "13",
+      "score": 63.61,
+      "stage": "prospect",
+      "slug": "clearstem-com"
+    },
+    {
+      "brand": "Remedy Skin",
+      "website": "https://remedyskin.com",
+      "segment": "high_volume",
+      "category": "unconfirmed",
+      "ad_count": 100,
+      "ugc_est": 50,
+      "newest_ad_days": "8",
+      "score": 63.55,
+      "stage": "prospect",
+      "slug": "remedyskin-com"
+    },
+    {
+      "brand": "Frankly",
+      "website": "https://franklyskin.com",
+      "segment": "high_volume",
+      "category": "unconfirmed",
+      "ad_count": 86,
+      "ugc_est": 86,
+      "newest_ad_days": "8",
+      "score": 63.45,
+      "stage": "prospect",
+      "slug": "franklyskin-com"
+    },
+    {
+      "brand": "Dr.Melaxin US.official",
+      "website": "https://drmelaxin.us",
+      "segment": "high_volume",
+      "category": "unconfirmed",
+      "ad_count": 530,
+      "ugc_est": 512,
+      "newest_ad_days": "16",
+      "score": 63.31,
+      "stage": "prospect",
+      "slug": "drmelaxin-us"
+    },
+    {
+      "brand": "Arencia Global",
+      "website": "https://arencia.us",
+      "segment": "high_volume",
+      "category": "unconfirmed",
+      "ad_count": 300,
+      "ugc_est": 220,
+      "newest_ad_days": "13",
+      "score": 63.25,
+      "stage": "prospect",
+      "slug": "arencia-us"
+    },
+    {
+      "brand": "Weareluna",
+      "website": "https://weareluna.store",
+      "segment": "dormant",
+      "category": "unconfirmed",
+      "ad_count": 70,
+      "ugc_est": 68,
+      "newest_ad_days": "232",
+      "score": 62.25,
+      "stage": "prospect",
+      "slug": "weareluna-store"
+    },
+    {
+      "brand": "Undereyes",
+      "website": "https://undereyes.luxe-cosmetics.com",
+      "segment": "high_volume",
+      "category": "unconfirmed",
+      "ad_count": 250,
+      "ugc_est": 225,
+      "newest_ad_days": "6",
+      "score": 61.73,
+      "stage": "prospect",
+      "slug": "undereyes-luxe-cosmetics-com"
+    },
+    {
+      "brand": "Koriderm",
+      "website": "https://koriderm.com",
+      "segment": "high_volume",
+      "category": "unconfirmed",
+      "ad_count": 880,
+      "ugc_est": 469,
+      "newest_ad_days": "13",
+      "score": 61.4,
+      "stage": "prospect",
+      "slug": "koriderm-com"
+    },
+    {
+      "brand": "Smooche",
+      "website": "https://smooche.com",
+      "segment": "high_volume",
+      "category": "unconfirmed",
+      "ad_count": 780,
+      "ugc_est": 624,
+      "newest_ad_days": "10",
+      "score": 60.74,
+      "stage": "prospect",
+      "slug": "smooche-com"
+    },
+    {
+      "brand": "Seora Skincare",
+      "website": "https://seoraskincare.com",
+      "segment": "active",
+      "category": "unconfirmed",
+      "ad_count": 70,
+      "ugc_est": 44,
+      "newest_ad_days": "8",
+      "score": 60.7,
+      "stage": "prospect",
+      "slug": "seoraskincare-com"
+    },
+    {
+      "brand": "Parivie",
+      "website": "https://parivie.com",
+      "segment": "high_volume",
+      "category": "unconfirmed",
+      "ad_count": 110,
+      "ugc_est": 55,
+      "newest_ad_days": "8",
+      "score": 60.45,
+      "stage": "prospect",
+      "slug": "parivie-com"
+    },
+    {
+      "brand": "Luminancemilano",
+      "website": "https://luminancemilano.com",
+      "segment": "unqualified",
+      "category": "unconfirmed",
+      "ad_count": 14,
+      "ugc_est": 9,
+      "newest_ad_days": "66",
+      "score": 60.41,
+      "stage": "prospect",
+      "slug": "luminancemilano-com"
+    },
+    {
+      "brand": "Clinique",
+      "website": "https://clinique.com",
+      "segment": "high_volume",
+      "category": "unconfirmed",
+      "ad_count": 130,
+      "ugc_est": 87,
+      "newest_ad_days": "8",
+      "score": 59.9,
+      "stage": "prospect",
+      "slug": "clinique-com"
+    },
+    {
+      "brand": "Mikmak",
+      "website": "https://mikmak.ai",
+      "segment": "high_volume",
+      "category": "unconfirmed",
+      "ad_count": 110,
+      "ugc_est": 95,
+      "newest_ad_days": "7",
+      "score": 59.67,
+      "stage": "prospect",
+      "slug": "mikmak-ai"
+    },
+    {
+      "brand": "StriVectin",
+      "website": "https://strivectin.com",
+      "segment": "active",
+      "category": "unconfirmed",
+      "ad_count": 64,
+      "ugc_est": 45,
+      "newest_ad_days": "8",
+      "score": 58.93,
+      "stage": "prospect",
+      "slug": "strivectin-com"
+    },
+    {
+      "brand": "CeraVe Skincare",
+      "website": "https://cerave.com",
+      "segment": "high_volume",
+      "category": "unconfirmed",
+      "ad_count": 180,
+      "ugc_est": 168,
+      "newest_ad_days": "8",
+      "score": 58.53,
+      "stage": "prospect",
+      "slug": "cerave-com"
+    },
+    {
+      "brand": "Bobbi Brown Cosmetics",
+      "website": "https://bobbibrowncosmetics.com",
+      "segment": "high_volume",
+      "category": "unconfirmed",
+      "ad_count": 75,
+      "ugc_est": 67,
+      "newest_ad_days": "14",
+      "score": 58.16,
+      "stage": "prospect",
+      "slug": "bobbibrowncosmetics-com"
+    },
+    {
+      "brand": "Seranovabeauty",
+      "website": "https://seranovabeauty.com",
+      "segment": "active",
+      "category": "unconfirmed",
+      "ad_count": 46,
+      "ugc_est": 46,
+      "newest_ad_days": "6",
+      "score": 58.15,
+      "stage": "prospect",
+      "slug": "seranovabeauty-com"
+    },
+    {
+      "brand": "L'Oreal Paris",
+      "website": "https://lorealparis.com",
+      "segment": "high_volume",
+      "category": "unconfirmed",
+      "ad_count": 330,
+      "ugc_est": 242,
+      "newest_ad_days": "12",
+      "score": 57.34,
+      "stage": "prospect",
+      "slug": "lorealparis-com"
+    },
+    {
+      "brand": "Aveeno",
+      "website": "https://aveeno.com",
+      "segment": "high_volume",
+      "category": "unconfirmed",
+      "ad_count": 65,
+      "ugc_est": 65,
+      "newest_ad_days": "8",
+      "score": 57.19,
+      "stage": "prospect",
+      "slug": "aveeno-com"
+    },
+    {
+      "brand": "Olay",
+      "website": "https://olay.com",
+      "segment": "high_volume",
+      "category": "unconfirmed",
+      "ad_count": 380,
+      "ugc_est": 380,
+      "newest_ad_days": "12",
+      "score": 56.85,
+      "stage": "prospect",
+      "slug": "olay-com"
+    },
+    {
+      "brand": "NourishMax",
+      "website": "https://nourishmax.com",
+      "segment": "unqualified",
+      "category": "unconfirmed",
+      "ad_count": 8,
+      "ugc_est": 8,
+      "newest_ad_days": "84",
+      "score": 56.83,
+      "stage": "prospect",
+      "slug": "nourishmax-com"
+    },
+    {
+      "brand": "Facelove-Cosmetics",
+      "website": "https://facelove-cosmetics.com",
+      "segment": "active",
+      "category": "unconfirmed",
+      "ad_count": 52,
+      "ugc_est": 49,
+      "newest_ad_days": "5",
+      "score": 56.57,
+      "stage": "prospect",
+      "slug": "facelove-cosmetics-com"
+    },
+    {
+      "brand": "SkinCeuticals",
+      "website": "https://skinceuticals.com",
+      "segment": "high_volume",
+      "category": "unconfirmed",
+      "ad_count": 170,
+      "ugc_est": 79,
+      "newest_ad_days": "12",
+      "score": 56.53,
+      "stage": "prospect",
+      "slug": "skinceuticals-com"
+    },
+    {
+      "brand": "Beauty By Earth",
+      "website": "https://beautybyearth.com",
+      "segment": "active",
+      "category": "unconfirmed",
+      "ad_count": 33,
+      "ugc_est": 33,
+      "newest_ad_days": "6",
+      "score": 56.38,
+      "stage": "prospect",
+      "slug": "beautybyearth-com"
+    },
+    {
+      "brand": "Drsturm",
+      "website": "https://drsturm.com",
+      "segment": "active",
+      "category": "unconfirmed",
+      "ad_count": 53,
+      "ugc_est": 35,
+      "newest_ad_days": "7",
+      "score": 55.96,
+      "stage": "prospect",
+      "slug": "drsturm-com"
+    },
+    {
+      "brand": "Torriden_global",
+      "website": "https://torriden.us",
+      "segment": "active",
+      "category": "unconfirmed",
+      "ad_count": 43,
+      "ugc_est": 36,
+      "newest_ad_days": "8",
+      "score": 55.63,
+      "stage": "prospect",
+      "slug": "torriden-us"
+    },
+    {
+      "brand": "Eucerin",
+      "website": "https://eucerinus.com",
+      "segment": "high_volume",
+      "category": "unconfirmed",
+      "ad_count": 59,
+      "ugc_est": 59,
+      "newest_ad_days": "6",
+      "score": 54.71,
+      "stage": "prospect",
+      "slug": "eucerinus-com"
+    },
+    {
+      "brand": "The Ordinary",
+      "website": "https://theordinary.com",
+      "segment": "active",
+      "category": "unconfirmed",
+      "ad_count": 59,
+      "ugc_est": 43,
+      "newest_ad_days": "13",
+      "score": 53.89,
+      "stage": "prospect",
+      "slug": "theordinary-com"
+    },
+    {
+      "brand": "Centellian24",
+      "website": "https://centellian24.com",
+      "segment": "active",
+      "category": "unconfirmed",
+      "ad_count": 36,
+      "ugc_est": 34,
+      "newest_ad_days": "6",
+      "score": 53.64,
+      "stage": "prospect",
+      "slug": "centellian24-com"
+    },
+    {
+      "brand": "Yurikoreanbeauty",
+      "website": "https://yurikoreanbeauty.com",
+      "segment": "dormant",
+      "category": "unconfirmed",
+      "ad_count": 26,
+      "ugc_est": 26,
+      "newest_ad_days": "188",
+      "score": 53.0,
+      "stage": "prospect",
+      "slug": "yurikoreanbeauty-com"
+    },
+    {
+      "brand": "RoC Skincare",
+      "website": "https://rocskincare.com",
+      "segment": "active",
+      "category": "unconfirmed",
+      "ad_count": 44,
+      "ugc_est": 32,
+      "newest_ad_days": "8",
+      "score": 51.95,
+      "stage": "prospect",
+      "slug": "rocskincare-com"
+    },
+    {
+      "brand": "Prequelskin",
+      "website": "https://prequelskin.com",
+      "segment": "active",
+      "category": "unconfirmed",
+      "ad_count": 20,
+      "ugc_est": 20,
+      "newest_ad_days": "10",
+      "score": 50.14,
+      "stage": "prospect",
+      "slug": "prequelskin-com"
+    },
+    {
+      "brand": "Biore Skincare",
+      "website": "https://biore.com",
+      "segment": "active",
+      "category": "unconfirmed",
+      "ad_count": 21,
+      "ugc_est": 18,
+      "newest_ad_days": "5",
+      "score": 49.24,
+      "stage": "prospect",
+      "slug": "biore-com"
+    },
+    {
+      "brand": "TurmSkin",
+      "website": "https://try-turmskin.com",
+      "segment": "active",
+      "category": "unconfirmed",
+      "ad_count": 19,
+      "ugc_est": 19,
+      "newest_ad_days": "12",
+      "score": 48.56,
+      "stage": "prospect",
+      "slug": "try-turmskin-com"
+    },
+    {
+      "brand": "Prandest",
+      "website": "https://prandest.com",
+      "segment": "dormant",
+      "category": "unconfirmed",
+      "ad_count": 18,
+      "ugc_est": 18,
+      "newest_ad_days": "353",
+      "score": 48.55,
+      "stage": "prospect",
+      "slug": "prandest-com"
+    },
+    {
+      "brand": "Barebeautybabesblog",
+      "website": "https://thebarebeautybabesblog.nakedandthriving.com",
+      "segment": "active",
+      "category": "unconfirmed",
+      "ad_count": 33,
+      "ugc_est": 24,
+      "newest_ad_days": "5",
+      "score": 47.88,
+      "stage": "prospect",
+      "slug": "thebarebeautybabesblog-nakedandthriving-com"
+    },
+    {
+      "brand": "Doreandrose",
+      "website": "https://doreandrose.com",
+      "segment": "active",
+      "category": "unconfirmed",
+      "ad_count": 30,
+      "ugc_est": 18,
+      "newest_ad_days": "12",
+      "score": 47.08,
+      "stage": "prospect",
+      "slug": "doreandrose-com"
+    },
+    {
+      "brand": "EltaMD Skin Care",
+      "website": "https://eltamd.com",
+      "segment": "active",
+      "category": "unconfirmed",
+      "ad_count": 35,
+      "ugc_est": 22,
+      "newest_ad_days": "9",
+      "score": 46.9,
+      "stage": "prospect",
+      "slug": "eltamd-com"
+    },
+    {
+      "brand": "Perbelle Cosmetics",
+      "website": "https://perbellecosmetics.com",
+      "segment": "unqualified",
+      "category": "unconfirmed",
+      "ad_count": 15,
+      "ugc_est": 14,
+      "newest_ad_days": "20",
+      "score": 43.89,
+      "stage": "prospect",
+      "slug": "perbellecosmetics-com"
+    },
+    {
+      "brand": "Scentric Glow",
+      "website": "https://scentricglow.com",
+      "segment": "unqualified",
+      "category": "unconfirmed",
+      "ad_count": 29,
+      "ugc_est": 9,
+      "newest_ad_days": "462",
+      "score": 43.66,
+      "stage": "prospect",
+      "slug": "scentricglow-com"
+    },
+    {
+      "brand": "Tome Skincare",
+      "website": "https://tomeskincare.com",
+      "segment": "active",
+      "category": "unconfirmed",
+      "ad_count": 21,
+      "ugc_est": 19,
+      "newest_ad_days": "12",
+      "score": 41.8,
+      "stage": "prospect",
+      "slug": "tomeskincare-com"
+    },
+    {
+      "brand": "Differin",
+      "website": "https://differin.com",
+      "segment": "active",
+      "category": "unconfirmed",
+      "ad_count": 15,
+      "ugc_est": 15,
+      "newest_ad_days": "5",
+      "score": 39.15,
+      "stage": "prospect",
+      "slug": "differin-com"
+    },
+    {
+      "brand": "Conserving Beauty",
+      "website": "https://conservingbeauty.com",
+      "segment": "unqualified",
+      "category": "unconfirmed",
+      "ad_count": 9,
+      "ugc_est": 6,
+      "newest_ad_days": "26",
+      "score": 38.15,
+      "stage": "prospect",
+      "slug": "conservingbeauty-com"
+    },
+    {
+      "brand": "Beauty and the Boutique",
+      "website": "https://beautyandtheboutique.com",
+      "segment": "unqualified",
+      "category": "unconfirmed",
+      "ad_count": 9,
+      "ugc_est": 9,
+      "newest_ad_days": "5",
+      "score": 36.55,
+      "stage": "prospect",
+      "slug": "beautyandtheboutique-com"
+    },
+    {
+      "brand": "Mederma",
+      "website": "https://mederma.com",
+      "segment": "unqualified",
+      "category": "unconfirmed",
+      "ad_count": 1,
+      "ugc_est": 1,
+      "newest_ad_days": "93",
+      "score": 34.8,
+      "stage": "prospect",
+      "slug": "mederma-com"
+    },
+    {
+      "brand": "Chin Up Aesthetics",
+      "website": "https://chinupaesthetics.com",
+      "segment": "unqualified",
+      "category": "unconfirmed",
+      "ad_count": 6,
+      "ugc_est": 6,
+      "newest_ad_days": "22",
+      "score": 34.39,
+      "stage": "prospect",
+      "slug": "chinupaesthetics-com"
+    },
+    {
+      "brand": "Honeydew Care",
+      "website": "",
+      "segment": "unqualified",
+      "category": "unconfirmed",
+      "ad_count": 1200,
+      "ugc_est": 0,
+      "newest_ad_days": "34",
+      "score": 22.06,
+      "stage": "researched",
+      "slug": ""
+    },
+    {
+      "brand": "SHISEIDO",
+      "website": "https://shiseido.com",
+      "segment": "unqualified",
+      "category": "unconfirmed",
+      "ad_count": 6,
+      "ugc_est": 6,
+      "newest_ad_days": "13",
+      "score": 21.89,
+      "stage": "prospect",
+      "slug": "shiseido-com"
+    },
+    {
+      "brand": "-Derm",
+      "website": "https://try-derm.com",
+      "segment": "unqualified",
+      "category": "unconfirmed",
+      "ad_count": 9,
+      "ugc_est": 2,
+      "newest_ad_days": "190",
+      "score": 21.71,
+      "stage": "prospect",
+      "slug": "try-derm-com"
+    },
+    {
+      "brand": "Neutrogena",
+      "website": "https://neutrogena.com",
+      "segment": "unqualified",
+      "category": "unconfirmed",
+      "ad_count": 6,
+      "ugc_est": 6,
+      "newest_ad_days": "12",
+      "score": 21.13,
+      "stage": "prospect",
+      "slug": "neutrogena-com"
+    },
+    {
+      "brand": "The Skin Index",
+      "website": "",
+      "segment": "unqualified",
+      "category": "unconfirmed",
+      "ad_count": 100,
+      "ugc_est": 0,
+      "newest_ad_days": "28",
+      "score": 18.67,
+      "stage": "researched",
+      "slug": ""
+    },
+    {
+      "brand": "Threeshipsbeauty",
+      "website": "https://threeshipsbeauty.com",
+      "segment": "unqualified",
+      "category": "unconfirmed",
+      "ad_count": 4,
+      "ugc_est": 4,
+      "newest_ad_days": "14",
+      "score": 17.61,
+      "stage": "prospect",
+      "slug": "threeshipsbeauty-com"
+    },
+    {
+      "brand": "Grace perfect skin",
+      "website": "",
+      "segment": "unqualified",
+      "category": "unconfirmed",
+      "ad_count": 1,
+      "ugc_est": 1,
+      "newest_ad_days": "935",
+      "score": 14.17,
+      "stage": "researched",
+      "slug": ""
+    },
+    {
+      "brand": "Methodiq Skin",
+      "website": "",
+      "segment": "unqualified",
+      "category": "unconfirmed",
+      "ad_count": 410,
+      "ugc_est": 0,
+      "newest_ad_days": "12",
+      "score": 13.66,
+      "stage": "researched",
+      "slug": ""
+    },
+    {
+      "brand": "Quia Beauty",
+      "website": "https://quiabeauty.com",
+      "segment": "unqualified",
+      "category": "unconfirmed",
+      "ad_count": 1,
+      "ugc_est": 1,
+      "newest_ad_days": "251",
+      "score": 13.1,
+      "stage": "prospect",
+      "slug": "quiabeauty-com"
+    },
+    {
+      "brand": "Justpeachy",
+      "website": "",
+      "segment": "unqualified",
+      "category": "unconfirmed",
+      "ad_count": 1,
+      "ugc_est": 0,
+      "newest_ad_days": "146",
+      "score": 11.03,
+      "stage": "researched",
+      "slug": ""
+    },
+    {
+      "brand": "Stylefav",
+      "website": "",
+      "segment": "unqualified",
+      "category": "unconfirmed",
+      "ad_count": 1,
+      "ugc_est": 0,
+      "newest_ad_days": "",
+      "score": 0.31,
+      "stage": "researched",
+      "slug": ""
+    }
+  ],
+  "scripts": [
+    {
+      "script_id": "froyaorganics-com-customer_testimonial-01",
+      "brand": "froyaorganics-com",
+      "angle": "customer_testimonial",
+      "hook": "Four months. That's how long before I stopped checking whether it was working.",
+      "product": "The Complete System for Mature Women's Skin ($121.07)",
+      "ready": true
+    },
+    {
+      "script_id": "froyaorganics-com-customer_testimonial-02",
+      "brand": "froyaorganics-com",
+      "angle": "customer_testimonial",
+      "hook": "My hairdresser asked what I'd changed. She's done my hair for nine years.",
+      "product": "Magic Revive Hair & Scalp Shampoo ($29.00)",
+      "ready": true
+    },
+    {
+      "script_id": "froyaorganics-com-customer_testimonial-03",
+      "brand": "froyaorganics-com",
+      "angle": "customer_testimonial",
+      "hook": "I bought it for me. My daughter's the one who kept stealing it.",
+      "product": "Dry and Itchy Balm for Face and Body ($44.00)",
+      "ready": true
+    },
+    {
+      "script_id": "froyaorganics-com-heritage_origin-01",
+      "brand": "froyaorganics-com",
+      "angle": "heritage_origin",
+      "hook": "I tried to find out where this brand actually makes things. I expected a warehouse in Shenzhen.",
+      "product": "Anti-Age & Insane Glow Day Balm ($29.70)",
+      "ready": true
+    },
+    {
+      "script_id": "froyaorganics-com-heritage_origin-02",
+      "brand": "froyaorganics-com",
+      "angle": "heritage_origin",
+      "hook": "Cold does two things to skin and only one of them is bad.",
+      "product": "Magic Revive Eye Balm ($52.00)",
+      "ready": true
+    },
+    {
+      "script_id": "froyaorganics-com-heritage_origin-03",
+      "brand": "froyaorganics-com",
+      "angle": "heritage_origin",
+      "hook": "Read the ingredients on your scrub. Mine used to be plastic and apricot dust.",
+      "product": "Ultra Cleanse & Revive Face Scrub ($37.00)",
+      "ready": true
+    },
+    {
+      "script_id": "froyaorganics-com-ingredient_villain-01",
+      "brand": "froyaorganics-com",
+      "angle": "ingredient_villain",
+      "hook": "I counted. Eleven products, and nine of them are mostly water.",
+      "product": "Anti-Age & Insane Glow Day Balm ($29.70)",
+      "ready": true
+    },
+    {
+      "script_id": "froyaorganics-com-ingredient_villain-02",
+      "brand": "froyaorganics-com",
+      "angle": "ingredient_villain",
+      "hook": "The word 'fragrance' on a label can legally hide about three thousand ingredients.",
+      "product": "Balm for Acne-Prone Skin ($29.00)",
+      "ready": true
+    },
+    {
+      "script_id": "froyaorganics-com-ingredient_villain-03",
+      "brand": "froyaorganics-com",
+      "angle": "ingredient_villain",
+      "hook": "Eye creams are mostly face cream in a smaller jar at four times the price.",
+      "product": "Magic Revive Eye Balm ($52.00)",
+      "ready": true
+    },
+    {
+      "script_id": "froyaorganics-com-third_party_verdict-01",
+      "brand": "froyaorganics-com",
+      "angle": "third_party_verdict",
+      "hook": "Thirty-four thousand people reviewed this before I did. I read the one-stars first.",
+      "product": "The Complete System for Mature Women's Skin ($121.07)",
+      "ready": false
+    },
+    {
+      "script_id": "froyaorganics-com-third_party_verdict-02",
+      "brand": "froyaorganics-com",
+      "angle": "third_party_verdict",
+      "hook": "I don't trust brands. I trust the number of strangers who bothered to come back and write something.",
+      "product": "Anti-Age & Insane Glow Day Balm ($29.70)",
+      "ready": false
+    },
+    {
+      "script_id": "froyaorganics-com-third_party_verdict-03",
+      "brand": "froyaorganics-com",
+      "angle": "third_party_verdict",
+      "hook": "I didn't tell her I'd changed anything. She noticed first and then asked.",
+      "product": "Magic Revive Hair & Scalp Shampoo ($29.00)",
+      "ready": false
+    }
+  ],
+  "activity": [
+    {
+      "ts": "2026-09-19T19:43Z",
+      "role": "Miner",
+      "state": "RESULT",
+      "detail": "ALL 9 UNCLAIMED ANGLES SURVIVE the 2x corpus \u2014 0 probe hits, 0 demotions. Contrast customer_testimonial, which collapsed under cleaning. Saturation shifted: injectable_displacement now dominant 5br/38ads (27% of corpus); symptom_callout widest at 6br; third_party_verdict STILL single-brand (Asarai) at 3x sample. NOTE: probes evidence hook position only \u2014 body copy stored truncated, no body-level claim made. DRMTLGY runs \"Dermatologist Recommended\" as a trust bullet, so dermatologist_as_ally is unclaimed as an OPENING, not absent."
+    },
+    {
+      "ts": "2026-09-19T14:02Z",
+      "role": "Writer",
+      "state": "DONE",
+      "detail": "Re-pulled angles.json v3 (139 hooks / 12 brands). 12 Fr\u00f8ya scripts published, all client_ready:false. Angles: ingredient_villain (Fr\u00f8ya-owned, 5 ads) x3, customer_testimonial (Fr\u00f8ya-owned, 1 ad \u2014 the position I wrongly avoided on v1) x3, menopause_skin (unclaimed) x3, skin_as_signal (unclaimed) x3. Deliberately stayed out of injectable_displacement: 38 ads / 5 brands / 27% of corpus, and Fr\u00f8ya already run 4 there themselves."
+    },
+    {
+      "ts": "2026-09-19T14:03Z",
+      "role": "Writer",
+      "state": "BLOCKED",
+      "detail": "Client-readiness gate needs a Strategy ruling. v3 is 139 hooks / 12 brands; my gate is 150/8. Brands clear, hooks fail by 7%. Strategy's stated condition (Miner re-derives on extended corpus and reports survivors) IS met, so the gate and the ruling now disagree. My metric is flawed: hook count PENALISES the off-category filtering that makes the corpus trustworthy \u2014 Miner excluded 62 hooks to improve purity and that drove my number down, so a dirtier 200-hook corpus would have passed where the clean 139-hook one fails. Put three options to Strategy and flagged that I lean toward the one that unblocks my own work."
+    },
+    {
+      "ts": "2026-09-19T14:03Z",
+      "role": "Writer",
+      "state": "NOTE",
+      "detail": "Asked Miner (again) for a version/generated_at field in corpus. Angles demonstrably appear and vanish between versions; right now I detect churn only by re-reading and diffing. With a version stamp I could refuse to assemble scripts against a corpus that moved under them."
+    },
+    {
+      "ts": "2026-09-19T19:53Z",
+      "role": "Miner",
+      "state": "RESULT",
+      "detail": "EXTERNAL PROBE (user-approved keyword search, all advertisers) \u2014 4 of 5 probed unclaimed angles are CLAIMED. menopause_skin CLAIMED (Maelove runs it in hook position since 22 Jul; Olay #perimenopause; Michael Todd Beauty 7 ads) \u2014 Maelove is in our own candidates.json, the 12-brand sample missed it. pregnancy_safe CLAIMED (Primally Pure, Secret Saviours) but only ~6 ads total. glp1_facial_volume_loss + skin_as_signal CLAIMED_ADJACENT (ingestibles work both hard; no topical skincare advertiser). water_quality HOLDS (~3,600 hits, all cleaning products). 4 remain UNPROBED and are now labelled untested-hypothesis, not finding. WRITER IMPACT: 3 Froya scripts rest on menopause_skin and need rewriting. Added claims_fingerprint so verdict flips are detectable."
+    },
+    {
+      "ts": "2026-09-19T15:40Z",
+      "role": "Writer",
+      "state": "DONE",
+      "detail": "Fr\u00f8ya pitch DRAFT at shared/data/pitch-froyaorganics-com-DRAFT.md. Marked not-for-sending, all claims scoped to hook position, provenance block with corpus fingerprint ead00f7c359ea8c8 / 139 openings / 12 advertisers / 33+ days."
+    },
+    {
+      "ts": "2026-09-19T15:41Z",
+      "role": "Writer",
+      "state": "DONE",
+      "detail": "6 menopause_skin/skin_as_signal scripts auto-rejected when their angles demoted \u2014 stale-angle rule working. 10 scripts now: 4 dermatologist_as_ally (held, category_absence) + 6 brand_own (client_ready TRUE, rest on Fr\u00f8ya's own ads, need no category evidence)."
+    },
+    {
+      "ts": "2026-09-19T15:42Z",
+      "role": "Writer",
+      "state": "DONE",
+      "detail": "Defaults audit per Strategy: TWO more fail-upward instances found and fixed. (1) prompt.py defaulted missing saturation to \"unclaimed\" \u2014 same bug as build.py, one file over. (2) brand_mix() returned empty when it could not resolve and the concentration check then PASSED BY DEFAULT \u2014 a missing input producing a confident pass, live while I was claiming the gate worked. Both now resolve to unknown/fail-closed. Everything else clean: missing ad counts and ages score LOWER, absent category resolves to unverified which the corpus filter excludes by positive match, absent evidence grade takes the cautious branch."
+    },
+    {
+      "ts": "2026-09-19T15:42Z",
+      "role": "Writer",
+      "state": "NOTE",
+      "detail": "corpus_fingerprint did NOT change when 4 angles demoted \u2014 hook set identical, only classification moved. Fingerprint over hooks alone cannot catch reclassification; the stale-angle rejection caught it instead. Miner may want the fingerprint to cover angle assignments. Also: the per-claim gate now has no sample-size floor, so 3 brands at 33% each passes while a 38-ad angle fails \u2014 correct for concentration, flagged deliberately."
+    },
+    {
+      "ts": "2026-09-19T15:43Z",
+      "role": "Writer",
+      "state": "DONE",
+      "detail": "category_evidence.json merged \u2014 category_by_ads column in targets.csv with a disagreement note. Only live disagreement: SpoiledChild, site says skincare, 29 ads say ingestible."
+    },
+    {
+      "ts": "2026-09-19T19:57Z",
+      "role": "Miner",
+      "state": "RESULT",
+      "detail": "PROBE COMPLETE 9/9. VERIFIED ABSENT: water_quality only. CLAIMED: menopause_skin (Maelove hook-position), male_facing (Brickell \"Most men don't want a skincare routine\"), pregnancy_safe (Primally Pure/Secret Saviours, 16 ads total), glp1_facial_volume_loss + skin_as_signal (ingestibles only, no topical). UNCLAIMED_POSITION (new bucket, present in body copy but never as an opening): dermatologist_as_ally, reactive_sensitive_identity, prevention_early. Positional verdicts rest on first-page reads \u2014 \"no opener found in what was sampled\", not \"no opener exists\". Discarded one bad probe (\"prevent wrinkles in your 20s\" = invented phrase, its zero measured our vocabulary not the category); generous re-run found the angle."
+    },
+    {
+      "ts": "2026-09-19T19:57Z",
+      "role": "Miner",
+      "state": "FLAG",
+      "detail": "Strategy's concentration gate (>=3 brands AND no brand >30%) is UNSATISFIABLE at its floor \u2014 3 brands split evenly is 33% each; needs >=4 brands to ever pass. All saturated angles currently fail it. Numbers emitted for recalibration; threshold is Strategy's call."
+    },
+    {
+      "ts": "2026-09-19T19:57Z",
+      "role": "Miner",
+      "state": "BLOCKED",
+      "detail": "Transcription experiment approved by Strategy (peer) \u2014 NOT run. User has authorised pilot + extension + probe only. Escalated to user with scope and mechanism."
+    },
+    {
+      "ts": "2026-09-19T19:57Z",
+      "role": "Miner",
+      "state": "NOTE",
+      "detail": "Cross-session messaging rate-paused after 10 sends. Writer has NOT received: heritage_origin restoration, corpus_version 4, full probe results. Will resend when unpaused."
+    },
+    {
+      "ts": "2026-09-19T16:21Z",
+      "role": "Writer",
+      "state": "DONE",
+      "detail": "Fr\u00f8ya pitch REWRITTEN on surviving evidence. Makes no absence claim anywhere. Leads with the eight withdrawn claims named, then sample observations with concentration shown (no category claim passes the gate), then the actual recommendation: customer_testimonial \u2014 ONE Fr\u00f8ya ad alive 614 days, longest-surviving creative in the entire 139-ad sample, no competitor in the sample opens there. Needed no absence claim at all, and it is the position our contaminated first read told us to avoid."
+    },
+    {
+      "ts": "2026-09-19T16:21Z",
+      "role": "Writer",
+      "state": "DONE",
+      "detail": "Scripts: 9 cleared + 3 held. Cleared = customer_testimonial/ingredient_villain/heritage_origin, all brand_own resting on Fr\u00f8ya's own ads. Held = third_party_verdict x3 (Asarai owns it, 9 ads, 373d; entering is a creative bet not a finding \u2014 gate correctly blocks it as a category claim)."
+    },
+    {
+      "ts": "2026-09-19T16:22Z",
+      "role": "Writer",
+      "state": "DONE",
+      "detail": "Dual fingerprints wired \u2014 claims_fingerprint moves on verdict flips where corpus_fingerprint does not, closing the gap I flagged. Both stamped on every script; build records which moved since last publish."
+    },
+    {
+      "ts": "2026-09-19T16:22Z",
+      "role": "Writer",
+      "state": "NOTE",
+      "detail": "angles.json OSCILLATES, not just degrades. heritage_origin vanished in one revision (3 scripts rejected), reappeared in the next \u2014 recovered from git rather than rewritten. Miner also quoted a claims_fingerprint already stale by the time I read the file. Five mutations observed today. Consumers need to re-read and re-validate on every build, not cache."
+    },
+    {
+      "ts": "2026-09-20T04:40Z",
+      "role": "Miner",
+      "state": "RESULT",
+      "detail": "DEEP VERIFICATION (user-approved) \u2014 2 of 3 positional verdicts FALSIFIED. dermatologist_as_ally CLAIMED in hook position (Dove, SkinCeuticals 13-ad creative, Eucerin, CLn, Bio-Oil; CeraVe as headline) \u2014 this was Strategy's proposed lead finding. reactive_sensitive_identity CLAIMED in hook position (CeraVe \"If your skin squeaks, your barrier is weak\"; Beauty From Bees). Earlier verdicts came from one page of a too-narrow query and were wrong."
+    },
+    {
+      "ts": "2026-09-20T04:40Z",
+      "role": "Miner",
+      "state": "RESULT",
+      "detail": "eskiin checked directly (NOT cached \u2014 Strategy's premise was wrong, this was a fresh read). 390 active ads. Does NOT open on water quality: opens \"eskiin will give you your best skin & hair \u2014 guaranteed\", chlorine/filtration in sentence 2. So water_quality is UNCLAIMED_POSITION, not validated demand \u2014 the brand whose product IS water quality still leads on outcome. WEAKER than the earlier HOLDS verdict, not stronger."
+    },
+    {
+      "ts": "2026-09-20T04:40Z",
+      "role": "Miner",
+      "state": "RESULT",
+      "detail": "FINAL 9 angles: 0 verified absent | 2 unclaimed-position (prevention_early, water_quality) | 7 claimed. Leave-one-out gate: only symptom_callout (5br/8ads) and injectable_displacement (4br/22ads) survive as category claims; 7 of 9 saturated angles fail."
+    },
+    {
+      "ts": "2026-09-20T09:05Z",
+      "role": "Writer",
+      "state": "DONE",
+      "detail": "Leave-one-out gate implemented and INDEPENDENTLY RECOMPUTED against real distributions (Strategy asked me not to trust their arithmetic). Result matches Strategy's prediction and Miner's separate computation exactly: injectable_displacement passes (drop Korean Skin Therapy 16/38 -> 22 ads, 4 brands), symptom_callout passes (drop JiYu 9/17 -> 8 ads, 5 brands), other seven fail. Three independent derivations agree."
+    },
+    {
+      "ts": "2026-09-20T09:05Z",
+      "role": "Writer",
+      "state": "NOTE",
+      "detail": "Not a rationalisation: the old rule (>=3 brands AND no brand >30%) was unsatisfiable at n=3, where the minimum possible largest share is 33.3%. It was a contradiction, not a threshold. BUT the new rule bounds no concentration at all \u2014 an angle could be 90% one brand and pass if the rest spans 3 brands / 5 ads. Defensible, but the pitch shows the drop arithmetic inline on every row rather than a bare pass mark."
+    },
+    {
+      "ts": "2026-09-20T09:06Z",
+      "role": "Writer",
+      "state": "DONE",
+      "detail": "DURABILITY TABLE built from days_running \u2014 the new deliverable spine per Strategy. Headline: THE CROWDED POSITIONS ARE THE LEAST DURABLE. The two angles passing the category gate rank 8th and 11th of twelve by median survival; the three most durable positions are each run by a single advertiser. customer_testimonial 614d (Fr\u00f8ya, 1 ad), heritage_origin 365d (Fr\u00f8ya, 3), third_party_verdict 294d (Asarai, 9), vs injectable_displacement 138d (38 ads) and symptom_callout 103d (17 ads). Volume and survival are anti-correlated. Fr\u00f8ya's three positions rank 1st, 2nd, 7th."
+    },
+    {
+      "ts": "2026-09-20T09:07Z",
+      "role": "Writer",
+      "state": "DONE",
+      "detail": "Final tally on the nine opportunity angles: ZERO verified absent. Seven claimed, two unclaimed-as-an-opening with no evidence anyone made them work. Pitch section 6 names all nine with the competitor that disproved each."
+    },
+    {
+      "ts": "2026-09-20T09:07Z",
+      "role": "Writer",
+      "state": "DONE",
+      "detail": "Pitch final at shared/data/pitch-froyaorganics-com-DRAFT.md, still DRAFT pending transcription. Leads with the comparative 614-day finding (separating what Fr\u00f8ya can check themselves from what they cannot, and stating plainly that one ad establishes the position works for them, not a category pattern). 12 scripts, 9 cleared, 3 held. Corpus v5 a2dda442e1764359/acf932e14b7b4ecc; both fingerprints moved and the build REPORTED the drift rather than me catching it by re-reading."
+    },
+    {
+      "ts": "2026-09-20T09:08Z",
+      "role": "Writer",
+      "state": "BLOCKED",
+      "detail": "Cannot message Strategy \u2014 cross-session messaging rate-paused until my user types. Release decision request is queued in my report to them instead."
+    },
+    {
+      "ts": "2026-09-20T04:43Z",
+      "role": "Miner",
+      "state": "RESULT",
+      "detail": "NATURAL-OWNER TEST applied \u2014 both positional survivors FAIL. water_quality: eskiin (390 ads, product IS water filtration) opens on outcome not water. prevention_early: Good Molecules (cheapest brand, $6 eye cream = natural owner of a prevention pitch) runs 15 ads, opens on prevention in none, aims one at \"best over 50 skincare\"; Biodance opens on correction throughout. Done on CACHED data, no new collection. => ZERO of 9 absence claims survive as sellable opportunities."
+    },
+    {
+      "ts": "2026-09-20T04:43Z",
+      "role": "Miner",
+      "state": "CORRECTION",
+      "detail": "My \"11 of 13 falsified\" was loose and Strategy was about to put it in a pitch. Defensible figure is 7 of 9 = 78% (the 13 double-counted 2 angles falsified twice). Corrected in artifact as self_assessment."
+    },
+    {
+      "ts": "2026-09-20T04:43Z",
+      "role": "Miner",
+      "state": "DONE",
+      "detail": "angles.json v6 FINAL. Defensible claims: 2 saturations passing leave-one-out (symptom_callout 6br/17ads, injectable_displacement 5br/38ads) + the derm positioning divide (a PRESENCE claim: challengers adversarial, incumbents Dove/CeraVe/Eucerin/SkinCeuticals/Bio-Oil open on endorsement). sampling_bias recorded: corpus is challenger-only by construction and will keep reading incumbent-held positions as empty. Holding \u2014 no further collection."
+    },
+    {
+      "ts": "2026-09-20T09:40Z",
+      "role": "Writer",
+      "state": "DONE",
+      "detail": "Pitch updated to angles v6. Zero of nine absence claims survive: 7 falsified outright (78%), and the last two \u2014 prevention_early, water_quality \u2014 failed Strategy's natural-owner test. Section 6 now states the precise 78% figure rather than a looser count, and spells out the natural-owner reasoning: a gap nobody enters, including the one advertiser who obviously should, is evidence the position does not sell."
+    },
+    {
+      "ts": "2026-09-20T09:40Z",
+      "role": "Writer",
+      "state": "DONE",
+      "detail": "OWNED THE SAMPLING BIAS \u2014 it is Agent -1's flaw, mine. Discovery keyword-searches AD COPY, which surfaces direct-response challengers and under-samples incumbents; SEED_QUERIES are written in challenger language, compounding it. Every corpus built from targets.csv will read incumbent-held positions as empty. Documented in prospector/README as a structural limit with the dermatologist_as_ally worked example, and DISCLOSED IN THE PITCH ITSELF \u2014 the client is told up front that the corpus is reliable about their peer set and blind to Dove/CeraVe/Eucerin, and that this blindness cost us the finding in section 4."
+    },
+    {
+      "ts": "2026-09-20T09:41Z",
+      "role": "Writer",
+      "state": "NOTE",
+      "detail": "Fingerprints correctly did NOT move v5->v6 (corpus a2dda442e1764359 / claims acf932e14b7b4ecc unchanged): v6 changed documentation, not hook set or classifications. Checked before assuming a bug \u2014 the unclaimed list was already empty at v5."
+    },
+    {
+      "ts": "2026-09-20T09:41Z",
+      "role": "Writer",
+      "state": "NOTE",
+      "detail": "Section 4 reframed on Miner's sharper version: the derm-ally position is held by exactly the brands Fr\u00f8ya defines itself against, so taking it would BLUR their positioning. Their existing adversarial-derm material is correctly placed and should stay. That is actionable advice rather than a gap, and it is the one finding reached by being wrong in a measurable way."
+    },
+    {
+      "ts": "2026-09-23T10:15Z",
+      "role": "Writer",
+      "state": "DONE",
+      "detail": "Disqualification restore bug FIXED \u2014 but the diagnosis was wrong, so recording the actual cause. build() DOES consult disqualified.json and the filter works; my branch build has excluded all five throughout (102 rows, verified). The three brands reappear on main because MAIN'S data/disqualified.json HOLDS ONLY 2 OF 5 ENTRIES. dustrico.com/emuaid.com/trylumineskin.com were disqualified in commit 5e36fe1, which is NOT an ancestor of main. Stale data, not a code defect. Reproduced on a detached main checkout: 105 rows, all three present."
+    },
+    {
+      "ts": "2026-09-23T10:15Z",
+      "role": "Writer",
+      "state": "DONE",
+      "detail": "Three real defects fixed underneath it. (1) FAIL-OPEN, fourth instance of the class: _disqualified() returned {} when the file was missing, silently filtering nothing \u2014 now raises and blocks. (2) The shared copy is now read and unioned with the repo copy, per ROLES.md making shared/data the source of truth for data while code stays per-branch. This alone fixes the incident: a stale local copy can no longer under-filter. (3) A fallback-path hole \u2014 pages keyed by name rather than domain skipped the dq check entirely and could resolve to a disqualified site via BRAND_SITE."
+    },
+    {
+      "ts": "2026-09-23T10:16Z",
+      "role": "Writer",
+      "state": "DONE",
+      "detail": "tools/check_disqualified.py run as the acceptance test against the fixed build: \"OK \u2014 5 disqualified brands, none present in targets.csv\", exit 0."
+    },
+    {
+      "ts": "2026-09-23T10:17Z",
+      "role": "Writer",
+      "state": "BLOCKED",
+      "detail": "NIGHTLY WILL STILL FAIL UNTIL MY BRANCH REACHES MAIN. The code fix is on claude/sleepy-snyder-3b6616, 11 commits ahead of main, and main additionally lacks data/categories.json so its build.py cannot emit the category/category_by_ads columns. I have not merged \u2014 that is the user's call, not a peer's, and not mine to take unilaterally on a shared branch. Merging those 11 commits is the actual remediation."
+    },
+    {
+      "ts": "2026-09-23T22:21Z",
+      "role": "Outreach",
+      "state": "DONE",
+      "detail": "Agent 7 built (`outreach/` + `run_outreach.py`) and run over the top 10 by fatigue_score. 3 drafts, 8 refusals, 0 send-ready. Drafts+reasons in shared/data/outreach/ (queue.json is the record, INDEX.md the human view). DRAFTS ONLY \u2014 no SMTP, no email API, no scheduler in the package, and a test fails if one appears."
+    },
+    {
+      "ts": "2026-09-23T22:21Z",
+      "role": "Outreach",
+      "state": "RESULT",
+      "detail": "3 of 10 drafted, and the ceiling is Miner's corpus, not the writing. Froya \u2014 one ad live 614d, the longest of the 139; opens on customer_testimonial, 1 of their 26 sampled ads. Saeskyn \u2014 their 6 injectable_displacement ads median 201d vs 138.5d for that position across 5 advertisers, tightly clustered 207/205/201x4. Asarai \u2014 third_party_verdict 294d median over 9 ads vs result_first 140d over 4, and the email names the awkward part (their single longest ad, 399d, is in the WEAKER group)."
+    },
+    {
+      "ts": "2026-09-23T22:21Z",
+      "role": "Outreach",
+      "state": "BLOCKED",
+      "detail": "0 of 3 send-ready, two blockers on every draft, both needing the user not an agent. (1) outreach/sender.json is all placeholders \u2014 PECR reg.23 needs a real sender identity and postal address, and the placeholders render INTO the email body so it cannot go out unnoticed. (2) contacts.csv is empty \u2014 no verified corporate address for any brand. Agent 7 does not guess or infer an address: no lawful basis and a spam-trap risk. docs/OUTREACH.md covers the sending-domain setup; at 3 drafts none of it is needed yet."
+    },
+    {
+      "ts": "2026-09-23T22:24Z",
+      "role": "Producer",
+      "state": "DONE",
+      "detail": "Agents 4 + 5 built, tested end to end in DRY RUN, ZERO SPEND. 80 tests pass; no module in renderqueue/ or qa/ imports a network library, so nothing here can call a provider even by accident. Every ledger entry written during testing is $0.00. Provider-agnostic per DESIGN.md \u00a710: adapters for Creatify ($3.90/30s block), Seedance 2.5 ($0.23/s) and Higgsfield, chosen by one config string. Higgsfield is UNPRICED and therefore BLOCKS every cost estimate \u2014 that is the fail-closed design working, not a gap. Arcads omitted per brief (negotiated Pro plan). Artifact: shared/data/render_queue.json, stamped dry_run/spent_usd 0.00/renders_produced 0."
+    },
+    {
+      "ts": "2026-09-23T22:24Z",
+      "role": "Producer",
+      "state": "RESULT",
+      "detail": "COST FOR THE 9 CLEARED FROYA SCRIPTS (368s total, 39-44s each). Creatify: $70.20 first-pass, $87-110 expected with re-renders, $210.60 worst case. Seedance: $84.64 / $105-132 / $253.92. Re-render load is 1.24-1.56x at DESIGN.md \u00a73's 20-40% reject band and a 3-attempt cap; an estimate without it is low by a quarter to a half. NOTE Creatify's 30s BILLING GRANULARITY is my assumption, not a read rate card: every script is 39-44s, so each costs 2 blocks ($7.80) not 1.5. If they bill pro rata the batch is ~35% cheaper. Both rates are stamped confidence:\"assumed\" in the artifact and neither has been checked against an invoice."
+    },
+    {
+      "ts": "2026-09-23T22:24Z",
+      "role": "Producer",
+      "state": "BLOCKED",
+      "detail": "NOT ASKING TO SPEND \u2014 listing what a live run needs. (1) No provider account exists and no credentials are configured; I did not look for any, sign up, or enter payment details, and every real adapter raises NoCredentials on submit. (2) DESIGN.md \u00a710 render-provider decision still OPEN. (3) NO VISION MODEL, so Agent 5's five technical checks return UNRESOLVED and every real render would BLOCK rather than pass \u2014 a gate that passes when it cannot see is worse than no gate. (4) No transcription; the content checks fall back to a provider caption track and BLOCK without one. (5) Creatify billing granularity unconfirmed. (6) the claim-policy contract question below."
+    },
+    {
+      "ts": "2026-09-23T22:24Z",
+      "role": "Producer",
+      "state": "FLAG",
+      "detail": "CLAIM-POLICY CONTRACT QUESTION FOR STRATEGY \u2014 Agent 3 and Agent 5 read the brief differently and it is worth $117. My brief says rendered output carries no performance or medical claims (\"we sell creative volume and angle coverage, never results\"). Writer cleared 9 scripts whose claims_used include \"studies show 22% younger skin\", \"93% experience better hair\", \"supports the skin barrier in 7 days\" \u2014 Froya's own substantiated homepage copy, and a normal thing for an ad to say. I did NOT settle it: medical claims fail always with no switch; substantiated PERFORMANCE claims are governed by Config.allow_brand_substantiated_claims, defaulting to False because that fails closed. Improvised claims (in the render, not in the script) fail under either reading \u2014 that is the part only Agent 5 can catch."
+    },
+    {
+      "ts": "2026-09-23T22:24Z",
+      "role": "Producer",
+      "state": "RESULT",
+      "detail": "FREE PRE-SCREEN CHANGES THE ESTIMATE MATERIALLY. Agent 5's content checks run against SCRIPT TEXT before any render, at $0. Under the strict default 5 of the 9 cleared scripts fail (customer_testimonial 01/02/03, heritage_origin-01, ingredient_villain-01). A content failure is in the copy, so it repeats on every re-render \u2014 those 5 consume the full 3-attempt cap and deliver nothing. Properly costed that is $160 at Creatify for FOUR usable videos, $117 of it burned; $195 at Seedance, $144 burned. Rewriting the copy first costs $0 and drops the batch to $43 (Creatify) / $51 (Seedance). The flat 20-40% reject rate is right for technical faults, which are random per render, and wrong for content failures, which are deterministic \u2014 so the estimator models them separately."
+    },
+    {
+      "ts": "2026-09-23T22:24Z",
+      "role": "Producer",
+      "state": "NOTE",
+      "detail": "TWO REAL BUGS FOUND BY RUNNING IT, NOT BY READING IT; both would have spent money. (1) IDEMPOTENCY: the attempt number is part of the job_id, so a per-job terminal check minted a fresh id every run, missed the qa_pass record, and RE-RENDERED FINISHED WORK \u2014 ~$7.80 per completed script per re-run at Creatify, silently. Now keyed on the script, not the job. (2) FIXTURE CONTAMINATION: a $0 --fixture run's nine fake passes made the next real Creatify batch skip those nine scripts as \"already done\". Fixture output must never stand in for a real render. Fixed twice over \u2014 accepted renders are provider-scoped, and fixture state lives in its own directory. Regression test for each. Same fail-upward family as the three defaults bugs Writer logged."
+    },
+    {
+      "ts": "2026-09-23T22:24Z",
+      "role": "Producer",
+      "state": "NOTE",
+      "detail": "Money rules as implemented. Dry-run is the default and execute() refuses a dry-run config outright. Ceiling checked three times: whole estimate vs ceiling pre-batch, again before EVERY individual call, and again after each call against what the provider actually charged. Exceeding aborts, never warns. Approval is a phrase containing the exact amount and batch fingerprint, typed at a TTY \u2014 not readable from argv or env, so a peer session (including Strategy) structurally cannot supply it; there is no --yes. The ledger commits the debit BEFORE the call, so a crash mid-call reads as spent, not free, and jobs left in flight block the next run until a human reconciles them against the provider dashboard. Corrupt ledger, unknown entry kind, unpriced provider, missing brand.md, absent client_ready: all BLOCK."
+    },
+    {
+      "ts": "2026-09-23T22:24Z",
+      "role": "Producer",
+      "state": "NOTE",
+      "detail": "CLAUDE.md build-order table is stale for steps 3-5 (Agent 1/2/3 all shipped per this log but still read \"current\"/\"not started\"). Updated only my own row (step 6) \u2014 the others belong to Miner and Writer."
+    },
+    {
+      "ts": "2026-09-24T09:15Z",
+      "role": "Producer",
+      "state": "DONE",
+      "detail": "PER-BRAND CLAIM GATING IN, per Strategy's ruling. Global switch REMOVED \u2014 Config.allow_brand_substantiated_claims and --allow-brand-claims are both gone. Substantiation is now read per brand from that brand's brand.md '## Substantiated claims' section (qa/substantiation.py): one bullet per claim, \"claim\" \u2014 source. A bullet with NO source is dropped as an assertion, not honoured. A brand with no section gets strict behaviour \u2014 fails closed on absence of evidence, not on a default. Deliberate asymmetry with do-not-say: a missing do-not-say list BLOCKS (we cannot tell what is forbidden); a missing substantiation list does not (no permissions on file is a complete, safe answer). 92 tests pass, still zero spend."
+    },
+    {
+      "ts": "2026-09-24T09:15Z",
+      "role": "Producer",
+      "state": "DONE",
+      "detail": "Rule as implemented. ALWAYS FAIL, no switch: medical claims (outranks substantiation \u2014 Froya publishes \"Heals skin barrier in 7 days\" on one SKU, a drug claim whoever published it); improvised claims (in the render, not in the approved script); STRENGTHENING \u2014 rounding up, extrapolating, combining two published claims, or attaching an unstated timeframe. \"93%\" cannot become \"almost everyone\"; \"results in 60 days\" cannot become \"results in weeks\". Strengthening fires whether or not the base claim is substantiated, because the strengthened version is a different claim the brand never made."
+    },
+    {
+      "ts": "2026-09-24T09:15Z",
+      "role": "Producer",
+      "state": "RESULT",
+      "detail": "APPLIED TO TODAY'S DATA THE BATCH IS STILL GATED, ON EVIDENCE NOT ON A SWITCH. No brand.md in the repo carries a '## Substantiated claims' section, so all 25 brands are strict and 5 of 9 Froya scripts still fail \u2014 every failure now reads \"unsubstantiated: brand.md does not record this claim with a source\". NOT a policy problem and not Producer's to fix: 16 of the 17 claims the scripts use are ALREADY in Agent 0's raw capture (data/raw/intake/froyaorganics_com.json) VERBATIM, they were simply never rendered into brand.md. Verified each one individually rather than trusting a substring match."
+    },
+    {
+      "ts": "2026-09-24T09:15Z",
+      "role": "Producer",
+      "state": "DONE",
+      "detail": "Request to Writer at shared/data/PRODUCER-request-froya-substantiation.md \u2014 the exact section with all 16 sources located, plus 3 one-punctuation script edits. NOT written into brand.md or scripts.json; those are Writer's artifacts and Producer only reads them. Worth, at Creatify/30%: today 5 fail, $160.37 with $117.00 BURNED, 4 deliverable of 9 -> add the section, 3 fail, $135.25, 6 deliverable -> split three sentences, 0 fail, $97.58 with NOTHING burned, 9 of 9. Seedance: $194.67 -> $164 -> $117.65. No step costs a dollar."
+    },
+    {
+      "ts": "2026-09-24T09:15Z",
+      "role": "Producer",
+      "state": "FLAG",
+      "detail": "ONE BOUNDARY CALL FOR STRATEGY, flagged not buried. 'combined' currently fires when two published claims share a SENTENCE \u2014 e.g. \"Studies show 22% younger skin, and 95% reported youthful glow\", where each claim is individually substantiated. That is the conservative reading of \"combining two claims into a stronger one\"; a narrower reading would block only true fusion (a timeframe from one grafted onto the outcome of another), which is what the rule most clearly targets. Applied literally because the fix is one punctuation mark and a false negative is a regulatory claim. It accounts for all 3 remaining failures once substantiation exists. Narrowing it is Strategy's call, not mine."
+    },
+    {
+      "ts": "2026-09-24T09:15Z",
+      "role": "Producer",
+      "state": "NOTE",
+      "detail": "CAUGHT MYSELF OVER-MATCHING \u2014 the mirror of the fail-closed bug family. My first 'universal' amplifier pattern matched a bare \"anyone\" and flagged Froya's own line \"Buy two if anyone else lives with you\", which would have pulled a clean script out of the batch. My README had asserted over-matching is cheap; that holds for a do-not-say term a human reviews and is FALSE in the pre-screen, which EXCLUDES scripts from the batch \u2014 an over-broad rule there costs a deliverable, not one glance. Amplifiers now must attach to a result. Also corrected my own inference: I assumed Agent 3 had softened \"heals\" to \"supports\"; it had not, both are Froya's own copy on different SKUs. Checked before writing it down."
+    },
+    {
+      "ts": "2026-09-24T09:15Z",
+      "role": "Producer",
+      "state": "NOTE",
+      "detail": "Unchanged and still blocking a live run: no provider account, no credentials, no vision model (Agent 5's five technical checks stay UNRESOLVED and a real render BLOCKS \u2014 leaving that as Strategy directed), no transcription, DESIGN.md \u00a710 provider decision still open, Creatify's 30s billing granularity still an assumption worth ~35% and not to be resolved by guessing. Not asking to spend."
+    },
+    {
+      "ts": "2026-09-24T09:30Z",
+      "role": "Writer",
+      "state": "DONE",
+      "detail": "Hold lifted on the Fr\u00f8ya pitch. Renamed shared/data/pitch-froyaorganics-com-DRAFT.md -> pitch-froyaorganics-com.md. Embargo banner replaced with a \"How to read this\" provenance note keeping everything still true: 139 openings / 12 advertisers / 33+ days, caption openings not spoken audio, the challenger-only sampling limit, and the no-absence-claims statement. \u00a71's single-ad caveat and \u00a74's \"found by being wrong\" framing left untouched as instructed."
+    },
+    {
+      "ts": "2026-09-24T09:30Z",
+      "role": "Writer",
+      "state": "DONE",
+      "detail": "Two accuracy fixes the lift exposed. The evidence-grade row read \"No spoken transcription YET\", which promised a pass that is no longer planned \u2014 now \"caption copy, the ad's own text, not a transcript of the audio\". Dates relabelled \"captured 2026-09-20\" with a note that figures were recomputed from hooks.jsonl on 2026-09-24 and are unchanged, so a reader does not mistake a four-day-old capture for a stale document."
+    },
+    {
+      "ts": "2026-09-24T09:31Z",
+      "role": "Writer",
+      "state": "DONE",
+      "detail": "Outreach email verified against the live corpus rather than assumed. Every figure holds: 139 hooks / 12 brands / 26 Fr\u00f8ya hooks / max days_running 614 on ad 2123759134760755 / customer_testimonial = 1 ad, Fr\u00f8ya, and that ad IS the 614-day one. Its lead (holds_corpus_longest_ad) is the SAME lead as the final pitch \u00a71 \u2014 Strategy's concern that it was drafted against an older lead does not hold."
+    },
+    {
+      "ts": "2026-09-24T09:31Z",
+      "role": "Writer",
+      "state": "NOTE",
+      "detail": "Lifting the pitch hold does NOT make the outreach sendable, and the email correctly still says so. Two hard blockers stand: no verified corporate address in contacts.csv (PECR reg.22), and sender.json placeholders unfilled \u2014 company_number, from_email, from_name, legal_entity, postal_address, reply_to (PECR reg.23). The <<SET: ...>> markers are printed into the body deliberately so it cannot go out filled-in-by-accident. A human sends it or it is not sent."
+    }
+  ],
+  "production": {
+    "dry_run": true,
+    "spent_usd": "0.00",
+    "renders_produced": 0,
+    "attempt_cap_per_script": 3,
+    "warning": "PLAN AND ESTIMATE ONLY. Nothing has been rendered, no provider has been called, no account exists and no credentials are configured. Both provider rates are marked 'assumed' and have not been checked against an invoice."
+  }
+}
