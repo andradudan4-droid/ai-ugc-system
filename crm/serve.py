@@ -120,6 +120,23 @@ class H(http.server.SimpleHTTPRequestHandler):
 if __name__ == "__main__":
     if not DASH.exists():
         print("dashboard.json missing — run: python3 tools/build_dashboard.py")
+    import socket, urllib.request
+    # Already running is the common case, not an error -- say so plainly instead of
+    # dumping a traceback that reads like a crash.
+    try:
+        with socket.create_connection(("127.0.0.1", PORT), timeout=1):
+            pass
+        try:
+            urllib.request.urlopen(f"http://127.0.0.1:{PORT}/api/data", timeout=3).read(1)
+            print(f"\n  Already running →  http://127.0.0.1:{PORT}")
+            print( "  Open that in a browser. Nothing to start.\n")
+        except Exception:
+            print(f"\n  Port {PORT} is taken by something that is not the CRM.")
+            print(f"  Find it:  lsof -nP -iTCP:{PORT} -sTCP:LISTEN\n")
+        raise SystemExit(0)
+    except (ConnectionRefusedError, OSError):
+        pass  # nothing there -- free to start
+
     socketserver.TCPServer.allow_reuse_address = True
     with socketserver.TCPServer(("127.0.0.1", PORT), H) as httpd:
         print(f"\n  CRM running →  http://127.0.0.1:{PORT}\n  ctrl-c to stop\n")
