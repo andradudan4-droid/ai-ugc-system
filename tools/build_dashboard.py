@@ -113,6 +113,76 @@ def main() -> int:
 
     funnel = {s: sum(1 for b in brands if b["stage"] == s) for s in STAGES}
 
+    # ---- per-brand detail: the research, hooks and drafts that make a row worth opening ----
+    hooks_by_brand = {}
+    hp = D / "hooks.jsonl"
+    if hp.exists():
+        for line in hp.read_text().splitlines():
+            if not line.strip():
+                continue
+            try:
+                h = json.loads(line)
+            except Exception:
+                continue
+            hooks_by_brand.setdefault(h.get("brand", ""), []).append({
+                "text": h.get("hook_text") or h.get("angle_evidence_text") or "",
+                "angle": h.get("angle"), "days": h.get("days_running"),
+                "source": h.get("hook_source"),
+            })
+
+    # angles.json groups by verdict: saturated / contested / single_brand
+    angles_meta, self_assessment = {}, None
+    ap = D / "angles.json"
+    if ap.exists():
+        try:
+            raw = json.loads(ap.read_text())
+            self_assessment = raw.get("self_assessment")
+            for bucket in ("saturated_angles", "contested_angles", "single_brand_angles"):
+                rows = raw.get(bucket) or []
+                it = rows.items() if isinstance(rows, dict) else (
+                    (a.get("angle_id") or a.get("angle"), a) for a in rows)
+                for aid, a in it:
+                    if not aid:
+                        continue
+                    a = a if isinstance(a, dict) else {}
+                    angles_meta[aid] = {
+                        "bucket": bucket.replace("_angles", ""),
+                        "brands": a.get("brand_count") or len(a.get("brands", []) or []) or None,
+                        "ads": a.get("ad_count") or a.get("ads"),
+                        "max_days": a.get("max_days_running") or a.get("max_days"),
+                        "note": a.get("note") or a.get("summary"),
+                    }
+        except Exception as e:
+            angles_meta = {"_error": str(e)}
+
+    detail = {}
+    for b in brands:
+        slug = b["slug"]
+        md = D / "brands" / slug / "brand.md"
+        note = None
+        if md.exists():
+            txt = md.read_text()
+            secs = {}
+            cur, buf = None, []
+            for ln in txt.splitlines():
+                if ln.startswith("## "):
+                    if cur:
+                        secs[cur] = "\n".join(buf).strip()
+                    cur, buf = ln[3:].strip(), []
+                elif cur:
+                    buf.append(ln)
+            if cur:
+                secs[cur] = "\n".join(buf).strip()
+            note = {k: v[:1200] for k, v in secs.items() if v}
+        draft = D / "outreach" / f"{slug}.md"
+        detail[slug] = {
+            "research": note,
+            "has_research": md.exists(),
+            "hooks": hooks_by_brand.get(b["brand"], [])[:25],
+            "scripts": [s for s in script_rows if s["brand"] == slug],
+            "outreach_draft": draft.read_text()[:4000] if draft.exists() else None,
+        }
+
     out = {
         "generated_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
         "stats": {
@@ -129,6 +199,9 @@ def main() -> int:
         "scripts": script_rows,
         "activity": events[-60:],
         "production": prod,
+        "detail": detail,
+        "angles": angles_meta,
+        "self_assessment": self_assessment,
     }
     (D / "dashboard.json").write_text(json.dumps(out, indent=2))
     print(f"wrote shared/data/dashboard.json")

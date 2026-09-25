@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T01:55:09+00:00",
+  "generated_at": "2026-09-25T03:53:04+00:00",
   "stats": {
     "brands": 102,
     "researched": 32,
@@ -1750,5 +1750,2313 @@
     "renders_produced": 0,
     "attempt_cap_per_script": 3,
     "warning": "PLAN AND ESTIMATE ONLY. Nothing has been rendered, no provider has been called, no account exists and no credentials are configured. Both provider rates are marked 'assumed' and have not been checked against an invoice."
+  },
+  "detail": {
+    "froyaorganics-com": {
+      "research": {
+        "Category fit": "**Core skincare, strong fit \u2014 with the widest category sprawl in the set.** Arctic-plant balms for mature women's skin, plus a full hair/scalp line, plus joint and muscle balms and an intimate balm. The skincare line is the pitch; the rest is why an angle set has to be scoped to face before anything is written. Highest ad volume of any target (3400).\n\n_Provisional until the ad set confirms it._ Intake establishes what a brand **says** it sells; only its ads show what it actually **advertises**. Both SpoiledChild and Saltair read as skincare on the website and were tagged as such here \u2014 at ad level SpoiledChild runs 27 of 29 ads on ingestible collagen, and Saltair runs 22 of 22 on body care with no facial SKU. Treat this section as the brand's claim, and Agent 2's per-ad product class as the check on it.",
+        "Positioning": "Shop natural skincare & haircare for mature skin and thinning hair. Wild Arctic plant balms with visible results in 60 days, loved by 805,709+ women.\n\nHomepage claims, in the brand's own words:\n\n- Skincare That Finally Understands Mature Skin\n- \"THE BEST THING I EVER PUT ON MY SKIN & HAIR\"\n- 823,167+ Successful Skin & Hair Journeys\n- Meet Fr\u00f8ya's Ambassadors\n- What's your skin dealing with?\n- What you should expect from using Fr\u00f8ya Daily\n- Arctic plants that revive your skin & hair in days\n- Top 3 bestsellers",
+        "Hero products": "| Product | Type | Price | In stock |\n|---|---|---|---|\n| Complete Natural Hair & Skin Bundle | system | $188.84 | no |\n| The Fr\u00f8ya Favorites Bundle | system | $106.61 | no |\n| The Complete System for Mature Women's Skin | system | $121.07 | yes |\n| Complete System For Mature Hair & Scalp | system | $67.77 | yes |\n| Magic Sensual Pleasure Balm | Intimate Balm | $37.00 | yes |\n| Mega Gift Bundle: All Products at 50% off + 3 Gifts | system | $219.00 | yes |\n| Joint & Muscle Healing Balm - 2 JARS | \u2014 | $56.35 | yes |\n| Magic Revive Hair & Scalp Shampoo | Shampoo | $29.00 | yes |\n| Hair Thickening Rosemary Water | Hair Treatment | $25.00 | yes |\n| Hair Thickening Serum | Hair Serum | $29.00 | yes |\n\n**Lead product copy \u2014 The Complete System for Mature Women's Skin:**\n\n> The 4-step system use wild-harvested and scientifically proven ingredients to reduce and prevent wrinkles and fine lines. Packed with essentials to kick-start the collagen and elastin production that slows down after the age of 25.\n\n**Category mix:** system (7), Face Moisturizer (3), Intimate Balm (1), Shampoo (1), Hair Treatment (1), Hair Serum (1)",
+        "Ingredients to name in script": "collagen, rosehip",
+        "Proof points": "- 34,634 reviews cited on site",
+        "Ads in market": "- **Segment:** `fatigued` \u00b7 fatigue score 89.96\n- **Active ads:** 3400 \u00b7 video ads (est.) 1473\n- **Oldest live ad:** 614d \u00b7 **newest:** 49d ago\n- Notes: ugc est. from 30-ad sample; ad ages from sample; true oldest may be older; 2 affiliate page(s) run its creative; 15+ UGC video ads\n\n**The pitch:** newest creative is 49 days old against 3400 ads still running \u2014 they are spending but not refreshing.",
+        "Do not say": "Cosmetic claims only \u2014 these phrases appear in the brand's own copy but should not be repeated in paid creative without substantiation:\n\n- \"cure\"\n- \"heal\"\n- \"heals\"\n- \"prevents\"\n- \"treat\"\n\nStanding constraints: no before/after implying permanent change, no disease or condition-treatment language, no unearned \"dermatologist recommended\".",
+        "Open questions for the client": "- Which SKU carries the margin they want volume on?\n- Do they have creator/UGC footage rights already, or is this net-new?\n- Which of the currently-running ads is their best performer?\n- Any claims legal has already rejected?"
+      },
+      "has_research": true,
+      "hooks": [
+        {
+          "text": "\ud83d\udc9c Arnica, sea buckthorn, and calendula are powerful arctic plants that transform your complexion.",
+          "angle": null,
+          "days": 263,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "What if everything you believed about Botox was wrong?",
+          "angle": null,
+          "days": 148,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "The reason your face looks different in the mirror isn't just gravity.",
+          "angle": null,
+          "days": 99,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "If Viking women had a skincare secret\u2026 this was it",
+          "angle": null,
+          "days": 380,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "\ud83d\udc9b The Anti-Aging Ingredient You've Never Heard Of \u2026",
+          "angle": null,
+          "days": 158,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "\"Literally transformed my skin!",
+          "angle": null,
+          "days": 614,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "What if everything you believed about Botox was wrong?",
+          "angle": null,
+          "days": 116,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "If Viking women had a skincare secret\u2026 this was it",
+          "angle": null,
+          "days": 365,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "What if everything you believed about Botox was wrong?",
+          "angle": null,
+          "days": 110,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "The $8 billion peptide lie that's aging your skin faster \ud83d\udc89",
+          "angle": null,
+          "days": 151,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Retinol is Ruining Your Skin.",
+          "angle": null,
+          "days": 408,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "\ud83c\udf3f Born where winters last six months and only the strongest botanicals survive.",
+          "angle": null,
+          "days": 121,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "It started with a few fine lines.",
+          "angle": null,
+          "days": 274,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Nobel Prize-Winning Science for Ageless Skin\u2728",
+          "angle": null,
+          "days": 522,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Google \"filler migration\" right now.",
+          "angle": null,
+          "days": 66,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "What if everything you believed about Botox was wrong?",
+          "angle": null,
+          "days": 130,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Did you know that your drugstore anti-aging routines actually make mature skin worse?",
+          "angle": null,
+          "days": 228,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "\u26a0\ufe0f IF YOU'RE 40+, YOU SHOULD KNOW THIS:",
+          "angle": null,
+          "days": 129,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "A Harvard dermatology study just shattered everything we thought about skincare.",
+          "angle": null,
+          "days": 232,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "\ud83d\udc9b The Anti-Aging Product You've Never Heard Of \u2026",
+          "angle": null,
+          "days": 59,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "The $8 billion peptide lie that's aging your skin faster \ud83d\udc89",
+          "angle": null,
+          "days": 122,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "You won't BELIEVE why you are aging fast \ud83d\udc40",
+          "angle": null,
+          "days": 109,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "ONE BALM. LIMITLESS REJUVENATION",
+          "angle": null,
+          "days": 110,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "I thought I was taking care of my skin.",
+          "angle": null,
+          "days": 228,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Retinol is Ruining Your Skin.",
+          "angle": null,
+          "days": 173,
+          "source": "ad_copy_opening"
+        }
+      ],
+      "scripts": [
+        {
+          "script_id": "froyaorganics-com-customer_testimonial-01",
+          "brand": "froyaorganics-com",
+          "angle": "customer_testimonial",
+          "hook": "Four months. That's how long before I stopped checking whether it was working.",
+          "product": "The Complete System for Mature Women's Skin ($121.07)",
+          "ready": true
+        },
+        {
+          "script_id": "froyaorganics-com-customer_testimonial-02",
+          "brand": "froyaorganics-com",
+          "angle": "customer_testimonial",
+          "hook": "My hairdresser asked what I'd changed. She's done my hair for nine years.",
+          "product": "Magic Revive Hair & Scalp Shampoo ($29.00)",
+          "ready": true
+        },
+        {
+          "script_id": "froyaorganics-com-customer_testimonial-03",
+          "brand": "froyaorganics-com",
+          "angle": "customer_testimonial",
+          "hook": "I bought it for me. My daughter's the one who kept stealing it.",
+          "product": "Dry and Itchy Balm for Face and Body ($44.00)",
+          "ready": true
+        },
+        {
+          "script_id": "froyaorganics-com-heritage_origin-01",
+          "brand": "froyaorganics-com",
+          "angle": "heritage_origin",
+          "hook": "I tried to find out where this brand actually makes things. I expected a warehouse in Shenzhen.",
+          "product": "Anti-Age & Insane Glow Day Balm ($29.70)",
+          "ready": true
+        },
+        {
+          "script_id": "froyaorganics-com-heritage_origin-02",
+          "brand": "froyaorganics-com",
+          "angle": "heritage_origin",
+          "hook": "Cold does two things to skin and only one of them is bad.",
+          "product": "Magic Revive Eye Balm ($52.00)",
+          "ready": true
+        },
+        {
+          "script_id": "froyaorganics-com-heritage_origin-03",
+          "brand": "froyaorganics-com",
+          "angle": "heritage_origin",
+          "hook": "Read the ingredients on your scrub. Mine used to be plastic and apricot dust.",
+          "product": "Ultra Cleanse & Revive Face Scrub ($37.00)",
+          "ready": true
+        },
+        {
+          "script_id": "froyaorganics-com-ingredient_villain-01",
+          "brand": "froyaorganics-com",
+          "angle": "ingredient_villain",
+          "hook": "I counted. Eleven products, and nine of them are mostly water.",
+          "product": "Anti-Age & Insane Glow Day Balm ($29.70)",
+          "ready": true
+        },
+        {
+          "script_id": "froyaorganics-com-ingredient_villain-02",
+          "brand": "froyaorganics-com",
+          "angle": "ingredient_villain",
+          "hook": "The word 'fragrance' on a label can legally hide about three thousand ingredients.",
+          "product": "Balm for Acne-Prone Skin ($29.00)",
+          "ready": true
+        },
+        {
+          "script_id": "froyaorganics-com-ingredient_villain-03",
+          "brand": "froyaorganics-com",
+          "angle": "ingredient_villain",
+          "hook": "Eye creams are mostly face cream in a smaller jar at four times the price.",
+          "product": "Magic Revive Eye Balm ($52.00)",
+          "ready": true
+        },
+        {
+          "script_id": "froyaorganics-com-third_party_verdict-01",
+          "brand": "froyaorganics-com",
+          "angle": "third_party_verdict",
+          "hook": "Thirty-four thousand people reviewed this before I did. I read the one-stars first.",
+          "product": "The Complete System for Mature Women's Skin ($121.07)",
+          "ready": false
+        },
+        {
+          "script_id": "froyaorganics-com-third_party_verdict-02",
+          "brand": "froyaorganics-com",
+          "angle": "third_party_verdict",
+          "hook": "I don't trust brands. I trust the number of strangers who bothered to come back and write something.",
+          "product": "Anti-Age & Insane Glow Day Balm ($29.70)",
+          "ready": false
+        },
+        {
+          "script_id": "froyaorganics-com-third_party_verdict-03",
+          "brand": "froyaorganics-com",
+          "angle": "third_party_verdict",
+          "hook": "I didn't tell her I'd changed anything. She noticed first and then asked.",
+          "product": "Magic Revive Hair & Scalp Shampoo ($29.00)",
+          "ready": false
+        }
+      ],
+      "outreach_draft": "# Outreach draft \u2014 Fr\u00f8ya Organics\n\n> ## \u26a0 DRAFT \u2014 A HUMAN SENDS THIS, OR IT IS NOT SENT\n>\n> Agent 7 has no send path. Read it, check the evidence block, fill the sender fields,\n> then send it yourself from your own client.\n\n- **Brand:** Fr\u00f8ya Organics \u00b7 https://froyaorganics.com\n- **Fatigue score:** 89.96 (fatigued)\n- **Recipient:** UNRESOLVED \u2014 no verified corporate address on file\n- **Send-ready:** NO \u2014 2 blocker(s), see below\n- **Lead finding:** `holds_corpus_longest_ad`\n- **Generated:** 2026-09-23T22:21Z \u00b7 corpus `a2dda442e1764359` \u00b7 claims `acf932e14b7b4ecc` \u00b7 v6\n\n---\n\n## Subject\n\n    Your 614-day ad is the most durable one we have measured in skincare\n\n## Body\n\n    Hi,\n\n    One of your ads has been live 614 days \u2014 longer than any of the 139 skincare ads we have measured across 12 advertisers.\n\n    You can see the 614 days yourself on your own Ad Library page. What you cannot see there is that it is the longest-surviving creative in our whole 139-ad sample of 12 advertisers in your category.\n\n    It opens on a customer telling her own story. Of the 26 ads of yours we read, 1 opens that way. An ad that stays live that long is the strongest signal public data holds \u2014 you kept paying for it \u2014 and in our sample you ran the argument once.\n\n    The honest limit: 26 ads of your 3,400 is not enough to tell us how many more like it you have. That is the question, and you can answer it faster than we can.\n\n    Where this comes from: 139 ad openings from 12 skincare advertisers in Meta's public Ad Library, restricted to ads live 33+ days because an ad still running after a month is paying for itself. 26 of them are yours.\n\n    Three limits, so you can weigh it: we read the **caption opening**, not what is spoken in the video. We sampled 26 of your 3,400 live ads, so this describes the sample and not your whole account. And the advertiser list is built from direct-response ad copy, which surfaces challenger brands and under-samples incumbents like CeraVe and Dove \u2014 so it is a map of your peer set, not of the category.\n\n    I build ad creative for skincare brands \u2014 scripts and UGC-style video, by the batch. I am not asking for a call yet. If the finding above is interesting, reply and I will send the full teardown of Fr\u00f8ya Organics' openings: every position you run, how long each one has survived, and the same for the advertisers you are being compared against. No charge for it, and no obligation after it.\n\n    Worth a read?\n\n    \u2014\n    Sent by <<SET: the name the recipient should see>>, <<SET: registered company name, or your own name if a sole trader>> (<<SET: company number, or the literal 'n/a - sole trader'>>).\n    Postal address: <<SET: a real postal address you can receive mail at, one line>>\n    I found you in Meta's public Ad Library. Your address came from your own website's business contact page.\n    Reply with the single word STOP and I will delete your details and never contact you again.\n\n---\n\n## Evidence \u2014 every claim in the body above\n\n**1. Froya Organics ad 2123759134760755 live 614 days, classified `customer_testimonial`**\n\n- Derivation: hooks.jsonl record ad_id=2123759134760755, days_running=614\n- Ad ids: 2123759134760755\n\n**2. 614d is the maximum days_running in the 139-ad in-category corpus**\n\n- Derivation: max over days_running across all 139 classified in-category hooks in hooks.jsonl (corpus a2dda442e1764359)\n- Ad ids: 2123759134760755\n\n### What this draft does not claim\n\n- No absence claim of any kind. The corpus is reliable for presence and unreliable\n  for absence \u2014 7 of the 9 absence claims we tested were falsified (78%).\n- No performance claim. We sell creative volume and angle coverage, never results.\n- No competitor is named. Several brands in this corpus compete with each other and\n  with other brands in this queue.\n- No medical or drug claim, and nothing from this brand's own `Do not say` list.\n\n---\n\n## Compliance record\n\n| Requirement | Basis | Satisfied |\n|---|---|---|\n| Corporate subscribers only | P"
+    },
+    "spoiledchild-com": {
+      "research": {
+        "Category fit": "**Skincare at brand level, ingestible at ad level \u2014 the gap matters.** The topical line is real (S33+ Collagen Burst Serum, T31 Vitamin C Eye Cream, O36+ Triple-Peptide Moisturizer), which is why it stays tagged `skincare`. But Agent 2 found 27 of its 29 mined ads running ingestible liquid collagen, appetite suppression and hair thinning, with only two topical eye ads. Whatever we write has to sell the topical line, not follow where their spend actually goes.\n\n_Provisional until the ad set confirms it._ Intake establishes what a brand **says** it sells; only its ads show what it actually **advertises**. Both SpoiledChild and Saltair read as skincare on the website and were tagged as such here \u2014 at ad level SpoiledChild runs 27 of 29 ads on ingestible collagen, and Saltair runs 22 of 22 on body care with no facial SKU. Treat this section as the brand's claim, and Agent 2's per-ad product class as the check on it.",
+        "Positioning": "GETTING OLD IS GETTING OLD. Intelligent skin and hair products that refuse to take aging seriously. SpoiledBrain, our proprietary machine learning algorithm, will determine the exact products you need by combining millions of data points with your personal profile.\n\nHomepage claims, in the brand's own words:\n\n- Find exactly what you need\n- THE FUTURE OF WELLNESS\n- A complete spectrum of best in class products for personalized age-control\n- Shop by Hair Concern\n- Shop by Skin Concern",
+        "Hero products": "| Product | Type | Price | In stock |\n|---|---|---|---|\n| E27 Extra Strength Liquid Collagen | Wellness | \u2014 | yes |\n| A22 Biotin Boost Hair + Scalp Serum | Hair Serum | \u2014 | yes |\n| S33+ Anti-Aging Collagen Burst Serum | Face Serum | \u2014 | yes |\n| T31 Vitamin C Brightening Eye Cream | Eye Cream | \u2014 | yes |\n| O36+ Anti-Aging Triple-Peptide Moisturizer | Face Moisturizer | \u2014 | yes |\n| M27 Anti-Aging Glycolic Renewing Serum | Face Serum | \u2014 | yes |\n| K27 Anti-Aging Vitamin C Boosting Serum | Face Serum | \u2014 | yes |\n| G25+ Anti-Aging Retin + Night Rewind Serum | Face Serum | \u2014 | yes |\n| L28 Anti-Aging Restoring Moisturizer | Face Moisturizer | \u2014 | yes |\n| N29 Magnesium Liquid | Wellness | \u2014 | yes |\n\n**Lead product copy \u2014 E27 Extra Strength Liquid Collagen:**\n\n> Extra strength liquid collagen, sold as a refillable wellness product. Headline SKU across the homepage.\n\n**Category mix:** Face Serum (4), Wellness (2), Face Moisturizer (2), Hair Serum (1), Eye Cream (1)",
+        "Ingredients to name in script": "retinol, vitamin c, peptide, glycolic acid, collagen",
+        "Proof points": "- _No review count or rating found on the homepage._",
+        "Ads in market": "- **Segment:** `fatigued` \u00b7 fatigue score 89.44\n- **Active ads:** 520 \u00b7 video ads (est.) 312\n- **Oldest live ad:** 325d \u00b7 **newest:** 58d ago\n- Notes: ugc est. from 30-ad sample; ad ages from sample; true oldest may be older; 1 affiliate page(s) run its creative; 15+ UGC video ads\n\n**The pitch:** newest creative is 58 days old against 520 ads still running \u2014 they are spending but not refreshing.",
+        "Do not say": "Cosmetic claims only \u2014 these phrases appear in the brand's own copy but should not be repeated in paid creative without substantiation:\n\n- _No drug-claim language found in captured copy._\n\nStanding constraints: no before/after implying permanent change, no disease or condition-treatment language, no unearned \"dermatologist recommended\".",
+        "Open questions for the client": "- Which SKU carries the margin they want volume on?\n- Do they have creator/UGC footage rights already, or is this net-new?\n- Which of the currently-running ads is their best performer?\n- Any claims legal has already rejected?"
+      },
+      "has_research": true,
+      "hooks": [
+        {
+          "text": "I love this liquid collagen from SpoiledChild...",
+          "angle": null,
+          "days": 133,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "\u00a1Realmente me gusta este sabor!",
+          "angle": null,
+          "days": 256,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "\u00a1Realmente me gusta este sabor!",
+          "angle": null,
+          "days": 256,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "\u00a1Realmente me gusta este sabor!",
+          "angle": null,
+          "days": 256,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "\u00a1Realmente me gusta este sabor!",
+          "angle": null,
+          "days": 256,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "\"I'm just not snacking like I used to.",
+          "angle": null,
+          "days": 325,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Ditch the concealer with the SpoiledChild\u2122 Miracle Eye Corrector!",
+          "angle": null,
+          "days": 267,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "\"My hairline is looking fuller already!",
+          "angle": null,
+          "days": 63,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "I love this liquid collagen from SpoiledChild...",
+          "angle": null,
+          "days": 133,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "I love this liquid collagen from SpoiledChild...",
+          "angle": null,
+          "days": 133,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "\"I'm just not snacking like I used to.",
+          "angle": null,
+          "days": 207,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "\"I really like the taste of this!",
+          "angle": null,
+          "days": 207,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "\"I really like the taste of this!",
+          "angle": null,
+          "days": 325,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "\u00a1Realmente me gusta este sabor!",
+          "angle": null,
+          "days": 256,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "\u00a1Realmente me gusta este sabor!",
+          "angle": null,
+          "days": 256,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "\"I really like the taste of this!",
+          "angle": null,
+          "days": 325,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "See why these celebs can't get enough of the amazing Extra Strength Liquid Collagen",
+          "angle": null,
+          "days": 325,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "See why these celebs can't get enough of the amazing E27 Extra Strength Liquid Collagen",
+          "angle": null,
+          "days": 58,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "\u00a1Realmente me gusta este sabor!",
+          "angle": null,
+          "days": 256,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "See why these celebs can't get enough of the amazing E27 Extra Strength Liquid Collagen",
+          "angle": null,
+          "days": 99,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Got tired morning eyes?",
+          "angle": null,
+          "days": 323,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "\"I'm just not snacking like I used to.",
+          "angle": null,
+          "days": 325,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Ya no como snacks como antes.",
+          "angle": null,
+          "days": 256,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Ya no como snacks como antes.",
+          "angle": null,
+          "days": 256,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "\"I'm just not snacking like I used to.",
+          "angle": null,
+          "days": 207,
+          "source": "ad_copy_opening"
+        }
+      ],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "beautyfrombees-ca": {
+      "research": {
+        "Category fit": "**Core skincare, good fit.** Canadian, formulates in-house, and leads on full-ingredient transparency rather than hero ingredients \u2014 a defensible and differentiated angle. Breadth is the risk: skincare, makeup, haircare, baby care and 'Good Fumes' in one catalogue means creative has to pick a lane per audience rather than sell the brand.\n\n_Provisional until the ad set confirms it._ Intake establishes what a brand **says** it sells; only its ads show what it actually **advertises**. Both SpoiledChild and Saltair read as skincare on the website and were tagged as such here \u2014 at ad level SpoiledChild runs 27 of 29 ads on ingestible collagen, and Saltair runs 22 of 22 on body care with no facial SKU. Treat this section as the brand's claim, and Agent 2's per-ad product class as the check on it.",
+        "Positioning": "Naturally handcrafted bath products that are safe for the whole family! Probiotic and antioxidant infused for health and skin benefits. No synthetic fragrances are used, only pure essential oils.\n\nHomepage claims, in the brand's own words:\n\n- Meet Your New Healthy Skin Routine.\n- The Beauty From Bees Difference\n- Find Us In Stores",
+        "Hero products": "| Product | Type | Price | In stock |\n|---|---|---|---|\n| Face Serum (Night, Lactic Acid 10%) | Face Serum | \u2014 | yes |\n| Face Serum (Day, Hyaluronic 2%) | Face Serum | \u2014 | yes |\n| Face Oil (Moisture Absolute) | Face Oil | \u2014 | yes |\n| Face Spritz - Probiotic Infused | Toner | \u2014 | yes |\n| Body Serum | Body Treatment | \u2014 | yes |\n| Mini Collection (all 7 facial essentials) | Bundle | \u2014 | yes |\n| Magnesium Oil | Body Treatment | \u2014 | yes |\n| Lip Serum | Lip Care | \u2014 | yes |\n\n**Lead product copy \u2014 Face Serum (Night, Lactic Acid 10%):**\n\n> 10% lactic acid night serum.\n\n**Category mix:** Face Serum (2), Body Treatment (2), Face Oil (1), Toner (1), Bundle (1), Lip Care (1)",
+        "Ingredients to name in script": "lactic acid",
+        "Proof points": "- _No review count or rating found on the homepage._",
+        "Ads in market": "- **Segment:** `active` \u00b7 fatigue score 87.65\n- **Active ads:** 180 \u00b7 video ads (est.) 84\n- **Oldest live ad:** 313d \u00b7 **newest:** 43d ago\n- Notes: ugc est. from 30-ad sample; ad ages from sample; true oldest may be older; 15+ UGC video ads\n\n**The pitch:** newest creative is 43 days old against 180 ads still running \u2014 they are spending but not refreshing.",
+        "Do not say": "Cosmetic claims only \u2014 these phrases appear in the brand's own copy but should not be repeated in paid creative without substantiation:\n\n- _No drug-claim language found in captured copy._\n\nStanding constraints: no before/after implying permanent change, no disease or condition-treatment language, no unearned \"dermatologist recommended\".",
+        "Open questions for the client": "- Which SKU carries the margin they want volume on?\n- Do they have creator/UGC footage rights already, or is this net-new?\n- Which of the currently-running ads is their best performer?\n- Any claims legal has already rejected?"
+      },
+      "has_research": true,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "saeskyn-com": {
+      "research": {
+        "Category fit": "**Skincare, but dropshipper-shaped.** 24 white-label Korean SKUs, every one showing '50% OFF ENDS TODAY', no about page, no reviews, no ingredient library. Genuinely in category and it scores well on ad behaviour, but the absence of any brand substance means creative has nothing to stand on beyond the actives themselves. Worth a look, not a first call.\n\n_Provisional until the ad set confirms it._ Intake establishes what a brand **says** it sells; only its ads show what it actually **advertises**. Both SpoiledChild and Saltair read as skincare on the website and were tagged as such here \u2014 at ad level SpoiledChild runs 27 of 29 ads on ingestible collagen, and Saltair runs 22 of 22 on body care with no facial SKU. Treat this section as the brand's claim, and Agent 2's per-ad product class as the check on it.",
+        "Positioning": "SAESKYN\n\nHomepage claims, in the brand's own words:\n\n- Transform Your Skin Instantly",
+        "Hero products": "| Product | Type | Price | In stock |\n|---|---|---|---|\n| Ialuset HA Time Reverse Cream | Face Moisturizer | $27.00 | yes |\n| Instant Face Lift Pro + Primer | Face Treatment | $27.00 | yes |\n| Korean Advanced Arbutin Brightening Cream | Face Moisturizer | $27.00 | yes |\n| Korean Advanced PDRN Copper Peptide Serum | Face Serum | $31.00 | yes |\n| Korean Advanced PDRN Cream | Face Moisturizer | $27.00 | yes |\n| Korean Advanced Rejuvinating PDRN Cream | Face Moisturizer | $23.00 | yes |\n| Korean Blue Copper Peptide Bakuchiol Serum | Face Serum | $31.00 | yes |\n| Korean Collagen Bounce Multi Balm Stick | Face Balm | $23.00 | yes |\n| Korean Glow Sunstick SPF50+ | Sunscreen | $27.00 | yes |\n| Korean Glutathione 7 Dark Spot Erasing Serum Patches | Treatment | $27.00 | yes |\n\n**Lead product copy \u2014 Ialuset HA Time Reverse Cream:**\n\n> Hyaluronic acid 'time reverse' cream. Listed at GBP 27.00, struck through from GBP 53.00.\n\n**Category mix:** Face Serum (5), Face Moisturizer (4), Face Treatment (1), Face Balm (1), Sunscreen (1), Treatment (1)",
+        "Ingredients to name in script": "hyaluronic acid, peptide, collagen, bakuchiol, spf",
+        "Proof points": "- _No review count or rating found on the homepage._",
+        "Ads in market": "- **Segment:** `fatigued` \u00b7 fatigue score 89.19\n- **Active ads:** 390 \u00b7 video ads (est.) 299\n- **Oldest live ad:** 283d \u00b7 **newest:** 65d ago\n- Notes: ugc est. from 30-ad sample; ad ages from sample; true oldest may be older; 15+ UGC video ads; nothing new in 65d\n\n**The pitch:** newest creative is 65 days old against 390 ads still running \u2014 they are spending but not refreshing.",
+        "Do not say": "Cosmetic claims only \u2014 these phrases appear in the brand's own copy but should not be repeated in paid creative without substantiation:\n\n- _No drug-claim language found in captured copy._\n\nStanding constraints: no before/after implying permanent change, no disease or condition-treatment language, no unearned \"dermatologist recommended\".",
+        "Open questions for the client": "- Which SKU carries the margin they want volume on?\n- Do they have creator/UGC footage rights already, or is this net-new?\n- Which of the currently-running ads is their best performer?\n- Any claims legal has already rejected?"
+      },
+      "has_research": true,
+      "hooks": [
+        {
+          "text": "You've tried the vitamin C serums.",
+          "angle": null,
+          "days": 201,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "POV: Your entire skincare routine fits in your pocket",
+          "angle": null,
+          "days": 283,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "You've tried the vitamin C serums.",
+          "angle": null,
+          "days": 65,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "\u00bfGastando $500 cada 3 meses en Botox?",
+          "angle": null,
+          "days": 205,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "\u00bfGastando $500 cada 3 meses en Botox?",
+          "angle": null,
+          "days": 207,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "\"Another firming cream?",
+          "angle": null,
+          "days": 249,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "You've tried the vitamin C serums.",
+          "angle": null,
+          "days": 201,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "POV: Your entire skincare routine fits in your pocket",
+          "angle": null,
+          "days": 283,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "\ud83e\uddec Your skin stops producing NAD+ at 25.",
+          "angle": null,
+          "days": 86,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "You've tried the vitamin C serums.",
+          "angle": null,
+          "days": 201,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "\u00bfGastando $500 cada 3 meses en Botox?",
+          "angle": null,
+          "days": 201,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "POV: Your entire skincare routine fits in your pocket",
+          "angle": null,
+          "days": 127,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "\ud83e\uddec Your skin stops producing NAD+ at 25.",
+          "angle": null,
+          "days": 135,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "You've tried the vitamin C serums.",
+          "angle": null,
+          "days": 207,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "POV: Your entire skincare routine fits in your pocket",
+          "angle": null,
+          "days": 76,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "\"Another firming cream?",
+          "angle": null,
+          "days": 198,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Spending $500 every 3 months on Botox?",
+          "angle": null,
+          "days": 201,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "POV: Your entire skincare routine fits in your pocket",
+          "angle": null,
+          "days": 93,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "\"Another firming cream?",
+          "angle": null,
+          "days": 249,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "\u00bfGastando $500 cada 3 meses en Botox?",
+          "angle": null,
+          "days": 201,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "\u00bfGastando $500 cada 3 meses en Botox?",
+          "angle": null,
+          "days": 201,
+          "source": "ad_copy_opening"
+        }
+      ],
+      "scripts": [],
+      "outreach_draft": "# Outreach draft \u2014 SAESKYN\n\n> ## \u26a0 DRAFT \u2014 A HUMAN SENDS THIS, OR IT IS NOT SENT\n>\n> Agent 7 has no send path. Read it, check the evidence block, fill the sender fields,\n> then send it yourself from your own client.\n\n- **Brand:** SAESKYN \u00b7 https://saeskyn.com\n- **Fatigue score:** 89.22 (fatigued)\n- **Recipient:** UNRESOLVED \u2014 no verified corporate address on file\n- **Send-ready:** NO \u2014 2 blocker(s), see below\n- **Lead finding:** `outlasts_in_busiest_position`\n- **Generated:** 2026-09-23T22:21Z \u00b7 corpus `a2dda442e1764359` \u00b7 claims `acf932e14b7b4ecc` \u00b7 v6\n\n---\n\n## Subject\n\n    Your 6 ads in your category's most crowded opening are outlasting it\n\n## Body\n\n    Hi,\n\n    In the most crowded opening in your category, your ads stay live 62.5 days longer than the median ad there.\n\n    Opening on the comparison with injectables is where your category puts most of its creative: 38 of the 139 ads we read, spread across 5 advertisers. The median ad in that position stays live 138.5 days.\n\n    Your 6 ads there sit at a median of 201 days \u2014 62.5 days longer \u2014 and they are tightly clustered: 207, 205, 201, 201, 201, 201. That is the busiest argument in your category and your versions of it are outlasting it.\n\n    Which makes 6 ads a thin position to hold it with. The other 4 openings we found in your account run from 110.5 to 249 days at the median, across 15 ads.\n\n    Where this comes from: 139 ad openings from 12 skincare advertisers in Meta's public Ad Library, restricted to ads live 33+ days because an ad still running after a month is paying for itself. 21 of them are yours.\n\n    Three limits, so you can weigh it: we read the **caption opening**, not what is spoken in the video. We sampled 21 of your 390 live ads, so this describes the sample and not your whole account. And the advertiser list is built from direct-response ad copy, which surfaces challenger brands and under-samples incumbents like CeraVe and Dove \u2014 so it is a map of your peer set, not of the category.\n\n    I build ad creative for skincare brands \u2014 scripts and UGC-style video, by the batch. I am not asking for a call yet. If the finding above is interesting, reply and I will send the full teardown of SAESKYN's openings: every position you run, how long each one has survived, and the same for the advertisers you are being compared against. No charge for it, and no obligation after it.\n\n    Worth a read?\n\n    \u2014\n    Sent by <<SET: the name the recipient should see>>, <<SET: registered company name, or your own name if a sole trader>> (<<SET: company number, or the literal 'n/a - sole trader'>>).\n    Postal address: <<SET: a real postal address you can receive mail at, one line>>\n    I found you in Meta's public Ad Library. Your address came from your own website's business contact page.\n    Reply with the single word STOP and I will delete your details and never contact you again.\n\n---\n\n## Evidence \u2014 every claim in the body above\n\n**1. Saeskyn's `injectable_displacement` ads: n=6, median 201d**\n\n- Derivation: hooks.jsonl, 6 Saeskyn ad(s) classified `injectable_displacement` in angles.json (corpus a2dda442e1764359); days_running [207, 205, 201, 201, 201, 201]; median recomputed from those records\n- Ad ids: 1128834092622802, 1658449725513081, 1731140188245111, 1866762890681848, 763507303210192, 901516669296845\n\n**2. corpus `injectable_displacement`: n=38 ads across 5 advertisers, median 138.5d**\n\n- Derivation: median recomputed from the 38 hooks.jsonl records angles.json classifies `injectable_displacement` -- note angles.json stores [147], which is the upper middle value, not the median\n- Ad ids: \u2014 (aggregate over the corpus)\n\n### What this draft does not claim\n\n- No absence claim of any kind. The corpus is reliable for presence and unreliable\n  for absence \u2014 7 of the 9 absence claims we tested were falsified (78%).\n- No performance claim. We sell creative volume and angle coverage, never results.\n- No competitor is named. Several brands in this corpus compete with each other"
+    },
+    "saltair-com": {
+      "research": {
+        "Category fit": "**Body care, not facial skincare \u2014 and the ad set is unambiguous.** Body wash, body oil, body butter, scrubs, serum deodorant, body mist and scent collections. There is a genuine HA Body Hydrator and a Vitamin C Body Serum, so the actives language reads like skincare, but Agent 2 found 22 of 22 mined ads on body care with no facial SKU anywhere. It belongs in the beauty category and in targets.csv; it does not belong in the facial skincare hook corpus. Tagged `body_care`.\n\n_Provisional until the ad set confirms it._ Intake establishes what a brand **says** it sells; only its ads show what it actually **advertises**. Both SpoiledChild and Saltair read as skincare on the website and were tagged as such here \u2014 at ad level SpoiledChild runs 27 of 29 ads on ingestible collagen, and Saltair runs 22 of 22 on body care with no facial SKU. Treat this section as the brand's claim, and Agent 2's per-ad product class as the check on it.",
+        "Positioning": "Saltair body care and hair care products are made with advanced ingredients and exotic botanicals to treat the skin and hair while awakening the senses.\n\nHomepage claims, in the brand's own words:\n\n- Shop All\n- Shea Soleil\n- Coral Coast\n- Driftwood\n- Salt Water Vanilla\n- Santal Bloom\n- Pink Beach\n- Seascape",
+        "Hero products": "| Product | Type | Price | In stock |\n|---|---|---|---|\n| HA Body Hydrator Mini | Body Treatment | $10.00 | yes |\n| The Renewal Duo | Body Treatment | $39.00 | yes |\n| Glycolic Acid Exfoliating Spray | Body Treatment | $20.00 | yes |\n| Coral Coast - Body Butter 2pck | Bundle | $40.00 | yes |\n| Fragrance Free - Travel Size Body Wash | Travel Size Body Wash | $2.50 | yes |\n| Seascape - Summer Reset Bundle | Bundle | $37.00 | yes |\n| Santal Bloom - Body Scrub | Body Scrub | $20.00 | yes |\n| Hydrate & Glow Duo | Bundle | $41.00 | yes |\n| Shea Soleil - Body Mist | Body Mist | $18.00 | yes |\n| Coral Coast - Shimmering Body Oil | Shimmering Body Oil | $25.00 | yes |\n\n**Lead product copy \u2014 HA Body Hydrator Mini:**\n\n> Our lightweight and fast-absorbing hyaluronic acid body serum hydrates for softer, smoother, and plumper-looking skin. The phyto-collagen complex is known to help visibly firm and boost skin elasticity while a replenishing blend of sodium hyaluronate, red algae, and magnesium chloride improve the skin's moisture barrier.\n\n**Category mix:** Bundle (5), Body Treatment (4), Body Mist (2), Body Wash (2), Travel Size Body Wash (1), Body Scrub (1)",
+        "Ingredients to name in script": "hyaluronic acid, niacinamide, retinol, vitamin c, salicylic acid, glycolic acid, squalane, collagen, shea butter, jojoba, rosehip, spf",
+        "Proof points": "- 791 reviews cited on site\n- 4.7 / 5 average rating cited on site",
+        "Ads in market": "- **Segment:** `fatigued` \u00b7 fatigue score 88.59\n- **Active ads:** 700 \u00b7 video ads (est.) 327\n- **Oldest live ad:** 220d \u00b7 **newest:** 45d ago\n- Notes: ugc est. from 30-ad sample; ad ages from sample; true oldest may be older; advertises as \"jaxandbrynco\"; body_care \u2014 EXCLUDE from skincare hook corpus (DESIGN.md \u00a74); 15+ UGC video ads\n\n**The pitch:** newest creative is 45 days old against 700 ads still running \u2014 they are spending but not refreshing.",
+        "Do not say": "Cosmetic claims only \u2014 these phrases appear in the brand's own copy but should not be repeated in paid creative without substantiation:\n\n- \"clinically proven\"\n- \"treat\"\n\nStanding constraints: no before/after implying permanent change, no disease or condition-treatment language, no unearned \"dermatologist recommended\".",
+        "Open questions for the client": "- Which SKU carries the margin they want volume on?\n- Do they have creator/UGC footage rights already, or is this net-new?\n- Which of the currently-running ads is their best performer?\n- Any claims legal has already rejected?"
+      },
+      "has_research": true,
+      "hooks": [
+        {
+          "text": "Saltair just launched it's latest exciting scent, Coral Coast.",
+          "angle": null,
+          "days": 200,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "2 steps for juicy, hydrated, glowy skin\ud83e\uddf4",
+          "angle": null,
+          "days": 152,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "New year ritual = Saltair in the shower.",
+          "angle": null,
+          "days": 216,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "A body oil that gives you that post vacation glow and nourishes your skin at the same time.",
+          "angle": null,
+          "days": 155,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Meet your NEW favorite Saltair collection \u2728",
+          "angle": null,
+          "days": 45,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "THE bundle for smooth and hydrated skin!!",
+          "angle": null,
+          "days": 215,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Beneficial body care \ud83c\udf4a >>> adding this into my bodycare routine cause I want this skin to GLOW.",
+          "angle": null,
+          "days": 107,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "This is truly summer captured inside a bottle!!",
+          "angle": null,
+          "days": 171,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Skincare for our bodies just got a whole lot easier with Saltair's newest HA Body Serum + Retinol bundle",
+          "angle": null,
+          "days": 199,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Our viral Hyaluronic Acid Body Serum is your warm-weather skin staple.",
+          "angle": null,
+          "days": 176,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Driftwood sells out fast, so you may want to RUN!",
+          "angle": null,
+          "days": 220,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "The dream team for smooth, hydrated skin.",
+          "angle": null,
+          "days": 143,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Upgrade your basic shower routine with Saltair's Salt Water Vanilla Essentials Set.",
+          "angle": null,
+          "days": 170,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "NEW Saltair vitamin c body serum is here!!",
+          "angle": null,
+          "days": 137,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "The perfect scent to get me ready for my vacay \ud83d\udc95",
+          "angle": null,
+          "days": 188,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Love these two new Saltair bodycare products - Retinol + Hyaluronic Acid for your whole body!",
+          "angle": null,
+          "days": 199,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "If you want extremely hydrated and glowy skin, you NEED this.",
+          "angle": null,
+          "days": 216,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "A modern coastal scent.",
+          "angle": null,
+          "days": 102,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Target runs always include stocking up on our Saltair faves.",
+          "angle": null,
+          "days": 216,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Saltair just dropped a new HA Body Serum + Overnight Retinol Body Lotion bundle.",
+          "angle": null,
+          "days": 210,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Coral Coast is here and it's making waves with this delightful fragrance.",
+          "angle": null,
+          "days": 200,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "If you want to be so hydrated this summer that you look like a dolphin, you need to watch this video.",
+          "angle": null,
+          "days": 112,
+          "source": "ad_copy_opening"
+        }
+      ],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "blume-com": {
+      "research": {
+        "Category fit": "**Core skincare, strong fit.** Hormonal-acne focus with a clear hero SKU and a young audience that is native to UGC. Two claim cautions: 'Works in Just 3 Days' is a specific time-bound efficacy claim, and 'Dermatologist Recommended' appears as a homepage heading \u2014 both need substantiation on file before creative repeats them. Heavy bundle discounting (43\u201350%) alongside 310 active ads suggests margin pressure.\n\n_Provisional until the ad set confirms it._ Intake establishes what a brand **says** it sells; only its ads show what it actually **advertises**. Both SpoiledChild and Saltair read as skincare on the website and were tagged as such here \u2014 at ad level SpoiledChild runs 27 of 29 ads on ingestible collagen, and Saltair runs 22 of 22 on body care with no facial SKU. Treat this section as the brand's claim, and Agent 2's per-ad product class as the check on it.",
+        "Positioning": "Hi, we're Blume and we're all up in your bathroom with products that are good for you, and the environment. Award winning skin care. Clean, effective and affordable.\n\nHomepage claims, in the brand's own words:\n\n- Clear, Healthy, Hydrated Skin in 3 Easy Steps\n- BEST BUNDLES\n- SHOP BY SKIN TYPE\n- BEST SELLERS\n- Dermatologist Recommended",
+        "Hero products": "| Product | Type | Price | In stock |\n|---|---|---|---|\n| Meltdown Acne Oil Treatment | Acne Treatment | $40.00 | yes |\n| Clear Skin Kit: Acne Essentials | Bundle | $57.00 | yes |\n| Meltdown Gel Cream | Face Moisturizer | \u2014 | yes |\n| Meltdown Gel Cleanser | Cleanser | \u2014 | yes |\n| Milky Fade Serum | Face Serum | \u2014 | yes |\n| The Ultimate Clear Skin Routine | Bundle | $72.00 | yes |\n\n**Lead product copy \u2014 Meltdown Acne Oil Treatment:**\n\n> Spot and all-over acne care. 4,900 ratings \u2014 the hero SKU.\n\n**Category mix:** Bundle (2), Acne Treatment (1), Face Moisturizer (1), Cleanser (1), Face Serum (1)",
+        "Ingredients to name in script": "_None of the tracked actives appear in public copy._",
+        "Proof points": "- 5000 reviews cited on site",
+        "Ads in market": "- **Segment:** `active` \u00b7 fatigue score 83.28\n- **Active ads:** 310 \u00b7 video ads (est.) 279\n- **Oldest live ad:** 599d \u00b7 **newest:** 37d ago\n- Notes: ugc est. from 30-ad sample; ad ages from sample; true oldest may be older; 15+ UGC video ads\n\n**The pitch:** newest creative is 37 days old against 310 ads still running \u2014 they are spending but not refreshing.",
+        "Do not say": "Cosmetic claims only \u2014 these phrases appear in the brand's own copy but should not be repeated in paid creative without substantiation:\n\n- _No drug-claim language found in captured copy._\n\nStanding constraints: no before/after implying permanent change, no disease or condition-treatment language, no unearned \"dermatologist recommended\".",
+        "Open questions for the client": "- Which SKU carries the margin they want volume on?\n- Do they have creator/UGC footage rights already, or is this net-new?\n- Which of the currently-running ads is their best performer?\n- Any claims legal has already rejected?"
+      },
+      "has_research": true,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "trystrawberry-com": {
+      "research": {
+        "Category fit": "**Core skincare, strong fit, unusually sharp niche.** Keratosis pilaris is a specific, visible, under-served concern with a built-in visual demo and a named search term people already use. A concern-first site architecture ('Pick one and we'll do the rest') maps almost one-to-one onto hook segmentation. Best niche fit of this batch. Claim caution: eczema is a medical condition \u2014 the copy hedges with 'support' and 'designed to', and creative must keep that hedge.\n\n_Provisional until the ad set confirms it._ Intake establishes what a brand **says** it sells; only its ads show what it actually **advertises**. Both SpoiledChild and Saltair read as skincare on the website and were tagged as such here \u2014 at ad level SpoiledChild runs 27 of 29 ads on ingestible collagen, and Saltair runs 22 of 22 on body care with no facial SKU. Treat this section as the brand's claim, and Agent 2's per-ad product class as the check on it.",
+        "Positioning": "Improve keratosis pilaris, strawberry skin and dark spots with targeted formulas designed to smooth KP bumps and support even-looking skin.\n\nHomepage claims, in the brand's own words:\n\n- What's Your Skin Concern?\n- SOLUTIONS FOR YOUR MOST COMMON SKIN CONCERNS\n- WHAT OUR CUSTOMERS SAY",
+        "Hero products": "| Product | Type | Price | In stock |\n|---|---|---|---|\n| KP / Strawberry Skin treatment | Body Treatment | \u2014 | yes |\n| Hyperpigmentation range | Body Treatment | \u2014 | yes |\n| Eczema & Dryness range | Body Treatment | \u2014 | yes |\n\n**Lead product copy \u2014 KP / Strawberry Skin treatment:**\n\n> Targets keratosis pilaris \u2014 rough, bumpy 'strawberry skin' on arms and legs. The brand's defining concern.\n\n**Category mix:** Body Treatment (3)",
+        "Ingredients to name in script": "_None of the tracked actives appear in public copy._",
+        "Proof points": "- 6,000 reviews cited on site\n- 4.9 / 5 average rating cited on site",
+        "Ads in market": "- **Segment:** `cooling` \u00b7 fatigue score 87.8\n- **Active ads:** 240 \u00b7 video ads (est.) 160\n- **Oldest live ad:** 515d \u00b7 **newest:** 125d ago\n- Notes: ugc est. from 30-ad sample; ad ages from sample; true oldest may be older; 15+ UGC video ads; nothing new in 125d\n\n**The pitch:** newest creative is 125 days old against 240 ads still running \u2014 they are spending but not refreshing.",
+        "Do not say": "Cosmetic claims only \u2014 these phrases appear in the brand's own copy but should not be repeated in paid creative without substantiation:\n\n- _No drug-claim language found in captured copy._\n\nStanding constraints: no before/after implying permanent change, no disease or condition-treatment language, no unearned \"dermatologist recommended\".",
+        "Open questions for the client": "- Which SKU carries the margin they want volume on?\n- Do they have creator/UGC footage rights already, or is this net-new?\n- Which of the currently-running ads is their best performer?\n- Any claims legal has already rejected?"
+      },
+      "has_research": true,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "mareeglycolicpads-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "primeprometics-com": {
+      "research": {
+        "Category fit": "**Makeup, not skincare \u2014 but a clean adjacent fit.** Colour cosmetics for mature women, with the 'pro-age' framing doing the differentiating. Highly demo-able (application on mature skin, before/after on lashes) and the audience overlaps the mature-skin skincare brands in this list, so an avatar pool is shared. Treat as its own angle set. **Claim flag:** the brand's own tagline is 'Make-up That Heals' \u2014 'heals' is drug-claim language and must not carry into creative, even though it is their line.\n\n_Provisional until the ad set confirms it._ Intake establishes what a brand **says** it sells; only its ads show what it actually **advertises**. Both SpoiledChild and Saltair read as skincare on the website and were tagged as such here \u2014 at ad level SpoiledChild runs 27 of 29 ads on ingestible collagen, and Saltair runs 22 of 22 on body care with no facial SKU. Treat this section as the brand's claim, and Agent 2's per-ad product class as the check on it.",
+        "Positioning": "Pro-Age Make-up That Heals\n\nHomepage claims, in the brand's own words:\n\n- #1 TUBING MASCARA FOR MATURE WOMEN\n- PRO-AGE MAKE-UP: TURNING WRINKLES INTO SMILE LINES\n- EVERY PRODUCT MADE FOR SENSITIVE SKIN & EYES\n- TRUSTED BY OVER 2 MILLION WOMEN",
+        "Hero products": "| Product | Type | Price | In stock |\n|---|---|---|---|\n| Primelash Mascara | Mascara | \u2014 | yes |\n| Pro-Age make-up range | Makeup | \u2014 | yes |\n\n**Lead product copy \u2014 Primelash Mascara:**\n\n> #1 tubing mascara for mature women. 3x length and definition, water-resistant, clump-free, 7 shades. 4.9 from 40,000+ customers.\n\n**Category mix:** Mascara (1), Makeup (1)",
+        "Ingredients to name in script": "_None of the tracked actives appear in public copy._",
+        "Proof points": "- 40,000 reviews cited on site\n- 4.9 / 5 average rating cited on site",
+        "Ads in market": "- **Segment:** `active` \u00b7 fatigue score 82.11\n- **Active ads:** 1700 \u00b7 video ads (est.) 737\n- **Oldest live ad:** 366d \u00b7 **newest:** 36d ago\n- Notes: ugc est. from 30-ad sample; ad ages from sample; true oldest may be older; 1 affiliate page(s) run its creative; makeup \u2014 EXCLUDE from skincare hook corpus (DESIGN.md \u00a74); 15+ UGC video ads\n\n**The pitch:** newest creative is 36 days old against 1700 ads still running \u2014 they are spending but not refreshing.",
+        "Do not say": "Cosmetic claims only \u2014 these phrases appear in the brand's own copy but should not be repeated in paid creative without substantiation:\n\n- \"heals\"\n\nStanding constraints: no before/after implying permanent change, no disease or condition-treatment language, no unearned \"dermatologist recommended\".",
+        "Open questions for the client": "- Which SKU carries the margin they want volume on?\n- Do they have creator/UGC footage rights already, or is this net-new?\n- Which of the currently-running ads is their best performer?\n- Any claims legal has already rejected?"
+      },
+      "has_research": true,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "ursamajorvt-com": {
+      "research": {
+        "Category fit": "**Core skincare, strong fit.** Vermont-made, B Corp certified, vegan and cruelty-free, at a premium price point ($54\u2013$84). Place and provenance are the differentiator, which gives creative something concrete to shoot rather than another actives argument. Cleanest claim profile in this batch \u2014 no time-bound efficacy promises on the homepage at all.\n\n_Provisional until the ad set confirms it._ Intake establishes what a brand **says** it sells; only its ads show what it actually **advertises**. Both SpoiledChild and Saltair read as skincare on the website and were tagged as such here \u2014 at ad level SpoiledChild runs 27 of 29 ads on ingestible collagen, and Saltair runs 22 of 22 on body care with no facial SKU. Treat this section as the brand's claim, and Agent 2's per-ad product class as the check on it.",
+        "Positioning": "Clean, forest-powered skincare for the best skin of your life. Vegan, cruelty-free, B Corp certified face, body & hair essentials made in Vermont. Free shipping on $40+ orders.\n\nHomepage claims, in the brand's own words:\n\n- Refreshingly different skincare\n- Bestsellers\n- Build your routine & save\n- Our supernatural formulas",
+        "Hero products": "| Product | Type | Price | In stock |\n|---|---|---|---|\n| Golden Hour Recovery Cream | Face Moisturizer | $54.00 | yes |\n| Mountain Glow Serum | Face Serum | $84.00 | yes |\n| Fantastic Face Wash | Cleanser | \u2014 | yes |\n| Sunny Start Eye Serum | Eye Serum | \u2014 | yes |\n\n**Lead product copy \u2014 Golden Hour Recovery Cream:**\n\n> Nourishing, fast-absorbing face cream. Rated 4.5. Bestseller.\n\n**Category mix:** Face Moisturizer (1), Face Serum (1), Cleanser (1), Eye Serum (1)",
+        "Ingredients to name in script": "_None of the tracked actives appear in public copy._",
+        "Proof points": "- 4.5 / 5 average rating cited on site",
+        "Ads in market": "- **Segment:** `active` \u00b7 fatigue score 81.98\n- **Active ads:** 300 \u00b7 video ads (est.) 140\n- **Oldest live ad:** 171d \u00b7 **newest:** 38d ago\n- Notes: ugc est. from 30-ad sample; ad ages from sample; true oldest may be older; advertises as \"Ursa Major Skincare\"; 15+ UGC video ads\n\n**The pitch:** newest creative is 38 days old against 300 ads still running \u2014 they are spending but not refreshing.",
+        "Do not say": "Cosmetic claims only \u2014 these phrases appear in the brand's own copy but should not be repeated in paid creative without substantiation:\n\n- _No drug-claim language found in captured copy._\n\nStanding constraints: no before/after implying permanent change, no disease or condition-treatment language, no unearned \"dermatologist recommended\".",
+        "Open questions for the client": "- Which SKU carries the margin they want volume on?\n- Do they have creator/UGC footage rights already, or is this net-new?\n- Which of the currently-running ads is their best performer?\n- Any claims legal has already rejected?"
+      },
+      "has_research": true,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "myshieldsystem-com": {
+      "research": {
+        "Category fit": "**Core skincare, good fit \u2014 highest claim risk in the batch.** Men's acne is an under-served UGC segment with a clear before/after demo and a defined avatar. But the homepage runs a wall of BEFORE/AFTER pairs plus '271,342+ Men Cleared Their Acne in Under 6 Weeks', '97% had less acne after 6 weeks' and '37% less irritation than traditional benzoyl peroxide' \u2014 time-bound efficacy, a competitor-ingredient comparison, and acne treatment claims that sit in OTC-drug territory in the US. The trial is footnoted as double-blind and dermatologist-reviewed, so substantiation may well exist, but creative must not reuse any of it without seeing that file first.\n\n_Provisional until the ad set confirms it._ Intake establishes what a brand **says** it sells; only its ads show what it actually **advertises**. Both SpoiledChild and Saltair read as skincare on the website and were tagged as such here \u2014 at ad level SpoiledChild runs 27 of 29 ads on ingestible collagen, and Saltair runs 22 of 22 on body care with no facial SKU. Treat this section as the brand's claim, and Agent 2's per-ad product class as the check on it.",
+        "Positioning": "Acne Technology for Men\n\nHomepage claims, in the brand's own words:\n\n- Clear Skin Starts Here\n- 271,342+ Men Cleared Their Acne in Under 6 Weeks\n- Shop by Acne Type\n- Target Acne at the Source\n- Meet our Medical Team",
+        "Hero products": "| Product | Type | Price | In stock |\n|---|---|---|---|\n| Face & Body System | Bundle | $68.00 | yes |\n| Advanced Face System | Bundle | $53.88 | yes |\n| Body Acne Wash Extra Strength | Body Wash | $34.00 | yes |\n| Face Acne Wash | Cleanser | $32.00 | yes |\n| Meltdown Spray | Body Treatment | $32.00 | yes |\n| Manuka Honey Moisturizer | Face Moisturizer | $23.00 | yes |\n| Pimple Patches | Treatment | $13.49 | yes |\n| Instant Clear | Treatment | $21.35 | yes |\n\n**Lead product copy \u2014 Face & Body System:**\n\n> Full system, from 157.00. Most popular SKU.\n\n**Category mix:** Bundle (2), Treatment (2), Body Wash (1), Cleanser (1), Body Treatment (1), Face Moisturizer (1)",
+        "Ingredients to name in script": "benzoyl peroxide",
+        "Proof points": "- 270,000 reviews cited on site",
+        "Ads in market": "- **Segment:** `active` \u00b7 fatigue score 81.37\n- **Active ads:** 600 \u00b7 video ads (est.) 280\n- **Oldest live ad:** 114d \u00b7 **newest:** 39d ago\n- Notes: ugc est. from 30-ad sample; ad ages from sample; true oldest may be older; advertises as \"Shield Labs\"; 1 affiliate page(s) run its creative; 15+ UGC video ads\n\n**The pitch:** newest creative is 39 days old against 600 ads still running \u2014 they are spending but not refreshing.",
+        "Do not say": "Cosmetic claims only \u2014 these phrases appear in the brand's own copy but should not be repeated in paid creative without substantiation:\n\n- \"clinically proven\"\n\nStanding constraints: no before/after implying permanent change, no disease or condition-treatment language, no unearned \"dermatologist recommended\".",
+        "Open questions for the client": "- Which SKU carries the margin they want volume on?\n- Do they have creator/UGC footage rights already, or is this net-new?\n- Which of the currently-running ads is their best performer?\n- Any claims legal has already rejected?"
+      },
+      "has_research": true,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "asarai-com": {
+      "research": {
+        "Category fit": "**Core skincare, strong fit.** Naturopath-developed, Australian, 4.7 from 10,000+ reviews, $16\u2013$162. Award-winning brightening mask with a 10-minute demo built into the product, which is close to ideal for short-form. Cleanest evidence base of the fatigued five.\n\n_Provisional until the ad set confirms it._ Intake establishes what a brand **says** it sells; only its ads show what it actually **advertises**. Both SpoiledChild and Saltair read as skincare on the website and were tagged as such here \u2014 at ad level SpoiledChild runs 27 of 29 ads on ingestible collagen, and Saltair runs 22 of 22 on body care with no facial SKU. Treat this section as the brand's claim, and Agent 2's per-ad product class as the check on it.",
+        "Positioning": "We have created the best natural skincare for a generation dedicated to long life and adventure. Nature has the answer to better skin, we deliver it to you in a bright yellow package.\n\nHomepage claims, in the brand's own words:\n\n- NATUROPATH DEVELOPED ESSENTIALS\n- Wildly Australian, exquisitely effective\n- BREAK UP WITH MAKEUP\n- Bestsellers\n- NATUROPATH RECOMMENDED\n- Natural\n- Clean\n- Non-toxic",
+        "Hero products": "| Product | Type | Price | In stock |\n|---|---|---|---|\n| Breakup With Makeup Routine | Bundle | $162.00 | yes |\n| Sunset Soak - Hydrating Sheet Mask (4 Pack) | Sheet Mask | $44.00 | yes |\n| Earth Tones - Face Mask | Face Mask | $56.00 | yes |\n| Earth Tones - Brightening Body Soap | Body Soap | $16.00 | yes |\n\n**Lead product copy \u2014 Breakup With Makeup Routine:**\n\n> Full routine bundle, the brand's highest-value SKU on the homepage.\n\n**Category mix:** Bundle (1), Sheet Mask (1), Face Mask (1), Body Soap (1)",
+        "Ingredients to name in script": "_None of the tracked actives appear in public copy._",
+        "Proof points": "- 10,000 reviews cited on site\n- 4.7 / 5 average rating cited on site",
+        "Ads in market": "- **Segment:** `fatigued` \u00b7 fatigue score 84.23\n- **Active ads:** 47 \u00b7 video ads (est.) 33\n- **Oldest live ad:** 399d \u00b7 **newest:** 50d ago\n- Notes: ugc est. from 30-ad sample; ad ages from sample; true oldest may be older; 15+ UGC video ads\n\n**The pitch:** newest creative is 50 days old against 47 ads still running \u2014 they are spending but not refreshing.",
+        "Do not say": "Cosmetic claims only \u2014 these phrases appear in the brand's own copy but should not be repeated in paid creative without substantiation:\n\n- _No drug-claim language found in captured copy._\n\nStanding constraints: no before/after implying permanent change, no disease or condition-treatment language, no unearned \"dermatologist recommended\".",
+        "Open questions for the client": "- Which SKU carries the margin they want volume on?\n- Do they have creator/UGC footage rights already, or is this net-new?\n- Which of the currently-running ads is their best performer?\n- Any claims legal has already rejected?"
+      },
+      "has_research": true,
+      "hooks": [
+        {
+          "text": "Kim K's makeup artist tried ASARAI Earth Tones red clay mask and the results are in: \"It's REALLY really good!\"",
+          "angle": null,
+          "days": 87,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "\"A beauty editor tried 30 masks in 30 days, but what did she really think about ASARAI?",
+          "angle": null,
+          "days": 313,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "\"A beauty editor tried 30 masks in 30 days, but what did she really think about ASARAI?",
+          "angle": null,
+          "days": 373,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "This is how I got glowing skin.",
+          "angle": null,
+          "days": 399,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Facts are facts: meet the red clay mask from the Aussie outback that actually is worth the hype.",
+          "angle": null,
+          "days": 276,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "This beauty editor tested 30 masks in 30 days including ASARAI Earth Tones red clay mask.",
+          "angle": null,
+          "days": 76,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "This is how I got glowing skin.",
+          "angle": null,
+          "days": 204,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "\"A beauty editor tried 30 masks in 30 days, but what did she really think about ASARAI?",
+          "angle": null,
+          "days": 313,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Meet Earth Tones, the Aussie red clay mask, where naturopathy meets skincare\u2014 clears acne, calms & soothes skin with clean ingredients.",
+          "angle": null,
+          "days": 292,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Kim K's makeup artist tried ASARAI Earth Tones red clay mask and the results are in: \"It's REALLY really good!\"",
+          "angle": null,
+          "days": 76,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "\"A beauty editor tried 30 masks in 30 days, but what did she really think about ASARAI?",
+          "angle": null,
+          "days": 373,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "This is how I got glowing skin.",
+          "angle": null,
+          "days": 76,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Earth Tones Red Clay Mask \"Too good to be true isn't so far off actually\" \u2013 r/SkincareAddiction",
+          "angle": null,
+          "days": 199,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "\u2714\ufe0f Brighten your skin for a healthy glow",
+          "angle": null,
+          "days": 65,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "This influencer saw the viral Aussie red clay mask everywhere online, but what did she really think about ASARAI?",
+          "angle": null,
+          "days": 294,
+          "source": "ad_copy_opening"
+        }
+      ],
+      "scripts": [],
+      "outreach_draft": "# Outreach draft \u2014 Asarai\n\n> ## \u26a0 DRAFT \u2014 A HUMAN SENDS THIS, OR IT IS NOT SENT\n>\n> Agent 7 has no send path. Read it, check the evidence block, fill the sender fields,\n> then send it yourself from your own client.\n\n- **Brand:** Asarai \u00b7 https://asarai.com\n- **Fatigue score:** 84.24 (fatigued)\n- **Recipient:** UNRESOLVED \u2014 no verified corporate address on file\n- **Send-ready:** NO \u2014 2 blocker(s), see below\n- **Lead finding:** `own_durability_spread`\n- **Generated:** 2026-09-23T22:21Z \u00b7 corpus `a2dda442e1764359` \u00b7 claims `acf932e14b7b4ecc` \u00b7 v6\n\n---\n\n## Subject\n\n    Two of your ad openings, 294 days vs 140\n\n## Body\n\n    Hi,\n\n    Your ads that open on an outside verdict have stayed live 294 days at the median. The ones that open on the result: 140.\n\n    Across the 15 ads of yours we read, the openings sort into 4 arguments. Best against worst, by how long the ads stay live:\n\n    - Opening on **an outside verdict** \u2014 9 ads, median 294 days live, longest 373.\n    - Opening on **the result** \u2014 4 ads, median 140 days live, longest 399.\n\n    Your creative is already weighted the right way \u2014 9 ads in the opening that lasts against 4 in the one that does not. The question is the reverse of the usual one: you have 9 variations of your best argument, and that is what you are asking to carry your spend.\n\n    One caveat we will not bury: your single longest-running ad of the two groups is actually in the second one, at 399 days. The rest of that group sits at 204, 76, 65. So the argument is not dead \u2014 it is inconsistent, which is a different problem and a fixable one.\n\n    Where this comes from: 139 ad openings from 12 skincare advertisers in Meta's public Ad Library, restricted to ads live 33+ days because an ad still running after a month is paying for itself. 15 of them are yours.\n\n    Three limits, so you can weigh it: we read the **caption opening**, not what is spoken in the video. We sampled 15 of your 47 live ads, so this describes the sample and not your whole account. And the advertiser list is built from direct-response ad copy, which surfaces challenger brands and under-samples incumbents like CeraVe and Dove \u2014 so it is a map of your peer set, not of the category.\n\n    I build ad creative for skincare brands \u2014 scripts and UGC-style video, by the batch. I am not asking for a call yet. If the finding above is interesting, reply and I will send the full teardown of Asarai's openings: every position you run, how long each one has survived, and the same for the advertisers you are being compared against. No charge for it, and no obligation after it.\n\n    Worth a read?\n\n    \u2014\n    Sent by <<SET: the name the recipient should see>>, <<SET: registered company name, or your own name if a sole trader>> (<<SET: company number, or the literal 'n/a - sole trader'>>).\n    Postal address: <<SET: a real postal address you can receive mail at, one line>>\n    I found you in Meta's public Ad Library. Your address came from your own website's business contact page.\n    Reply with the single word STOP and I will delete your details and never contact you again.\n\n---\n\n## Evidence \u2014 every claim in the body above\n\n**1. Asarai's `third_party_verdict` ads: n=9, median 294d, max 373d**\n\n- Derivation: hooks.jsonl, 9 Asarai ad(s) classified `third_party_verdict` in angles.json (corpus a2dda442e1764359); days_running [373, 373, 313, 313, 294, 276, 87, 76, 76]; median recomputed from those records\n- Ad ids: 1048540074330060, 1202549438346043, 1336186871324534, 1353730826159193, 1370401584614351, 2227423411076090, 26994645366882007, 895519976373743, 968965552835672\n\n**2. Asarai's `result_first` ads: n=4, median 140d, max 399d**\n\n- Derivation: hooks.jsonl, 4 Asarai ad(s) classified `result_first` in angles.json (corpus a2dda442e1764359); days_running [399, 204, 76, 65]; median recomputed from those records\n- Ad ids: 1571576517581637, 1837525744350040, 1930167291711415, 2144860019705397\n\n### What this draft does not claim\n\n- No absence claim of any kind. The corp"
+    },
+    "meditherapy-co": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "norseorganics-co": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "shopluvia-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "emmafy-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "bare-ritual-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "vibriance-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "bonjoutbeauty-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "omniluxled-com": {
+      "research": {
+        "Category fit": "**Device-led, not topical.** Omnilux sells LED masks at \u00a3348, with a smaller topical skincare line alongside. Beauty category and highly demo-able on video, but the creative job is device demonstration and results-over-time, not texture/application. Price point means a considered purchase, so UGC needs proof and authority rather than impulse.\n\n_Provisional until the ad set confirms it._ Intake establishes what a brand **says** it sells; only its ads show what it actually **advertises**. Both SpoiledChild and Saltair read as skincare on the website and were tagged as such here \u2014 at ad level SpoiledChild runs 27 of 29 ads on ingestible collagen, and Saltair runs 22 of 22 on body care with no facial SKU. Treat this section as the brand's claim, and Agent 2's per-ad product class as the check on it.",
+        "Positioning": "FDA-cleared LED light therapy backed by 40+ studies helping you achieve healthier, more radiant skin.\n\nHomepage claims, in the brand's own words:\n\n- Your best skin, on repeat\n- Find Your Perfect Omnilux Treatment\n- Unveil Your Glow with Omnilux\n- What's your skin goal?\n- Scientific advisory board",
+        "Hero products": "| Product | Type | Price | In stock |\n|---|---|---|---|\n| Omnilux Contour Face | LED Device | $348.00 | yes |\n| Omnilux Contour Neck & D\u00e9collet\u00e9 | LED Device | $348.00 | yes |\n| Omnilux Men | LED Device | $348.00 | yes |\n| Omnilux Clear | LED Device | $348.00 | yes |\n| LED Essentials Bundle | Bundle | $131.46 | yes |\n\n**Lead product copy \u2014 Omnilux Contour Face:**\n\n> FDA-cleared LED light therapy face mask for anti-aging. Rated 4.5 from 2,234 reviews.\n\n**Category mix:** LED Device (4), Bundle (1)",
+        "Ingredients to name in script": "_None of the tracked actives appear in public copy._",
+        "Proof points": "- 2,900 reviews cited on site\n- 4.5 / 5 average rating cited on site",
+        "Ads in market": "- **Segment:** `high_volume` \u00b7 fatigue score 72.64\n- **Active ads:** 210 \u00b7 video ads (est.) 63\n- **Oldest live ad:** 312d \u00b7 **newest:** 25d ago\n- Notes: ugc est. from 30-ad sample; ad ages from sample; true oldest may be older; beauty_device \u2014 EXCLUDE from skincare hook corpus (DESIGN.md \u00a74); 15+ UGC video ads\n\n**The pitch:** newest creative is 25 days old against 210 ads still running \u2014 they are spending but not refreshing.",
+        "Do not say": "Cosmetic claims only \u2014 these phrases appear in the brand's own copy but should not be repeated in paid creative without substantiation:\n\n- _No drug-claim language found in captured copy._\n\nStanding constraints: no before/after implying permanent change, no disease or condition-treatment language, no unearned \"dermatologist recommended\".",
+        "Open questions for the client": "- Which SKU carries the margin they want volume on?\n- Do they have creator/UGC footage rights already, or is this net-new?\n- Which of the currently-running ads is their best performer?\n- Any claims legal has already rejected?"
+      },
+      "has_research": true,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "crownedskin-com": {
+      "research": {
+        "Category fit": "**Fragrance, not skincare \u2014 despite the name.** Crowned Skin sells scented body butter cologne and eau de parfum for men. The buying trigger is scent and attraction, not a skin concern, so category hooks (actives, texture, before/after) do not transfer. Treat as a separate men's-fragrance angle set. Also note every hero SKU reads SOLD OUT, which caps any near-term creative spend.\n\n_Provisional until the ad set confirms it._ Intake establishes what a brand **says** it sells; only its ads show what it actually **advertises**. Both SpoiledChild and Saltair read as skincare on the website and were tagged as such here \u2014 at ad level SpoiledChild runs 27 of 29 ads on ingestible collagen, and Saltair runs 22 of 22 on body care with no facial SKU. Treat this section as the brand's claim, and Agent 2's per-ad product class as the check on it.",
+        "Positioning": "Crowned Skin crafts organic body butter cologne, body oil, body wash, eau de parfum and bundles for men - formulated to attract. As Seen on Shark Tank.\n\nHomepage claims, in the brand's own words:\n\n- Crowned Skin Enters the Tank\n- Fragrances that Attract\n- New Improved Formulas Made To Attract\n- Why Crowned Skin?\n- The Best-Smelling Man in the Room",
+        "Hero products": "| Product | Type | Price | In stock |\n|---|---|---|---|\n| King Body Butter Cologne - Warm and Sensual | Body Butter Cologne | $29.00 | no |\n| Reign Body Butter Cologne - Fresh and Nautical | Body Butter Cologne | $29.00 | no |\n| Prince Body Butter Cologne - Smoky Santal | Body Butter Cologne | $29.00 | no |\n| Monarch Body Butter Cologne - Spicy and Bold | Body Butter Cologne | $29.00 | no |\n| Empire Body Butter Cologne - Smoky Citrus Musk | Body Butter Cologne | $29.00 | no |\n\n**Category mix:** Body Butter Cologne (5)",
+        "Ingredients to name in script": "_None of the tracked actives appear in public copy._",
+        "Proof points": "- _No review count or rating found on the homepage._",
+        "Ads in market": "- **Segment:** `high_volume` \u00b7 fatigue score 72.22\n- **Active ads:** 510 \u00b7 video ads (est.) 510\n- **Oldest live ad:** 184d \u00b7 **newest:** 26d ago\n- Notes: ugc est. from 30-ad sample; ad ages from sample; true oldest may be older; fragrance \u2014 EXCLUDE from skincare hook corpus (DESIGN.md \u00a74); 15+ UGC video ads\n\n**The pitch:** newest creative is 26 days old against 510 ads still running \u2014 they are spending but not refreshing.",
+        "Do not say": "Cosmetic claims only \u2014 these phrases appear in the brand's own copy but should not be repeated in paid creative without substantiation:\n\n- _No drug-claim language found in captured copy._\n\nStanding constraints: no before/after implying permanent change, no disease or condition-treatment language, no unearned \"dermatologist recommended\".",
+        "Open questions for the client": "- Which SKU carries the margin they want volume on?\n- Do they have creator/UGC footage rights already, or is this net-new?\n- Which of the currently-running ads is their best performer?\n- Any claims legal has already rejected?"
+      },
+      "has_research": true,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "biodance-com": {
+      "research": {
+        "Category fit": "**Core skincare, strong fit.** K-beauty hydrogel masks and serums at $19\u2013$21.90 \u2014 impulse price, highly visual application, and the flagship mask is an established viral format. Best UGC fit of this batch.\n\n_Provisional until the ad set confirms it._ Intake establishes what a brand **says** it sells; only its ads show what it actually **advertises**. Both SpoiledChild and Saltair read as skincare on the website and were tagged as such here \u2014 at ad level SpoiledChild runs 27 of 29 ads on ingestible collagen, and Saltair runs 22 of 22 on body care with no facial SKU. Treat this section as the brand's claim, and Agent 2's per-ad product class as the check on it.",
+        "Positioning": "Biodance | Unmask Your Own Glow\n\nHomepage claims, in the brand's own words:\n\n- Meet the Founder Who Started it All\n- Find Your Glow with Serum Collection\n- Powered by Caviar & PDRN Innovation\n- OUR TOP SHELF",
+        "Hero products": "| Product | Type | Price | In stock |\n|---|---|---|---|\n| Bio Collagen-Real Deep Mask | Hydrogel Mask | $19.00 | yes |\n| Rejuvenating Caviar PDRN Real Deep Mask | Hydrogel Mask | $19.00 | no |\n| Pore Perfecting Collagen Peptide Serum | Face Serum | $21.90 | yes |\n| Hydro Cera-Nol Serum | Face Serum | $21.90 | yes |\n| Radiant Vita Niacinamide Serum | Face Serum | $21.90 | yes |\n| Refreshing Sea Kelp Serum | Face Serum | $21.90 | yes |\n| Collagen Mask to Foam Cleanser | Cleanser | $19.00 | no |\n\n**Lead product copy \u2014 Bio Collagen-Real Deep Mask:**\n\n> The brand's flagship hydrogel mask, 128 ratings. Positioned as the #1 hydrogel mask.\n\n**Category mix:** Face Serum (4), Hydrogel Mask (2), Cleanser (1)",
+        "Ingredients to name in script": "niacinamide, peptide, ceramide, collagen",
+        "Proof points": "- _No review count or rating found on the homepage._",
+        "Ads in market": "- **Segment:** `high_volume` \u00b7 fatigue score 71.67\n- **Active ads:** 220 \u00b7 video ads (est.) 103\n- **Oldest live ad:** 157d \u00b7 **newest:** 26d ago\n- Notes: ugc est. from 30-ad sample; ad ages from sample; true oldest may be older; 15+ UGC video ads\n\n**The pitch:** newest creative is 26 days old against 220 ads still running \u2014 they are spending but not refreshing.",
+        "Do not say": "Cosmetic claims only \u2014 these phrases appear in the brand's own copy but should not be repeated in paid creative without substantiation:\n\n- _No drug-claim language found in captured copy._\n\nStanding constraints: no before/after implying permanent change, no disease or condition-treatment language, no unearned \"dermatologist recommended\".",
+        "Open questions for the client": "- Which SKU carries the margin they want volume on?\n- Do they have creator/UGC footage rights already, or is this net-new?\n- Which of the currently-running ads is their best performer?\n- Any claims legal has already rejected?"
+      },
+      "has_research": true,
+      "hooks": [
+        {
+          "text": "Struggling with dry & dull skin?",
+          "angle": null,
+          "days": 62,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Bouncy skin isn't luck.",
+          "angle": null,
+          "days": 57,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Your at-home facial is here!",
+          "angle": null,
+          "days": 107,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Bouncy skin isn't luck.",
+          "angle": null,
+          "days": 57,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "PDRN + Caviar: two actives, one mission.",
+          "angle": null,
+          "days": 57,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Date night?",
+          "angle": null,
+          "days": 115,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Your at-home facial is here!",
+          "angle": null,
+          "days": 107,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Your new go-to for tired under-eyes.",
+          "angle": null,
+          "days": 37,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Not gonna lie, these eye patches are becoming more and more legit\u2026",
+          "angle": null,
+          "days": 157,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Bouncy skin isn't luck.",
+          "angle": null,
+          "days": 57,
+          "source": "ad_copy_opening"
+        }
+      ],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "drmtlgy-com": {
+      "research": {
+        "Category fit": "**Core skincare, strong fit.** Medical-grade positioning with dermatologist endorsement and 5M+ claimed transformations. Note the site is running 25% off sitewide plus auto-ship and bundle discounts simultaneously \u2014 heavy discounting alongside 800 active ads suggests efficiency pressure, which is a useful thing to know before pricing a pitch.\n\n_Provisional until the ad set confirms it._ Intake establishes what a brand **says** it sells; only its ads show what it actually **advertises**. Both SpoiledChild and Saltair read as skincare on the website and were tagged as such here \u2014 at ad level SpoiledChild runs 27 of 29 ads on ingestible collagen, and Saltair runs 22 of 22 on body care with no facial SKU. Treat this section as the brand's claim, and Agent 2's per-ad product class as the check on it.",
+        "Positioning": "Shop online for medical grade sunscreens, moisturizers, serums and more skin care products from DRMTLGY. Free US shipping over $40.\n\nHomepage claims, in the brand's own words:\n\n- 25% Off Everything\n- Your Perfect Routine, Backed by Science\n- 5+ Million Skin Transformations & Counting\n- Shop by Category\n- Meet Our Dermatologists",
+        "Hero products": "| Product | Type | Price | In stock |\n|---|---|---|---|\n| Needle-less Growth Factor Serum | Face Serum | $46.50 | yes |\n| Medical-grade sunscreens | Sunscreen | \u2014 | yes |\n| Anti-aging range | Face Treatment | \u2014 | yes |\n| Eye care range | Eye Cream | \u2014 | yes |\n\n**Lead product copy \u2014 Needle-less Growth Factor Serum:**\n\n> Anti-wrinkle bio-growth factor serum. 749 ratings, 195K+ sold. Listed at 46.50 from 62.00 during a 25% sitewide sale.\n\n**Category mix:** Face Serum (1), Sunscreen (1), Face Treatment (1), Eye Cream (1)",
+        "Ingredients to name in script": "_None of the tracked actives appear in public copy._",
+        "Proof points": "- 749 reviews cited on site",
+        "Ads in market": "- **Segment:** `high_volume` \u00b7 fatigue score 69.42\n- **Active ads:** 800 \u00b7 video ads (est.) 747\n- **Oldest live ad:** 168d \u00b7 **newest:** 23d ago\n- Notes: ugc est. from 30-ad sample; ad ages from sample; true oldest may be older; 15+ UGC video ads\n\n**The pitch:** newest creative is 23 days old against 800 ads still running \u2014 they are spending but not refreshing.",
+        "Do not say": "Cosmetic claims only \u2014 these phrases appear in the brand's own copy but should not be repeated in paid creative without substantiation:\n\n- _No drug-claim language found in captured copy._\n\nStanding constraints: no before/after implying permanent change, no disease or condition-treatment language, no unearned \"dermatologist recommended\".",
+        "Open questions for the client": "- Which SKU carries the margin they want volume on?\n- Do they have creator/UGC footage rights already, or is this net-new?\n- Which of the currently-running ads is their best performer?\n- Any claims legal has already rejected?"
+      },
+      "has_research": true,
+      "hooks": [
+        {
+          "text": "\u274c\u274c THREE REASONS WHY I GAVE UP EYE CONCEALERS:",
+          "angle": null,
+          "days": 71,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Experience firmer, smoother skin from the neck down \ud83d\udcaa Our dermatologist-developed Retinol Body Lotion",
+          "angle": null,
+          "days": 43,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Say goodbye to cracked, dry, callused feet and heels with our lactic acid based foot cream.",
+          "angle": null,
+          "days": 36,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Simplify your routine and enhance your natural glow with this perfect pair",
+          "angle": null,
+          "days": 135,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Experience firmer, smoother skin from the neck down \ud83d\udcaa Our dermatologist-developed Retinol Body Lotion",
+          "angle": null,
+          "days": 30,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Experience a brighter, firmer, more even complexion from a daily moisturizer \u2728",
+          "angle": null,
+          "days": 107,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "\ud83d\udc89 Looking for an anti-wrinkle treatment without needles?",
+          "angle": null,
+          "days": 79,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Experience firmer, smoother skin from the neck down \ud83d\udcaa Our dermatologist-developed Retinol Body Lotion",
+          "angle": null,
+          "days": 168,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "\u274c\u274c THREE REASONS WHY I GAVE UP EYE CONCEALERS:",
+          "angle": null,
+          "days": 37,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Experience firmer, smoother skin from the neck down \ud83d\udcaa Our dermatologist-developed Retinol Body Lotion",
+          "angle": null,
+          "days": 30,
+          "source": "ad_copy_opening"
+        }
+      ],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "jiyuskin-com": {
+      "research": {
+        "Category fit": "**Core skincare, strong fit.** Korean-manufactured, clinically-framed, and already leaning on before/after testimonial creative \u2014 which is exactly the UGC format. Caution: the site runs explicit Before/After imagery at 6 and 8 weeks, so claim substantiation needs checking before reusing that structure.\n\n_Provisional until the ad set confirms it._ Intake establishes what a brand **says** it sells; only its ads show what it actually **advertises**. Both SpoiledChild and Saltair read as skincare on the website and were tagged as such here \u2014 at ad level SpoiledChild runs 27 of 29 ads on ingestible collagen, and Saltair runs 22 of 22 on body care with no facial SKU. Treat this section as the brand's claim, and Agent 2's per-ad product class as the check on it.",
+        "Positioning": "JIYU Korean Skincare \u2014 formulated and manufactured in South Korea at certified facilities. Shop Polish Pads, Toner Pads & NAD+ Moisturizing Cream backed by K-beauty science.\n\nHomepage claims, in the brand's own words:\n\n- Your Shortcut to Radiant, Glassy Skin\n- Real People. Real Results.\n- 8 Clinically-backed Ingredients\n- Heal & Seal Trio\n- KEY BENEFITS",
+        "Hero products": "| Product | Type | Price | In stock |\n|---|---|---|---|\n| Renewal & Rejuvenation Toner Pads | Toner Pads | \u2014 | yes |\n| Polish Pads | Exfoliant | \u2014 | yes |\n| NAD+ Moisturizing Cream | Face Moisturizer | \u2014 | yes |\n| Anti-Aging Glow-Up Bundle | Bundle | \u2014 | yes |\n| Heal & Seal Trio | Bundle | \u2014 | yes |\n\n**Lead product copy \u2014 Renewal & Rejuvenation Toner Pads:**\n\n> Hero SKU. Customer testimonial cites smoother skin and fading post-breakout dark spots by week six.\n\n**Category mix:** Bundle (2), Toner Pads (1), Exfoliant (1), Face Moisturizer (1)",
+        "Ingredients to name in script": "_None of the tracked actives appear in public copy._",
+        "Proof points": "- 12450 reviews cited on site",
+        "Ads in market": "- **Segment:** `high_volume` \u00b7 fatigue score 68.63\n- **Active ads:** 480 \u00b7 video ads (est.) 416\n- **Oldest live ad:** 170d \u00b7 **newest:** 22d ago\n- Notes: ugc est. from 30-ad sample; ad ages from sample; true oldest may be older; 15+ UGC video ads\n\n**The pitch:** newest creative is 22 days old against 480 ads still running \u2014 they are spending but not refreshing.",
+        "Do not say": "Cosmetic claims only \u2014 these phrases appear in the brand's own copy but should not be repeated in paid creative without substantiation:\n\n- \"heal\"\n\nStanding constraints: no before/after implying permanent change, no disease or condition-treatment language, no unearned \"dermatologist recommended\".",
+        "Open questions for the client": "- Which SKU carries the margin they want volume on?\n- Do they have creator/UGC footage rights already, or is this net-new?\n- Which of the currently-running ads is their best performer?\n- Any claims legal has already rejected?"
+      },
+      "has_research": true,
+      "hooks": [
+        {
+          "text": "Having skin issues?",
+          "angle": null,
+          "days": 138,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Having skin issues?",
+          "angle": null,
+          "days": 101,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Shop authentic Korean skincare.",
+          "angle": null,
+          "days": 108,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Having skin issues?",
+          "angle": null,
+          "days": 123,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Having skin issues?",
+          "angle": null,
+          "days": 88,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Shop authentic Korean skincare.",
+          "angle": null,
+          "days": 159,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Having skin issues?",
+          "angle": null,
+          "days": 103,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Having skin issues?",
+          "angle": null,
+          "days": 94,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Having skin issues?",
+          "angle": null,
+          "days": 103,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Having skin issues?",
+          "angle": null,
+          "days": 45,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Having skin issues?",
+          "angle": null,
+          "days": 108,
+          "source": "ad_copy_opening"
+        }
+      ],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "blissy-co": {
+      "research": {
+        "Category fit": "**Textile, not skincare.** Blissy sells silk pillowcases, bonnets and sleep masks, marketed on downstream hair and skin benefit. There is no formulation, no active, no application \u2014 so ingredient and routine hooks do not transfer at all. The creative job is material quality, sleep ritual and gifting. Worth keeping as a separate beauty-adjacent angle set; do not pitch it category skincare creative. Note: blissy.co redirects to uk.blissy.com.\n\n_Provisional until the ad set confirms it._ Intake establishes what a brand **says** it sells; only its ads show what it actually **advertises**. Both SpoiledChild and Saltair read as skincare on the website and were tagged as such here \u2014 at ad level SpoiledChild runs 27 of 29 ads on ingestible collagen, and Saltair runs 22 of 22 on body care with no facial SKU. Treat this section as the brand's claim, and Agent 2's per-ad product class as the check on it.",
+        "Positioning": "Blissy is the best kept secret of super models, hair stylists, beauty experts and dermatologists around the world. Experience pure bliss with the Blissy ultra premium 22-Momme 6A Grade silk pillowcases, hair accessories, sleep masks and more.\n\nHomepage claims, in the brand's own words:\n\n- Sleep on the bright side.\n- Pick your kind of bliss.\n- Good hair starts at bedtime.\n- One for you. One for them.\n- A little silk. A lot to love.",
+        "Hero products": "| Product | Type | Price | In stock |\n|---|---|---|---|\n| Silk Pillowcase | Pillowcase | \u2014 | yes |\n| Silk Bonnets | Haircare | \u2014 | yes |\n| Sleep Masks | Sleep Mask | \u2014 | yes |\n| Hair Accessories | Haircare | \u2014 | yes |\n| Pillow Mists | Home Fragrance | \u2014 | yes |\n| Gift & Dream Sets | Bundle | \u2014 | yes |\n\n**Lead product copy \u2014 Silk Pillowcase:**\n\n> 100% Mulberry silk, 22-Momme 6A grade. The flagship product. Buy 3 get 1 free.\n\n**Category mix:** Haircare (2), Pillowcase (1), Sleep Mask (1), Home Fragrance (1), Bundle (1)",
+        "Ingredients to name in script": "_None of the tracked actives appear in public copy._",
+        "Proof points": "- _No review count or rating found on the homepage._",
+        "Ads in market": "- **Segment:** `high_volume` \u00b7 fatigue score 67.03\n- **Active ads:** 130 \u00b7 video ads (est.) 61\n- **Oldest live ad:** 507d \u00b7 **newest:** 18d ago\n- Notes: ugc est. from 30-ad sample; ad ages from sample; true oldest may be older; accessory \u2014 EXCLUDE from skincare hook corpus (DESIGN.md \u00a74); 15+ UGC video ads\n\n**The pitch:** newest creative is 18 days old against 130 ads still running \u2014 they are spending but not refreshing.",
+        "Do not say": "Cosmetic claims only \u2014 these phrases appear in the brand's own copy but should not be repeated in paid creative without substantiation:\n\n- _No drug-claim language found in captured copy._\n\nStanding constraints: no before/after implying permanent change, no disease or condition-treatment language, no unearned \"dermatologist recommended\".",
+        "Open questions for the client": "- Which SKU carries the margin they want volume on?\n- Do they have creator/UGC footage rights already, or is this net-new?\n- Which of the currently-running ads is their best performer?\n- Any claims legal has already rejected?"
+      },
+      "has_research": true,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "eskiin-com": {
+      "research": {
+        "Category fit": "**Device/hardware, not skincare.** eskiin sells a filtered showerhead on skin-and-hair benefit claims. High UGC fit in practice \u2014 the demo (filter discolouration after use, water testing) is inherently visual and testimonial-driven \u2014 but the hook logic is problem-agitation about water quality, not actives or routine. Treat as its own angle set. Claim caution: the homepage runs 'prevent hair loss' and 'clears skin' as a scrolling marquee, which are strong claims for a hardware product.\n\n_Provisional until the ad set confirms it._ Intake establishes what a brand **says** it sells; only its ads show what it actually **advertises**. Both SpoiledChild and Saltair read as skincare on the website and were tagged as such here \u2014 at ad level SpoiledChild runs 27 of 29 ads on ingestible collagen, and Saltair runs 22 of 22 on body care with no facial SKU. Treat this section as the brand's claim, and Agent 2's per-ad product class as the check on it.",
+        "Positioning": "Clean Shower Water Is The Foundation Of Health & Beauty\n\nHomepage claims, in the brand's own words:\n\n- Clean Shower Water Is The Foundation Of Health & Beauty\n- Save Up to 45% on Fall Sale Bundles\n- People just like you who ditched their old showerhead\n- Find Out What's In Your Water\n- Ever wondered what's lurking in your shower water?",
+        "Hero products": "| Product | Type | Price | In stock |\n|---|---|---|---|\n| Filtered Showerhead | Shower Filter | \u2014 | yes |\n| Fall Sale Bundles | Bundle | \u2014 | yes |\n| Replacement Filters | Consumable | \u2014 | yes |\n\n**Lead product copy \u2014 Filtered Showerhead:**\n\n> The core product: a high-performance filtered showerhead marketed as America's #1. Ad copy promises 'your best skin & hair \u2014 guaranteed'.\n\n**Category mix:** Shower Filter (1), Bundle (1), Consumable (1)",
+        "Ingredients to name in script": "_None of the tracked actives appear in public copy._",
+        "Proof points": "- _No review count or rating found on the homepage._",
+        "Ads in market": "- **Segment:** `high_volume` \u00b7 fatigue score 66.79\n- **Active ads:** 380 \u00b7 video ads (est.) 342\n- **Oldest live ad:** 128d \u00b7 **newest:** 21d ago\n- Notes: ugc est. from 30-ad sample; ad ages from sample; true oldest may be older; beauty_device \u2014 EXCLUDE from skincare hook corpus (DESIGN.md \u00a74); 15+ UGC video ads\n\n**The pitch:** newest creative is 21 days old against 380 ads still running \u2014 they are spending but not refreshing.",
+        "Do not say": "Cosmetic claims only \u2014 these phrases appear in the brand's own copy but should not be repeated in paid creative without substantiation:\n\n- _No drug-claim language found in captured copy._\n\nStanding constraints: no before/after implying permanent change, no disease or condition-treatment language, no unearned \"dermatologist recommended\".",
+        "Open questions for the client": "- Which SKU carries the margin they want volume on?\n- Do they have creator/UGC footage rights already, or is this net-new?\n- Which of the currently-running ads is their best performer?\n- Any claims legal has already rejected?"
+      },
+      "has_research": true,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "koreanskintherapy-com": {
+      "research": {
+        "Category fit": "**Core skincare plus treatment makeup, strong fit.** Peptide and PDRN actives, a clear hero SKU, and a mature-skin audience (testimonial from a 68-year-old). The guarantee-led framing ('or your money back', 90-day risk-free) is already a hook structure. Claim caution: 'Firm, plump skin in 4 weeks' and 'fills hollow under eyes in 2 weeks' are specific time-bound efficacy claims needing substantiation before reuse.\n\n_Provisional until the ad set confirms it._ Intake establishes what a brand **says** it sells; only its ads show what it actually **advertises**. Both SpoiledChild and Saltair read as skincare on the website and were tagged as such here \u2014 at ad level SpoiledChild runs 27 of 29 ads on ingestible collagen, and Saltair runs 22 of 22 on body care with no facial SKU. Treat this section as the brand's claim, and Agent 2's per-ad product class as the check on it.",
+        "Positioning": "Korean Skin Therapy\n\nHomepage claims, in the brand's own words:\n\n- Firm, plump skin in 4 weeks. Or your money back.\n- Complete your routine.\n- Coverage that treats.\n- 125,000+ women. One skin they recognize again.",
+        "Hero products": "| Product | Type | Price | In stock |\n|---|---|---|---|\n| The Ampoule | Ampoule | \u2014 | yes |\n| Volufiline Collagen Serum | Face Serum | $23.00 | yes |\n| Radiance-RX Serum | Face Serum | $32.00 | yes |\n| PDRN Capsule Moisturizer | Face Moisturizer | $32.00 | yes |\n| CC Cream | Makeup | $27.00 | yes |\n\n**Lead product copy \u2014 The Ampoule:**\n\n> #1 bestseller, 125,000+ sold. 'Firm, plump skin in 4 weeks. Or your money back.' 90-day risk-free trial.\n\n**Category mix:** Face Serum (2), Ampoule (1), Face Moisturizer (1), Makeup (1)",
+        "Ingredients to name in script": "peptide, collagen, spf",
+        "Proof points": "- 125,000 reviews cited on site\n- 4.6 / 5 average rating cited on site",
+        "Ads in market": "- **Segment:** `high_volume` \u00b7 fatigue score 66.65\n- **Active ads:** 350 \u00b7 video ads (est.) 350\n- **Oldest live ad:** 278d \u00b7 **newest:** 18d ago\n- Notes: ugc est. from 30-ad sample; ad ages from sample; true oldest may be older; advertises as \"Korean Skincare Reviews\"; 15+ UGC video ads\n\n**The pitch:** newest creative is 18 days old against 350 ads still running \u2014 they are spending but not refreshing.",
+        "Do not say": "Cosmetic claims only \u2014 these phrases appear in the brand's own copy but should not be repeated in paid creative without substantiation:\n\n- \"treats\"\n\nStanding constraints: no before/after implying permanent change, no disease or condition-treatment language, no unearned \"dermatologist recommended\".",
+        "Open questions for the client": "- Which SKU carries the margin they want volume on?\n- Do they have creator/UGC footage rights already, or is this net-new?\n- Which of the currently-running ads is their best performer?\n- Any claims legal has already rejected?"
+      },
+      "has_research": true,
+      "hooks": [
+        {
+          "text": "A needle-free lift in a bottle \u2705 Boosts firmness, fullness and bounce.",
+          "angle": null,
+          "days": 227,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "A needle-free lift in a bottle \u2705 Boosts firmness, fullness and bounce.",
+          "angle": null,
+          "days": 147,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "A needle-free lift in a bottle \u2705 Boosts firmness, fullness and bounce.",
+          "angle": null,
+          "days": 278,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "A needle-free lift in a bottle \u2705 Boosts firmness, fullness and bounce.",
+          "angle": null,
+          "days": 147,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "A needle-free lift in a bottle \u2705 Boosts firmness, fullness and bounce.",
+          "angle": null,
+          "days": 248,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "A needle-free lift in a bottle \u2705 Boosts firmness, fullness and bounce.",
+          "angle": null,
+          "days": 206,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "A needle-free lift in a bottle \u2705 Boosts firmness, fullness and bounce.",
+          "angle": null,
+          "days": 278,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "A needle-free lift in a bottle \u2705 Boosts firmness, fullness and bounce.",
+          "angle": null,
+          "days": 187,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Thousands of women are getting that feeling back with dissolvable silk peptide threads.",
+          "angle": null,
+          "days": 35,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "A needle-free lift in a bottle \u2705 Boosts firmness, fullness and bounce.",
+          "angle": null,
+          "days": 113,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "A needle-free lift in a bottle \u2705 Boosts firmness, fullness and bounce.",
+          "angle": null,
+          "days": 36,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "A needle-free lift in a bottle \u2705 Boosts firmness, fullness and bounce.",
+          "angle": null,
+          "days": 113,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "A needle-free lift in a bottle \u2705 Boosts firmness, fullness and bounce.",
+          "angle": null,
+          "days": 147,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "A needle-free lift in a bottle \u2705 Boosts firmness, fullness and bounce.",
+          "angle": null,
+          "days": 253,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "A needle-free lift in a bottle \u2705 Boosts firmness, fullness and bounce.",
+          "angle": null,
+          "days": 226,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "A needle-free lift in a bottle \u2705 Boosts firmness, fullness and bounce.",
+          "angle": null,
+          "days": 62,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Her name is Regina Clarke.",
+          "angle": null,
+          "days": 36,
+          "source": "ad_copy_opening"
+        }
+      ],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "basedsupplies-com": {
+      "research": {
+        "Category fit": "**Natural skincare, good fit with a caveat.** Tallow balms, soap and lip balm sourced from Ontario farms. Ingredient-transparency and anti-additive positioning ('no added stuff or hormone disruptors') is a strong, well-worn UGC angle. Caveat: that positioning shades into implied health claims about other brands' ingredients, which is a comparative-claims risk in paid social.\n\n_Provisional until the ad set confirms it._ Intake establishes what a brand **says** it sells; only its ads show what it actually **advertises**. Both SpoiledChild and Saltair read as skincare on the website and were tagged as such here \u2014 at ad level SpoiledChild runs 27 of 29 ads on ingestible collagen, and Saltair runs 22 of 22 on body care with no facial SKU. Treat this section as the brand's claim, and Agent 2's per-ad product class as the check on it.",
+        "Positioning": "Based Supplies\n\nHomepage claims, in the brand's own words:\n\n- Welcome\n- Choose Based Supplies\n- All Natural Ingredients\n- Testimonials\n- About Us",
+        "Hero products": "| Product | Type | Price | In stock |\n|---|---|---|---|\n| Tallow & Honey Balm - 2 oz | Body Balm | $30.00 | yes |\n| No Essential Oils - Tallow & Honey Balm | Body Balm | $30.00 | yes |\n| Tallow Soap Bar | Soap | $14.00 | yes |\n| Onion Hydrosol Shower Duo | Haircare | $35.00 | yes |\n| Peppermint Beeswax Lip Balm - 15 ml | Lip Balm | $5.00 | yes |\n| Magnesium Lotion - 2 oz | Body Lotion | $30.00 | yes |\n\n**Lead product copy \u2014 Tallow & Honey Balm - 2 oz:**\n\n> Flagship tallow and honey balm. Testimonial cites use on a baby after baths and on dry elbows, knees, feet, and face.\n\n**Category mix:** Body Balm (2), Soap (1), Haircare (1), Lip Balm (1), Body Lotion (1)",
+        "Ingredients to name in script": "_None of the tracked actives appear in public copy._",
+        "Proof points": "- _No review count or rating found on the homepage._",
+        "Ads in market": "- **Segment:** `high_volume` \u00b7 fatigue score 66.56\n- **Active ads:** 1300 \u00b7 video ads (est.) 953\n- **Oldest live ad:** 506d \u00b7 **newest:** 17d ago\n- Notes: ugc est. from 30-ad sample; ad ages from sample; true oldest may be older; 15+ UGC video ads\n\n**The pitch:** newest creative is 17 days old against 1300 ads still running \u2014 they are spending but not refreshing.",
+        "Do not say": "Cosmetic claims only \u2014 these phrases appear in the brand's own copy but should not be repeated in paid creative without substantiation:\n\n- _No drug-claim language found in captured copy._\n\nStanding constraints: no before/after implying permanent change, no disease or condition-treatment language, no unearned \"dermatologist recommended\".",
+        "Open questions for the client": "- Which SKU carries the margin they want volume on?\n- Do they have creator/UGC footage rights already, or is this net-new?\n- Which of the currently-running ads is their best performer?\n- Any claims legal has already rejected?"
+      },
+      "has_research": true,
+      "hooks": [
+        {
+          "text": "Most bathroom counters look like a chemistry lab.",
+          "angle": null,
+          "days": 159,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Most bathroom counters look like a chemistry lab.",
+          "angle": null,
+          "days": 222,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Most bathroom counters look like a chemistry lab.",
+          "angle": null,
+          "days": 281,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Most bathroom counters look like a chemistry lab.",
+          "angle": null,
+          "days": 187,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Most bathroom counters look like a chemistry lab.",
+          "angle": null,
+          "days": 222,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Most bathroom counters look like a chemistry lab.",
+          "angle": null,
+          "days": 87,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Most bathroom counters look like a chemistry lab.",
+          "angle": null,
+          "days": 187,
+          "source": "ad_copy_opening"
+        }
+      ],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "goodmolecules-com": {
+      "research": {
+        "Category fit": "**Core skincare, strong fit.** Science-backed actives at \u00a35.50\u2013\u00a312.50 \u2014 the lowest price point in this batch, which makes impulse-conversion UGC viable and lowers the risk of any single creative. Already uses creator-attributed testimonial copy on the homepage, so the format is proven for them.\n\n_Provisional until the ad set confirms it._ Intake establishes what a brand **says** it sells; only its ads show what it actually **advertises**. Both SpoiledChild and Saltair read as skincare on the website and were tagged as such here \u2014 at ad level SpoiledChild runs 27 of 29 ads on ingestible collagen, and Saltair runs 22 of 22 on body care with no facial SKU. Treat this section as the brand's claim, and Agent 2's per-ad product class as the check on it.",
+        "Positioning": "Shop skincare with science-backed ingredients for all skin types. Target hyperpigmentation, acne, texture and pores, dry skin, fine lines, and more with vegan, cruelty-free formulas starting at just $6.\n\nHomepage claims, in the brand's own words:\n\n- THE WORLD HAS ENOUGH PRODUCTS THAT DON'T WORK AND COST TOO MUCH\n- SEE A DIFFERENCE IN YOUR SKIN\n- NEW ARRIVALS\n- BEST SELLERS\n- FEATURED IN",
+        "Hero products": "| Product | Type | Price | In stock |\n|---|---|---|---|\n| Discoloration Correcting Serum | Face Serum | $11.00 | yes |\n| Firming Peptide Eye Cream | Eye Cream | $5.50 | yes |\n| Copper Peptide Serum with PDRN | Face Serum | $11.00 | yes |\n| Dark Spot Microdart Patches | Treatment | $12.50 | yes |\n\n**Lead product copy \u2014 Discoloration Correcting Serum:**\n\n> Hero SKU, 30 ml, 7,666 ratings. Creator testimonial on discoloration and blemish scars over 3 months.\n\n**Category mix:** Face Serum (2), Eye Cream (1), Treatment (1)",
+        "Ingredients to name in script": "peptide",
+        "Proof points": "- 7666 reviews cited on site",
+        "Ads in market": "- **Segment:** `high_volume` \u00b7 fatigue score 66.3\n- **Active ads:** 250 \u00b7 video ads (est.) 75\n- **Oldest live ad:** 180d \u00b7 **newest:** 19d ago\n- Notes: ugc est. from 30-ad sample; ad ages from sample; true oldest may be older; 15+ UGC video ads\n\n**The pitch:** newest creative is 19 days old against 250 ads still running \u2014 they are spending but not refreshing.",
+        "Do not say": "Cosmetic claims only \u2014 these phrases appear in the brand's own copy but should not be repeated in paid creative without substantiation:\n\n- _No drug-claim language found in captured copy._\n\nStanding constraints: no before/after implying permanent change, no disease or condition-treatment language, no unearned \"dermatologist recommended\".",
+        "Open questions for the client": "- Which SKU carries the margin they want volume on?\n- Do they have creator/UGC footage rights already, or is this net-new?\n- Which of the currently-running ads is their best performer?\n- Any claims legal has already rejected?"
+      },
+      "has_research": true,
+      "hooks": [
+        {
+          "text": "Good Molecules Yerba Mate Wake Up Eye Gel",
+          "angle": null,
+          "days": 43,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Visibly smooth fine lines and brighten the look of dark circles",
+          "angle": null,
+          "days": 33,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Good Molecules Yerba Mate Wake Up Eye Gel",
+          "angle": null,
+          "days": 35,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Visibly smooth fine lines and brighten the look of dark circles",
+          "angle": null,
+          "days": 33,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "I'm always looking for the best over 50 skincare and this is a duo we should not pass up!",
+          "angle": null,
+          "days": 60,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Visibly smooth fine lines and brighten the look of dark circles",
+          "angle": null,
+          "days": 33,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Retinol, Made Gentle.",
+          "angle": null,
+          "days": 174,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Good Molecules Yerba Mate Wake Up Eye Gel",
+          "angle": null,
+          "days": 35,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "The Good Molecules Dark Spot Microdart Patches are a targeted treatment for the dark spots you're focusing on",
+          "angle": null,
+          "days": 81,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "The stage makeup gets ALL the credit, but it actually starts wayyyy before that, with my favorite skincare",
+          "angle": null,
+          "days": 60,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "The Good Molecules Dark Spot Microdart Patches are a targeted treatment for the dark spots you're focusing on",
+          "angle": null,
+          "days": 81,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "The Good Molecules Dark Spot Microdart Patches are a targeted treatment for the dark spots you're focusing on",
+          "angle": null,
+          "days": 81,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "The Good Molecules Dark Spot Microdart Patches are a targeted treatment for the dark spots you're focusing on",
+          "angle": null,
+          "days": 81,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "The Good Molecules Dark Spot Microdart Patches are a targeted treatment for the dark spots you're focusing on",
+          "angle": null,
+          "days": 81,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "The Good Molecules Dark Spot Microdart Patches are a targeted treatment for the dark spots you're focusing on",
+          "angle": null,
+          "days": 81,
+          "source": "ad_copy_opening"
+        }
+      ],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "trynavaro-com": {
+      "research": {
+        "Category fit": "**Topical skincare, but with supplement-shaped trust signals \u2014 verify before pitching.** The routine described is unambiguously topical (apply, massage upward, peptide threads melt). But the trust badges read 100% Vegan Capsules, Non-GMO, GMP-Certified Facility, Gluten/Soy/Dairy Free \u2014 that is ingestible-supplement language, which suggests either an ingestible line alongside the topical or badge copy lifted from one. Worth resolving before creative, because a supplement line would pull in the compliance surface DESIGN.md \u00a71 chose this category to avoid. Claim caution: 'Clinically Inspired Formula' is doing deliberate work \u2014 inspired by, not proven by.\n\n_Provisional until the ad set confirms it._ Intake establishes what a brand **says** it sells; only its ads show what it actually **advertises**. Both SpoiledChild and Saltair read as skincare on the website and were tagged as such here \u2014 at ad level SpoiledChild runs 27 of 29 ads on ingestible collagen, and Saltair runs 22 of 22 on body care with no facial SKU. Treat this section as the brand's claim, and Agent 2's per-ad product class as the check on it.",
+        "Positioning": "Navaro\n\nHomepage claims, in the brand's own words:\n\n- Reveal Firmer, Brighter Skin With Professional-Grade Collagen Care\n- SIMPLE ROUTINE. VISIBLE RESULTS.\n- OUR CUSTOMERS RESULTS",
+        "Hero products": "| Product | Type | Price | In stock |\n|---|---|---|---|\n| Collagen peptide treatment | Face Treatment | \u2014 | yes |\n| Buy 1 Get 1 Free offer | Bundle | \u2014 | yes |\n\n**Lead product copy \u2014 Collagen peptide treatment:**\n\n> Professional-grade collagen skincare applied topically: cleanse and dry, apply to forehead, smile lines, jawline and neck, massage upward until the peptide threads melt. Used 1-2 times daily.\n\n**Category mix:** Face Treatment (1), Bundle (1)",
+        "Ingredients to name in script": "peptide, collagen",
+        "Proof points": "- _No review count or rating found on the homepage._",
+        "Ads in market": "- **Segment:** `high_volume` \u00b7 fatigue score 64.79\n- **Active ads:** 230 \u00b7 video ads (est.) 199\n- **Oldest live ad:** 256d \u00b7 **newest:** 16d ago\n- Notes: ugc est. from 30-ad sample; ad ages from sample; true oldest may be older; 15+ UGC video ads\n\n**The pitch:** newest creative is 16 days old against 230 ads still running \u2014 they are spending but not refreshing.",
+        "Do not say": "Cosmetic claims only \u2014 these phrases appear in the brand's own copy but should not be repeated in paid creative without substantiation:\n\n- _No drug-claim language found in captured copy._\n\nStanding constraints: no before/after implying permanent change, no disease or condition-treatment language, no unearned \"dermatologist recommended\".",
+        "Open questions for the client": "- Which SKU carries the margin they want volume on?\n- Do they have creator/UGC footage rights already, or is this net-new?\n- Which of the currently-running ads is their best performer?\n- Any claims legal has already rejected?"
+      },
+      "has_research": true,
+      "hooks": [
+        {
+          "text": "The Navaro Peptide Deep Lifting Ampoule \u2014 powered by melting silk peptide threads and 9+ skin-loving peptides \u2014 to help skin look visibly tighter, smoother, and more sculpted.",
+          "angle": null,
+          "days": 62,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "The Navaro Peptide Deep Lifting Ampoule \u2014 powered by melting silk peptide threads and 9+ skin-loving peptides \u2014 to help skin look visibly tighter, smoother, and more sculpted.",
+          "angle": null,
+          "days": 77,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "The Navaro Peptide Deep Lifting Ampoule \u2014 powered by melting silk peptide threads and 9+ skin-loving peptides \u2014 to help skin look visibly tighter, smoother, and more sculpted.",
+          "angle": null,
+          "days": 104,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "The Navaro Peptide Deep Lifting Ampoule \u2014 powered by melting silk peptide threads and 9+ skin-loving peptides \u2014 to help skin look visibly tighter, smoother, and more sculpted.",
+          "angle": null,
+          "days": 54,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "The Navaro Peptide Deep Lifting Ampoule \u2014 powered by melting silk peptide threads and 9+ skin-loving peptides \u2014 to help skin look visibly tighter, smoother, and more sculpted.",
+          "angle": null,
+          "days": 82,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "The Navaro Peptide Deep Lifting Ampoule \u2014 powered by melting silk peptide threads and 9+ skin-loving peptides \u2014 to help skin look visibly tighter, smoother, and more sculpted.",
+          "angle": null,
+          "days": 77,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "The Navaro Peptide Deep Lifting Ampoule \u2014 powered by melting silk peptide threads and 9+ skin-loving peptides \u2014 to help skin look visibly tighter, smoother, and more sculpted.",
+          "angle": null,
+          "days": 58,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "The Navaro Peptide Deep Collagen Lifting Ampoule uses melting silk peptide threads, 9+ peptides, and deep collagen.",
+          "angle": null,
+          "days": 207,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "The Navaro Peptide Deep Lifting Ampoule \u2014 powered by melting silk peptide threads and 9+ skin-loving peptides \u2014 to help skin look visibly tighter, smoother, and more sculpted.",
+          "angle": null,
+          "days": 33,
+          "source": "ad_copy_opening"
+        }
+      ],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "lifecellskin-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "freyara-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "eqqualberryglobal-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "covergirl-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "veloma-store": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "michaeltoddbeauty-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "theskincareinsider-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "maelove-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "glomelanin-com": {
+      "research": {
+        "Category fit": "**Core skincare, strong and differentiated fit.** Formulated specifically for melanin-rich skin, African-American owned, Atlanta based, doctor backed, 4.9 from 4,500+ reviews. The audience specificity is the asset \u2014 hyperpigmentation, dark inner thighs and ingrowns are named concerns that most of the category talks around, and casting is unambiguous. The best-reviewed SKU is a $20-ish scrub, so impulse conversion is viable. Claim caution: the hero product is named 'Dark Spot REMOVAL Scrub' and the site promises 'Better skin in 30 days or it's FREE' \u2014 removal is a strong claim and 30 days is time-bound.\n\n_Provisional until the ad set confirms it._ Intake establishes what a brand **says** it sells; only its ads show what it actually **advertises**. Both SpoiledChild and Saltair read as skincare on the website and were tagged as such here \u2014 at ad level SpoiledChild runs 27 of 29 ads on ingestible collagen, and Saltair runs 22 of 22 on body care with no facial SKU. Treat this section as the brand's claim, and Agent 2's per-ad product class as the check on it.",
+        "Positioning": "Natural Skincare Product Specifically Designed for Melanin-Rich Skin. Doctor Backed. Atlanta Based. Over 10,000 reviews.\n\nHomepage claims, in the brand's own words:\n\n- Natural Products for Melanin Beauty.\n- Better skin in 30 days or it's FREE\n- Shop our customer's favorites\n- The Glo Melanin Difference\n- Dark inner thighs + ingrowns\n- Hyperpigmentation",
+        "Hero products": "| Product | Type | Price | In stock |\n|---|---|---|---|\n| Turmeric Dark Spot Removal Scrub | Body Scrub | \u2014 | yes |\n| Melanin Skin Bundle | Bundle | $79.99 | yes |\n| Daily SPF 30 | Sunscreen | $32.99 | yes |\n| Sea Moss Wrapping Mask with Turmeric & Kojic Acid | Face Mask | $19.99 | yes |\n\n**Lead product copy \u2014 Turmeric Dark Spot Removal Scrub:**\n\n> 1,869 reviews \u2014 by far the most-reviewed SKU and the clear hero.\n\n**Category mix:** Body Scrub (1), Bundle (1), Sunscreen (1), Face Mask (1)",
+        "Ingredients to name in script": "_None of the tracked actives appear in public copy._",
+        "Proof points": "- 4500 reviews cited on site\n- 4.9 / 5 average rating cited on site",
+        "Ads in market": "- **Segment:** `high_volume` \u00b7 fatigue score 64.16\n- **Active ads:** 100 \u00b7 video ads (est.) 67\n- **Oldest live ad:** 1023d \u00b7 **newest:** 12d ago\n- Notes: ugc est. from 30-ad sample; ad ages from sample; true oldest may be older; 15+ UGC video ads\n\n**The pitch:** newest creative is 12 days old against 100 ads still running \u2014 they are spending but not refreshing.",
+        "Do not say": "Cosmetic claims only \u2014 these phrases appear in the brand's own copy but should not be repeated in paid creative without substantiation:\n\n- _No drug-claim language found in captured copy._\n\nStanding constraints: no before/after implying permanent change, no disease or condition-treatment language, no unearned \"dermatologist recommended\".",
+        "Open questions for the client": "- Which SKU carries the margin they want volume on?\n- Do they have creator/UGC footage rights already, or is this net-new?\n- Which of the currently-running ads is their best performer?\n- Any claims legal has already rejected?"
+      },
+      "has_research": true,
+      "hooks": [
+        {
+          "text": "Struggling with dark spots?",
+          "angle": null,
+          "days": 288,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Struggling with dark or smoker's lips?",
+          "angle": null,
+          "days": 40,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Struggling with dark spots, uneven skin tone, or dull skin?",
+          "angle": null,
+          "days": 190,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Struggling with dark or smoker's lips?",
+          "angle": null,
+          "days": 95,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Struggling with dark spots, uneven skin tone, or dull skin?",
+          "angle": null,
+          "days": 190,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "\ud83c\udf1f Welcome to the Glo Melanin Family!",
+          "angle": null,
+          "days": 964,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "\ud83c\udf1f Welcome to the Glo Melanin Family!",
+          "angle": null,
+          "days": 1023,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Struggling with dark or smoker's lips?",
+          "angle": null,
+          "days": 40,
+          "source": "ad_copy_opening"
+        },
+        {
+          "text": "Struggling with dark or smoker's lips?",
+          "angle": null,
+          "days": 95,
+          "source": "ad_copy_opening"
+        }
+      ],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "officialyuri-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "trypureskin-com": {
+      "research": {
+        "Category fit": "**Consumable textile, not skincare \u2014 and the domain has rebranded.** trypureskin.com now serves prefixskin.com: 'pureskin is now pre\u00b7fix'. The product is a single-use cotton face towel sold on an acne-prevention argument (dirty reusable towels reintroduce bacteria and dead skin). There is no formulation and no active, so ingredient and routine hooks do not transfer. The acne framing makes its ad copy read as skincare, which is exactly why it needs tagging. Strong UGC product in its own right \u2014 the problem demo is vivid \u2014 but its own corpus, not the skincare one.\n\n_Provisional until the ad set confirms it._ Intake establishes what a brand **says** it sells; only its ads show what it actually **advertises**. Both SpoiledChild and Saltair read as skincare on the website and were tagged as such here \u2014 at ad level SpoiledChild runs 27 of 29 ads on ingestible collagen, and Saltair runs 22 of 22 on body care with no facial SKU. Treat this section as the brand's claim, and Agent 2's per-ad product class as the check on it.",
+        "Positioning": "prefix: the preventative fix for acne.\n\nHomepage claims, in the brand's own words:\n\n- The Traditional Towel Problem\n- Small Change. Big Difference\n- The Power of prefix\u2122\n- Trusted by Acne-Prone, Sensitive, and Real Skin\n- Get Ahead of Your Breakouts",
+        "Hero products": "| Product | Type | Price | In stock |\n|---|---|---|---|\n| prefix\u2122 disposable face towels | Face Towel | \u2014 | yes |\n| Subscription | Subscription | \u2014 | yes |\n\n**Lead product copy \u2014 prefix\u2122 disposable face towels:**\n\n> 100% pure cotton single-use face towels. 2M+ delivered, 85% of buyers subscribe.\n\n**Category mix:** Face Towel (1), Subscription (1)",
+        "Ingredients to name in script": "_None of the tracked actives appear in public copy._",
+        "Proof points": "- 80,000 reviews cited on site\n- 4.8 / 5 average rating cited on site",
+        "Ads in market": "- **Segment:** `high_volume` \u00b7 fatigue score 64.86\n- **Active ads:** 270 \u00b7 video ads (est.) 243\n- **Oldest live ad:** 484d \u00b7 **newest:** 2d ago\n- Notes: ugc est. from 30-ad sample; ad ages from sample; true oldest may be older; accessory \u2014 EXCLUDE from skincare hook corpus (DESIGN.md \u00a74); 15+ UGC video ads\n\n**The pitch:** newest creative is 2 days old against 270 ads still running \u2014 they are spending but not refreshing.",
+        "Do not say": "Cosmetic claims only \u2014 these phrases appear in the brand's own copy but should not be repeated in paid creative without substantiation:\n\n- _No drug-claim language found in captured copy._\n\nStanding constraints: no before/after implying permanent change, no disease or condition-treatment language, no unearned \"dermatologist recommended\".",
+        "Open questions for the client": "- Which SKU carries the margin they want volume on?\n- Do they have creator/UGC footage rights already, or is this net-new?\n- Which of the currently-running ads is their best performer?\n- Any claims legal has already rejected?"
+      },
+      "has_research": true,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "earthlyderm-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "qureskincare-com": {
+      "research": {
+        "Category fit": "**Device-led, not topical \u2014 despite the name and the meta description.** The hero SKUs are an LED mask, a micro-infusion system, an LLLT helmet and a shower filter; topicals like Blue+ Serum are positioned as accessories to the devices and given away free with them. Same shape as Omnilux and eskiin: demo-able and high-AOV, but the creative job is device demonstration and results-over-time. Claim caution: the title tag asserts 'Clinically-Proven Results' outright.\n\n_Provisional until the ad set confirms it._ Intake establishes what a brand **says** it sells; only its ads show what it actually **advertises**. Both SpoiledChild and Saltair read as skincare on the website and were tagged as such here \u2014 at ad level SpoiledChild runs 27 of 29 ads on ingestible collagen, and Saltair runs 22 of 22 on body care with no facial SKU. Treat this section as the brand's claim, and Agent 2's per-ad product class as the check on it.",
+        "Positioning": "Qure brings clinical treatments and skincare to your home, minus the 'clinical' costs.\n\nHomepage claims, in the brand's own words:\n\n- Discover the power of Blue+ Serum\n- Results you'll see with your own eyes\n- Top Rated Products\n- Trusted and Recommended by Experts\n- Meet our board of advisors",
+        "Hero products": "| Product | Type | Price | In stock |\n|---|---|---|---|\n| Q-Rejuvalight LED Mask | LED Device | \u2014 | yes |\n| Micro-Infusion System | Device | \u2014 | yes |\n| Q-Renew LLLT Helmet | Device | \u2014 | yes |\n| Shower Filter | Device | \u2014 | yes |\n| Blue+ Serum | Face Serum | $79.00 | yes |\n\n**Lead product copy \u2014 Q-Rejuvalight LED Mask:**\n\n> LED face mask, $100 off with free Blue+ Serum. A hero SKU.\n\n**Category mix:** Device (3), LED Device (1), Face Serum (1)",
+        "Ingredients to name in script": "_None of the tracked actives appear in public copy._",
+        "Proof points": "- 1,312 reviews cited on site",
+        "Ads in market": "- **Segment:** `high_volume` \u00b7 fatigue score 64.23\n- **Active ads:** 470 \u00b7 video ads (est.) 423\n- **Oldest live ad:** 288d \u00b7 **newest:** 8d ago\n- Notes: ugc est. from 30-ad sample; ad ages from sample; true oldest may be older; 1 affiliate page(s) run its creative; beauty_device \u2014 EXCLUDE from skincare hook corpus (DESIGN.md \u00a74); 15+ UGC video ads\n\n**The pitch:** newest creative is 8 days old against 470 ads still running \u2014 they are spending but not refreshing.",
+        "Do not say": "Cosmetic claims only \u2014 these phrases appear in the brand's own copy but should not be repeated in paid creative without substantiation:\n\n- _No drug-claim language found in captured copy._\n\nStanding constraints: no before/after implying permanent change, no disease or condition-treatment language, no unearned \"dermatologist recommended\".",
+        "Open questions for the client": "- Which SKU carries the margin they want volume on?\n- Do they have creator/UGC footage rights already, or is this net-new?\n- Which of the currently-running ads is their best performer?\n- Any claims legal has already rejected?"
+      },
+      "has_research": true,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "clearstem-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "remedyskin-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "franklyskin-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "drmelaxin-us": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "arencia-us": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "weareluna-store": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "undereyes-luxe-cosmetics-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "koriderm-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "smooche-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "seoraskincare-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "parivie-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "luminancemilano-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "clinique-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "mikmak-ai": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "strivectin-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "cerave-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "bobbibrowncosmetics-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "seranovabeauty-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "lorealparis-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "aveeno-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "olay-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "nourishmax-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "facelove-cosmetics-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "skinceuticals-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "beautybyearth-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "drsturm-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "torriden-us": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "eucerinus-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "theordinary-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "centellian24-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "yurikoreanbeauty-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "rocskincare-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "prequelskin-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "biore-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "try-turmskin-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "prandest-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "thebarebeautybabesblog-nakedandthriving-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "doreandrose-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "eltamd-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "perbellecosmetics-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "scentricglow-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "tomeskincare-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "differin-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "conservingbeauty-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "beautyandtheboutique-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "mederma-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "chinupaesthetics-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "shiseido-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "try-derm-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "neutrogena-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "threeshipsbeauty-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    },
+    "quiabeauty-com": {
+      "research": null,
+      "has_research": false,
+      "hooks": [],
+      "scripts": [],
+      "outreach_draft": null
+    }
+  },
+  "angles": {
+    "symptom_callout": {
+      "bucket": "saturated",
+      "brands": 6,
+      "ads": 17,
+      "max_days": 323,
+      "note": null
+    },
+    "injectable_displacement": {
+      "bucket": "saturated",
+      "brands": 5,
+      "ads": 38,
+      "max_days": 278,
+      "note": null
+    },
+    "routine_simplification": {
+      "bucket": "saturated",
+      "brands": 4,
+      "ads": 9,
+      "max_days": 283,
+      "note": null
+    },
+    "failed_solutions": {
+      "bucket": "saturated",
+      "brands": 3,
+      "ads": 14,
+      "max_days": 281,
+      "note": null
+    },
+    "mechanism_explainer": {
+      "bucket": "saturated",
+      "brands": 3,
+      "ads": 10,
+      "max_days": 522,
+      "note": null
+    },
+    "result_first": {
+      "bucket": "saturated",
+      "brands": 3,
+      "ads": 8,
+      "max_days": 399,
+      "note": null
+    },
+    "skeptic_convert": {
+      "bucket": "saturated",
+      "brands": 3,
+      "ads": 5,
+      "max_days": 249,
+      "note": null
+    },
+    "ingredient_discovery": {
+      "bucket": "saturated",
+      "brands": 3,
+      "ads": 5,
+      "max_days": 292,
+      "note": null
+    },
+    "category_switch": {
+      "bucket": "saturated",
+      "brands": 3,
+      "ads": 4,
+      "max_days": 267,
+      "note": null
+    },
+    "product_spec_open": {
+      "bucket": "single_brand",
+      "brands": 1,
+      "ads": 9,
+      "max_days": 81,
+      "note": null
+    },
+    "third_party_verdict": {
+      "bucket": "single_brand",
+      "brands": 1,
+      "ads": 9,
+      "max_days": 373,
+      "note": null
+    },
+    "ingredient_villain": {
+      "bucket": "single_brand",
+      "brands": 1,
+      "ads": 5,
+      "max_days": 408,
+      "note": null
+    },
+    "heritage_origin": {
+      "bucket": "single_brand",
+      "brands": 1,
+      "ads": 3,
+      "max_days": 380,
+      "note": null
+    },
+    "story_open": {
+      "bucket": "single_brand",
+      "brands": 1,
+      "ads": 1,
+      "max_days": 36,
+      "note": null
+    },
+    "age_callout": {
+      "bucket": "single_brand",
+      "brands": 1,
+      "ads": 1,
+      "max_days": 60,
+      "note": null
+    },
+    "customer_testimonial": {
+      "bucket": "single_brand",
+      "brands": 1,
+      "ads": 1,
+      "max_days": 614,
+      "note": null
+    }
+  },
+  "self_assessment": {
+    "absence_claims_made": 9,
+    "absence_claims_probed": 9,
+    "falsified_outright": 7,
+    "falsification_rate": "78%",
+    "survived_as_positional": 2,
+    "survived_natural_owner_test": 0,
+    "note": "Both positional survivors fail the natural-owner test, so ZERO of nine absence claims survive as sellable opportunities. Saturation findings are earned from the corpus; absence findings are not, and must be probed individually."
   }
 }

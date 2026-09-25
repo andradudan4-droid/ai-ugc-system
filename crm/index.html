@@ -69,6 +69,28 @@ button.go:hover{filter:brightness(1.1)}
 .kv{display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid #1a1d22;font-size:13px}
 .kv:last-child{border:0}.kv span:first-child{color:var(--dim)}
 .hide{display:none}
+.scrim{position:fixed;inset:0;background:#000a;z-index:40;display:flex;justify-content:flex-end}
+.drawer{width:min(760px,94vw);background:var(--bg);border-left:1px solid var(--line);overflow-y:auto;padding:22px}
+.drawer h3{font-size:20px;font-weight:600;letter-spacing:-.02em}
+.drawer .sub{color:var(--faint);font-size:12px;margin-bottom:16px}
+.x{position:absolute;top:14px;right:18px;background:var(--panel2);border:1px solid var(--line);color:var(--dim);
+   width:28px;height:28px;border-radius:6px;cursor:pointer;font-size:15px;line-height:1}
+.nums{display:grid;grid-template-columns:repeat(auto-fit,minmax(88px,1fr));gap:8px;margin-bottom:16px}
+.nums div{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:8px 10px}
+.nums .n{font-size:17px;font-weight:600}.nums .l{color:var(--faint);font-size:10px;text-transform:uppercase}
+.sec{margin-bottom:16px}
+.sec h4{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--faint);margin-bottom:7px}
+.sec .body{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:12px;
+  font-size:13px;color:var(--dim);white-space:pre-wrap;line-height:1.55;max-height:230px;overflow:auto}
+.hook{background:var(--panel);border:1px solid var(--line);border-left:2px solid var(--acc);border-radius:0 6px 6px 0;
+  padding:9px 11px;margin-bottom:6px;font-size:13px}
+.hook .meta{color:var(--faint);font-size:11px;margin-top:4px}
+.scr{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:12px;margin-bottom:8px}
+.scr .h{font-size:14px;font-weight:500;margin-bottom:6px;line-height:1.4}
+.scr .meta{color:var(--faint);font-size:11px;display:flex;gap:10px}
+.ready{color:var(--ok)}.held{color:var(--warn)}
+.next{background:#131a13;border:1px solid #234a23;border-radius:var(--r);padding:12px 14px;margin-bottom:16px;font-size:13px;color:#b8dab8}
+tr.clk{cursor:pointer}
 </style></head><body>
 <header>
   <div class="logo">AI UGC <b>Control Room</b></div>
@@ -77,6 +99,7 @@ button.go:hover{filter:brightness(1.1)}
     <button data-v="brands">Brands</button>
     <button data-v="agents">Agents</button>
     <button data-v="outreach">Outreach</button>
+    <button data-v="angles">Angles</button>
     <button data-v="production">Production</button>
   </nav>
 </header>
@@ -111,7 +134,7 @@ function pipeline(){
         counts[s]===0?`<div class="empty">${s==="contacted"||s==="replied"||s==="client"
           ?"none yet":"empty"}</div>`
         :D.brands.filter(b=>b.stage===s).slice(0,40).map(b=>`
-        <div class="card" draggable="true" data-slug="${esc(b.slug)}">
+        <div class="card" draggable="true" data-slug="${esc(b.slug)}" onclick="open_('${esc(b.slug)}')">
           <div class="b">${esc(b.brand)}</div>
           <div class="m"><span class="score mono">${(b.score||0).toFixed(0)}</span>
           <span class="mono">${b.ad_count} ads</span>
@@ -124,7 +147,7 @@ function brands(){return `<h2>Brands <span style="color:var(--faint);font-weight
  <div class="panel" style="padding:0;overflow:auto;max-height:76vh"><table>
  <thead><tr><th>Brand</th><th>Segment</th><th>Stage</th><th style="text-align:right">Score</th>
  <th style="text-align:right">Ads</th><th style="text-align:right">UGC</th><th style="text-align:right">Silent</th></tr></thead>
- <tbody>${D.brands.map(b=>`<tr>
+ <tbody>${D.brands.map(b=>`<tr class="clk" onclick="open_('${esc(b.slug)}')">
    <td><div style="font-weight:500">${esc(b.brand)}</div>
        <div style="color:var(--faint);font-size:11px">${esc(b.website||"")}</div></td>
    <td><span class="pill ${esc(b.segment)}">${q(b.segment)}</span></td>
@@ -183,8 +206,72 @@ function production(){const p=D.production||{};
    .map(([k,v])=>`<div class="kv"><span>${k}</span><span class="mono">${q(String(v))}</span></div>`).join("")}</div>
   ${p.warning?`<div class="banner">${esc(p.warning)}</div>`:""}`;}
 
+
+function next_(b,d){
+  if(!d.has_research) return "Run intake — no research on this brand yet.";
+  if(!d.scripts.length) return "No scripts written. Needs an angle set before Agent 3 can run.";
+  if(!d.outreach_draft) return "Scripts ready. Agent 7 has not drafted an email for this brand.";
+  const c=D.crm.contacts[b.slug];
+  if(!c) return "Email drafted and ready. Needs a verified address — read it off their contact page, then add it under Outreach.";
+  return `Contact on file (${esc(c.email)}). Send it, then mark sent.`;
+}
+function open_(slug){
+  const b=D.brands.find(x=>x.slug===slug); if(!b) return;
+  const d=(D.detail||{})[slug]||{hooks:[],scripts:[]};
+  const r=d.research||{};
+  const el=document.createElement("div"); el.className="scrim";
+  el.onclick=e=>{if(e.target===el)el.remove();};
+  el.innerHTML=`<div class="drawer" style="position:relative">
+    <button class="x" onclick="this.closest('.scrim').remove()">×</button>
+    <h3>${esc(b.brand)}</h3>
+    <div class="sub">${esc(b.website||"")} · <span class="pill ${esc(b.segment)}">${q(b.segment)}</span>
+      · stage ${esc(b.stage)}</div>
+    <div class="next"><b>Next:</b> ${next_(b,d)}</div>
+    <div class="nums">
+      <div><div class="n mono score">${(b.score||0).toFixed(1)}</div><div class="l">score</div></div>
+      <div><div class="n mono">${b.ad_count}</div><div class="l">ads</div></div>
+      <div><div class="n mono">${b.ugc_est}</div><div class="l">ugc est</div></div>
+      <div><div class="n mono">${q(b.newest_ad_days)}</div><div class="l">days silent</div></div>
+      <div><div class="n mono">${d.hooks.length}</div><div class="l">hooks</div></div>
+      <div><div class="n mono">${d.scripts.length}</div><div class="l">scripts</div></div>
+    </div>
+    ${d.scripts.length?`<div class="sec"><h4>Scripts</h4>${d.scripts.map(x=>`
+      <div class="scr"><div class="h">"${esc(x.hook)}"</div>
+      <div class="meta"><span>${esc(x.angle)}</span><span>${esc(x.product||"")}</span>
+      <span class="${x.ready?"ready":"held"}">${x.ready?"client-ready":"held"}</span></div></div>`).join("")}</div>`:""}
+    ${d.hooks.length?`<div class="sec"><h4>What they open ads with (${d.hooks.length})</h4>
+      ${d.hooks.slice(0,12).map(h=>`<div class="hook">${esc(h.text).slice(0,260)}
+      <div class="meta">${esc(h.angle||"unclassified")}${h.days?` · live ${esc(h.days)}d`:""}</div></div>`).join("")}</div>`:""}
+    ${Object.entries(r).map(([k,v])=>`<div class="sec"><h4>${esc(k)}</h4>
+      <div class="body">${esc(v)}</div></div>`).join("")}
+    ${d.outreach_draft?`<div class="sec"><h4>Drafted email</h4>
+      <div class="body">${esc(d.outreach_draft)}</div></div>`:""}
+    ${!d.has_research&&!d.hooks.length?`<div class="empty">No research yet. This brand is a
+      prospect only — its numbers come from the ad library, nothing else has been collected.</div>`:""}
+  </div>`;
+  document.body.appendChild(el);
+}
+function angles(){
+  const a=D.angles||{},sa=D.self_assessment||{};
+  const rows=Object.entries(a).filter(([k])=>k!=="_error");
+  return `<h2>Category angles</h2>
+  ${sa.falsification_rate?`<div class="banner"><b>${esc(sa.falsification_rate)} of our own absence
+   claims were falsified</b> when probed — ${esc(sa.falsified_outright)} of
+   ${esc(sa.absence_claims_made)} outright, and ${esc(sa.survived_natural_owner_test)} survived the
+   natural-owner test. This corpus is reliable for what a category <b>is</b> running, not for what
+   it isn't.</div>`:""}
+  ${rows.length?`<div class="panel" style="padding:0;overflow:auto"><table>
+   <thead><tr><th>Angle</th><th>Verdict</th><th style="text-align:right">Brands</th>
+   <th style="text-align:right">Ads</th><th style="text-align:right">Longest run</th></tr></thead>
+   <tbody>${rows.map(([k,v])=>`<tr><td style="font-weight:500">${esc(k)}</td>
+   <td><span class="pill">${q(v.bucket)}</span></td>
+   <td class="mono" style="text-align:right">${q(v.brands)}</td>
+   <td class="mono" style="text-align:right">${q(v.ads)}</td>
+   <td class="mono" style="text-align:right">${v.max_days?esc(v.max_days)+"d":"—"}</td>
+   </tr>`).join("")}</tbody></table></div>`:`<div class="empty">No angle data.</div>`}`;
+}
 function render(){
-  const v={pipeline,brands,agents,outreach,production}[view];
+  const v={pipeline,brands,agents,outreach,angles,production}[view];
   document.getElementById("app").innerHTML=v();
   document.querySelectorAll("nav button").forEach(b=>b.classList.toggle("on",b.dataset.v===view));
   if(view==="pipeline")wire();
